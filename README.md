@@ -70,3 +70,12 @@ python -m http.server 4173
 - ตรวจ workflow ชื่อ **Deploy static site to GitHub Pages** ให้ผ่านครบทุกขั้นตอน
 
 ไฟล์ `.nojekyll` และ workflow สำหรับ GitHub Pages เตรียมไว้แล้ว เว็บไซต์ไม่ต้องมีขั้นตอน build เพิ่มเติม
+
+## ความปลอดภัยและลิขสิทธิ์
+
+- สาขา `main` ใช้ Branch Protection และต้องแก้ไขผ่าน Pull Request
+- ปิดการ Force Push และการลบสาขา `main`
+- GitHub Secret Scanning และ Push Protection เปิดใช้งานอยู่
+- ห้ามเก็บรหัสผ่าน Token, API Secret หรือ Private Key ใน repository
+- หลักฐานและ SHA-256 ของโลโก้อยู่ใน `ASSET-PROVENANCE.md`
+- โค้ด ดีไซน์ โลโก้ และงานต้นฉบับสงวนลิขสิทธิ์ตามไฟล์ `LICENSE`
