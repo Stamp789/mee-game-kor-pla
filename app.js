@@ -1,13 +1,13 @@
 const mods = [
   {
     id: "absolum", title: "Absolum", thaiTitle: "แอบโซลัม", code: "AB-001",
-    version: "—", gameBuild: "Steam / Game Pass", platform: "pc", source: "drive", store: "https://store.steampowered.com/app/1904480/Absolum/",
+    version: "—", gameBuild: "Steam / Game Pass", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/1904480/Absolum/",
     purchaseLinks: [
       { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/1904480/Absolum/" },
       { label: "ซื้อบน Xbox", href: "https://www.xbox.com/en-us/games/store/absolum/9nr6nj401nbs" },
       { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/game/absolum/info/" }
     ],
-    statusText: "พร้อมโหลด", date: "2026-09-13", popularity: 100, size: "ดูที่ Google Drive", translator: "มีเกมก็แปล",
+    statusText: "พร้อมโหลด", date: "2026-09-13", popularity: 100, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล",
     category: "action", tags: ["Roguelite", "Beat 'em up", "แปลครบ", "PC"], colors: ["#11194c", "#6642d7"], cover: "assets/cover-absolum.png",
     gallery: [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1904480/d71352f60e6b4cc27c5b9a224d6827ec647d2fac/ss_d71352f60e6b4cc27c5b9a224d6827ec647d2fac.600x338.jpg?t=1782461798",
@@ -16,8 +16,8 @@ const mods = [
     ], trailerTitle: "Absolum — Official Trailer",
     description: "ม็อดภาษาไทยสำหรับเกมแอ็กชัน Roguelite Beat 'em up ครอบคลุมเนื้อเรื่อง บทสนทนา คัตซีน สกิล ไอเทม ระบบอัปเกรด เมนู และบทสอนเล่น",
     changelog: ["แปลเนื้อเรื่อง บทสนทนา และคัตซีนทั้งหมด", "แปลสกิล Arcana ไอเทม และ Artifacts", "แปลเมนู การตั้งค่า และ Tutorial ครบ 100%"],
-    install: ["ดาวน์โหลดและแตกไฟล์ ZIP", "คัดลอกไฟล์ทั้งหมดไปวางทับในโฟลเดอร์หลักของเกม", "เปิดเกมและตรวจสอบว่าเมนูแสดงภาษาไทย"],
-    sha: "—", nexus: "", drive: "https://drive.google.com/drive/folders/120lGPHvikvsdYf3Ii-OKdpCn2J0BFRjh?usp=sharing",
+    install: ["เปิดแท็บ Files บน Nexus Mods และดาวน์โหลดไฟล์เวอร์ชันล่าสุด", "แตกไฟล์ ZIP แล้วทำตามคำแนะนำที่ระบุในหน้าม็อด", "เปิดเกมและตรวจสอบว่าเมนูแสดงภาษาไทย"],
+    sha: "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods", nexus: "https://www.nexusmods.com/absolum/mods/17?tab=files", drive: "",
     post: "https://www.facebook.com/permalink.php?story_fbid=pfbid028kuYgqRDUhH5X425uRnPs6E5efUX4D8NkjbkSosisHd8Aqf716tG7bxMd92xAhXwl&id=61593924362608"
   },
   {
