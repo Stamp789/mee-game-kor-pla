@@ -21,6 +21,27 @@ const mods = [
     post: "https://www.facebook.com/permalink.php?story_fbid=pfbid028kuYgqRDUhH5X425uRnPs6E5efUX4D8NkjbkSosisHd8Aqf716tG7bxMd92xAhXwl&id=61593924362608"
   },
   {
+    id: "battle-chef-brigade", title: "Battle Chef Brigade Deluxe", thaiTitle: "แบทเทิล เชฟ บริเกด", code: "BC-005",
+    version: "1", gameBuild: "Battle Chef Brigade / Deluxe · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/452570/Battle_Chef_Brigade_Deluxe/",
+    purchaseLinks: [
+      { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/452570/Battle_Chef_Brigade_Deluxe/" },
+      { label: "ซื้อบน GOG", href: "https://www.gog.com/en/game/battle_chef_brigade" },
+      { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/game/battle-chef-brigade-deluxe/info/" }
+    ],
+    statusText: "พร้อมโหลด", date: "2026-09-13", popularity: 99, size: "42.0 MB", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    category: "action", tags: ["Action", "Puzzle", "Cooking", "แปลครบ"], colors: ["#ff9c21", "#6553d8"], cover: "assets/cover-battle-chef-brigade.png",
+    gallery: [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/452570/ss_c7de4fb6c763dcc137029c8238221245f2828bbf.600x338.jpg?t=1763397067",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/452570/ss_612f282b85faf6d92bcfbe242d6ed91aeab58dcb.600x338.jpg?t=1763397067",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/452570/ss_3ca66263530a1c8b1d661fa7d7a19b108ed76c43.600x338.jpg?t=1763397067"
+    ], trailerTitle: "Battle Chef Brigade — Release Trailer",
+    description: "ม็อดภาษาไทยสำหรับ Battle Chef Brigade แปลครบทั้งเนื้อเรื่อง บทสนทนาตัวละคร การแข่งขันทำอาหาร สูตรอาหาร วัตถุดิบ รสชาติ บทตัดสิน เมนู UI และระบบสอนเล่น พร้อมฟอนต์ไทยที่อ่านง่าย",
+    changelog: ["แปลบทสนทนาและเนื้อเรื่องภาษาไทยครบถ้วน", "แปลวัตถุดิบ รสชาติ สูตรและชื่อเมนูอาหาร", "แปลเมนู UI ระบบควบคุม และบทสอนเล่น 100%"],
+    install: ["ดาวน์โหลด Battle Chef Brigade Thai Mod V1 จากแท็บ Files บน Nexus Mods", "แตกไฟล์ ZIP แล้วนำไฟล์ไปวางทับในโฟลเดอร์หลักของเกม", "เปิดเกมและเข้าเล่นได้ทันที โดยไม่ต้องติดตั้ง Mod Loader เพิ่มเติม"],
+    sha: "Nexus Mods: Safe to use", nexus: "https://www.nexusmods.com/battlechefbrigade/mods/2?tab=files", drive: "",
+    post: ""
+  },
+  {
     id: "vapor-world", title: "Vapor World: Over The Mind", thaiTitle: "เวเปอร์ เวิลด์: เหนือห้วงจิต", code: "VW-002",
     version: "—", gameBuild: "PC", platform: "pc", source: "drive", store: "https://store.steampowered.com/app/1996090/Vapor_World_Over_The_Mind/",
     purchaseLinks: [
@@ -228,7 +249,7 @@ function openModal(id) {
           <p class="purchase-note">ตรวจสอบภูมิภาค ราคา และแพลตฟอร์มที่รองรับจากหน้าร้านก่อนสั่งซื้อ</p>
           ${mod.nexus ? `<a class="download-button primary" href="${mod.nexus}" target="_blank" rel="noopener noreferrer"><span>NEXUS MODS</span><span>↗</span></a>` : ""}
           ${mod.drive ? `<a class="download-button secondary" href="${mod.drive}" target="_blank" rel="noopener noreferrer"><span>GOOGLE DRIVE</span><span>↗</span></a>` : ""}
-          <a class="download-button facebook" href="${mod.post}" target="_blank" rel="noopener noreferrer"><span>โพสต์ต้นทาง</span><span>↗</span></a>
+          ${mod.post ? `<a class="download-button facebook" href="${mod.post}" target="_blank" rel="noopener noreferrer"><span>โพสต์ต้นทาง</span><span>↗</span></a>` : ""}
         </div>
         <p class="download-note">ข้อมูลและลิงก์ตรวจสอบจากโพสต์สาธารณะของเพจ “มีเกมก็แปล”</p>
       </aside>

@@ -17,3 +17,12 @@ add a new dated entry instead of overwriting this record.
 
 Game covers, screenshots, names, and trademarks belong to their respective
 owners and are not claimed as original brand assets of this project.
+
+## Battle Chef Brigade Thai cover
+
+- Repository file: `assets/cover-battle-chef-brigade.png`
+- Supplied by: project owner
+- Date received: 2026-09-14
+- SHA-256: `9AD1E88F2A51278359C42DAFFC6CB213BBC2F8AD2BBFE86D26EA05FA3D05E7D0`
+- Verification: the repository file is byte-for-byte identical to the image
+  supplied for the Battle Chef Brigade entry.
