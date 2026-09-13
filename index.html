@@ -111,11 +111,19 @@
           <p>รวบรวมจากโพสต์สาธารณะของเพจ พร้อมลิงก์ดาวน์โหลดจากผู้แปลโดยตรง</p>
         </div>
 
-        <div class="catalog-toolbar">
+          <div class="catalog-toolbar">
           <div class="filter-pills" id="statusFilters" aria-label="กรองตามแหล่งดาวน์โหลด">
             <button class="filter-pill is-active" type="button" data-source="all">ทั้งหมด <span>4</span></button>
             <button class="filter-pill" type="button" data-source="nexus">Nexus Mods <span>1</span></button>
             <button class="filter-pill" type="button" data-source="drive">Google Drive <span>3</span></button>
+          </div>
+
+          <div class="category-bar" id="categoryFilters" aria-label="กรองตามแนวเกม">
+            <span>EXPLORE BY VIBE</span>
+            <button class="category-chip is-active" type="button" data-category="all">ทุกแนว</button>
+            <button class="category-chip" type="button" data-category="action">⚔ แอ็กชัน</button>
+            <button class="category-chip" type="button" data-category="card">♠ การ์ด / โร้คไลก์</button>
+            <button class="category-chip" type="button" data-category="visual">♥ เนื้อเรื่อง</button>
           </div>
 
           <div class="toolbar-actions">
@@ -207,10 +215,23 @@
         </aside>
       </section>
 
+      <section class="community-section" id="community" aria-labelledby="communityTitle" data-reveal>
+        <div class="community-orb" aria-hidden="true">?</div>
+        <div>
+          <span class="section-index">05 / COMMUNITY</span>
+          <h2 id="communityTitle">เจอบั๊ก หรืออยากเสนอเกม?</h2>
+          <p>ส่งชื่อเกมที่อยากเห็นเป็นภาษาไทย แจ้งปัญหาการติดตั้ง หรือแนบภาพหน้าจอมาได้โดยตรง ทีมมีเกมก็แปลจะนำไปพิจารณาในรอบถัดไป</p>
+        </div>
+        <div class="community-actions">
+          <a class="community-button primary" href="https://m.me/61593924362608" target="_blank" rel="noopener noreferrer">ส่งข้อความถึงผู้แปล <span>↗</span></a>
+          <a class="community-button" href="https://www.facebook.com/profile.php?id=61593924362608" target="_blank" rel="noopener noreferrer">ดูอัปเดตบน Facebook <span>↗</span></a>
+        </div>
+      </section>
+
       <section class="game-store-section" id="stores" aria-labelledby="storesTitle" data-reveal>
         <div class="section-heading compact">
           <div>
-            <span class="section-index">05 / GAME PURCHASES</span>
+            <span class="section-index">06 / GAME PURCHASES</span>
             <h2 id="storesTitle">ซื้อเกมแท้สำหรับม็อดในคลัง</h2>
           </div>
           <p>ก่อนติดตั้งม็อด โปรดมีเกมต้นฉบับในบัญชี Steam ของคุณ เลือกเกมที่ต้องการเพื่อไปยังหน้าซื้อโดยตรง</p>
@@ -236,7 +257,7 @@
 
       <section class="support-section" id="support" aria-labelledby="supportTitle" data-reveal>
         <div class="support-copy">
-          <span class="section-index">05 / SUPPORT</span>
+          <span class="section-index">07 / SUPPORT</span>
           <h2 id="supportTitle">สนับสนุนงานแปล</h2>
           <p>ม็อดทุกชิ้นยังคงแจกฟรี หากผลงานช่วยให้เล่นเกมสนุกขึ้น สามารถร่วมสนับสนุนค่าเครื่องมือ การทดสอบ และเวลาในการทำม็อดชุดถัดไปได้ตามสะดวก</p>
           <div class="support-points">
@@ -265,6 +286,7 @@
         <a href="#stores">ซื้อเกมแท้</a>
         <a href="#support">สนับสนุน</a>
         <a href="#guide">คู่มือติดตั้ง</a>
+        <a href="#community">แจ้งปัญหา / เสนอเกม</a>
         <a href="https://www.nexusmods.com/" target="_blank" rel="noopener noreferrer">Nexus Mods</a>
         <a href="https://drive.google.com/" target="_blank" rel="noopener noreferrer">Google Drive</a>
         <a href="https://www.facebook.com/profile.php?id=61593924362608" target="_blank" rel="noopener noreferrer">Facebook ผู้จัดทำ</a>

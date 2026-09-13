@@ -383,6 +383,12 @@ footer p { grid-column:1/-1; margin:0; padding-top:1rem; border-top:1px solid va
 .mod-card-body h3 { color:#263d91; font-weight:700; }
 .favorite-toggle { border-radius:11px; border-color:#c4d3f0; color:#ff4d9b; background:#fff; box-shadow:2px 3px 0 rgba(102,109,196,.13); }
 .source-ticket { border-radius:999px; color:#704fd0; background:#f1eaff; }
+.mod-tags { display:flex; flex-wrap:wrap; gap:.35rem; margin-top:.75rem; }
+.mod-tags span { padding:.22rem .45rem; border:1px solid #d7c9fb; border-radius:999px; color:#6047ae; background:#f7f3ff; font-size:.59rem; font-weight:600; }
+.category-bar { display:flex; align-items:center; flex-wrap:wrap; gap:.55rem; margin:1rem 0 1.3rem; }
+.category-bar>span { margin-right:.15rem; color:#6c78ac; font:700 .62rem "Chakra Petch",sans-serif; letter-spacing:.1em; }
+.category-chip { padding:.48rem .7rem; border:1px solid #c7d5f2; border-radius:999px; color:#475895; background:#fff; font:600 .68rem var(--font-jp); cursor:pointer; transition:transform .2s ease,background .2s ease,box-shadow .2s ease; }
+.category-chip:hover,.category-chip.is-active { color:#fff; border-color:transparent; background:linear-gradient(135deg,#4f78f0,#905de8 58%,#ee58ae); box-shadow:0 4px 0 #cab9ee; transform:translateY(-2px); }
 
 .timeline { gap:1rem; border:0; }
 .timeline-item { border:1px solid #bad0ee; border-radius:16px; background:rgba(255,255,255,.72); box-shadow:0 5px 0 rgba(92,108,196,.1); }
@@ -399,6 +405,15 @@ footer p { grid-column:1/-1; margin:0; padding-top:1rem; border-top:1px solid va
 .guide-panel { border:2px solid #b5cdf0; border-radius:22px; background:linear-gradient(145deg,rgba(255,255,255,.9),rgba(232,247,255,.82)); box-shadow:0 7px 0 rgba(96,112,202,.13); }
 .guide-panel li b { width:34px; height:34px; display:grid; place-items:center; flex:0 0 auto; border-radius:10px; color:#fff; background:linear-gradient(145deg,#5774ee,#a257e7); box-shadow:3px 4px 0 #c9b7f5; }
 .guide-section aside { border:3px solid #fff; border-radius:22px; background:linear-gradient(145deg,#4fd9ff 0%,#6570ed 46%,#dc53bd 100%); box-shadow:0 8px 0 #a997ed,0 24px 42px rgba(86,91,195,.2); }
+
+.community-section { position:relative; max-width:var(--max); margin:0 auto 100px; padding:2.6rem 3rem; display:grid; grid-template-columns:minmax(0,1fr) auto; gap:2rem 4rem; align-items:center; overflow:hidden; border:2px solid #bee0f6; border-radius:26px; background:radial-gradient(circle at 90% 5%,rgba(255,224,84,.72),transparent 11rem),radial-gradient(circle at 8% 120%,rgba(107,222,255,.6),transparent 15rem),linear-gradient(120deg,#eaf9ff,#f7f0ff 52%,#ffe8f3); box-shadow:0 9px 0 #b8c5ef,0 28px 58px rgba(85,103,196,.16); }
+.community-section h2 { margin:.4rem 0 .65rem; color:#304998; font:700 clamp(1.75rem,3vw,2.8rem)/1.1 "Chakra Petch",sans-serif; letter-spacing:-.035em; }
+.community-section p { max-width:630px; margin:0; color:#58678e; }
+.community-orb { position:absolute; top:-34px; right:23%; display:grid; width:106px; height:106px; place-items:center; border:4px solid #fff; border-radius:37% 63% 58% 42%; color:#fff; background:linear-gradient(145deg,#ff70ac,#8964f0); box-shadow:6px 8px 0 #bca9ee,16px 22px 34px rgba(102,75,187,.2); font:700 4rem/1 "Chakra Petch",sans-serif; transform:rotate(12deg); animation:sticker-bob 4s ease-in-out infinite; }
+.community-actions { display:grid; gap:.7rem; min-width:245px; }
+.community-button { display:flex; justify-content:space-between; gap:1.5rem; padding:.78rem 1rem; border:2px solid #bbcaeb; border-radius:13px; color:#485b9e; background:#fff; box-shadow:0 4px 0 rgba(105,104,198,.16); font:700 .72rem var(--font-jp); transition:transform .2s ease,box-shadow .2s ease; }
+.community-button:hover { transform:translateY(-3px); box-shadow:0 7px 0 rgba(105,104,198,.2); }
+.community-button.primary { color:#fff; border-color:#fff; background:linear-gradient(135deg,#5079ef,#985ce6 60%,#f153ad); }
 
 .store-grid { gap:1rem; }
 .store-card { min-height:175px; border:2px solid #fff; border-radius:20px; color:#374d9c; box-shadow:0 7px 0 rgba(100,111,205,.15),0 20px 34px rgba(75,103,196,.14); }
@@ -482,6 +497,9 @@ footer p { grid-column:1/-1; margin:0; padding-top:1rem; border-top:1px solid va
   .guide-section { margin-bottom:65px; padding:0 16px; }
   .guide-panel { padding:1.5rem; }
   .guide-panel ol { grid-template-columns:1fr; }
+  .community-section { margin:0 16px 72px; padding:2rem 1.5rem; grid-template-columns:1fr; gap:1.5rem; }
+  .community-orb { top:-21px; right:20px; width:72px; height:72px; font-size:2.8rem; }
+  .community-actions { width:100%; min-width:0; }
   footer { grid-template-columns:1fr; padding:2rem 16px; }
   .footer-links { flex-wrap:wrap; }
   .modal-backdrop { padding:0; place-items:end center; }

@@ -8,7 +8,7 @@ const mods = [
       { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/game/absolum/info/" }
     ],
     statusText: "พร้อมโหลด", date: "2026-09-13", popularity: 100, size: "ดูที่ Google Drive", translator: "มีเกมก็แปล",
-    tags: ["Roguelite", "Beat 'em up", "แปลครบ", "PC"], colors: ["#11194c", "#6642d7"], cover: "assets/cover-absolum.png",
+    category: "action", tags: ["Roguelite", "Beat 'em up", "แปลครบ", "PC"], colors: ["#11194c", "#6642d7"], cover: "assets/cover-absolum.png",
     gallery: [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1904480/d71352f60e6b4cc27c5b9a224d6827ec647d2fac/ss_d71352f60e6b4cc27c5b9a224d6827ec647d2fac.600x338.jpg?t=1782461798",
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1904480/7eb27341f5ce29c6deccfde32792fd9a156ff57a/ss_7eb27341f5ce29c6deccfde32792fd9a156ff57a.600x338.jpg?t=1782461798",
@@ -29,7 +29,7 @@ const mods = [
       { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/search/?q=Vapor%20World%3A%20Over%20The%20Mind" }
     ],
     statusText: "พร้อมโหลด", date: "2026-09-13", popularity: 98, size: "ดูที่ Google Drive", translator: "มีเกมก็แปล",
-    tags: ["Souls-like", "Platformer", "เนื้อเรื่อง", "แปลครบ"], colors: ["#123c78", "#7b3fd0"], cover: "assets/cover-vapor-world.jpg",
+    category: "action", tags: ["Souls-like", "Platformer", "เนื้อเรื่อง", "แปลครบ"], colors: ["#123c78", "#7b3fd0"], cover: "assets/cover-vapor-world.jpg",
     gallery: [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1996090/8f89ddbfaa57a7ca71b68be3274b1a4f17ca5d48/ss_8f89ddbfaa57a7ca71b68be3274b1a4f17ca5d48.600x338.jpg?t=1787549229",
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1996090/531198a3d14c2f7547ec5a1f7591e0da84ed4c76/ss_531198a3d14c2f7547ec5a1f7591e0da84ed4c76.600x338.jpg?t=1787549229",
@@ -50,7 +50,7 @@ const mods = [
       { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/search/?q=The%20Royal%20Writ" }
     ],
     statusText: "พร้อมโหลด", date: "2026-09-12", popularity: 96, size: "ดูที่ Google Drive", translator: "มีเกมก็แปล",
-    tags: ["Roguelike", "Deck-builder", "การ์ด", "แปลครบ"], colors: ["#3d246f", "#d59a2f"], cover: "assets/cover-the-royal-writ.png",
+    category: "card", tags: ["Roguelike", "Deck-builder", "การ์ด", "แปลครบ"], colors: ["#3d246f", "#d59a2f"], cover: "assets/cover-the-royal-writ.png",
     gallery: [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3333700/14e106d15bc01d1bf1592be1574b9297fb88f211/ss_14e106d15bc01d1bf1592be1574b9297fb88f211.600x338.jpg?t=1785491287",
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3333700/4614a75531ec0ec56835e8d3289e35b967db0d43/ss_4614a75531ec0ec56835e8d3289e35b967db0d43.600x338.jpg?t=1785491287",
@@ -71,7 +71,7 @@ const mods = [
       { label: "ค้นหาบน Fanatical", href: "https://www.fanatical.com/en/search?search=Monster%20Prom" }
     ],
     statusText: "พร้อมโหลด", date: "2026-09-06", popularity: 94, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล",
-    tags: ["Dating Sim", "Visual Novel", "เนื้อเรื่อง", "แปลครบ"], colors: ["#2b176d", "#c13fb9"], cover: "assets/cover-monster-prom.jpg",
+    category: "visual", tags: ["Dating Sim", "Visual Novel", "เนื้อเรื่อง", "แปลครบ"], colors: ["#2b176d", "#c13fb9"], cover: "assets/cover-monster-prom.jpg",
     gallery: [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/743450/ss_da398bf572dc6acc61a1eef18f521a93c1e36c1b.600x338.jpg?t=1786381243",
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/743450/ss_f71abeb355c2296460d4789ec434f2893427e770.600x338.jpg?t=1786381243",
@@ -85,7 +85,7 @@ const mods = [
   }
 ];
 
-const state = { query: "", source: "all", platform: "all", sort: "latest", favoritesOnly: false, listView: false };
+const state = { query: "", source: "all", category: "all", platform: "all", sort: "latest", favoritesOnly: false, listView: false };
 
 const githubRepoLink = document.querySelector("#githubRepoLink");
 const githubPagesMatch = window.location.hostname.match(/^([^.]+)\.github\.io$/i);
@@ -103,7 +103,7 @@ const els = {
   grid: document.querySelector("#modGrid"), resultCount: document.querySelector("#resultCount"),
   empty: document.querySelector("#emptyState"), search: document.querySelector("#heroSearch"),
   platform: document.querySelector("#platformFilter"), sort: document.querySelector("#sortFilter"),
-  status: document.querySelector("#statusFilters"), favoritesButton: document.querySelector("#favoritesButton"),
+  status: document.querySelector("#statusFilters"), categories: document.querySelector("#categoryFilters"), favoritesButton: document.querySelector("#favoritesButton"),
   favoriteCount: document.querySelector("#favoriteCount"), viewToggle: document.querySelector("#viewToggle"),
   modal: document.querySelector("#modModal"), modalContent: document.querySelector("#modalContent"),
   modalClose: document.querySelector("#modalClose"), toast: document.querySelector("#toast")
@@ -115,6 +115,7 @@ function filteredMods() {
     const haystack = [mod.title, mod.thaiTitle, mod.translator, ...mod.tags].join(" ").toLocaleLowerCase("th");
     return (!query || haystack.includes(query)) &&
       (state.source === "all" || mod.source === state.source) &&
+      (state.category === "all" || mod.category === state.category) &&
       (state.platform === "all" || mod.platform === state.platform) &&
       (!state.favoritesOnly || favorites.has(mod.id));
   });
@@ -138,6 +139,7 @@ function cardTemplate(mod, index) {
       <div class="mod-card-body">
         <h3>${mod.title}</h3>
         <div class="thai-title">${mod.thaiTitle}</div>
+        <div class="mod-tags" aria-label="หมวดหมู่เกม">${mod.tags.slice(0, 3).map(tag => `<span>${tag}</span>`).join("")}</div>
         <div class="mod-info">
           <div><span>MOD VERSION</span><strong>${formatVersion(mod.version)}</strong></div>
           <div><span>GAME BUILD</span><strong>${mod.gameBuild}</strong></div>
@@ -273,12 +275,20 @@ els.status.addEventListener("click", (event) => {
   document.querySelectorAll("[data-source]").forEach(item => item.classList.toggle("is-active", item === button));
   render();
 });
+els.categories.addEventListener("click", (event) => {
+  const button = event.target.closest("[data-category]");
+  if (!button) return;
+  state.category = button.dataset.category;
+  document.querySelectorAll("[data-category]").forEach(item => item.classList.toggle("is-active", item === button));
+  render();
+});
 els.favoritesButton.addEventListener("click", () => { state.favoritesOnly = !state.favoritesOnly; render(); document.querySelector("#catalog").scrollIntoView({behavior:"smooth"}); });
 els.viewToggle.addEventListener("click", () => { state.listView = !state.listView; els.viewToggle.setAttribute("aria-pressed", String(state.listView)); render(); });
 document.querySelector("#clearFilters").addEventListener("click", () => {
-  Object.assign(state,{query:"",source:"all",platform:"all",favoritesOnly:false});
+  Object.assign(state,{query:"",source:"all",category:"all",platform:"all",favoritesOnly:false});
   els.search.value=""; els.platform.value="all";
   document.querySelectorAll("[data-source]").forEach(item => item.classList.toggle("is-active",item.dataset.source==="all"));
+  document.querySelectorAll("[data-category]").forEach(item => item.classList.toggle("is-active",item.dataset.category==="all"));
   render();
 });
 els.modalClose.addEventListener("click", closeModal);
