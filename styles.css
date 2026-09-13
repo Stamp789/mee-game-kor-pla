@@ -532,3 +532,75 @@ footer p { grid-column:1/-1; margin:0; padding-top:1rem; border-top:1px solid va
 @media (max-width:480px) {
   .mod-card:nth-child(2n) { transform:none; }
 }
+
+/* Layout rhythm and balance pass */
+:root {
+  --section-gap:72px;
+  --surface-radius:22px;
+}
+
+main > section[id] { scroll-margin-top:88px; }
+.catalog-section { padding:80px 24px 56px; }
+.updates-section { padding:52px 24px var(--section-gap); border-top:0; }
+.updates-section::before { content:""; position:absolute; top:0; right:24px; left:24px; height:1px; background:linear-gradient(90deg,transparent,#b9caeb 12%,#b9caeb 88%,transparent); }
+.section-heading { align-items:flex-start; margin-bottom:1.8rem; }
+.section-heading.compact { align-items:flex-start; }
+.section-heading p { padding-top:1.65rem; line-height:1.65; }
+
+.catalog-toolbar { display:grid; grid-template-columns:minmax(0,1fr) auto; padding:.85rem 1rem; }
+.catalog-toolbar::before { display:none; }
+.catalog-toolbar { border-left:6px solid #775feb; }
+.filter-pills { min-width:0; }
+.toolbar-actions { justify-content:flex-end; }
+.category-bar { margin:.8rem 0 0; padding:.7rem .8rem; border:1px solid rgba(181,203,238,.8); border-radius:14px; background:rgba(255,255,255,.58); box-shadow:0 3px 0 rgba(91,104,190,.08); }
+.result-summary { margin:1.35rem .2rem .85rem; }
+
+.mod-grid { align-items:stretch; }
+.mod-card { height:100%; display:grid; grid-template-rows:auto 1fr; }
+.mod-card-body { min-height:225px; display:flex; flex-direction:column; }
+.mod-info { margin-top:auto; }
+.mod-card-footer { padding-top:.7rem; border-top:1px dashed rgba(166,184,225,.7); }
+
+.timeline { align-items:stretch; border:0; }
+.timeline-item { min-height:130px; display:flex; flex-direction:column; justify-content:center; }
+
+.progress-feature,.guide-section,.community-section,.game-store-section { margin-bottom:var(--section-gap); }
+.progress-feature-copy { display:flex; flex-direction:column; justify-content:center; }
+.guide-panel,.guide-section aside { min-height:260px; }
+.community-section { padding:2.4rem 3rem; }
+.game-store-section .section-heading { margin-bottom:1.4rem; }
+.store-grid { align-items:stretch; }
+.store-card { height:100%; }
+.support-section { margin-bottom:80px; }
+
+footer { padding-top:2rem; padding-bottom:2rem; }
+.footer-links { justify-content:flex-end; flex-wrap:wrap; row-gap:.65rem; }
+
+@media (max-width:1000px) {
+  .catalog-toolbar { grid-template-columns:1fr; }
+  .toolbar-actions { justify-content:flex-start; }
+}
+
+@media (max-width:760px) {
+  :root { --section-gap:58px; }
+  .catalog-section { padding:58px 16px 42px; }
+  .updates-section { padding:42px 16px var(--section-gap); }
+  .updates-section::before { right:16px; left:16px; }
+  .section-heading { margin-bottom:1.45rem; }
+  .section-heading p { padding-top:0; }
+  .catalog-toolbar { padding:.8rem; }
+  .category-bar { flex-wrap:nowrap; overflow-x:auto; padding:.65rem; scrollbar-width:none; }
+  .category-bar::-webkit-scrollbar { display:none; }
+  .category-bar>span,.category-chip { flex:0 0 auto; }
+  .mod-card-body { min-height:220px; }
+  .timeline-item { min-height:0; }
+  .community-section { padding:2rem 1.5rem; }
+}
+
+@media (max-width:480px) {
+  .toolbar-actions { display:grid; grid-template-columns:1fr 1fr 40px; }
+  .filter-pills { flex-wrap:nowrap; overflow-x:auto; width:100%; scrollbar-width:none; }
+  .filter-pills::-webkit-scrollbar { display:none; }
+  .select-wrap select { width:100%; }
+  .mod-card-body { min-height:0; }
+}
