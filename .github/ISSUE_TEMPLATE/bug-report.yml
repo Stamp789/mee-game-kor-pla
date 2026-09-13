@@ -1,0 +1,41 @@
+name: แจ้งปัญหาม็อด
+description: แจ้งบั๊ก คำแปลผิด หรือปัญหาการติดตั้ง
+title: "[BUG] "
+labels: ["bug"]
+body:
+  - type: input
+    id: mod
+    attributes:
+      label: ชื่อเกมและเวอร์ชันม็อด
+      placeholder: Neon District — Mod v2.4.1
+    validations:
+      required: true
+  - type: input
+    id: build
+    attributes:
+      label: เวอร์ชันหรือ Build ของเกม
+      placeholder: Steam Build 12345678
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: รายละเอียดปัญหา
+      placeholder: เกิดอะไรขึ้น และเกิดที่เมนูหรือฉากใด
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: ขั้นตอนที่ทำให้เกิดปัญหา
+      placeholder: 1. เปิดเกม 2. เข้าเมนู...
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: ตรวจสอบก่อนส่ง
+      options:
+        - label: ฉันตรวจแล้วว่าเวอร์ชันเกมตรงกับที่หน้าม็อดระบุ
+          required: true
+        - label: ฉันไม่ได้แนบไฟล์เกมต้นฉบับหรือข้อมูลส่วนตัว
+          required: true
+

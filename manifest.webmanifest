@@ -1,0 +1,19 @@
+{
+  "name": "มีเกมก็แปล — คลังม็อดแปลเกมไทย",
+  "short_name": "มีเกมก็แปล",
+  "description": "คลังม็อดแปลภาษาไทย พร้อมวิธีติดตั้งและลิงก์ดาวน์โหลดจากผู้แปล",
+  "lang": "th",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#eef7ff",
+  "theme_color": "#8058e8",
+  "icons": [
+    {
+      "src": "assets/mee-game-kor-pla-logo.png",
+      "sizes": "1254x1254",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

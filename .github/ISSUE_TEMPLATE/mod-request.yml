@@ -1,0 +1,36 @@
+name: เสนอเกมที่อยากได้ม็อดไทย
+description: เสนอชื่อเกมสำหรับพิจารณาทำม็อดแปลภาษาไทย
+title: "[REQUEST] "
+labels: ["mod-request"]
+body:
+  - type: input
+    id: game
+    attributes:
+      label: ชื่อเกม
+      placeholder: ชื่อเกมภาษาอังกฤษตามหน้าร้าน
+    validations:
+      required: true
+  - type: input
+    id: store
+    attributes:
+      label: ลิงก์หน้าร้าน
+      placeholder: https://store.steampowered.com/app/...
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: แพลตฟอร์ม
+      options:
+        - Steam
+        - PC Game Pass / Microsoft Store
+        - Epic Games Store
+        - อื่น ๆ
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: เหตุผลที่อยากให้มีภาษาไทย
+      description: บอกข้อมูลเกี่ยวกับเกมหรือจำนวนข้อความโดยคร่าว ๆ ได้
+
