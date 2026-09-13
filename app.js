@@ -9,6 +9,11 @@ const mods = [
     ],
     statusText: "พร้อมโหลด", date: "2026-09-13", popularity: 100, size: "ดูที่ Google Drive", translator: "มีเกมก็แปล",
     tags: ["Roguelite", "Beat 'em up", "แปลครบ", "PC"], colors: ["#11194c", "#6642d7"], cover: "assets/cover-absolum.png",
+    gallery: [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1904480/d71352f60e6b4cc27c5b9a224d6827ec647d2fac/ss_d71352f60e6b4cc27c5b9a224d6827ec647d2fac.600x338.jpg?t=1782461798",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1904480/7eb27341f5ce29c6deccfde32792fd9a156ff57a/ss_7eb27341f5ce29c6deccfde32792fd9a156ff57a.600x338.jpg?t=1782461798",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1904480/c678e413a5268e5a60e9ec08dfa6dc3e079e432e/ss_c678e413a5268e5a60e9ec08dfa6dc3e079e432e.600x338.jpg?t=1782461798"
+    ], trailerTitle: "Absolum — Official Trailer",
     description: "ม็อดภาษาไทยสำหรับเกมแอ็กชัน Roguelite Beat 'em up ครอบคลุมเนื้อเรื่อง บทสนทนา คัตซีน สกิล ไอเทม ระบบอัปเกรด เมนู และบทสอนเล่น",
     changelog: ["แปลเนื้อเรื่อง บทสนทนา และคัตซีนทั้งหมด", "แปลสกิล Arcana ไอเทม และ Artifacts", "แปลเมนู การตั้งค่า และ Tutorial ครบ 100%"],
     install: ["ดาวน์โหลดและแตกไฟล์ ZIP", "คัดลอกไฟล์ทั้งหมดไปวางทับในโฟลเดอร์หลักของเกม", "เปิดเกมและตรวจสอบว่าเมนูแสดงภาษาไทย"],
@@ -25,6 +30,11 @@ const mods = [
     ],
     statusText: "พร้อมโหลด", date: "2026-09-13", popularity: 98, size: "ดูที่ Google Drive", translator: "มีเกมก็แปล",
     tags: ["Souls-like", "Platformer", "เนื้อเรื่อง", "แปลครบ"], colors: ["#123c78", "#7b3fd0"], cover: "assets/cover-vapor-world.jpg",
+    gallery: [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1996090/8f89ddbfaa57a7ca71b68be3274b1a4f17ca5d48/ss_8f89ddbfaa57a7ca71b68be3274b1a4f17ca5d48.600x338.jpg?t=1787549229",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1996090/531198a3d14c2f7547ec5a1f7591e0da84ed4c76/ss_531198a3d14c2f7547ec5a1f7591e0da84ed4c76.600x338.jpg?t=1787549229",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1996090/7e1e9c33d1d63caf372439c72a91157dfd865b42/ss_7e1e9c33d1d63caf372439c72a91157dfd865b42.600x338.jpg?t=1787549229"
+    ], trailerTitle: "Vapor World: Over The Mind — Official Trailer",
     description: "ม็อดภาษาไทยสำหรับเกมแอ็กชัน 2.5D แนว Souls-like ครอบคลุมเนื้อเรื่อง บทสนทนา Lore สกิล อุปกรณ์ ไอเทม เมนู และบทสอนเล่น",
     changelog: ["แปลเนื้อเรื่อง บทสนทนา และบันทึกครบถ้วน", "แปลสกิล อุปกรณ์ ไอเทม และเอฟเฟกต์สถานะ", "แปล UI การตั้งค่า และ Tutorial ครบ 100%"],
     install: ["ดาวน์โหลดและแตกไฟล์ ZIP", "นำโฟลเดอร์ม็อดไปวางทับในโฟลเดอร์หลักของเกม", "เปิดเกมและตรวจสอบการแสดงผลภาษาไทย"],
@@ -41,6 +51,11 @@ const mods = [
     ],
     statusText: "พร้อมโหลด", date: "2026-09-12", popularity: 96, size: "ดูที่ Google Drive", translator: "มีเกมก็แปล",
     tags: ["Roguelike", "Deck-builder", "การ์ด", "แปลครบ"], colors: ["#3d246f", "#d59a2f"], cover: "assets/cover-the-royal-writ.png",
+    gallery: [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3333700/14e106d15bc01d1bf1592be1574b9297fb88f211/ss_14e106d15bc01d1bf1592be1574b9297fb88f211.600x338.jpg?t=1785491287",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3333700/4614a75531ec0ec56835e8d3289e35b967db0d43/ss_4614a75531ec0ec56835e8d3289e35b967db0d43.600x338.jpg?t=1785491287",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3333700/6f2e7cd0cf4bdb26b9b84e2043cac97bfcea55f2/ss_6f2e7cd0cf4bdb26b9b84e2043cac97bfcea55f2.600x338.jpg?t=1785491287"
+    ], trailerTitle: "The Royal Writ — Official Trailer",
     description: "ม็อดภาษาไทยสำหรับเกม Roguelike Deck-builder ครอบคลุมเนื้อเรื่อง การ์ด ยูนิต ยุทธภัณฑ์ วัตถุโบราณ เมนู และบทสอนเล่น พร้อมสำนวนตลกร้ายแบบยุคกลาง",
     changelog: ["อัปเดตม็อดภาษาไทยเป็นเวอร์ชัน 2.0.0", "แปลชื่อการ์ด ยูนิต และ Card Effects ครบทุกใบ", "แปล UI การตั้งค่า และ Tutorial ครบ 100%"],
     install: ["ดาวน์โหลดและแตกไฟล์ ZIP", "นำโฟลเดอร์ Content ไปวางทับในโฟลเดอร์หลักของเกม", "เปิดเกมและตรวจสอบว่าเมนูแสดงภาษาไทย"],
@@ -57,6 +72,11 @@ const mods = [
     ],
     statusText: "พร้อมโหลด", date: "2026-09-06", popularity: 94, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล",
     tags: ["Dating Sim", "Visual Novel", "เนื้อเรื่อง", "แปลครบ"], colors: ["#2b176d", "#c13fb9"], cover: "assets/cover-monster-prom.jpg",
+    gallery: [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/743450/ss_da398bf572dc6acc61a1eef18f521a93c1e36c1b.600x338.jpg?t=1786381243",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/743450/ss_f71abeb355c2296460d4789ec434f2893427e770.600x338.jpg?t=1786381243",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/743450/ss_af27732669adbd2a52185f8479ad2d01ef899d81.600x338.jpg?t=1786381243"
+    ], trailerTitle: "Monster Prom — Official Trailer",
     description: "ม็อดภาษาไทยสำหรับ Monster Prom ครอบคลุมบทสนทนา ตัวเลือก เมนู ข้อความระบบ ป้ายสถานที่ และกราฟิกสำคัญ พร้อมฟอนต์ไทยและการตัดบรรทัดที่ปรับแต่งแล้ว",
     changelog: ["เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0.0", "แปลบทสนทนา เมนู ตัวเลือก และข้อความระบบ", "รองรับหน้าตั้งชื่อและโหมดผู้เล่นหลายคน"],
     install: ["ปิดเกมก่อนติดตั้งและดาวน์โหลดไฟล์จาก Nexus Mods", "ทำตามขั้นตอนติดตั้งที่ระบุในหน้าม็อด", "เปิดเกมแล้วเลือก Simplified Chinese เพื่อใช้งานภาษาไทย"],
@@ -175,6 +195,18 @@ function openModal(id) {
       <div>
         <h3>รายละเอียดม็อด</h3>
         <p class="modal-description">${mod.description}</p>
+        <section class="game-media" aria-label="ภาพและเทรลเลอร์ของ ${mod.title}">
+          <div class="game-media-heading"><span>★ ตัวอย่างเกม</span><small>${mod.gallery.length} ภาพ · ภาพจาก Steam</small></div>
+          <div class="game-gallery">
+            ${mod.gallery.map((image, index) => `<a href="${image.replace(".600x338.jpg", ".1920x1080.jpg")}" target="_blank" rel="noopener noreferrer" aria-label="เปิดภาพตัวอย่าง ${index + 1} ของ ${mod.title}"><img src="${image}" alt="ภาพตัวอย่าง ${index + 1} ของเกม ${mod.title}" loading="lazy" /></a>`).join("")}
+          </div>
+          <a class="official-trailer" href="${mod.store}" target="_blank" rel="noopener noreferrer" style="--trailer-image:url('${mod.gallery[0]}')">
+            <span class="trailer-kicker">OFFICIAL TRAILER · STEAM</span>
+            <strong>${mod.trailerTitle}</strong>
+            <span class="trailer-play" aria-hidden="true">▶</span>
+            <small>ดูเทรลเลอร์และข้อมูลเกมบนหน้าร้านทางการ ↗</small>
+          </a>
+        </section>
         <h3>อัปเดตในเวอร์ชันนี้</h3>
         <ul class="changelog">${mod.changelog.map(item => `<li>${item}</li>`).join("")}</ul>
         <h3>วิธีติดตั้ง</h3>
