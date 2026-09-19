@@ -33,3 +33,28 @@ owners and are not claimed as original brand assets of this project.
 - Source: official Steam store header image for [Death end re;Quest](https://store.steampowered.com/app/990050/Death_end_reQuest/)
 - Retrieved: 2026-09-19
 - Used as a game reference cover; the Thai mod remains credited to the page “มีเกมก็แปล”.
+
+## Company of Heroes 2 cover
+
+- Repository file: `assets/cover-company-of-heroes-2.png`
+- Supplied by: project owner
+- Date prepared: 2026-09-19
+- SHA-256: `8D5FD8C0BAE05DF2716F827E02F94B4CDF06FEEB31DAADEE57D23D999915CA14`
+- Used as a game reference cover; the Thai mod is created by “มีเกมก็แปล By.Stamp Nattakit”.
+
+## Camp Sunshine cover
+
+- Repository file: `assets/cover-camp-sunshine.jpg`
+- Source: official Steam store header image for [Camp Sunshine](https://store.steampowered.com/app/457570/Camp_Sunshine/)
+- Retrieved: 2026-09-19
+- SHA-256: `B9EA85DC519899AE128097BA98219BF568DCE2BCFB6835254B7A8F5DC194AE48`
+- Used as a game reference cover; the Thai mod remains credited to the page “มีเกมก็แปล By.Stamp Nattakit”.
+
+## Tales of Berseria cover
+
+- Repository file: `assets/cover-tales-of-berseria.jpg`
+- Source: official Steam store header image for [Tales of Berseria](https://store.steampowered.com/app/429660/Tales_of_Berseria/)
+- Retrieved: 2026-09-19
+- SHA-256: `6598C4C7595EC7B5AA1536391CFFF561FE907F3C6A142ACFC9254D5D534330AA`
+- Used as a game reference cover; the Thai mod remains credited to the page “มีเกมก็แปล By.Stamp Nattakit”.
+
