@@ -42,6 +42,27 @@ const mods = [
     post: ""
   },
   {
+    id: "death-end-request", title: "Death end re;Quest", thaiTitle: "เดธ เอนด์ รี;เควสต์", code: "DE-006",
+    version: "—", gameBuild: "Steam · PC", platform: "pc", source: "drive", store: "https://store.steampowered.com/app/990050/Death_end_reQuest/",
+    purchaseLinks: [
+      { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/990050/Death_end_reQuest/" },
+      { label: "ค้นหาบน Fanatical", href: "https://www.fanatical.com/en/search?search=Death%20end%20re%3BQuest" },
+      { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/search/?q=Death%20end%20re%3BQuest" }
+    ],
+    statusText: "พร้อมโหลด", date: "2026-09-18", popularity: 97, size: "ดูที่ Google Drive", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    category: "story", tags: ["JRPG", "Visual Novel", "Turn-based", "แปลไทย"], colors: ["#2a174e", "#d2477e"], cover: "assets/cover-death-end-request.jpg",
+    gallery: [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990050/ss_7d9d824a0ec842ffe9963c6ba60b4640c38d5c59.600x338.jpg?t=1782150373",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990050/ss_10f7177dcb997b8642eb2c0525c96e8d8b9974ef.600x338.jpg?t=1782150373",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990050/ss_3224d7fbf0430ffb810a89c09c54b691995aa243.600x338.jpg?t=1782150373"
+    ], trailerTitle: "Death end re;Quest — Official Trailer",
+    description: "ม็อดภาษาไทยสำหรับ Death end re;Quest ครอบคลุมเนื้อเรื่องหลัก เส้นทางตัวเลือก ฉาก Bad End บทสนทนาใน World's Odyssey การสืบสวน ระบบต่อสู้ สกิล Flash Drive บั๊กฟิลด์ เมนู และ UI ส่วนใหญ่ พร้อมฟอนต์ไทยอ่านง่าย",
+    changelog: ["แปลเนื้อเรื่องหลัก เส้นทางตัวเลือก และฉาก Bad End", "แปลบทสนทนาในโลกเสมือน World's Odyssey และการสืบสวนในโลกจริง", "แปลระบบต่อสู้ สกิล Flash Drive บั๊กฟิลด์ เมนู และ UI ส่วนใหญ่"],
+    install: ["ดาวน์โหลดไฟล์ Death end re;Quest Thai Mod จากโฟลเดอร์ Google Drive", "แตกไฟล์ ZIP แล้วนำไฟล์ไปวางทับในโฟลเดอร์หลักของเกม", "เปิดเกมและตรวจสอบการแสดงผลภาษาไทย โดยใช้กับตัวเกมแท้บน Steam เท่านั้น"],
+    sha: "—", nexus: "", drive: "https://drive.google.com/drive/folders/1ALbRTPUxHsxQv3NaB2IDTb5VF9EsKGtK?usp=sharing",
+    post: "https://www.facebook.com/profile.php?id=61593924362608"
+  },
+  {
     id: "vapor-world", title: "Vapor World: Over The Mind", thaiTitle: "เวเปอร์ เวิลด์: เหนือห้วงจิต", code: "VW-002",
     version: "—", gameBuild: "PC", platform: "pc", source: "drive", store: "https://store.steampowered.com/app/1996090/Vapor_World_Over_The_Mind/",
     purchaseLinks: [
