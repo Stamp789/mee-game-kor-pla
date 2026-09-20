@@ -42,14 +42,34 @@ const mods = [
     post: ""
   },
   {
+    id: "tales-of-graces-f-remastered", title: "Tales of Graces f Remastered", thaiTitle: "เทลส์ ออฟ เกรซส์ เอฟ รีมาสเตอร์", code: "TG-010",
+    version: "1.0", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/2530980/Tales_of_Graces_f_Remastered/",
+    purchaseLinks: [
+      { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/2530980/Tales_of_Graces_f_Remastered/" },
+      { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/game/tales-of-graces-f-remastered/info/" }
+    ],
+    statusText: "พร้อมโหลด", date: "2026-09-20", popularity: 100, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    category: "action", tags: ["JRPG", "Action RPG", "เนื้อเรื่อง", "แปลครบ"], colors: ["#162b4c", "#2563eb"], cover: "assets/cover-tales-of-graces-f-remastered.jpg",
+    gallery: [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2530980/ss_2f361f479032d3787fe24dbb14af987f764af756.600x338.jpg?t=1739758056",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2530980/ss_1d3e4ec707d98508d63e8429f888a78199472f22.600x338.jpg?t=1739758056",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2530980/ss_8f433e6dafdfe4f8e7b5337ed6fdeb9ee448b762.600x338.jpg?t=1739758056"
+    ], trailerTitle: "Tales of Graces f Remastered — Official Trailer",
+    description: "ม็อดภาษาไทยสำหรับ Tales of Graces f Remastered มหากาพย์ JRPG สุดคลาสสิกฉบับรีมาสเตอร์ สัมผัสเรื่องราวแห่งมิตรภาพและพันธสัญญาของ Asbel และเพื่อนๆ แปลไทยครบทั้งเนื้อเรื่องหลัก เนื้อเรื่องเสริม Lineage and Legacies บทสนทนา คัตซีน สกิต (Skit) ระบบต่อสู้ สไตล์ชิฟต์ (Style Shift) อาร์เต้ (Artes) ฉายา (Titles) เมนู และ UI ทั้งหมด",
+    changelog: ["เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0", "แปลเนื้อเรื่องหลักและบทเสริม Lineage and Legacies", "แปลบทสนทนา สกิต (Skit) สกิลการต่อสู้ และ UI ครบถ้วน"],
+    install: ["ดาวน์โหลดม็อดจากแท็บ Files บน Nexus Mods", "แตกไฟล์ .zip ที่ดาวน์โหลดมา", "นำไฟล์ไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)", "เข้าเกมแล้วร่วมผจญภัยเป็นภาษาไทยได้ทันที"],
+    sha: "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods", nexus: "https://www.nexusmods.com/talesofgracesfremastered/mods/10?tab=files", drive: "",
+    post: "https://www.facebook.com/share/p/1J5wbq3Yaq/"
+  },
+  {
     id: "tales-of-berseria", title: "Tales of Berseria", thaiTitle: "เทลส์ ออฟ เบอร์เซเรีย", code: "TB-009",
-    version: "1.0", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/429660/Tales_of_Berseria/",
+    version: "2.0", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/429660/Tales_of_Berseria/",
     purchaseLinks: [
       { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/429660/Tales_of_Berseria/" },
       { label: "ค้นหาบน Fanatical", href: "https://www.fanatical.com/en/game/tales-of-berseria" },
       { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/game/tales-of-berseria/info/" }
     ],
-    statusText: "พร้อมโหลด", date: "2026-09-19", popularity: 99, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    statusText: "พร้อมโหลด", date: "2026-09-20", popularity: 99, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
     category: "visual", tags: ["JRPG", "Action RPG", "เนื้อเรื่อง", "แปลครบ"], colors: ["#1b0d26", "#b31343"], cover: "assets/cover-tales-of-berseria.jpg",
     gallery: [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/429660/ss_55b6307b686684a7c1ee00357eb6be0e05a6024f.600x338.jpg?t=1763571708",
@@ -57,20 +77,20 @@ const mods = [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/429660/ss_755410557ed1499bd2271869a3e87cda172e5555.600x338.jpg?t=1763571708"
     ], trailerTitle: "Tales of Berseria — Official Trailer",
     description: "ม็อดภาษาไทยสำหรับ Tales of Berseria มหากาพย์ JRPG สุดเข้มข้น ดำดิ่งสู่เส้นทางล้างแค้นของ Velvet Crowe แปลไทยจัดเต็มทั้งเนื้อเรื่องหลัก บทสนทนาตัวละคร คัตซีน สกิต (Skit) มุกตลกและบทสนทนาย่อยของปาร์ตี้ครบทุกฉาก ชื่ออาร์เต้ (Artes) สกิลคอมโบ เบรกโซล (Break Soul) อุปกรณ์สวมใส่ เมนู การตั้งค่า หน้าต่างสอนเล่น และ UI ทั้งหมด",
-    changelog: ["เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0", "แปลเนื้อเรื่องหลัก บทสนทนาตัวละคร และคัตซีนทั้งหมด", "แปลสกิต (Skit) ครบทุกฉาก อาร์เต้ (Artes) สกิลคอมโบ เบรกโซล และ UI ทั้งหมด"],
+    changelog: ["อัปเดตเวอร์ชัน 2.0: ปรับสำนวนบทแปลให้เป็นธรรมชาติและเข้ากับมู้ด Dark Fantasy ยิ่งขึ้น", "ปรับน้ำเสียงตัวละคร สรรพนาม และความต่อเนื่องของบทสนทนา", "ปรับปรุงคำศัพท์เฉพาะ สกิต (Skit) คุยเล่น และข้อความในระบบ"],
     install: ["ดาวน์โหลดม็อดจากแท็บ Files บน Nexus Mods", "แตกไฟล์ .zip ที่ดาวน์โหลดมา", "นำไฟล์ไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)", "เข้าเกมแล้วออกเดินทางล้างแค้นได้ทันที"],
     sha: "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods", nexus: "https://www.nexusmods.com/talesofberseria/mods/86?tab=files", drive: "",
-    post: "https://www.facebook.com/share/p/1bU2bgk2dW/"
+    post: "https://www.facebook.com/share/p/1J5wbq3Yaq/"
   },
   {
     id: "death-end-request", title: "Death end re;Quest", thaiTitle: "เดธ เอนด์ รี;เควสต์", code: "DE-006",
-    version: "—", gameBuild: "Steam · PC", platform: "pc", source: "drive", store: "https://store.steampowered.com/app/990050/Death_end_reQuest/",
+    version: "2.0", gameBuild: "Steam · PC", platform: "pc", source: "drive", store: "https://store.steampowered.com/app/990050/Death_end_reQuest/",
     purchaseLinks: [
       { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/990050/Death_end_reQuest/" },
       { label: "ค้นหาบน Fanatical", href: "https://www.fanatical.com/en/search?search=Death%20end%20re%3BQuest" },
       { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/search/?q=Death%20end%20re%3BQuest" }
     ],
-    statusText: "พร้อมโหลด", date: "2026-09-18", popularity: 97, size: "ดูที่ Google Drive", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    statusText: "พร้อมโหลด", date: "2026-09-20", popularity: 97, size: "ดูที่ Google Drive", translator: "มีเกมก็แปล By.Stamp Nattakit",
     category: "visual", tags: ["JRPG", "Visual Novel", "Turn-based", "แปลไทย"], colors: ["#2a174e", "#d2477e"], cover: "assets/cover-death-end-request.jpg",
     gallery: [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990050/ss_7d9d824a0ec842ffe9963c6ba60b4640c38d5c59.600x338.jpg?t=1782150373",
@@ -78,19 +98,19 @@ const mods = [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990050/ss_3224d7fbf0430ffb810a89c09c54b691995aa243.600x338.jpg?t=1782150373"
     ], trailerTitle: "Death end re;Quest — Official Trailer",
     description: "ม็อดภาษาไทยสำหรับ Death end re;Quest ครอบคลุมเนื้อเรื่องหลัก เส้นทางตัวเลือก ฉาก Bad End บทสนทนาใน World's Odyssey การสืบสวน ระบบต่อสู้ สกิล Flash Drive บั๊กฟิลด์ เมนู และ UI ส่วนใหญ่ พร้อมฟอนต์ไทยอ่านง่าย",
-    changelog: ["แปลเนื้อเรื่องหลัก เส้นทางตัวเลือก และฉาก Bad End", "แปลบทสนทนาในโลกเสมือน World's Odyssey และการสืบสวนในโลกจริง", "แปลระบบต่อสู้ สกิล Flash Drive บั๊กฟิลด์ เมนู และ UI ส่วนใหญ่"],
+    changelog: ["อัปเดตเวอร์ชัน 2.0: เกลาบทแปลให้อ่านลื่นและเข้ากับอารมณ์ของแต่ละฉากมากยิ่งขึ้น", "ตรวจแก้คำศัพท์เฉพาะ สรรพนาม และชื่อเรียกต่าง ๆ ให้ถูกต้องสม่ำเสมอ", "แก้ประโยคผิดบริบท และปรับความยาวข้อความไม่ให้ตกหล่นหรือล้นกรอบ"],
     install: ["ดาวน์โหลดไฟล์ Death end re;Quest Thai Mod จากโฟลเดอร์ Google Drive", "แตกไฟล์ ZIP แล้วนำไฟล์ไปวางทับในโฟลเดอร์หลักของเกม", "เปิดเกมและตรวจสอบการแสดงผลภาษาไทย โดยใช้กับตัวเกมแท้บน Steam เท่านั้น"],
     sha: "—", nexus: "", drive: "https://drive.google.com/drive/folders/1ALbRTPUxHsxQv3NaB2IDTb5VF9EsKGtK?usp=sharing",
-    post: "https://www.facebook.com/profile.php?id=61593924362608"
+    post: "https://www.facebook.com/share/p/1J5wbq3Yaq/"
   },
   {
     id: "camp-sunshine", title: "Camp Sunshine", thaiTitle: "แคมป์ ซันไชน์", code: "CS-008",
-    version: "1.0", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/457570/Camp_Sunshine/",
+    version: "3.0", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/457570/Camp_Sunshine/",
     purchaseLinks: [
       { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/457570/Camp_Sunshine/" },
       { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/game/camp-sunshine/info/" }
     ],
-    statusText: "พร้อมโหลด", date: "2026-09-18", popularity: 95, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    statusText: "พร้อมโหลด", date: "2026-09-20", popularity: 96, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
     category: "visual", tags: ["Horror", "Retro 16-bit", "เอาชีวิตรอด", "แปลครบ"], colors: ["#2d0e0e", "#a81919"], cover: "assets/cover-camp-sunshine.jpg",
     gallery: [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/457570/ss_44fec9d2cdff7b59994e209832bcb34827d16cb7.600x338.jpg?t=1633693100",
@@ -98,20 +118,20 @@ const mods = [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/457570/ss_38c591f26fc417ff01ed19542b1c35ecb5fb27aa.600x338.jpg?t=1633693100"
     ], trailerTitle: "Camp Sunshine — Official Trailer",
     description: "ม็อดภาษาไทยสำหรับ Camp Sunshine เกมสยองขวัญ 16-bit Retro Horror ย้อนยุคสไตล์หนังสแลชเชอร์ 80s หนีตายจากฆาตกรชุดมาสคอตหมี แปลไทยให้อินทุกเบาะแส อ่านเอกสารรู้เรื่อง ครอบคลุมเนื้อเรื่อง คัตซีน บทสนทนา เอกสาร ไดอารี ไอเทม และหน้า UI วรรณยุกต์ไม่ลอย",
-    changelog: ["แปลเนื้อเรื่อง คัตซีน และบทสนทนาตัวละครทั้งหมด", "แปลเอกสาร บันทึก ไดอารี และเบาะแสไขปริศนาทั่วทั้งค่าย 100%", "แปลรายการไอเทม วิธีใช้งาน ข้อความบอกใบ้ เมนู และ UI ครบถ้วน"],
+    changelog: ["อัปเดตเวอร์ชัน 3.0: เกลาบทแปลให้เป็นธรรมชาติเหมือนคนไทยพูดจริง", "ปรับสำนวนและสรรพนามบทสนทนาตัวละคร ไดอารี (Diary) และรายการไอเทม", "ปรับปรุงข้อความ UI ทั่วทั้งเกมให้อ่านง่ายและเข้ากับบรรยากาศ"],
     install: ["ดาวน์โหลดม็อดจากแท็บ Files บน Nexus Mods", "แตกไฟล์ .zip ที่ดาวน์โหลดมา", "นำไฟล์ไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)", "เข้าเกมแล้วเตรียมไฟฉายให้พร้อมออกสำรวจ"],
     sha: "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods", nexus: "https://www.nexusmods.com/campsunshine/mods/1?tab=files", drive: "",
-    post: "https://www.facebook.com/share/p/1BspXb14Tv/"
+    post: "https://www.facebook.com/share/p/1J5wbq3Yaq/"
   },
   {
     id: "company-of-heroes-2", title: "Company of Heroes 2", thaiTitle: "คอมปะนี ออฟ ฮีโรส์ 2", code: "CH-007",
-    version: "1.0", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/231430/Company_of_Heroes_2/",
+    version: "2.0", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/231430/Company_of_Heroes_2/",
     purchaseLinks: [
       { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/231430/Company_of_Heroes_2/" },
       { label: "ซื้อบน Fanatical", href: "https://www.fanatical.com/en/game/company-of-heroes-2" },
       { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/game/company-of-heroes-2/info/" }
     ],
-    statusText: "พร้อมโหลด", date: "2026-09-17", popularity: 98, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    statusText: "พร้อมโหลด", date: "2026-09-20", popularity: 98, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
     category: "action", tags: ["RTS", "Strategy", "สงคราม", "แปลครบ"], colors: ["#1c2833", "#4a5d4e"], cover: "assets/cover-company-of-heroes-2.png",
     gallery: [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/231430/ss_253565696b43f08520ea65dc805cda964ee0976e.600x338.jpg?t=1750947634",
@@ -119,10 +139,10 @@ const mods = [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/231430/ss_57852edc2f40cb5c3faaaa6b74f2209a794216b2.600x338.jpg?t=1750947634"
     ], trailerTitle: "Company of Heroes 2 — Official Trailer",
     description: "ม็อดภาษาไทยสำหรับ Company of Heroes 2 มหาศึกสงครามโลกครั้งที่ 2 จัดเต็มให้สายวางแผนกลยุทธ์ (RTS) แปลครบทั้งข้อมูลยูนิต ทหารราบ ยานเกราะ สกิลผู้บัญชาการ (Commander Abilities) บัฟสนับสนุนทางอากาศและปืนใหญ่ รายละเอียดภารกิจ แคมเปญ บทบรรยาย เมนู การตั้งค่า และ UI ทั้งหมด 100% พร้อมฟอนต์ไทยคมชัดสบายตา",
-    changelog: ["แปลข้อมูลยูนิต ยานเกราะ ทหารราบ และยานพาหนะทุกสังกัด", "แปลสกิลผู้บัญชาการ (Commander Abilities) บัฟสนับสนุน และปืนใหญ่", "แปลรายละเอียดภารกิจ แคมเปญ เมนู การตั้งค่า และหน้า UI ทั้งหมด 100%"],
+    changelog: ["อัปเดตเวอร์ชัน 2.0: เกลาคำแปลและคำศัพท์ทางทหารให้ตรงบริบทสนามรบ", "ปรับแก้คำทับศัพท์และข้อความใน Unit, Ability, Commander และ Upgrade", "ตรวจแก้ Objective, Victory Point, Tutorial และ UI ต่าง ๆ เพื่อความชัดเจน"],
     install: ["ดาวน์โหลดไฟล์ Company of Heroes 2 Thai Mod จากแท็บ Files บน Nexus Mods", "แตกไฟล์ .zip ที่ดาวน์โหลดมา", "นำไฟล์ไปวางในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)", "เปิดเกมแล้วเข้าสู่สมรภูมิรบได้ทันที"],
     sha: "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods", nexus: "https://www.nexusmods.com/companyofheroes2/mods/6?tab=files", drive: "",
-    post: "https://www.facebook.com/share/p/1DRTu8qF1z/"
+    post: "https://www.facebook.com/share/p/1J5wbq3Yaq/"
   },
   {
     id: "vapor-world", title: "Vapor World: Over The Mind", thaiTitle: "เวเปอร์ เวิลด์: เหนือห้วงจิต", code: "VW-002",

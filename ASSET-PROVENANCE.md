@@ -58,3 +58,12 @@ owners and are not claimed as original brand assets of this project.
 - SHA-256: `6598C4C7595EC7B5AA1536391CFFF561FE907F3C6A142ACFC9254D5D534330AA`
 - Used as a game reference cover; the Thai mod remains credited to the page “มีเกมก็แปล By.Stamp Nattakit”.
 
+## Tales of Graces f Remastered cover
+
+- Repository file: `assets/cover-tales-of-graces-f-remastered.jpg`
+- Source: official Steam store header image for [Tales of Graces f Remastered](https://store.steampowered.com/app/2530980/Tales_of_Graces_f_Remastered/)
+- Retrieved: 2026-09-20
+- SHA-256: `935ACE933746498CE93DF1647E808887B4C936DCE7CE568668E9A4D0AF8A5C93`
+- Used as a game reference cover; the Thai mod remains credited to the page “มีเกมก็แปล By.Stamp Nattakit”.
+
+

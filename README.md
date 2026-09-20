@@ -2,7 +2,7 @@
 
 เว็บคลังม็อดแปลภาษาไทยของ [มีเกมก็แปล](https://www.facebook.com/profile.php?id=61593924362608) แบบ static สำหรับ GitHub Pages มีลิงก์ดาวน์โหลดจาก Nexus Mods และ Google Drive พร้อมแหล่งซื้อเกมแท้ของแต่ละเกม
 
-ข้อมูลในคลังอ้างอิงจากโพสต์สาธารณะของเพจและหน้าม็อดของผู้จัดทำ ประกอบด้วย Absolum, Battle Chef Brigade Deluxe, Camp Sunshine, Company of Heroes 2, Death end re;Quest, Monster Prom, Tales of Berseria, The Royal Writ และ Vapor World: Over The Mind
+ข้อมูลในคลังอ้างอิงจากโพสต์สาธารณะของเพจและหน้าม็อดของผู้จัดทำ ประกอบด้วย Absolum, Battle Chef Brigade Deluxe, Camp Sunshine, Company of Heroes 2, Death end re;Quest, Monster Prom, Tales of Berseria, Tales of Graces f Remastered, The Royal Writ และ Vapor World: Over The Mind
 
 มีส่วนสถานะโปรเจกต์ม็อดแปลไทย และส่วนสนับสนุนผู้แปลผ่าน PromptPay
 
