@@ -309,7 +309,7 @@ footer p { grid-column:1/-1; margin:0; padding-top:1rem; border-top:1px solid va
 .gog-store { color:#6f2b9d; background:linear-gradient(135deg,#fbf2ff,#eadbff); }
 .humble-store { color:#c54332; background:linear-gradient(135deg,#fff7ef,#ffe3cc); }
 
-.support-section { max-width:var(--max); margin:0 auto 100px; padding:3.4rem; display:grid; grid-template-columns:1fr minmax(280px,410px); gap:4rem; align-items:center; overflow:hidden; border:1px solid rgba(79,87,160,.28); border-radius:14px; background:radial-gradient(circle at 12% 0,rgba(54,184,233,.18),transparent 19rem),linear-gradient(135deg,#171d50 0%,#313b98 55%,#7338be 100%); box-shadow:0 10px 0 rgba(17,21,47,.15),0 32px 70px rgba(39,38,112,.22); color:#fff; }
+.support-section { max-width:var(--max); margin:56px auto 44px; padding:3.4rem; display:grid; grid-template-columns:1fr minmax(280px,410px); gap:4rem; align-items:center; overflow:hidden; border:1px solid rgba(79,87,160,.28); border-radius:14px; background:radial-gradient(circle at 12% 0,rgba(54,184,233,.18),transparent 19rem),linear-gradient(135deg,#171d50 0%,#313b98 55%,#7338be 100%); box-shadow:0 10px 0 rgba(17,21,47,.15),0 32px 70px rgba(39,38,112,.22); color:#fff; }
 .support-copy .section-index { color:#91dcff; }
 .support-copy h2 { color:#fff; text-shadow:0 4px 0 rgba(9,11,42,.25); }
 .support-copy>p { max-width:590px; color:rgba(255,255,255,.74); }
@@ -335,6 +335,8 @@ footer p { grid-column:1/-1; margin:0; padding-top:1rem; border-top:1px solid va
 .desktop-nav a { padding:.45rem .85rem; border-radius:999px; transition:background .2s ease,color .2s ease,transform .2s ease; }
 .desktop-nav a::after { display:none; }
 .desktop-nav a:hover,.desktop-nav a:focus-visible { color:#fff; background:linear-gradient(135deg,#6a6af3,#d14fc6); transform:translateY(-2px); }
+.desktop-nav a.nav-highlight { background:linear-gradient(135deg,rgba(255,87,167,.18),rgba(118,92,255,.16)); border:1px solid rgba(255,87,167,.45); color:#d2297f; font-weight:700; box-shadow:0 2px 6px rgba(255,87,167,.18); }
+.desktop-nav a.nav-highlight:hover,.desktop-nav a.nav-highlight:focus-visible { color:#fff; background:linear-gradient(135deg,#ff4eaa,#7252f2); border-color:transparent; }
 .icon-button,.github-button { border-color:#abc6ea; border-radius:12px; background:rgba(255,255,255,.76); box-shadow:3px 4px 0 rgba(94,94,201,.16); }
 
 .hero { min-height:650px; border-bottom:0; background:radial-gradient(circle at 8% 18%,rgba(63,218,255,.27),transparent 24rem),radial-gradient(circle at 89% 22%,rgba(255,90,178,.2),transparent 24rem),linear-gradient(135deg,#f9fdff 0%,#eaf8ff 45%,#f1e9ff 100%); }
@@ -513,7 +515,7 @@ footer p { grid-column:1/-1; margin:0; padding-top:1rem; border-top:1px solid va
   .modal-hero { min-height:255px; padding:2rem 1.25rem; }
   .modal-body { grid-template-columns:1fr; padding:1.5rem 1.25rem 2.5rem; }
   .modal-side { padding:1.4rem 0 0; border-top:1px solid var(--line); border-left:0; }
-  .support-section { margin:0 16px 72px; padding:1.7rem; grid-template-columns:1fr; gap:2rem; }
+  .support-section { margin:34px 16px 36px; padding:1.7rem; grid-template-columns:1fr; gap:2rem; }
   .support-card { max-width:340px; margin:auto; transform:none; }
 }
 @media (max-width:480px) {
@@ -546,7 +548,7 @@ footer p { grid-column:1/-1; margin:0; padding-top:1rem; border-top:1px solid va
 }
 
 main > section[id] { scroll-margin-top:88px; }
-.catalog-section { padding:80px 24px 56px; }
+.catalog-section { padding:48px 24px 56px; }
 .updates-section { padding:52px 24px var(--section-gap); border-top:0; }
 .updates-section::before { content:""; position:absolute; top:0; right:24px; left:24px; height:1px; background:linear-gradient(90deg,transparent,#b9caeb 12%,#b9caeb 88%,transparent); }
 .section-heading { align-items:flex-start; margin-bottom:1.8rem; }
@@ -577,7 +579,7 @@ main > section[id] { scroll-margin-top:88px; }
 .game-store-section .section-heading { margin-bottom:1.4rem; }
 .store-grid { align-items:stretch; }
 .store-card { height:100%; }
-.support-section { margin-bottom:80px; }
+.support-section { margin-top:52px; margin-bottom:40px; }
 
 footer { padding-top:2rem; padding-bottom:2rem; }
 .footer-links { justify-content:flex-end; flex-wrap:wrap; row-gap:.65rem; }
@@ -589,7 +591,7 @@ footer { padding-top:2rem; padding-bottom:2rem; }
 
 @media (max-width:760px) {
   :root { --section-gap:58px; }
-  .catalog-section { padding:58px 16px 42px; }
+  .catalog-section { padding:36px 16px 42px; }
   .updates-section { padding:42px 16px var(--section-gap); }
   .updates-section::before { right:16px; left:16px; }
   .section-heading { margin-bottom:1.45rem; }
