@@ -1,5 +1,45 @@
 const mods = [
   {
+    id: "dressmaker", title: "Dressmaker", thaiTitle: "เดรสเมกเกอร์", code: "DM-011",
+    version: "1.0", gameBuild: "Steam · Build 25508059", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/4019220/Dressmaker/",
+    purchaseLinks: [
+      { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/4019220/Dressmaker/" },
+      { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/search/?q=Dressmaker" }
+    ],
+    statusText: "พร้อมโหลด", date: "2026-09-27", popularity: 100, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    category: "visual", tags: ["Cozy", "Simulation", "งานฝีมือ", "แปลครบ"], colors: ["#541432", "#e84393"], cover: "assets/cover-dressmaker.jpg",
+    gallery: [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4019220/6b964f0ee4ad9041718877ec563b0079c3353ce1/ss_6b964f0ee4ad9041718877ec563b0079c3353ce1.600x338.jpg?t=1790484978",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4019220/9324e5f5fcaec804ef925bc5e79e8f3f15dfe329/ss_9324e5f5fcaec804ef925bc5e79e8f3f15dfe329.600x338.jpg?t=1790484978",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4019220/fa62a65abc68c79812fd1daa771deb4ef2bc0312/ss_fa62a65abc68c79812fd1daa771deb4ef2bc0312.600x338.jpg?t=1790484978"
+    ], trailerTitle: "Dressmaker — Official Trailer",
+    description: "ม็อดภาษาไทยสำหรับ Dressmaker เกมแนว Cozy Simulation จำลองชีวิตช่างตัดเสื้อสุดผ่อนคลาย สวมบทดีไซเนอร์เปิดร้าน ออกแบบชุดในสมุดสเก็ตช์ เลือกเนื้อผ้า วางแพทเทิร์น เข้าจักรเย็บผ้า ติดโบว์ประดับลูกไม้ ตัดชุดส่งให้ชาวเมืองตามออร์เดอร์ แปลไทยให้อ่านเพลิน เข้าใจทุกขั้นตอนและชนิดผ้า (คำแปลภาษาไทยขับเคลื่อน/แปลโดย Gemini 3.8 Flash)",
+    changelog: ["เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 (แปลร่วมกับ Gemini 3.8 Flash)", "แปลเนื้อเรื่อง บทสนทนา และความต้องการสั่งตัดชุดของชาวเมือง", "แปลชื่อชนิดเนื้อผ้า เครื่องมือ แพทเทิร์น ของตกแต่ง เมนู และ Tutorial ครบ 100%"],
+    install: ["ดาวน์โหลดม็อดจากแท็บ Files บน Nexus Mods", "แตกไฟล์ .zip ที่ดาวน์โหลดมา", "นำไฟล์ไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)", "เข้าเกมแล้วเริ่มเปิดร้านตัดเสื้อได้ทันที"],
+    sha: "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods", nexus: "https://www.nexusmods.com/dressmaker/mods/55?tab=description", drive: "",
+    post: "https://www.facebook.com/share/p/19TRKjdXsZ/"
+  },
+  {
+    id: "i-am-setsuna", title: "I AM SETSUNA", thaiTitle: "ฉันคือเซ็ตสึนะ", code: "IS-012",
+    version: "1.0", gameBuild: "Steam · App 441830 · Build 1706916", platform: "pc", source: "drive", store: "https://store.steampowered.com/app/441830/I_am_Setsuna/",
+    purchaseLinks: [
+      { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/441830/I_am_Setsuna/" },
+      { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/game/i-am-setsuna/info/" }
+    ],
+    statusText: "พร้อมโหลด", date: "2026-09-27", popularity: 100, size: "ดูที่ Google Drive", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    category: "visual", tags: ["JRPG", "Classic RPG", "เนื้อเรื่อง", "แปลครบ"], colors: ["#1e3a5f", "#48bfe3"], cover: "assets/cover-i-am-setsuna.jpg",
+    gallery: [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/441830/ss_deabbc7ce299a3dcfcfe056129a5e733b30f22c5.600x338.jpg?t=1776654821",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/441830/ss_3384f6e85a82c5435697feb464ce6e0ca23a0e28.600x338.jpg?t=1776654821",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/441830/ss_941d098299c89af8ecb1c29df19cc0db46fdaee0.600x338.jpg?t=1776654821"
+    ], trailerTitle: "I AM SETSUNA — Official Trailer",
+    description: "ม็อดภาษาไทยสำหรับ I AM SETSUNA ผลงาน JRPG สไตล์คลาสสิกท่ามกลางหิมะขาวและบทเพลงเปียโนอันตราตรึง ดื่มด่ำกับเรื่องราวการเสียสละเพื่อปกป้องโลกของเซ็ตสึนะ แปลครบทั้งเนื้อเรื่องหลัก บทสนทนาตัวละคร คัตซีน รายละเอียดสกิล หินเวท (Spritnite) ระบบโมเมนตัม (Momentum) อุปกรณ์สวมใส่ ไอเทม เมนู การตั้งค่า และ UI ทั้งหมด ฟอนต์ไทยอ่านง่าย วรรณยุกต์ไม่ลอย",
+    changelog: ["เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 สำหรับ Steam", "แปลเนื้อเรื่องหลัก บทสนทนาตัวละคร และคัตซีนทั้งหมด", "แปลสกิล หินเวท (Spritnite) ระบบโมเมนตัม ไอเทม เมนู และ UI ครบถ้วน"],
+    install: ["ดาวน์โหลดไฟล์จากลิงก์ Google Drive ของเพจ", "แตกไฟล์ .zip ที่ดาวน์โหลดมา", "นำไฟล์ไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)", "เข้าเกมแล้วออกเดินทางฝ่าหิมะได้ทันที"],
+    sha: "ตรวจสอบรายละเอียดไฟล์บน Google Drive", nexus: "", drive: "https://drive.google.com/drive/folders/1f8aocSAMl6Q7WckCu4aeusiUHkh7j1mt?usp=sharing",
+    post: "https://www.facebook.com/share/p/14mce9D82KY/"
+  },
+  {
     id: "absolum", title: "Absolum", thaiTitle: "แอบโซลัม", code: "AB-001",
     version: "—", gameBuild: "Steam / Game Pass", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/1904480/Absolum/",
     purchaseLinks: [
