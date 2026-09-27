@@ -1,5 +1,25 @@
 const mods = [
   {
+    id: "company-of-heroes", title: "Company of Heroes", thaiTitle: "คอมปะนี ออฟ ฮีโรส์", code: "CH-013",
+    version: "1.0", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/228200/Company_of_Heroes/",
+    purchaseLinks: [
+      { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/228200/Company_of_Heroes/" },
+      { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/game/company-of-heroes/info/" }
+    ],
+    statusText: "พร้อมโหลด", date: "2026-09-27", popularity: 100, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    category: "action", tags: ["RTS", "Strategy", "สงคราม", "แปลครบ"], colors: ["#17231c", "#415443"], cover: "assets/cover-company-of-heroes.jpg",
+    gallery: [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/228200/ss_a02fbfb9a63def39ad5dce6f52435820a3338242.600x338.jpg?t=1777996337",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/228200/ss_07254123cc0b22872f31ee55eb3f0d8f004a7c85.600x338.jpg?t=1777996337",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/228200/ss_a965a0017ad2d2eb8b048c479e2425550191d2dd.600x338.jpg?t=1777996337"
+    ], trailerTitle: "Company of Heroes — Official Trailer",
+    description: "ม็อดภาษาไทยสำหรับ Company of Heroes ภาคแรกสุดคลาสสิก มหากาพย์เกมวางแผนกลยุทธ์สงครามโลกครั้งที่ 2 (RTS) ระดับตำนาน แปลไทยครบทั้งข้อมูลยูนิต ทหารราบ ยานเกราะ รถถัง สกิลสายบัญชาการ (Doctrine Abilities) คำสั่งรบ รายละเอียดภารกิจ แคมเปญการบุกนอร์มองดี บทบรรยาย เมนู การตั้งค่า และ UI ทั้งหมด 100% พร้อมฟอนต์ไทยคมชัดสบายตา",
+    changelog: ["เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 สำหรับ Company of Heroes (Steam)", "แปลเนื้อเรื่อง แคมเปญบุกนอร์มองดี และบทบรรยายภารกิจทั้งหมด", "แปลข้อมูลยูนิต ทหารราบ ยานเกราะ สกิลสายบัญชาการ (Doctrine) เมนู และ UI ครบ 100%"],
+    install: ["ดาวน์โหลดม็อดจากแท็บ Files บน Nexus Mods", "แตกไฟล์ .zip ที่ดาวน์โหลดมา", "นำไฟล์ไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)", "เข้าเกมแล้วเริ่มบัญชาการรบในสมรภูมิยุโรปได้ทันที"],
+    sha: "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods", nexus: "https://www.nexusmods.com/companyofheroes/mods/1150?tab=description", drive: "",
+    post: "https://www.nexusmods.com/companyofheroes/mods/1150?tab=description"
+  },
+  {
     id: "dressmaker", title: "Dressmaker", thaiTitle: "เดรสเมกเกอร์", code: "DM-011",
     version: "1.0", gameBuild: "Steam · Build 25508059", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/4019220/Dressmaker/",
     purchaseLinks: [
