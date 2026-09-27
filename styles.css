@@ -294,7 +294,7 @@ footer p { grid-column:1/-1; margin:0; padding-top:1rem; border-top:1px solid va
 .game-store-section { max-width:var(--max); margin:0 auto 92px; padding:0 24px; }
 .game-store-section .section-heading { margin-bottom:1.7rem; }
 .game-store-section .section-heading p { max-width:440px; }
-.store-grid { display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); gap:.8rem; }
+.store-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(185px,1fr)); gap:.8rem; }
 .store-card { min-height:155px; padding:1.05rem; display:flex; flex-direction:column; justify-content:space-between; overflow:hidden; position:relative; border:1px solid var(--line-dark); border-radius:10px; background:rgba(255,255,255,.7); box-shadow:0 4px 0 rgba(17,21,47,.09),0 15px 28px rgba(41,49,115,.07); transition:transform .24s ease,box-shadow .24s ease,border-color .24s ease; }
 .store-card::before { content:""; position:absolute; top:-34px; right:-24px; width:95px; height:95px; border:1px solid currentColor; border-radius:50%; opacity:.15; box-shadow:0 0 0 14px currentColor; }
 .store-card:hover { transform:translateY(-6px); border-color:currentColor; box-shadow:0 8px 0 rgba(17,21,47,.1),0 24px 38px rgba(41,49,115,.14); }
