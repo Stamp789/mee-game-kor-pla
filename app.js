@@ -1,5 +1,45 @@
 const mods = [
   {
+    id: "tales-of-xillia-remastered", title: "Tales of Xillia Remastered", thaiTitle: "เทลส์ ออฟ ซิลเลีย รีมาสเตอร์", code: "TX-014",
+    version: "1.0", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/2246670/Tales_of_Xillia_Remastered/",
+    purchaseLinks: [
+      { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/2246670/Tales_of_Xillia_Remastered/" },
+      { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/search/?q=Tales%20of%20Xillia%20Remastered" }
+    ],
+    statusText: "พร้อมโหลด", date: "2026-10-03", popularity: 100, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    category: "action", tags: ["JRPG", "Action RPG", "เนื้อเรื่อง", "แปลครบ"], colors: ["#192231", "#e05638"], cover: "assets/cover-tales-of-xillia-remastered.jpg",
+    gallery: [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246670/55e42e8346663e7e0272585bff0a221f8a6d15a2/ss_55e42e8346663e7e0272585bff0a221f8a6d15a2.600x338.jpg?t=1766734223",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246670/afc0e9ee8afe73c42cad8646904332e2dce80d76/ss_afc0e9ee8afe73c42cad8646904332e2dce80d76.600x338.jpg?t=1766734223",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246670/cbfd6cd7a101f31fe3593a5ed04a29d437442572/ss_cbfd6cd7a101f31fe3593a5ed04a29d437442572.600x338.jpg?t=1766734223"
+    ], trailerTitle: "Tales of Xillia Remastered — Official Trailer",
+    description: "ม็อดภาษาไทยสำหรับ Tales of Xillia Remastered มหากาพย์ JRPG เรื่องราวมิตรภาพและความเชื่อมั่นระหว่าง Jude Mathis และ Milla Maxwell ฉบับรีมาสเตอร์บน Steam แปลไทยครบทั้งเนื้อเรื่องหลัก 2 มุมมอง (Jude / Milla) คัตซีน สกิต (Skit) มุกตลกและการคุยเล่นของปาร์ตี้ ระบบต่อสู้ Dual Raid Linear Motion Battle System (DR-LMBS) ท่าต่อสู้ประสาน ลิงก์อาร์เต้ (Linked Artes) อุปกรณ์สวมใส่ ลิเลียมออร์บ (Lilium Orb) เมนู และ UI ทั้งหมด 100%",
+    changelog: ["เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 บน Nexus Mods", "แปลเนื้อเรื่องหลักครบทั้ง 2 มุมมองตัวเอก (Jude และ Milla)", "แปลบทสนทนา สกิต (Skit) ระบบต่อสู้ ลิงก์อาร์เต้ เมนู และ UI ครบ 100%"],
+    install: ["ดาวน์โหลดม็อดจากแท็บ Files บน Nexus Mods", "แตกไฟล์ .zip ที่ดาวน์โหลดมา", "นำไฟล์ไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)", "เข้าเกมแล้วออกเดินทางร่วมกับ Jude และ Milla ได้ทันที"],
+    sha: "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods", nexus: "https://www.nexusmods.com/talesofxilliaremastered/mods/10?tab=description", drive: "",
+    post: "https://www.nexusmods.com/talesofxilliaremastered/mods/10?tab=description"
+  },
+  {
+    id: "songs-of-glimmerwick", title: "Songs of Glimmerwick", thaiTitle: "ซองส์ ออฟ กลิมเมอร์วิก", code: "SG-015",
+    version: "1.0", gameBuild: "Steam · PC", platform: "pc", source: "drive", store: "https://store.steampowered.com/app/1706510/Songs_of_Glimmerwick/",
+    purchaseLinks: [
+      { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/1706510/Songs_of_Glimmerwick/" },
+      { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/search/?q=Songs%20of%20Glimmerwick" }
+    ],
+    statusText: "พร้อมโหลด", date: "2026-10-03", popularity: 100, size: "ดูที่ Google Drive", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    category: "visual", tags: ["Cozy", "RPG", "Life Sim", "แปลครบ"], colors: ["#111d33", "#4382c4"], cover: "assets/cover-songs-of-glimmerwick.jpg",
+    gallery: [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1706510/8f81aa9749570b1101434d289e65923e8d0ad3ed/ss_8f81aa9749570b1101434d289e65923e8d0ad3ed.600x338.jpg?t=1790786083",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1706510/ss_694e8977429e866f98b221e02d313ac8c3e7ae78.600x338.jpg?t=1790786083",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1706510/d1679309c946e407de8e9a7f0caef1cf9710f3d9/ss_d1679309c946e407de8e9a7f0caef1cf9710f3d9.600x338.jpg?t=1790786083"
+    ], trailerTitle: "Songs of Glimmerwick — Official Trailer",
+    description: "ม็อดภาษาไทยสำหรับ Songs of Glimmerwick เกมแนว Cozy RPG x Witch Life Sim ภาพลายเส้นนิทาน 2D สุดละมุน ดำดิ่งสู่ชีวิตนักเรียนในสถาบันเวทมนตร์กลิมเมอร์วิค ฝึกเป่าขลุ่ยร่ายคาถา ดูแลสวนพฤกษาเวท ผูกมิตรกับเพื่อนร่วมชั้น ทำเควสต์ และไขปริศนาสุดอบอุ่นหัวใจ แปลไทยให้อินกับทุกตัวโน้ต เรื่องราว และระบบการเล่นแบบเพลินตา",
+    changelog: ["เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 สำหรับ Steam", "แปลเนื้อเรื่องหลัก บทสนทนาเพื่อนร่วมชั้น และเควสต์ชาวเมืองทั้งหมด", "แปลบทเพลงเวทมนตร์ โน้ตเพลง พืชพรรณเวท ไอเทม วัตถุดิบปรุงยา สมุดบันทึก เมนู และ UI ครบ 100%"],
+    install: ["ดาวน์โหลดไฟล์จากลิงก์ Google Drive ของเพจ", "แตกไฟล์ .zip ที่ดาวน์โหลดมา", "นำไฟล์ไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)", "เข้าเกมแล้วไปเริ่มเทอมใหม่ในโรงเรียนเวทมนตร์ได้ทันที"],
+    sha: "ตรวจสอบรายละเอียดไฟล์บน Google Drive", nexus: "", drive: "https://drive.google.com/file/d/1dhylGWGFaiDqxQjIYwCPt4W6JWeaNJtk/view?usp=sharing",
+    post: "https://www.facebook.com/share/p/1DW9nRa7K1/"
+  },
+  {
     id: "company-of-heroes", title: "Company of Heroes", thaiTitle: "คอมปะนี ออฟ ฮีโรส์", code: "CH-013",
     version: "1.0", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/228200/Company_of_Heroes/",
     purchaseLinks: [
