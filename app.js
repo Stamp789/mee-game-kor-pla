@@ -20,13 +20,33 @@ const mods = [
     post: "https://www.facebook.com/share/p/19ce5ntF1r/"
   },
   {
+    id: "tales-of-graces-f-remastered", title: "Tales of Graces f Remastered", thaiTitle: "เทลส์ ออฟ เกรซส์ เอฟ รีมาสเตอร์", code: "TG-010",
+    version: "2.0", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/2530980/Tales_of_Graces_f_Remastered/",
+    purchaseLinks: [
+      { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/2530980/Tales_of_Graces_f_Remastered/" },
+      { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/game/tales-of-graces-f-remastered/info/" }
+    ],
+    statusText: "พร้อมโหลด", date: "2026-10-04", popularity: 100, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    category: "action", tags: ["JRPG", "Action RPG", "เนื้อเรื่อง", "แปลครบ"], colors: ["#162b4c", "#2563eb"], cover: "assets/cover-tales-of-graces-f-remastered.jpg",
+    gallery: [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2530980/ss_2f361f479032d3787fe24dbb14af987f764af756.600x338.jpg?t=1739758056",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2530980/ss_1d3e4ec707d98508d63e8429f888a78199472f22.600x338.jpg?t=1739758056",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2530980/ss_8f433e6dafdfe4f8e7b5337ed6fdeb9ee448b762.600x338.jpg?t=1739758056"
+    ], trailerTitle: "Tales of Graces f Remastered — Official Trailer",
+    description: "ม็อดภาษาไทยสำหรับ Tales of Graces f Remastered มหากาพย์ JRPG สุดคลาสสิกฉบับรีมาสเตอร์ สัมผัสเรื่องราวแห่งมิตรภาพและพันธสัญญาของ Asbel และเพื่อนๆ แปลไทยครบทั้งเนื้อเรื่องหลัก เนื้อเรื่องเสริม Lineage and Legacies บทสนทนา คัตซีน สกิต (Skit) ระบบต่อสู้ สไตล์ชิฟต์ (Style Shift) อาร์เต้ (Artes) ฉายา (Titles) เมนู และ UI ทั้งหมด",
+    changelog: ["อัปเดตแพตช์เวอร์ชัน 2.0 (TOGf Remastered ThaiPatch V2) ปรับปรุงบทแปล ข้อความ และความลื่นไหล", "แปลเนื้อเรื่องหลักและบทเสริม Lineage and Legacies ครบถ้วน", "แปลบทสนทนา สกิต (Skit) สกิลการต่อสู้ สไตล์ชิฟต์ และ UI ครบ 100%"],
+    install: ["ดาวน์โหลดแพตช์ภาษาไทยเวอร์ชันล่าสุด (V2) จากแท็บ Files บน Nexus Mods", "แตกไฟล์ .zip ที่ดาวน์โหลดมา", "นำไฟล์ไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)", "เข้าเกมแล้วร่วมผจญภัยเป็นภาษาไทยได้ทันที"],
+    sha: "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods", nexus: "https://www.nexusmods.com/talesofgracesfremastered/mods/10?tab=files", drive: "",
+    post: "https://www.nexusmods.com/talesofgracesfremastered/mods/10?tab=files"
+  },
+  {
     id: "rotwood", title: "Rotwood", thaiTitle: "รอทวู้ด", code: "RW-016",
-    version: "1.0", gameBuild: "Steam · PC", platform: "pc", source: "drive", store: "https://store.steampowered.com/app/2015270/Rotwood/",
+    version: "1.0", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/2015270/Rotwood/",
     purchaseLinks: [
       { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/2015270/Rotwood/" },
       { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/search/?q=Rotwood" }
     ],
-    statusText: "พร้อมโหลด", date: "2026-10-04", popularity: 100, size: "ดูที่ Google Drive", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    statusText: "พร้อมโหลด", date: "2026-10-04", popularity: 100, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
     category: "action", tags: ["Rogue-lite", "Hack and Slash", "Co-op", "แปลครบ"], colors: ["#1c2818", "#d97824"], cover: "assets/cover-rotwood.jpg",
     gallery: [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2015270/ss_4c25d241388383263d04cd1effd2d4bac4590930.600x338.jpg?t=1790967441",
@@ -34,10 +54,10 @@ const mods = [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2015270/ss_ffa9d9d88aeb9b205ad49e20358b425e7969f399.600x338.jpg?t=1790967441"
     ], trailerTitle: "Rotwood — Official Early Access Trailer",
     description: "ม็อดภาษาไทยสำหรับ Rotwood ผลงานเกมแนว Rogue-lite Dungeon Crawler สไตล์ตะลุมบอน (Hack and Slash) ภาพวาด 2D สุดเท่จากค่าย Klei (ผู้สร้าง Don't Starve) จับคู่อาวุธคู่ใจ อัปเกรดคอมโบ ลุยดงมอนสเตอร์กลายพันธุ์ไปพร้อมกับเพื่อน แปลไทยจัดเต็มทั้งคำอธิบายอาวุธ ชุดเกราะ สกิล บัฟ พร สายอัปเกรดความสามารถ บทสนทนาเควสต์ NPC ในค่ายพัก เมนู และ UI ทั้งหมด 100% พร้อมฟอนต์ไทยคมชัดสบายตา",
-    changelog: ["เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 สำหรับ Steam", "แปลคำอธิบายอาวุธ ชุดเกราะ อุปกรณ์สวมใส่ทุกชิ้น และสกิล/บัฟ/พรทั้งหมด", "แปลบทสนทนาเควสต์ NPC ในค่ายพัก เมนู การตั้งค่า และ UI ครบ 100%"],
-    install: ["ดาวน์โหลดม็อดจากลิงก์ Google Drive ของเพจ", "เปิดโฟลเดอร์ตัวเกมบน Steam (คลิกขวาที่ชื่อเกม Rotwood > จัดการ > เปิดดูไฟล์ในเครื่อง)", "นำไฟล์ data.zip และโฟลเดอร์ mods ไปวางทับในโฟลเดอร์ตัวเกมหลัก", "เปิดเกม Rotwood ไปที่เมนู Options > Mods ตรวจสอบให้ม็อดภาษาไทยขึ้น Enabled แล้วเริ่มลุยป่าเน่าได้ทันที"],
-    sha: "ตรวจสอบรายละเอียดไฟล์บน Google Drive", nexus: "", drive: "https://drive.google.com/file/d/13MgCLXc8HwXP85CyTTqdfSj2MV8I17q8/view?usp=sharing",
-    post: "https://www.facebook.com/share/p/1PUuN3eipX/"
+    changelog: ["อัปเดตเผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 บน Nexus Mods", "แปลคำอธิบายอาวุธ ชุดเกราะ อุปกรณ์สวมใส่ทุกชิ้น และสกิล/บัฟ/พรทั้งหมด", "แปลบทสนทนาเควสต์ NPC ในค่ายพัก เมนู การตั้งค่า และ UI ครบ 100%"],
+    install: ["ดาวน์โหลดม็อดจากแท็บ Files บน Nexus Mods", "เปิดโฟลเดอร์ตัวเกมบน Steam (คลิกขวาที่ชื่อเกม Rotwood > จัดการ > เปิดดูไฟล์ในเครื่อง)", "นำไฟล์ data.zip และโฟลเดอร์ mods ไปวางทับในโฟลเดอร์ตัวเกมหลัก", "เปิดเกม Rotwood ไปที่เมนู Options > Mods ตรวจสอบให้ม็อดภาษาไทยขึ้น Enabled แล้วเริ่มลุยป่าเน่าได้ทันที"],
+    sha: "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods", nexus: "https://www.nexusmods.com/rotwood/mods/5?tab=files", drive: "",
+    post: "https://www.nexusmods.com/rotwood/mods/5?tab=files"
   },
   {
     id: "sengoku-rance", title: "Sengoku Rance", thaiTitle: "เซ็นโกคุ รันซ์", code: "SR-017",
@@ -200,26 +220,6 @@ const mods = [
     install: ["ดาวน์โหลด Battle Chef Brigade Thai Mod V1 จากแท็บ Files บน Nexus Mods", "แตกไฟล์ ZIP แล้วนำไฟล์ไปวางทับในโฟลเดอร์หลักของเกม", "เปิดเกมและเข้าเล่นได้ทันที โดยไม่ต้องติดตั้ง Mod Loader เพิ่มเติม"],
     sha: "Nexus Mods: Safe to use", nexus: "https://www.nexusmods.com/battlechefbrigade/mods/2?tab=files", drive: "",
     post: ""
-  },
-  {
-    id: "tales-of-graces-f-remastered", title: "Tales of Graces f Remastered", thaiTitle: "เทลส์ ออฟ เกรซส์ เอฟ รีมาสเตอร์", code: "TG-010",
-    version: "1.0", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/2530980/Tales_of_Graces_f_Remastered/",
-    purchaseLinks: [
-      { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/2530980/Tales_of_Graces_f_Remastered/" },
-      { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/game/tales-of-graces-f-remastered/info/" }
-    ],
-    statusText: "พร้อมโหลด", date: "2026-09-20", popularity: 100, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
-    category: "action", tags: ["JRPG", "Action RPG", "เนื้อเรื่อง", "แปลครบ"], colors: ["#162b4c", "#2563eb"], cover: "assets/cover-tales-of-graces-f-remastered.jpg",
-    gallery: [
-      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2530980/ss_2f361f479032d3787fe24dbb14af987f764af756.600x338.jpg?t=1739758056",
-      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2530980/ss_1d3e4ec707d98508d63e8429f888a78199472f22.600x338.jpg?t=1739758056",
-      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2530980/ss_8f433e6dafdfe4f8e7b5337ed6fdeb9ee448b762.600x338.jpg?t=1739758056"
-    ], trailerTitle: "Tales of Graces f Remastered — Official Trailer",
-    description: "ม็อดภาษาไทยสำหรับ Tales of Graces f Remastered มหากาพย์ JRPG สุดคลาสสิกฉบับรีมาสเตอร์ สัมผัสเรื่องราวแห่งมิตรภาพและพันธสัญญาของ Asbel และเพื่อนๆ แปลไทยครบทั้งเนื้อเรื่องหลัก เนื้อเรื่องเสริม Lineage and Legacies บทสนทนา คัตซีน สกิต (Skit) ระบบต่อสู้ สไตล์ชิฟต์ (Style Shift) อาร์เต้ (Artes) ฉายา (Titles) เมนู และ UI ทั้งหมด",
-    changelog: ["เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0", "แปลเนื้อเรื่องหลักและบทเสริม Lineage and Legacies", "แปลบทสนทนา สกิต (Skit) สกิลการต่อสู้ และ UI ครบถ้วน"],
-    install: ["ดาวน์โหลดม็อดจากแท็บ Files บน Nexus Mods", "แตกไฟล์ .zip ที่ดาวน์โหลดมา", "นำไฟล์ไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)", "เข้าเกมแล้วร่วมผจญภัยเป็นภาษาไทยได้ทันที"],
-    sha: "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods", nexus: "https://www.nexusmods.com/talesofgracesfremastered/mods/10?tab=files", drive: "",
-    post: "https://www.facebook.com/share/p/1J5wbq3Yaq/"
   },
   {
     id: "tales-of-berseria", title: "Tales of Berseria", thaiTitle: "เทลส์ ออฟ เบอร์เซเรีย", code: "TB-009",
