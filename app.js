@@ -1,5 +1,45 @@
 const mods = [
   {
+    id: "rotwood", title: "Rotwood", thaiTitle: "รอทวู้ด", code: "RW-016",
+    version: "1.0", gameBuild: "Steam · PC", platform: "pc", source: "drive", store: "https://store.steampowered.com/app/2015270/Rotwood/",
+    purchaseLinks: [
+      { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/2015270/Rotwood/" },
+      { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/search/?q=Rotwood" }
+    ],
+    statusText: "พร้อมโหลด", date: "2026-10-04", popularity: 100, size: "ดูที่ Google Drive", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    category: "action", tags: ["Rogue-lite", "Hack and Slash", "Co-op", "แปลครบ"], colors: ["#1c2818", "#d97824"], cover: "assets/cover-rotwood.jpg",
+    gallery: [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2015270/ss_4c25d241388383263d04cd1effd2d4bac4590930.600x338.jpg?t=1790967441",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2015270/ss_5a2cf72a35f57ecf4e633216cbe34324fc88a7dc.600x338.jpg?t=1790967441",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2015270/ss_ffa9d9d88aeb9b205ad49e20358b425e7969f399.600x338.jpg?t=1790967441"
+    ], trailerTitle: "Rotwood — Official Early Access Trailer",
+    description: "ม็อดภาษาไทยสำหรับ Rotwood ผลงานเกมแนว Rogue-lite Dungeon Crawler สไตล์ตะลุมบอน (Hack and Slash) ภาพวาด 2D สุดเท่จากค่าย Klei (ผู้สร้าง Don't Starve) จับคู่อาวุธคู่ใจ อัปเกรดคอมโบ ลุยดงมอนสเตอร์กลายพันธุ์ไปพร้อมกับเพื่อน แปลไทยจัดเต็มทั้งคำอธิบายอาวุธ ชุดเกราะ สกิล บัฟ พร สายอัปเกรดความสามารถ บทสนทนาเควสต์ NPC ในค่ายพัก เมนู และ UI ทั้งหมด 100% พร้อมฟอนต์ไทยคมชัดสบายตา",
+    changelog: ["เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 สำหรับ Steam", "แปลคำอธิบายอาวุธ ชุดเกราะ อุปกรณ์สวมใส่ทุกชิ้น และสกิล/บัฟ/พรทั้งหมด", "แปลบทสนทนาเควสต์ NPC ในค่ายพัก เมนู การตั้งค่า และ UI ครบ 100%"],
+    install: ["ดาวน์โหลดม็อดจากลิงก์ Google Drive ของเพจ", "เปิดโฟลเดอร์ตัวเกมบน Steam (คลิกขวาที่ชื่อเกม Rotwood > จัดการ > เปิดดูไฟล์ในเครื่อง)", "นำไฟล์ data.zip และโฟลเดอร์ mods ไปวางทับในโฟลเดอร์ตัวเกมหลัก", "เปิดเกม Rotwood ไปที่เมนู Options > Mods ตรวจสอบให้ม็อดภาษาไทยขึ้น Enabled แล้วเริ่มลุยป่าเน่าได้ทันที"],
+    sha: "ตรวจสอบรายละเอียดไฟล์บน Google Drive", nexus: "", drive: "https://drive.google.com/file/d/13MgCLXc8HwXP85CyTTqdfSj2MV8I17q8/view?usp=sharing",
+    post: "https://www.facebook.com/share/p/1PUuN3eipX/"
+  },
+  {
+    id: "sengoku-rance", title: "Sengoku Rance", thaiTitle: "เซ็นโกคุ รันซ์", code: "SR-017",
+    version: "1.0.0", gameBuild: "Steam · PC", platform: "pc", source: "drive", store: "https://store.steampowered.com/app/3867170/Sengoku_Rance/",
+    purchaseLinks: [
+      { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/3867170/Sengoku_Rance/" },
+      { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/search/?q=Sengoku%20Rance" }
+    ],
+    statusText: "พร้อมโหลด", date: "2026-10-04", popularity: 100, size: "ดูที่ Google Drive", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    category: "visual", tags: ["Strategy", "Visual Novel", "สงคราม", "แปลครบ"], colors: ["#2b1810", "#c85a32"], cover: "assets/cover-sengoku-rance.jpg",
+    gallery: [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3867170/25e9dca0bc9b3a8e0c244785eb83d4b8484f473a/ss_25e9dca0bc9b3a8e0c244785eb83d4b8484f473a.600x338.jpg?t=1790913603",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3867170/90935d903235ffbe385fbc5f863c86a1636c43a8/ss_90935d903235ffbe385fbc5f863c86a1636c43a8.600x338.jpg?t=1790913603",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3867170/f93b442a3cffdb40e89041ae628ef5b4bb9e732d/ss_f93b442a3cffdb40e89041ae628ef5b4bb9e732d.600x338.jpg?t=1790913603"
+    ], trailerTitle: "Sengoku Rance — Official Steam Release Trailer",
+    description: "ม็อดภาษาไทยสำหรับ Sengoku Rance มหากาพย์เกมแนว Strategy x Visual Novel ระดับขึ้นหิ้งในตำนาน บัญชาการศึก รวบรวมขุนพลสาว และพิชิตดินแดนญี่ปุ่นยุคเซ็นโกคุไปกับลอร์ดรันซ์ แปลไทยจัดหนักจัดเต็มกว่า 63,304 รายการ กราฟิกและภาพประกอบภาษาไทย 132 ภาพ (ขนาดประมาณ 550 MB) ครอบคลุมเนื้อเรื่อง แคมเปญสงคราม บทสนทนาขุนพล มุกตลก และระบบ UI ทั้งหมด 100% พร้อมตัวติดตั้งอัตโนมัติ",
+    changelog: ["เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0.0 (V1) สำหรับ Steam", "แปลข้อความเนื้อเรื่อง บทสนทนา และแคมเปญสงครามรวมกว่า 63,304 รายการ", "แปลกราฟิกและภาพประกอบภาษาไทย 132 ภาพ (~550 MB) พร้อมระบบติดตั้งอัตโนมัติ"],
+    install: ["ดาวน์โหลดม็อดจากลิงก์ Google Drive ของเพจและแตกไฟล์ .zip", "ดับเบิลคลิกไฟล์ 'ติดตั้งภาษาไทย.html' (เปิดด้วย Microsoft Edge หรือ Google Chrome)", "กดปุ่ม 'เลือกโฟลเดอร์เกม · ติดตั้งอัตโนมัติ' และเลือกโฟลเดอร์ตัวเกมที่มี Rance7.exe", "กดยืนยันแล้วกด 'ติดตั้งภาษาไทยพร้อมสำรองไฟล์' เมื่อเสร็จแล้วเปิดเกมผ่าน Steam ได้ทันที"],
+    sha: "ตรวจสอบรายละเอียดไฟล์บน Google Drive", nexus: "", drive: "https://drive.google.com/file/d/1zMDuBhL8liANFycXFGF4bu0Nb9dIEiGh/view?usp=sharing",
+    post: "https://www.facebook.com/share/p/1CELcmrtgU/"
+  },
+  {
     id: "tales-of-xillia-remastered", title: "Tales of Xillia Remastered", thaiTitle: "เทลส์ ออฟ ซิลเลีย รีมาสเตอร์", code: "TX-014",
     version: "1.0", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/2246670/Tales_of_Xillia_Remastered/",
     purchaseLinks: [
