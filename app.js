@@ -1,5 +1,25 @@
 const mods = [
   {
+    id: "south-park-the-fractured-but-whole", title: "South Park™: The Fractured But Whole™", thaiTitle: "เซาท์พาร์ก: เดอะ แฟรคเชิร์ด บัต โฮล", code: "SP-018",
+    version: "1.0", gameBuild: "Steam · PC (รวม DLC)", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/488790/South_Park_The_Fractured_But_Whole/",
+    purchaseLinks: [
+      { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/488790/South_Park_The_Fractured_But_Whole/" },
+      { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/search/?q=South%20Park%20The%20Fractured%20But%20Whole" }
+    ],
+    statusText: "พร้อมโหลด", date: "2026-10-04", popularity: 100, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    category: "action", tags: ["RPG", "Comedy", "Turn-Based", "แปลครบ"], colors: ["#231d36", "#573ba3"], cover: "assets/cover-south-park-the-fractured-but-whole.jpg",
+    gallery: [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/488790/ss_2f851a0caefb87f6e8a27dae8730194edcdc23d4.600x338.jpg?t=1777994114",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/488790/ss_c3be86ef593551a05364c6b0d9c1b0446c18415b.600x338.jpg?t=1777994114",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/488790/ss_f3e0bcbe3358a11a19076c9435a5a2ca9248359a.600x338.jpg?t=1777994114"
+    ], trailerTitle: "South Park: The Fractured But Whole — Official Launch Trailer",
+    description: "ม็อดภาษาไทยสำหรับ South Park™: The Fractured But Whole™ ตัวเกมหลักรวม DLC ครบทุกตัว (Danger Deck, From Dusk Till Casa Bonita, Bring the Crunch) สวมบท \"เด็กใหม่\" ร่วมก๊วนฮีโร่สายตดสุดป่วน ปะทะแก๊งเพื่อนร่วมชั้นและสงครามแฟรนไชส์หนังฮีโร่ในเมืองหิมะ แปลไทยจัดหนักจัดเต็มทั้งเนื้อเรื่องหลัก คัตซีน ภารกิจเสริม คลาสฮีโร่ สกิล ท่าไม้ตาย พลังตดย้อนเวลา ไอเทม คอสตูม ดีเอ็นเอ สมาร์ตโฟน (Coonstagram) เมนู และ UI ทั้งหมด 100% พร้อมฟอนต์ไทยคมชัดเข้ากับมู้ดการ์ตูน",
+    changelog: ["เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 บน Nexus Mods", "แปลเนื้อเรื่องหลัก คัตซีน ภารกิจเสริม และเนื้อเรื่องแคมเปญในส่วนของ DLC ทั้งหมด", "แปลคลาสฮีโร่ สกิล ท่าไม้ตาย พลังตด ไอเทม Coonstagram เมนู และ UI ครบ 100%"],
+    install: ["ดาวน์โหลดม็อดจากแท็บ Files บน Nexus Mods และแตกไฟล์ .ZIP", "สำรองไฟล์ camel\\sdf\\pc\\data\\sdf.sdftoc และ sdf-C-2900.sdfdata ในโฟลเดอร์เกมไว้ก่อน", "นำโฟลเดอร์ camel จากไฟล์ ZIP ไปวางทับในโฟลเดอร์เกมหลักที่มี SouthPark_TFBW.exe", "เปิดเกมโดยเลือกภาษา English แล้วเข้าไปฮากับภาษาไทยได้ทันที"],
+    sha: "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods", nexus: "https://www.nexusmods.com/southparkthefracturedbutwhole/mods/69", drive: "",
+    post: "https://www.facebook.com/share/p/19ce5ntF1r/"
+  },
+  {
     id: "rotwood", title: "Rotwood", thaiTitle: "รอทวู้ด", code: "RW-016",
     version: "1.0", gameBuild: "Steam · PC", platform: "pc", source: "drive", store: "https://store.steampowered.com/app/2015270/Rotwood/",
     purchaseLinks: [
@@ -36,8 +56,8 @@ const mods = [
     description: "ม็อดภาษาไทยสำหรับ Sengoku Rance มหากาพย์เกมแนว Strategy x Visual Novel ระดับขึ้นหิ้งในตำนาน บัญชาการศึก รวบรวมขุนพลสาว และพิชิตดินแดนญี่ปุ่นยุคเซ็นโกคุไปกับลอร์ดรันซ์ แปลไทยจัดหนักจัดเต็มกว่า 63,304 รายการ กราฟิกและภาพประกอบภาษาไทย 132 ภาพ (ขนาดประมาณ 550 MB) ครอบคลุมเนื้อเรื่อง แคมเปญสงคราม บทสนทนาขุนพล มุกตลก และระบบ UI ทั้งหมด 100% พร้อมตัวติดตั้งอัตโนมัติ",
     changelog: ["เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0.0 (V1) สำหรับ Steam", "แปลข้อความเนื้อเรื่อง บทสนทนา และแคมเปญสงครามรวมกว่า 63,304 รายการ", "แปลกราฟิกและภาพประกอบภาษาไทย 132 ภาพ (~550 MB) พร้อมระบบติดตั้งอัตโนมัติ"],
     install: ["ดาวน์โหลดม็อดจากลิงก์ Google Drive ของเพจและแตกไฟล์ .zip", "ดับเบิลคลิกไฟล์ 'ติดตั้งภาษาไทย.html' (เปิดด้วย Microsoft Edge หรือ Google Chrome)", "กดปุ่ม 'เลือกโฟลเดอร์เกม · ติดตั้งอัตโนมัติ' และเลือกโฟลเดอร์ตัวเกมที่มี Rance7.exe", "กดยืนยันแล้วกด 'ติดตั้งภาษาไทยพร้อมสำรองไฟล์' เมื่อเสร็จแล้วเปิดเกมผ่าน Steam ได้ทันที"],
-    sha: "ตรวจสอบรายละเอียดไฟล์บน Google Drive", nexus: "", drive: "https://drive.google.com/file/d/1zMDuBhL8liANFycXFGF4bu0Nb9dIEiGh/view?usp=sharing",
-    post: "https://www.facebook.com/share/p/1CELcmrtgU/"
+    sha: "ตรวจสอบรายละเอียดไฟล์บน Google Drive", nexus: "", drive: "https://drive.google.com/file/d/1j9tizF8zJromYiX7zcgRapcPBBqhlpLR/view?usp=sharing",
+    post: "https://www.facebook.com/share/p/19RJZc4PYf/"
   },
   {
     id: "tales-of-xillia-remastered", title: "Tales of Xillia Remastered", thaiTitle: "เทลส์ ออฟ ซิลเลีย รีมาสเตอร์", code: "TX-014",
