@@ -1,12 +1,52 @@
 const mods = [
   {
+    id: "soul-hackers-2", title: "Soul Hackers 2", thaiTitle: "โซล แฮกเกอร์ส 2", code: "SH-020",
+    version: "1.0", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/1777620/Soul_Hackers_2/",
+    purchaseLinks: [
+      { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/1777620/Soul_Hackers_2/" },
+      { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/search/?q=Soul%20Hackers%202" }
+    ],
+    statusText: "พร้อมโหลด", date: "2026-10-08", popularity: 100, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    category: "action", tags: ["JRPG", "Turn-Based", "Cyberpunk", "แปลครบ"], colors: ["#112423", "#00f0a8"], cover: "assets/cover-soul-hackers-2.jpg",
+    gallery: [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1777620/ss_a44646e171987aa0d0ca9e25e26c37742ad03572.600x338.jpg?t=1763537332",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1777620/ss_b5b954b7f693e7c83c29330a171bca5ca7177d1f.600x338.jpg?t=1763537332",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1777620/ss_3eb1caec12ed3d598de97bccdc93ffdf0c06109e.600x338.jpg?t=1763537332"
+    ], trailerTitle: "Soul Hackers 2 — Official Launch Trailer",
+    description: "ม็อดภาษาไทยสำหรับ Soul Hackers 2 ผลงาน JRPG สไตล์ Cyberpunk ไซไฟสุดล้ำจาก ATLUS ในจักรวาล Shin Megami Tensei สวมบทบาท Ringo ตัวแทนแห่งสติปัญญาดิจิทัล Aion กอบกู้โลกจากวันสิ้นโลก แปลไทยจัดเต็มทั้งเนื้อเรื่องหลัก คัตซีน บทสนทนาในบาร์ Soul Matrix เควสต์คำขอร้องสืบสวน ข้อมูลเดมอน การผสมเดมอน ท่าซัมมอน สกิล Sabbath อาวุธ COMP เมนู และ UI ทั้งหมด 100% พร้อมฟอนต์ไทยคมชัดเข้ากับมู้ดไซเบอร์พังก์",
+    changelog: ["เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 บน Nexus Mods", "แปลเนื้อเรื่องหลัก คัตซีน บทสนทนาเควสต์ และ Soul Matrix ทั้งหมด", "แปลข้อมูลเดมอน การผสมเดมอน สกิล Sabbath อาวุธ COMP เมนู และ UI ครบ 100%"],
+    install: ["ดาวน์โหลดม็อดจากแท็บ Files บน Nexus Mods และแตกไฟล์ .zip", "นำไฟล์ม็อดภาษาไทยไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)", "เปิดเกม Soul Hackers 2 ผ่าน Steam แล้วสนุกกับภาษาไทยได้ทันที"],
+    sha: "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods", nexus: "https://www.nexusmods.com/soulhackers2/mods/25?tab=files", drive: "",
+    post: "https://www.nexusmods.com/soulhackers2/mods/25?tab=files"
+  },
+  {
+    id: "super-neptunia-rpg", title: "Super Neptunia RPG", thaiTitle: "ซูเปอร์ เนปทูเนีย อาร์พีจี", code: "SN-019",
+    version: "1.0", gameBuild: "Steam · PC", platform: "pc", source: "drive", store: "https://store.steampowered.com/app/1016960/Super_Neptunia_RPG/",
+    purchaseLinks: [
+      { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/1016960/Super_Neptunia_RPG/" },
+      { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/search/?q=Super%20Neptunia%20RPG" }
+    ],
+    statusText: "พร้อมโหลด", date: "2026-10-08", popularity: 100, size: "ดูที่ Google Drive", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    category: "action", tags: ["JRPG", "Action RPG", "Side-Scroller", "แปลครบ"], colors: ["#291a45", "#9b51e0"], cover: "assets/cover-super-neptunia-rpg.jpg",
+    gallery: [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1016960/ss_2d1afb6475b31d08afdd712eee9f8e0a98f2aa86.600x338.jpg?t=1776732587",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1016960/ss_a4016a5ec38a970f9ad34b761e392baedf44f92b.600x338.jpg?t=1776732587",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1016960/ss_05b13a412a26af8a115345fd60842c11e599bcfe.600x338.jpg?t=1776732587"
+    ], trailerTitle: "Super Neptunia RPG — Official Launch Trailer",
+    description: "ม็อดภาษาไทยสำหรับ Super Neptunia RPG ผลงาน JRPG สไตล์ 2D Side-scrolling จากทีมพัฒนา Artisan Studios ร่วมกับ Compile Heart ผจญภัยไปกับเหล่าเทพธิดาเนปจูนในมิติภาพ 2 มิติสุดน่ารัก แปลไทยจัดเต็มทั้งเนื้อเรื่องหลัก คัตซีน บทสนทนาเควสต์ มุกตลกล้อเลียนวงการเกม สกิลการต่อสู้ ท่าเบรก (Break Attack) อุปกรณ์สวมใส่ ไอเทม เมนู และ UI ทั้งหมด 100% พร้อมฟอนต์ไทยคมชัดสบายตา",
+    changelog: ["เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 บน Google Drive", "แปลเนื้อเรื่องหลัก คัตซีน ภารกิจเสริม และบทสนทนาตัวละครทั้งหมด", "แปลสกิลการต่อสู้ อุปกรณ์สวมใส่ ไอเทม เมนู และ UI ครบ 100%"],
+    install: ["ดาวน์โหลดม็อดภาษาไทยจากลิงก์ Google Drive ของเพจและแตกไฟล์ .zip", "นำไฟล์หรือโฟลเดอร์ภาษาไทยไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)", "เปิดเกม Super Neptunia RPG ผ่าน Steam แล้วสนุกกับภาษาไทยได้ทันที"],
+    sha: "ตรวจสอบรายละเอียดไฟล์บน Google Drive", nexus: "", drive: "https://drive.google.com/file/d/16vsNjGez8dF_5Ltcp5qrJt4yhMgNuC5R/view?usp=sharing",
+    post: "https://drive.google.com/file/d/16vsNjGez8dF_5Ltcp5qrJt4yhMgNuC5R/view?usp=sharing"
+  },
+  {
     id: "south-park-the-fractured-but-whole", title: "South Park™: The Fractured But Whole™", thaiTitle: "เซาท์พาร์ก: เดอะ แฟรคเชิร์ด บัต โฮล", code: "SP-018",
     version: "1.0", gameBuild: "Steam · PC (รวม DLC)", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/488790/South_Park_The_Fractured_But_Whole/",
     purchaseLinks: [
       { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/488790/South_Park_The_Fractured_But_Whole/" },
       { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/search/?q=South%20Park%20The%20Fractured%20But%20Whole" }
     ],
-    statusText: "พร้อมโหลด", date: "2026-10-04", popularity: 100, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    statusText: "พร้อมโหลด", date: "2026-10-08", popularity: 100, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
     category: "action", tags: ["RPG", "Comedy", "Turn-Based", "แปลครบ"], colors: ["#231d36", "#573ba3"], cover: "assets/cover-south-park-the-fractured-but-whole.jpg",
     gallery: [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/488790/ss_2f851a0caefb87f6e8a27dae8730194edcdc23d4.600x338.jpg?t=1777994114",
@@ -16,7 +56,7 @@ const mods = [
     description: "ม็อดภาษาไทยสำหรับ South Park™: The Fractured But Whole™ ตัวเกมหลักรวม DLC ครบทุกตัว (Danger Deck, From Dusk Till Casa Bonita, Bring the Crunch) สวมบท \"เด็กใหม่\" ร่วมก๊วนฮีโร่สายตดสุดป่วน ปะทะแก๊งเพื่อนร่วมชั้นและสงครามแฟรนไชส์หนังฮีโร่ในเมืองหิมะ แปลไทยจัดหนักจัดเต็มทั้งเนื้อเรื่องหลัก คัตซีน ภารกิจเสริม คลาสฮีโร่ สกิล ท่าไม้ตาย พลังตดย้อนเวลา ไอเทม คอสตูม ดีเอ็นเอ สมาร์ตโฟน (Coonstagram) เมนู และ UI ทั้งหมด 100% พร้อมฟอนต์ไทยคมชัดเข้ากับมู้ดการ์ตูน",
     changelog: ["เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 บน Nexus Mods", "แปลเนื้อเรื่องหลัก คัตซีน ภารกิจเสริม และเนื้อเรื่องแคมเปญในส่วนของ DLC ทั้งหมด", "แปลคลาสฮีโร่ สกิล ท่าไม้ตาย พลังตด ไอเทม Coonstagram เมนู และ UI ครบ 100%"],
     install: ["ดาวน์โหลดม็อดจากแท็บ Files บน Nexus Mods และแตกไฟล์ .ZIP", "สำรองไฟล์ camel\\sdf\\pc\\data\\sdf.sdftoc และ sdf-C-2900.sdfdata ในโฟลเดอร์เกมไว้ก่อน", "นำโฟลเดอร์ camel จากไฟล์ ZIP ไปวางทับในโฟลเดอร์เกมหลักที่มี SouthPark_TFBW.exe", "เปิดเกมโดยเลือกภาษา English แล้วเข้าไปฮากับภาษาไทยได้ทันที"],
-    sha: "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods", nexus: "https://www.nexusmods.com/southparkthefracturedbutwhole/mods/69", drive: "",
+    sha: "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods", nexus: "https://www.nexusmods.com/southparkthefracturedbutwhole/mods/69?tab=files", drive: "",
     post: "https://www.facebook.com/share/p/19ce5ntF1r/"
   },
   {
@@ -146,7 +186,7 @@ const mods = [
       { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/4019220/Dressmaker/" },
       { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/search/?q=Dressmaker" }
     ],
-    statusText: "พร้อมโหลด", date: "2026-09-27", popularity: 100, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    statusText: "พร้อมโหลด", date: "2026-10-08", popularity: 100, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
     category: "visual", tags: ["Cozy", "Simulation", "งานฝีมือ", "แปลครบ"], colors: ["#541432", "#e84393"], cover: "assets/cover-dressmaker.jpg",
     gallery: [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4019220/6b964f0ee4ad9041718877ec563b0079c3353ce1/ss_6b964f0ee4ad9041718877ec563b0079c3353ce1.600x338.jpg?t=1790484978",
@@ -156,7 +196,7 @@ const mods = [
     description: "ม็อดภาษาไทยสำหรับ Dressmaker เกมแนว Cozy Simulation จำลองชีวิตช่างตัดเสื้อสุดผ่อนคลาย สวมบทดีไซเนอร์เปิดร้าน ออกแบบชุดในสมุดสเก็ตช์ เลือกเนื้อผ้า วางแพทเทิร์น เข้าจักรเย็บผ้า ติดโบว์ประดับลูกไม้ ตัดชุดส่งให้ชาวเมืองตามออร์เดอร์ แปลไทยให้อ่านเพลิน เข้าใจทุกขั้นตอนและชนิดผ้า (คำแปลภาษาไทยขับเคลื่อน/แปลโดย Gemini 3.8 Flash)",
     changelog: ["เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 (แปลร่วมกับ Gemini 3.8 Flash)", "แปลเนื้อเรื่อง บทสนทนา และความต้องการสั่งตัดชุดของชาวเมือง", "แปลชื่อชนิดเนื้อผ้า เครื่องมือ แพทเทิร์น ของตกแต่ง เมนู และ Tutorial ครบ 100%"],
     install: ["ดาวน์โหลดม็อดจากแท็บ Files บน Nexus Mods", "แตกไฟล์ .zip ที่ดาวน์โหลดมา", "นำไฟล์ไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)", "เข้าเกมแล้วเริ่มเปิดร้านตัดเสื้อได้ทันที"],
-    sha: "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods", nexus: "https://www.nexusmods.com/dressmaker/mods/55?tab=description", drive: "",
+    sha: "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods", nexus: "https://www.nexusmods.com/dressmaker/mods/55?tab=files", drive: "",
     post: "https://www.facebook.com/share/p/19TRKjdXsZ/"
   },
   {
