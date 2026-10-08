@@ -41,7 +41,7 @@ const mods = [
   },
   {
     id: "south-park-the-fractured-but-whole", title: "South Park™: The Fractured But Whole™", thaiTitle: "เซาท์พาร์ก: เดอะ แฟรคเชิร์ด บัต โฮล", code: "SP-018",
-    version: "1.0", gameBuild: "Steam · PC (รวม DLC)", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/488790/South_Park_The_Fractured_But_Whole/",
+    version: "1.1", gameBuild: "Steam · PC (รวม DLC)", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/488790/South_Park_The_Fractured_But_Whole/",
     purchaseLinks: [
       { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/488790/South_Park_The_Fractured_But_Whole/" },
       { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/search/?q=South%20Park%20The%20Fractured%20But%20Whole" }
@@ -54,7 +54,7 @@ const mods = [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/488790/ss_f3e0bcbe3358a11a19076c9435a5a2ca9248359a.600x338.jpg?t=1777994114"
     ], trailerTitle: "South Park: The Fractured But Whole — Official Launch Trailer",
     description: "ม็อดภาษาไทยสำหรับ South Park™: The Fractured But Whole™ ตัวเกมหลักรวม DLC ครบทุกตัว (Danger Deck, From Dusk Till Casa Bonita, Bring the Crunch) สวมบท \"เด็กใหม่\" ร่วมก๊วนฮีโร่สายตดสุดป่วน ปะทะแก๊งเพื่อนร่วมชั้นและสงครามแฟรนไชส์หนังฮีโร่ในเมืองหิมะ แปลไทยจัดหนักจัดเต็มทั้งเนื้อเรื่องหลัก คัตซีน ภารกิจเสริม คลาสฮีโร่ สกิล ท่าไม้ตาย พลังตดย้อนเวลา ไอเทม คอสตูม ดีเอ็นเอ สมาร์ตโฟน (Coonstagram) เมนู และ UI ทั้งหมด 100% พร้อมฟอนต์ไทยคมชัดเข้ากับมู้ดการ์ตูน",
-    changelog: ["เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 บน Nexus Mods", "แปลเนื้อเรื่องหลัก คัตซีน ภารกิจเสริม และเนื้อเรื่องแคมเปญในส่วนของ DLC ทั้งหมด", "แปลคลาสฮีโร่ สกิล ท่าไม้ตาย พลังตด ไอเทม Coonstagram เมนู และ UI ครบ 100%"],
+    changelog: ["อัปเดตม็อดภาษาไทยเวอร์ชัน 1.1 ปรับปรุงบทแปลและข้อความในเกมให้สมบูรณ์ยิ่งขึ้น", "เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 บน Nexus Mods", "แปลเนื้อเรื่องหลัก คัตซีน ภารกิจเสริม และเนื้อเรื่องแคมเปญในส่วนของ DLC ทั้งหมด", "แปลคลาสฮีโร่ สกิล ท่าไม้ตาย พลังตด ไอเทม Coonstagram เมนู และ UI ครบ 100%"],
     install: ["ดาวน์โหลดม็อดจากแท็บ Files บน Nexus Mods และแตกไฟล์ .ZIP", "สำรองไฟล์ camel\\sdf\\pc\\data\\sdf.sdftoc และ sdf-C-2900.sdfdata ในโฟลเดอร์เกมไว้ก่อน", "นำโฟลเดอร์ camel จากไฟล์ ZIP ไปวางทับในโฟลเดอร์เกมหลักที่มี SouthPark_TFBW.exe", "เปิดเกมโดยเลือกภาษา English แล้วเข้าไปฮากับภาษาไทยได้ทันที"],
     sha: "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods", nexus: "https://www.nexusmods.com/southparkthefracturedbutwhole/mods/69?tab=files", drive: "",
     post: "https://www.facebook.com/share/p/19ce5ntF1r/"
@@ -141,12 +141,12 @@ const mods = [
   },
   {
     id: "songs-of-glimmerwick", title: "Songs of Glimmerwick", thaiTitle: "ซองส์ ออฟ กลิมเมอร์วิก", code: "SG-015",
-    version: "1.0", gameBuild: "Steam · PC", platform: "pc", source: "drive", store: "https://store.steampowered.com/app/1706510/Songs_of_Glimmerwick/",
+    version: "1.2", gameBuild: "Steam · PC", platform: "pc", source: "drive", store: "https://store.steampowered.com/app/1706510/Songs_of_Glimmerwick/",
     purchaseLinks: [
       { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/1706510/Songs_of_Glimmerwick/" },
       { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/search/?q=Songs%20of%20Glimmerwick" }
     ],
-    statusText: "พร้อมโหลด", date: "2026-10-03", popularity: 100, size: "ดูที่ Google Drive", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    statusText: "พร้อมโหลด", date: "2026-10-08", popularity: 100, size: "ดูที่ Google Drive", translator: "มีเกมก็แปล By.Stamp Nattakit",
     category: "visual", tags: ["Cozy", "RPG", "Life Sim", "แปลครบ"], colors: ["#111d33", "#4382c4"], cover: "assets/cover-songs-of-glimmerwick.jpg",
     gallery: [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1706510/8f81aa9749570b1101434d289e65923e8d0ad3ed/ss_8f81aa9749570b1101434d289e65923e8d0ad3ed.600x338.jpg?t=1790786083",
@@ -154,9 +154,9 @@ const mods = [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1706510/d1679309c946e407de8e9a7f0caef1cf9710f3d9/ss_d1679309c946e407de8e9a7f0caef1cf9710f3d9.600x338.jpg?t=1790786083"
     ], trailerTitle: "Songs of Glimmerwick — Official Trailer",
     description: "ม็อดภาษาไทยสำหรับ Songs of Glimmerwick เกมแนว Cozy RPG x Witch Life Sim ภาพลายเส้นนิทาน 2D สุดละมุน ดำดิ่งสู่ชีวิตนักเรียนในสถาบันเวทมนตร์กลิมเมอร์วิค ฝึกเป่าขลุ่ยร่ายคาถา ดูแลสวนพฤกษาเวท ผูกมิตรกับเพื่อนร่วมชั้น ทำเควสต์ และไขปริศนาสุดอบอุ่นหัวใจ แปลไทยให้อินกับทุกตัวโน้ต เรื่องราว และระบบการเล่นแบบเพลินตา",
-    changelog: ["เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 สำหรับ Steam", "แปลเนื้อเรื่องหลัก บทสนทนาเพื่อนร่วมชั้น และเควสต์ชาวเมืองทั้งหมด", "แปลบทเพลงเวทมนตร์ โน้ตเพลง พืชพรรณเวท ไอเทม วัตถุดิบปรุงยา สมุดบันทึก เมนู และ UI ครบ 100%"],
+    changelog: ["อัปเดตม็อดภาษาไทยเวอร์ชัน 1.2 ปรับปรุงบทแปลและเนื้อหาในเกม", "เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 สำหรับ Steam", "แปลเนื้อเรื่องหลัก บทสนทนาเพื่อนร่วมชั้น และเควสต์ชาวเมืองทั้งหมด", "แปลบทเพลงเวทมนตร์ โน้ตเพลง พืชพรรณเวท ไอเทม วัตถุดิบปรุงยา สมุดบันทึก เมนู และ UI ครบ 100%"],
     install: ["ดาวน์โหลดไฟล์จากลิงก์ Google Drive ของเพจ", "แตกไฟล์ .zip ที่ดาวน์โหลดมา", "นำไฟล์ไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)", "เข้าเกมแล้วไปเริ่มเทอมใหม่ในโรงเรียนเวทมนตร์ได้ทันที"],
-    sha: "ตรวจสอบรายละเอียดไฟล์บน Google Drive", nexus: "", drive: "https://drive.google.com/file/d/1dhylGWGFaiDqxQjIYwCPt4W6JWeaNJtk/view?usp=sharing",
+    sha: "ตรวจสอบรายละเอียดไฟล์บน Google Drive", nexus: "", drive: "https://drive.google.com/file/d/1O5vWHWHBVdzOZczC02u2eCq3DL7oAuJK/view?usp=sharing",
     post: "https://www.facebook.com/share/p/1DW9nRa7K1/"
   },
   {
@@ -181,7 +181,7 @@ const mods = [
   },
   {
     id: "dressmaker", title: "Dressmaker", thaiTitle: "เดรสเมกเกอร์", code: "DM-011",
-    version: "1.0", gameBuild: "Steam · Build 25508059", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/4019220/Dressmaker/",
+    version: "1.7", gameBuild: "Steam · Build 25508059", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/4019220/Dressmaker/",
     purchaseLinks: [
       { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/4019220/Dressmaker/" },
       { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/search/?q=Dressmaker" }
@@ -194,7 +194,7 @@ const mods = [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4019220/fa62a65abc68c79812fd1daa771deb4ef2bc0312/ss_fa62a65abc68c79812fd1daa771deb4ef2bc0312.600x338.jpg?t=1790484978"
     ], trailerTitle: "Dressmaker — Official Trailer",
     description: "ม็อดภาษาไทยสำหรับ Dressmaker เกมแนว Cozy Simulation จำลองชีวิตช่างตัดเสื้อสุดผ่อนคลาย สวมบทดีไซเนอร์เปิดร้าน ออกแบบชุดในสมุดสเก็ตช์ เลือกเนื้อผ้า วางแพทเทิร์น เข้าจักรเย็บผ้า ติดโบว์ประดับลูกไม้ ตัดชุดส่งให้ชาวเมืองตามออร์เดอร์ แปลไทยให้อ่านเพลิน เข้าใจทุกขั้นตอนและชนิดผ้า (คำแปลภาษาไทยขับเคลื่อน/แปลโดย Gemini 3.8 Flash)",
-    changelog: ["เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 (แปลร่วมกับ Gemini 3.8 Flash)", "แปลเนื้อเรื่อง บทสนทนา และความต้องการสั่งตัดชุดของชาวเมือง", "แปลชื่อชนิดเนื้อผ้า เครื่องมือ แพทเทิร์น ของตกแต่ง เมนู และ Tutorial ครบ 100%"],
+    changelog: ["อัปเดตม็อดภาษาไทยเวอร์ชัน 1.7 ปรับปรุงบทแปลและความเข้ากันได้กับตัวเกม", "เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 (แปลร่วมกับ Gemini 3.8 Flash)", "แปลเนื้อเรื่อง บทสนทนา และความต้องการสั่งตัดชุดของชาวเมือง", "แปลชื่อชนิดเนื้อผ้า เครื่องมือ แพทเทิร์น ของตกแต่ง เมนู และ Tutorial ครบ 100%"],
     install: ["ดาวน์โหลดม็อดจากแท็บ Files บน Nexus Mods", "แตกไฟล์ .zip ที่ดาวน์โหลดมา", "นำไฟล์ไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)", "เข้าเกมแล้วเริ่มเปิดร้านตัดเสื้อได้ทันที"],
     sha: "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods", nexus: "https://www.nexusmods.com/dressmaker/mods/55?tab=files", drive: "",
     post: "https://www.facebook.com/share/p/19TRKjdXsZ/"
