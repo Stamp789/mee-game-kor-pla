@@ -1,5 +1,25 @@
 const mods = [
   {
+    id: "zero-parades-directors-cut", title: "ZERO PARADES: Director's Cut", thaiTitle: "ซีโร่ พาเหรดส์ ไดเรกเตอร์ส คัต", code: "ZP-021",
+    version: "1", gameBuild: "Steam · PC", platform: "pc", source: "drive", store: "https://store.steampowered.com/app/2863680/ZERO_PARADES_Directors_Cut/",
+    purchaseLinks: [
+      { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/2863680/ZERO_PARADES_Directors_Cut/" },
+      { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/search/?q=ZERO%20PARADES" }
+    ],
+    statusText: "พร้อมโหลด", date: "2026-10-09", popularity: 100, size: "ดูที่ Google Drive", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    category: "visual", tags: ["RPG", "Narrative", "Espionage", "แปลครบ"], colors: ["#1c1a24", "#d44b36"], cover: "assets/cover-zero-parades-directors-cut.jpg",
+    gallery: [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2863680/5d9fda00ef153259e4c1c8a306a5909fa7114387/ss_5d9fda00ef153259e4c1c8a306a5909fa7114387.600x338.jpg?t=1790856627",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2863680/c17c7cfff2973dea7e5f5d0b1bc0cf86ed72fd33/ss_c17c7cfff2973dea7e5f5d0b1bc0cf86ed72fd33.600x338.jpg?t=1790856627",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2863680/b5f723041080205d00f69b9eeeaf5c772d4b39fc/ss_b5f723041080205d00f69b9eeeaf5c772d4b39fc.600x338.jpg?t=1790856627"
+    ], trailerTitle: "ZERO PARADES: Director's Cut — Official Reveal Trailer",
+    description: "ม็อดภาษาไทยสำหรับ ZERO PARADES: Director's Cut สุดยอดผลงานเกมแนว Isometric Narrative RPG สืบสวนจารกรรมสุดเข้มข้นยุคสงครามเย็น สวมบทสายลับสองหน้า Hershel Wilk รหัสลับ \"CASCADE\" ดำดิ่งสู่เครือข่ายความลับ การหักหลัง และการตัดสินใจเชิงปรัชญาที่สะเทือนโลก แปลไทยจัดเต็มระดับคุณภาพทั้งบทบรรยายเนื้อเรื่องหลัก บทสนทนาทางจิตวิทยา การสอบปากคำ แฟ้มคดี ประวัติสายลับ สกิลทางจิตสำนึก เมนู และ UI ทั้งหมด 100% พร้อมฟอนต์ไทยคมชัดเข้ากับมู้ดนัวร์เข้มข้น",
+    changelog: ["เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1 (Ver 1) บน Google Drive", "แปลเนื้อเรื่องหลัก บทสนทนาการสืบสวน และแฟ้มคดีจารกรรมทั้งหมด", "แปลสกิลสายลับ การตัดสินใจเชิงจิตวิทยา เมนู และ UI ครบ 100%"],
+    install: ["ดาวน์โหลดไฟล์ม็อดภาษาไทยจากลิงก์ Google Drive ของเพจและแตกไฟล์ .zip", "นำไฟล์หรือโฟลเดอร์ภาษาไทยไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)", "เปิดเกม ZERO PARADES: Director's Cut ผ่าน Steam แล้วสัมผัสเรื่องราวจารกรรมเป็นภาษาไทยได้ทันที"],
+    sha: "ตรวจสอบรายละเอียดไฟล์บน Google Drive", nexus: "", drive: "https://drive.google.com/file/d/1k6fFtZXwJvuhV0hfr_7a1lijBXmbLGIO/view?usp=sharing",
+    post: "https://drive.google.com/file/d/1k6fFtZXwJvuhV0hfr_7a1lijBXmbLGIO/view?usp=sharing"
+  },
+  {
     id: "soul-hackers-2", title: "Soul Hackers 2", thaiTitle: "โซล แฮกเกอร์ส 2", code: "SH-020",
     version: "1.0", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/1777620/Soul_Hackers_2/",
     purchaseLinks: [
