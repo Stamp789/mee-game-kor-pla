@@ -1,5 +1,25 @@
 const mods = [
   {
+    id: "tales-of-symphonia", title: "Tales of Symphonia", thaiTitle: "เทลส์ ออฟ ซิมโฟเนีย", code: "TS-022",
+    version: "1.0", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/372360/Tales_of_Symphonia/",
+    purchaseLinks: [
+      { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/372360/Tales_of_Symphonia/" },
+      { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/search/?q=Tales%20of%20Symphonia" }
+    ],
+    statusText: "พร้อมโหลด", date: "2026-10-11", popularity: 100, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    category: "action", tags: ["JRPG", "Action RPG", "เนื้อเรื่อง", "แปลครบ"], colors: ["#1c2838", "#e74c3c"], cover: "assets/cover-tales-of-symphonia.jpg",
+    gallery: [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/372360/ss_3deaec81759759fee9d6179a4119a923095ba84a.600x338.jpg?t=1580311676",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/372360/ss_155a14b9f8818a74958a995821da2de1ad2e5581.600x338.jpg?t=1580311676",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/372360/ss_8c07fcad728343947867791b44b439237ced2549.600x338.jpg?t=1580311676"
+    ], trailerTitle: "Tales of Symphonia — Official Steam Trailer",
+    description: "ม็อดภาษาไทยสำหรับ Tales of Symphonia มหากาพย์ JRPG ระดับตำนานในดวงใจของแฟนๆ ตระกูล Tales of ร่วมเดินทางไปกับ Lloyd Irving และผองเพื่อนเพื่อฟื้นฟูโลกแห่ง Sylvarant สู่การเดินทางแห่งการกอบกู้ที่เต็มไปด้วยมิตรภาพและการเสียสละ แปลไทยจัดเต็มทั้งเนื้อเรื่องหลัก คัตซีน บทสนทนา สกิต (Skit) ระบบต่อสู้ Linear Motion Battle สกิล ท่าไม้ตาย อาร์เต้ (Artes) ฉายา (Titles) อุปกรณ์สวมใส่ ไอเทม เมนู และ UI ทั้งหมด 100% พร้อมฟอนต์ไทยคมชัดสบายตา",
+    changelog: ["เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 บน Nexus Mods", "แปลเนื้อเรื่องหลัก คัตซีน บทสนทนาตัวละคร และสกิต (Skit) ทั้งหมด", "แปลระบบต่อสู้ สกิล ท่าไม้ตาย อาร์เต้ ฉายา อุปกรณ์ เมนู และ UI ครบ 100%"],
+    install: ["ดาวน์โหลดม็อดจากแท็บ Files บน Nexus Mods และแตกไฟล์ .zip", "นำไฟล์ม็อดภาษาไทยไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)", "เปิดเกม Tales of Symphonia ผ่าน Steam แล้วออกผจญภัยเป็นภาษาไทยได้ทันที"],
+    sha: "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods", nexus: "https://www.nexusmods.com/talesofsymphonia/mods/14?tab=files", drive: "",
+    post: "https://www.nexusmods.com/talesofsymphonia/mods/14?tab=files"
+  },
+  {
     id: "zero-parades-directors-cut", title: "ZERO PARADES: Director's Cut", thaiTitle: "ซีโร่ พาเหรดส์ ไดเรกเตอร์ส คัต", code: "ZP-021",
     version: "1", gameBuild: "Steam · PC", platform: "pc", source: "drive", store: "https://store.steampowered.com/app/2863680/ZERO_PARADES_Directors_Cut/",
     purchaseLinks: [
@@ -41,12 +61,12 @@ const mods = [
   },
   {
     id: "super-neptunia-rpg", title: "Super Neptunia RPG", thaiTitle: "ซูเปอร์ เนปทูเนีย อาร์พีจี", code: "SN-019",
-    version: "1.0", gameBuild: "Steam · PC", platform: "pc", source: "drive", store: "https://store.steampowered.com/app/1016960/Super_Neptunia_RPG/",
+    version: "1.1", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/1016960/Super_Neptunia_RPG/",
     purchaseLinks: [
       { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/1016960/Super_Neptunia_RPG/" },
       { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/search/?q=Super%20Neptunia%20RPG" }
     ],
-    statusText: "พร้อมโหลด", date: "2026-10-08", popularity: 100, size: "ดูที่ Google Drive", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    statusText: "พร้อมโหลด", date: "2026-10-11", popularity: 100, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
     category: "action", tags: ["JRPG", "Action RPG", "Side-Scroller", "แปลครบ"], colors: ["#291a45", "#9b51e0"], cover: "assets/cover-super-neptunia-rpg.jpg",
     gallery: [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1016960/ss_2d1afb6475b31d08afdd712eee9f8e0a98f2aa86.600x338.jpg?t=1776732587",
@@ -54,10 +74,10 @@ const mods = [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1016960/ss_05b13a412a26af8a115345fd60842c11e599bcfe.600x338.jpg?t=1776732587"
     ], trailerTitle: "Super Neptunia RPG — Official Launch Trailer",
     description: "ม็อดภาษาไทยสำหรับ Super Neptunia RPG ผลงาน JRPG สไตล์ 2D Side-scrolling จากทีมพัฒนา Artisan Studios ร่วมกับ Compile Heart ผจญภัยไปกับเหล่าเทพธิดาเนปจูนในมิติภาพ 2 มิติสุดน่ารัก แปลไทยจัดเต็มทั้งเนื้อเรื่องหลัก คัตซีน บทสนทนาเควสต์ มุกตลกล้อเลียนวงการเกม สกิลการต่อสู้ ท่าเบรก (Break Attack) อุปกรณ์สวมใส่ ไอเทม เมนู และ UI ทั้งหมด 100% พร้อมฟอนต์ไทยคมชัดสบายตา",
-    changelog: ["เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 บน Google Drive", "แปลเนื้อเรื่องหลัก คัตซีน ภารกิจเสริม และบทสนทนาตัวละครทั้งหมด", "แปลสกิลการต่อสู้ อุปกรณ์สวมใส่ ไอเทม เมนู และ UI ครบ 100%"],
-    install: ["ดาวน์โหลดม็อดภาษาไทยจากลิงก์ Google Drive ของเพจและแตกไฟล์ .zip", "นำไฟล์หรือโฟลเดอร์ภาษาไทยไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)", "เปิดเกม Super Neptunia RPG ผ่าน Steam แล้วสนุกกับภาษาไทยได้ทันที"],
-    sha: "ตรวจสอบรายละเอียดไฟล์บน Google Drive", nexus: "", drive: "https://drive.google.com/file/d/16vsNjGez8dF_5Ltcp5qrJt4yhMgNuC5R/view?usp=sharing",
-    post: "https://drive.google.com/file/d/16vsNjGez8dF_5Ltcp5qrJt4yhMgNuC5R/view?usp=sharing"
+    changelog: ["อัปเดตม็อดภาษาไทยเวอร์ชัน 1.1 เผยแพร่บน Nexus Mods", "แปลเนื้อเรื่องหลัก คัตซีน ภารกิจเสริม และบทสนทนาตัวละครทั้งหมด", "แปลสกิลการต่อสู้ อุปกรณ์สวมใส่ ไอเทม เมนู และ UI ครบ 100%"],
+    install: ["ดาวน์โหลดม็อดจากแท็บ Files บน Nexus Mods และแตกไฟล์ .zip", "นำไฟล์หรือโฟลเดอร์ภาษาไทยไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)", "เปิดเกม Super Neptunia RPG ผ่าน Steam แล้วสนุกกับภาษาไทยได้ทันที"],
+    sha: "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods", nexus: "https://www.nexusmods.com/superneptuniarpg/mods/2?tab=files", drive: "",
+    post: "https://www.nexusmods.com/superneptuniarpg/mods/2?tab=files"
   },
   {
     id: "south-park-the-fractured-but-whole", title: "South Park™: The Fractured But Whole™", thaiTitle: "เซาท์พาร์ก: เดอะ แฟรคเชิร์ด บัต โฮล", code: "SP-018",
@@ -161,12 +181,12 @@ const mods = [
   },
   {
     id: "songs-of-glimmerwick", title: "Songs of Glimmerwick", thaiTitle: "ซองส์ ออฟ กลิมเมอร์วิก", code: "SG-015",
-    version: "1.2", gameBuild: "Steam · PC", platform: "pc", source: "drive", store: "https://store.steampowered.com/app/1706510/Songs_of_Glimmerwick/",
+    version: "1.3", gameBuild: "Steam · PC", platform: "pc", source: "drive", store: "https://store.steampowered.com/app/1706510/Songs_of_Glimmerwick/",
     purchaseLinks: [
       { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/1706510/Songs_of_Glimmerwick/" },
       { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/search/?q=Songs%20of%20Glimmerwick" }
     ],
-    statusText: "พร้อมโหลด", date: "2026-10-08", popularity: 100, size: "ดูที่ Google Drive", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    statusText: "พร้อมโหลด", date: "2026-10-11", popularity: 100, size: "ดูที่ Google Drive", translator: "มีเกมก็แปล By.Stamp Nattakit",
     category: "visual", tags: ["Cozy", "RPG", "Life Sim", "แปลครบ"], colors: ["#111d33", "#4382c4"], cover: "assets/cover-songs-of-glimmerwick.jpg",
     gallery: [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1706510/8f81aa9749570b1101434d289e65923e8d0ad3ed/ss_8f81aa9749570b1101434d289e65923e8d0ad3ed.600x338.jpg?t=1790786083",
@@ -174,9 +194,9 @@ const mods = [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1706510/d1679309c946e407de8e9a7f0caef1cf9710f3d9/ss_d1679309c946e407de8e9a7f0caef1cf9710f3d9.600x338.jpg?t=1790786083"
     ], trailerTitle: "Songs of Glimmerwick — Official Trailer",
     description: "ม็อดภาษาไทยสำหรับ Songs of Glimmerwick เกมแนว Cozy RPG x Witch Life Sim ภาพลายเส้นนิทาน 2D สุดละมุน ดำดิ่งสู่ชีวิตนักเรียนในสถาบันเวทมนตร์กลิมเมอร์วิค ฝึกเป่าขลุ่ยร่ายคาถา ดูแลสวนพฤกษาเวท ผูกมิตรกับเพื่อนร่วมชั้น ทำเควสต์ และไขปริศนาสุดอบอุ่นหัวใจ แปลไทยให้อินกับทุกตัวโน้ต เรื่องราว และระบบการเล่นแบบเพลินตา",
-    changelog: ["อัปเดตม็อดภาษาไทยเวอร์ชัน 1.2 ปรับปรุงบทแปลและเนื้อหาในเกม", "เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 สำหรับ Steam", "แปลเนื้อเรื่องหลัก บทสนทนาเพื่อนร่วมชั้น และเควสต์ชาวเมืองทั้งหมด", "แปลบทเพลงเวทมนตร์ โน้ตเพลง พืชพรรณเวท ไอเทม วัตถุดิบปรุงยา สมุดบันทึก เมนู และ UI ครบ 100%"],
+    changelog: ["อัปเดตม็อดภาษาไทยเวอร์ชัน 1.3 ปรับปรุงบทแปลและเนื้อหาในเกมให้สมบูรณ์ยิ่งขึ้น", "อัปเดตม็อดภาษาไทยเวอร์ชัน 1.2 ปรับปรุงบทแปลและเนื้อหาในเกม", "เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 สำหรับ Steam", "แปลเนื้อเรื่องหลัก บทสนทนาเพื่อนร่วมชั้น และเควสต์ชาวเมืองทั้งหมด", "แปลบทเพลงเวทมนตร์ โน้ตเพลง พืชพรรณเวท ไอเทม วัตถุดิบปรุงยา สมุดบันทึก เมนู และ UI ครบ 100%"],
     install: ["ดาวน์โหลดไฟล์จากลิงก์ Google Drive ของเพจ", "แตกไฟล์ .zip ที่ดาวน์โหลดมา", "นำไฟล์ไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)", "เข้าเกมแล้วไปเริ่มเทอมใหม่ในโรงเรียนเวทมนตร์ได้ทันที"],
-    sha: "ตรวจสอบรายละเอียดไฟล์บน Google Drive", nexus: "", drive: "https://drive.google.com/file/d/1O5vWHWHBVdzOZczC02u2eCq3DL7oAuJK/view?usp=sharing",
+    sha: "ตรวจสอบรายละเอียดไฟล์บน Google Drive", nexus: "", drive: "https://drive.google.com/file/d/14Bu8kZK5LdSUgs9-3Y3hooquzo19BoqH/view?usp=sharing",
     post: "https://www.facebook.com/share/p/1DW9nRa7K1/"
   },
   {
