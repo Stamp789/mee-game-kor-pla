@@ -1,5 +1,25 @@
 const mods = [
   {
+    id: "dragon-star-varnir", title: "Dragon Star Varnir", thaiTitle: "ดรากอน สตาร์ วาร์เนียร์", code: "DS-023",
+    version: "1.0", gameBuild: "Steam · PC", platform: "pc", source: "drive", store: "https://store.steampowered.com/app/1062040/Dragon_Star_Varnir/",
+    purchaseLinks: [
+      { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/1062040/Dragon_Star_Varnir/" },
+      { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/search/?q=Dragon%20Star%20Varnir" }
+    ],
+    statusText: "พร้อมโหลด", date: "2026-10-12", popularity: 100, size: "ดูที่ Google Drive", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    category: "action", tags: ["JRPG", "Turn-Based", "Dark Fantasy", "แปลครบ"], colors: ["#1e142b", "#b02a5b"], cover: "assets/cover-dragon-star-varnir.jpg",
+    gallery: [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1062040/ss_f73eda3c860db805ca7695989a373674e34bc4e7.600x338.jpg?t=1786482012",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1062040/ss_488e37916c2931633eb7bc4a6fe2cf9731c70120.600x338.jpg?t=1786482012",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1062040/ss_1459a1b9347674f68a7131e3631c7c3c34e52911.600x338.jpg?t=1786482012"
+    ], trailerTitle: "Dragon Star Varnir — Official Steam Trailer",
+    description: "ม็อดภาษาไทยสำหรับ Dragon Star Varnir มหากาพย์เกม JRPG แนว Dark Fantasy สุดเข้มข้นจากค่าย Compile Heart และ Idea Factory สวมบท Zephy อัศวินผู้รอดชีวิตจากความตายด้วยการดื่มเลือดมังกรจนกลายเป็นผู้ใช้เวทมนตร์ ร่วมชะตากรรมกับเหล่าแม่มดต้องสาปต่อสู้กับมังกรยักษ์กลางเวหา แปลไทยจัดเต็มทั้งเนื้อเรื่องหลัก คัตซีน บทสนทนาในเวิร์กช็อปแม่มด ระบบต่อสู้ 3 ระดับความสูง ท่ากลืนกินมังกร (Devour) สกิล Dragon Core ผังคอร์มังกร อุปกรณ์สวมใส่ ไอเทม เมนู และ UI ทั้งหมด 100% พร้อมฟอนต์ไทยคมชัดสบายตา",
+    changelog: ["เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 บน Google Drive", "แปลเนื้อเรื่องหลัก คัตซีน บทสนทนาตัวละคร และเหตุการณ์ในแคมป์ทั้งหมด", "แปลระบบต่อสู้ ท่ากลืนกิน สกิล ผังคอร์มังกร เมนู และ UI ครบ 100%"],
+    install: ["ดาวน์โหลดไฟล์ม็อดภาษาไทยจากลิงก์ Google Drive ของเพจและแตกไฟล์ .zip", "นำไฟล์หรือโฟลเดอร์ภาษาไทยไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)", "เปิดเกม Dragon Star Varnir ผ่าน Steam แล้วออกล่ามังกรเป็นภาษาไทยได้ทันที"],
+    sha: "ตรวจสอบรายละเอียดไฟล์บน Google Drive", nexus: "", drive: "https://drive.google.com/file/d/1jsxhVVVpDl64RcoU0Wz1xFFC44PPgHUG/view?usp=sharing",
+    post: "https://drive.google.com/file/d/1jsxhVVVpDl64RcoU0Wz1xFFC44PPgHUG/view?usp=sharing"
+  },
+  {
     id: "tales-of-symphonia", title: "Tales of Symphonia", thaiTitle: "เทลส์ ออฟ ซิมโฟเนีย", code: "TS-022",
     version: "1.0", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/372360/Tales_of_Symphonia/",
     purchaseLinks: [
@@ -241,12 +261,12 @@ const mods = [
   },
   {
     id: "i-am-setsuna", title: "I AM SETSUNA", thaiTitle: "ฉันคือเซ็ตสึนะ", code: "IS-012",
-    version: "1.0", gameBuild: "Steam · App 441830 · Build 1706916", platform: "pc", source: "drive", store: "https://store.steampowered.com/app/441830/I_am_Setsuna/",
+    version: "1.2", gameBuild: "Steam · App 441830 · Build 1706916", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/441830/I_am_Setsuna/",
     purchaseLinks: [
       { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/441830/I_am_Setsuna/" },
       { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/game/i-am-setsuna/info/" }
     ],
-    statusText: "พร้อมโหลด", date: "2026-09-27", popularity: 100, size: "ดูที่ Google Drive", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    statusText: "พร้อมโหลด", date: "2026-10-12", popularity: 100, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
     category: "visual", tags: ["JRPG", "Classic RPG", "เนื้อเรื่อง", "แปลครบ"], colors: ["#1e3a5f", "#48bfe3"], cover: "assets/cover-i-am-setsuna.jpg",
     gallery: [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/441830/ss_deabbc7ce299a3dcfcfe056129a5e733b30f22c5.600x338.jpg?t=1776654821",
@@ -254,10 +274,10 @@ const mods = [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/441830/ss_941d098299c89af8ecb1c29df19cc0db46fdaee0.600x338.jpg?t=1776654821"
     ], trailerTitle: "I AM SETSUNA — Official Trailer",
     description: "ม็อดภาษาไทยสำหรับ I AM SETSUNA ผลงาน JRPG สไตล์คลาสสิกท่ามกลางหิมะขาวและบทเพลงเปียโนอันตราตรึง ดื่มด่ำกับเรื่องราวการเสียสละเพื่อปกป้องโลกของเซ็ตสึนะ แปลครบทั้งเนื้อเรื่องหลัก บทสนทนาตัวละคร คัตซีน รายละเอียดสกิล หินเวท (Spritnite) ระบบโมเมนตัม (Momentum) อุปกรณ์สวมใส่ ไอเทม เมนู การตั้งค่า และ UI ทั้งหมด ฟอนต์ไทยอ่านง่าย วรรณยุกต์ไม่ลอย",
-    changelog: ["เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 สำหรับ Steam", "แปลเนื้อเรื่องหลัก บทสนทนาตัวละคร และคัตซีนทั้งหมด", "แปลสกิล หินเวท (Spritnite) ระบบโมเมนตัม ไอเทม เมนู และ UI ครบถ้วน"],
-    install: ["ดาวน์โหลดไฟล์จากลิงก์ Google Drive ของเพจ", "แตกไฟล์ .zip ที่ดาวน์โหลดมา", "นำไฟล์ไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)", "เข้าเกมแล้วออกเดินทางฝ่าหิมะได้ทันที"],
-    sha: "ตรวจสอบรายละเอียดไฟล์บน Google Drive", nexus: "", drive: "https://drive.google.com/drive/folders/1f8aocSAMl6Q7WckCu4aeusiUHkh7j1mt?usp=sharing",
-    post: "https://www.facebook.com/share/p/14mce9D82KY/"
+    changelog: ["อัปเดตม็อดภาษาไทยเวอร์ชัน 1.2 เผยแพร่บน Nexus Mods", "เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 สำหรับ Steam", "แปลเนื้อเรื่องหลัก บทสนทนาตัวละคร และคัตซีนทั้งหมด", "แปลสกิล หินเวท (Spritnite) ระบบโมเมนตัม ไอเทม เมนู และ UI ครบถ้วน"],
+    install: ["ดาวน์โหลดม็อดจากแท็บ Files บน Nexus Mods และแตกไฟล์ .zip", "นำไฟล์ไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)", "เข้าเกมแล้วออกเดินทางฝ่าหิมะได้ทันที"],
+    sha: "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods", nexus: "https://www.nexusmods.com/iamsetsuna/mods/2?tab=files", drive: "",
+    post: "https://www.nexusmods.com/iamsetsuna/mods/2?tab=files"
   },
   {
     id: "absolum", title: "Absolum", thaiTitle: "แอบโซลัม", code: "AB-001",
