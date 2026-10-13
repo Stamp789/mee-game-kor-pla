@@ -1,5 +1,45 @@
 const mods = [
   {
+    id: "syberia-the-world-before", title: "Syberia: The World Before", thaiTitle: "ไซบีเรีย: เดอะ เวิลด์ บีฟอร์", code: "SY-025",
+    version: "1.0", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/1410640/Syberia_The_World_Before/",
+    purchaseLinks: [
+      { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/1410640/Syberia_The_World_Before/" },
+      { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/search/?q=Syberia%20The%20World%20Before" }
+    ],
+    statusText: "พร้อมโหลด", date: "2026-10-13", popularity: 100, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    category: "visual", tags: ["Adventure", "Puzzle", "เนื้อเรื่อง", "แปลครบ"], colors: ["#1d212b", "#d49b4b"], cover: "assets/cover-syberia-the-world-before.jpg",
+    gallery: [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1410640/ss_e358939173c6e0f856cf720b3f5f28c984a73954.600x338.jpg?t=1745484690",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1410640/ss_969cd4b17cd598dd9b0d4e7cd81b1dec8f615937.600x338.jpg?t=1745484690",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1410640/ss_1b1fcceeaa0f8627b7d3161f8720b9fd4612f9b1.600x338.jpg?t=1745484690"
+    ], trailerTitle: "Syberia: The World Before — Official Launch Trailer",
+    description: "ม็อดภาษาไทยสำหรับ Syberia: The World Before มหากาพย์การเดินทางและปริศนาชิ้นเอกแห่งโลกออโตมาตอนจาก Benoît Sokal สัมผัสเรื่องราว 2 ห้วงเวลาของ Dana Roze ในปี 1937 ที่ต้องเผชิญกับภัยคุกคามสงครามในยุโรป และ Kate Walker ในปี 2004 ที่ตามหาตัวตนและความจริงที่ผูกพันข้ามกาลเวลา แปลไทยจัดเต็มทั้งเนื้อเรื่องหลัก คัตซีน บทสนทนา บันทึกไดอารี ปริศนากลไกออโตมาตอน เอกสารประวัติศาสตร์ เมนู และ UI ทั้งหมด 100% พร้อมฟอนต์ไทยคมชัดสบายตา",
+    changelog: ["เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 บน Nexus Mods", "แปลเนื้อเรื่องหลัก คัตซีน บทสนทนาตัวละคร และบันทึกไดอารีทั้งหมด", "แปลปริศนากลไกออโตมาตอน เอกสารประวัติศาสตร์ เมนู และ UI ครบ 100%"],
+    install: ["ดาวน์โหลดม็อดจากแท็บ Files บน Nexus Mods และแตกไฟล์ .zip", "นำไฟล์ม็อดภาษาไทยไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)", "เปิดเกม Syberia: The World Before ผ่าน Steam แล้วดื่มด่ำกับเรื่องราวเป็นภาษาไทยได้ทันที"],
+    sha: "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods", nexus: "https://www.nexusmods.com/syberiatheworldbefore/mods/4?tab=files", drive: "",
+    post: "https://www.nexusmods.com/syberiatheworldbefore/mods/4?tab=files"
+  },
+  {
+    id: "outward-definitive-edition", title: "Outward Definitive Edition", thaiTitle: "เอาต์เวิร์ด ดีฟินิทิฟ เอดิชัน", code: "OW-024",
+    version: "1.0", gameBuild: "Steam · PC (Definitive Edition)", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/794260/Outward_Definitive_Edition/",
+    purchaseLinks: [
+      { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/794260/Outward_Definitive_Edition/" },
+      { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/search/?q=Outward%20Definitive%20Edition" }
+    ],
+    statusText: "พร้อมโหลด", date: "2026-10-13", popularity: 100, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    category: "action", tags: ["Action RPG", "Survival", "Open World", "แปลครบ"], colors: ["#1f241a", "#b87333"], cover: "assets/cover-outward-definitive-edition.jpg",
+    gallery: [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/794260/ss_251c8ef1c93a999d05572b16886224d8aab95f27.600x338.jpg?t=1787229712",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/794260/ss_abd9187020fa918e56539455dd6d1ac9d3f3e212.600x338.jpg?t=1787229712",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/794260/ss_2e15a19569ad372956f49d321e83ce40666401a6.600x338.jpg?t=1787229712"
+    ], trailerTitle: "Outward: Definitive Edition — Release Trailer",
+    description: "ม็อดภาษาไทยสำหรับ Outward Definitive Edition เกมแนว Open-World Action RPG เอาชีวิตรอดสุดฮาร์ดคอร์ที่คุณเป็นเพียงคนธรรมดา ไม่ใช่ผู้ถูกเลือก สัมผัสความท้าทายในการผจญภัย ทั้งการจัดการความหิว ความกระหาย ความหนาวเหน็บ พิษ และโรคภัย พร้อมเนื้อหาครบทั้งเกมหลักและ DLC ครบชุด (The Soroboreans และ The Three Brothers) แปลไทยจัดเต็มทั้งเนื้อเรื่อง เควสต์หลัก เควสต์ฝ่าย คัตซีน บทสนทนา คาถาเวทมนตร์ สกิล อุปกรณ์สวมใส่ ไอเทม กระเป๋าเดินทาง การคราฟต์ เมนู และ UI ทั้งหมด 100% พร้อมฟอนต์ไทยคมชัดสบายตา",
+    changelog: ["เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 บน Nexus Mods", "แปลเนื้อเรื่องหลัก เควสต์ฝ่าย และเนื้อหา DLC The Soroboreans / The Three Brothers ครบถ้วน", "แปลระบบเอาชีวิตรอด สกิล เวทมนตร์ ไอเทม การคราฟต์ เมนู และ UI ครบ 100%"],
+    install: ["ดาวน์โหลดม็อดจากแท็บ Files บน Nexus Mods และแตกไฟล์ .zip", "นำไฟล์หรือโฟลเดอร์ภาษาไทยไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)", "เปิดเกม Outward Definitive Edition ผ่าน Steam แล้วออกผจญภัยเป็นภาษาไทยได้ทันที"],
+    sha: "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods", nexus: "https://www.nexusmods.com/outward/mods/369?tab=files", drive: "",
+    post: "https://www.nexusmods.com/outward/mods/369?published=1"
+  },
+  {
     id: "dragon-star-varnir", title: "Dragon Star Varnir", thaiTitle: "ดรากอน สตาร์ วาร์เนียร์", code: "DS-023",
     version: "1.0", gameBuild: "Steam · PC", platform: "pc", source: "drive", store: "https://store.steampowered.com/app/1062040/Dragon_Star_Varnir/",
     purchaseLinks: [
