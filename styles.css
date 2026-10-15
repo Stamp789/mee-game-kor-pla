@@ -142,6 +142,7 @@ svg { display:block; fill:none; stroke:currentColor; stroke-width:1.65; stroke-l
 .mod-badge { position:absolute; z-index:2; top:.75rem; right:.75rem; padding:.2rem .45rem; background:var(--paper); color:var(--ink); font:500 .55rem var(--font-jp); letter-spacing:.1em; }
 .mod-badge.updated { background:linear-gradient(135deg,#526cff,var(--purple)); color:#fff; box-shadow:0 3px 0 rgba(15,13,57,.25),0 7px 14px rgba(34,25,98,.2); }
 .mod-badge.drive { background:linear-gradient(135deg,#526cff,var(--purple)); color:#fff; box-shadow:0 3px 0 rgba(15,13,57,.25),0 7px 14px rgba(34,25,98,.2); }
+.mod-badge.mediafire { background:linear-gradient(135deg,#0070f3,#00b4d8); color:#fff; box-shadow:0 3px 0 rgba(0,40,120,.25),0 7px 14px rgba(0,60,180,.2); }
 .mod-badge.nexus { background:var(--yellow); color:#211943; box-shadow:0 3px 0 rgba(99,69,12,.22),0 7px 14px rgba(34,25,98,.15); }
 .mod-badge.stable { background:#d9e0d1; color:#25301f; }
 .favorite-toggle { position:absolute; z-index:3; top:calc(57.1% + .6rem); right:.7rem; width:34px; height:34px; display:grid; place-items:center; border:1px solid var(--line); border-radius:4px; background:var(--white); box-shadow:0 3px 0 rgba(17,21,47,.1); color:var(--muted); cursor:pointer; }
@@ -263,6 +264,8 @@ footer p { grid-column:1/-1; margin:0; padding-top:1rem; border-top:1px solid va
 .download-button { min-height:48px; padding:.65rem .9rem; display:flex; align-items:center; justify-content:space-between; border:1px solid var(--ink); font:500 .7rem var(--font-jp); letter-spacing:.07em; }
 .download-button.primary { background:linear-gradient(135deg,var(--indigo),#35449c); box-shadow:0 4px 0 rgba(17,21,47,.2); color:#fff; }
 .download-button.secondary { border-color:var(--red); color:var(--red); }
+.download-button.mediafire { border-color:#0070f3; color:#0070f3; }
+.download-button.mediafire:hover { background:#0070f3; border-color:#0070f3; color:#fff; }
 .download-button.facebook { border-color:#6b3cc7; color:#5b32b1; }
 .download-button.game-purchase { border-color:#2877c7; background:linear-gradient(135deg,#17437a,#126fae 52%,#354dc0); color:#fff; box-shadow:0 5px 0 rgba(15,43,83,.2),inset 0 1px rgba(255,255,255,.25); }
 .download-button:hover { background:var(--red); border-color:var(--red); color:#fff; }
