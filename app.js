@@ -1,5 +1,25 @@
 const mods = [
   {
+    id: "death-end-request-2", title: "Death end re;Quest 2", thaiTitle: "เดธ เอนด์ รี;เควสต์ 2", code: "DE-026",
+    version: "1.0", gameBuild: "Steam · PC", platform: "pc", source: "mediafire", store: "https://store.steampowered.com/app/1266220/Death_end_reQuest_2/",
+    purchaseLinks: [
+      { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/1266220/Death_end_reQuest_2/" },
+      { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/search/?q=Death%20end%20re%3BQuest%202" }
+    ],
+    statusText: "พร้อมโหลด", date: "2026-10-15", popularity: 100, size: "ดูที่ MediaFire", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    category: "visual", tags: ["JRPG", "Horror", "Visual Novel", "แปลครบ"], colors: ["#1c1626", "#c03958"], cover: "assets/cover-death-end-request-2.jpg",
+    gallery: [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1266220/ss_cc1114bab50fdd9474209cac09461ff998ed07c3.600x338.jpg?t=1786481043",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1266220/ss_6c42b5b5f5d308c0b2fd44076112dc34ae3f93a2.600x338.jpg?t=1786481043",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1266220/ss_2d1dae90d7a10866d0d6bed0d6c6f84dd3503ff9.600x338.jpg?t=1786481043"
+    ], trailerTitle: "Death end re;Quest 2 — Gameplay Trailer",
+    description: "ม็อดภาษาไทยสำหรับ Death end re;Quest 2 ภาคต่อของมหากาพย์เกมแนว Dark Fantasy JRPG ผสมผสาน Visual Novel สยองขวัญจิตวิทยาจาก Idea Factory และ Compile Heart เขียนบทโดย Makoto Kedouin (ผู้สร้าง Corpse Party) สวมบท Mai Toyama เด็กสาวผู้เดินทางมายังโรงเรียนสตรี Wordsworth ในเมืองชนบท Le Choara เพื่อตามหาน้องสาวที่หายสาบสูญ ก่อนจะพบกับปรากฏการณ์ปริศนาและอสูรกาย Shadow Matter ในยามค่ำคืน แปลไทยจัดเต็มทั้งเนื้อเรื่องหลัก คัตซีน บทสนทนาการสืบสวน บันทึกเหตุการณ์ ตอนจบและ Bad End ทั้งหมด ระบบต่อสู้ Knockback กลืนกินบั๊ก สกิล อุปกรณ์สวมใส่ ไอเทม เมนู และ UI ทั้งหมด 100% พร้อมฟอนต์ไทยคมชัดเข้ากับบรรยากาศลึกลับสยองขวัญ",
+    changelog: ["เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 สำหรับ Steam บน MediaFire", "แปลเนื้อเรื่องหลัก คัตซีน บทสนทนาการสืบสวน และบันทึกเหตุการณ์ทั้งหมด", "แปลระบบต่อสู้ สกิล กลืนกินบั๊ก อุปกรณ์สวมใส่ ไอเทม เมนู และ UI ครบ 100%"],
+    install: ["ดาวน์โหลดไฟล์ DeathEndReQuest2_Thai_v1.0.zip จากลิงก์ MediaFire และแตกไฟล์ .zip", "นำไฟล์หรือโฟลเดอร์ภาษาไทยไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)", "เปิดเกม Death end re;Quest 2 ผ่าน Steam แล้วสัมผัสเรื่องราวลึกลับเป็นภาษาไทยได้ทันที"],
+    sha: "ตรวจสอบรายละเอียดไฟล์บน MediaFire", nexus: "", drive: "", mediafire: "https://www.mediafire.com/file/riw5cvkrwwynopg/DeathEndReQuest2_Thai_v1.0.zip/file",
+    post: "https://www.mediafire.com/file/riw5cvkrwwynopg/DeathEndReQuest2_Thai_v1.0.zip/file"
+  },
+  {
     id: "syberia-the-world-before", title: "Syberia: The World Before", thaiTitle: "ไซบีเรีย: เดอะ เวิลด์ บีฟอร์", code: "SY-025",
     version: "1.0", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/1410640/Syberia_The_World_Before/",
     purchaseLinks: [
@@ -573,7 +593,7 @@ function cardTemplate(mod, index) {
           <div><span>MOD VERSION</span><strong>${formatVersion(mod.version)}</strong></div>
           <div><span>GAME BUILD</span><strong>${mod.gameBuild}</strong></div>
         </div>
-        <div class="mod-card-footer"><span>${formatDate(mod.date)}</span><span class="source-ticket">${mod.source === "nexus" ? "NEXUS" : "DRIVE"}</span><b>ดูรายละเอียด →</b></div>
+        <div class="mod-card-footer"><span>${formatDate(mod.date)}</span><span class="source-ticket">${mod.source === "nexus" ? "NEXUS" : mod.source === "drive" ? "DRIVE" : "MEDIAFIRE"}</span><b>ดูรายละเอียด →</b></div>
       </div>
     </article>`;
 }
@@ -657,6 +677,7 @@ function openModal(id) {
           <p class="purchase-note">ตรวจสอบภูมิภาค ราคา และแพลตฟอร์มที่รองรับจากหน้าร้านก่อนสั่งซื้อ</p>
           ${mod.nexus ? `<a class="download-button primary" href="${mod.nexus}" target="_blank" rel="noopener noreferrer"><span>NEXUS MODS</span><span>↗</span></a>` : ""}
           ${mod.drive ? `<a class="download-button secondary" href="${mod.drive}" target="_blank" rel="noopener noreferrer"><span>GOOGLE DRIVE</span><span>↗</span></a>` : ""}
+          ${mod.mediafire ? `<a class="download-button mediafire" href="${mod.mediafire}" target="_blank" rel="noopener noreferrer"><span>MEDIAFIRE</span><span>↗</span></a>` : ""}
           ${mod.post ? `<a class="download-button facebook" href="${mod.post}" target="_blank" rel="noopener noreferrer"><span>โพสต์ต้นทาง</span><span>↗</span></a>` : ""}
         </div>
         <p class="download-note">ข้อมูลและลิงก์ตรวจสอบจากโพสต์สาธารณะของเพจ “มีเกมก็แปล”</p>
