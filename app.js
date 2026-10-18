@@ -1,5 +1,25 @@
 const mods = [
   {
+    id: "dishonored-2", title: "Dishonored 2", thaiTitle: "ดิสออนเนอร์ด 2", code: "DH-028",
+    version: "1.0", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/403640/Dishonored_2/",
+    purchaseLinks: [
+      { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/403640/Dishonored_2/" },
+      { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/search/?q=Dishonored%202" }
+    ],
+    statusText: "พร้อมโหลด", date: "2026-10-18", popularity: 100, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    category: "action", tags: ["Action", "Stealth", "Immersive Sim", "แปลครบ"], colors: ["#151922", "#4a7c8c"], cover: "assets/cover-dishonored-2.jpg",
+    gallery: [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/403640/ss_f2206b92cfde7e2c63a106e35ddc847700a2f7d8.600x338.jpg?t=1750785918",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/403640/ss_29982f240a3bca5bcf7f4a2150b88ea7de240df0.600x338.jpg?t=1750785918",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/403640/ss_4095dc87c8e6f8a3f6a12134e1e0f3bb3e9aa808.600x338.jpg?t=1750785918"
+    ], trailerTitle: "Dishonored 2 — Official Launch Trailer",
+    description: "ม็อดภาษาไทยสำหรับ Dishonored 2 ผลงานเกมแนว First-Person Action Stealth / Immersive Sim ชิ้นเอกระดับตำนานจาก Arkane Studios สวมบทบาทเป็นนักฆ่าเหนือธรรมชาติ เลือกระหว่าง Corvo Attano หรือจักรพรรดินี Emily Kaldwin ออกทวงคืนบัลลังก์แห่ง Dunwall สู่เมืองชายฝั่ง Karnaca แปลไทยจัดเต็มทั้งเนื้อเรื่องหลัก คัตซีน บทสนทนาตัวละคร เอกสารและหนังสือ Lore บันทึกเสียง Audiograph ปริศนา รูน โบนชาร์ม พลังเหนือธรรมชาติ อาวุธ อุปกรณ์ อัปเกรด เมนู และ UI ทั้งหมด 100% พร้อมฟอนต์ไทยคมชัดสบายตา",
+    changelog: ["เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 บน Nexus Mods", "แปลเนื้อเรื่องหลัก คัตซีน และบทสนทนาตัวละครทั้งฝั่ง Corvo และ Emily ทั้งหมด", "แปลเอกสาร หนังสือ Lore เสียง Audiograph รูน สกิลพลังเหนือธรรมชาติ เมนู และ UI ครบ 100%"],
+    install: ["ดาวน์โหลดม็อดจากแท็บ Files บน Nexus Mods และแตกไฟล์ .zip", "นำไฟล์หรือโฟลเดอร์ภาษาไทยไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)", "เปิดเกม Dishonored 2 ผ่าน Steam แล้วสัมผัสเรื่องราวการลอบสังหารเป็นภาษาไทยได้ทันที"],
+    sha: "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods", nexus: "https://www.nexusmods.com/dishonored2/mods/229?tab=files", drive: "",
+    post: "https://www.nexusmods.com/dishonored2/mods/229"
+  },
+  {
     id: "fairy-fencer-f-advent-dark-force", title: "Fairy Fencer F: Advent Dark Force", thaiTitle: "แฟรี่ เฟนเซอร์ เอฟ: แอดเวนต์ ดาร์ก ฟอร์ซ", code: "FF-027",
     version: "1.0", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/524580/Fairy_Fencer_F_Advent_Dark_Force/",
     purchaseLinks: [
@@ -321,12 +341,12 @@ const mods = [
   },
   {
     id: "dressmaker", title: "Dressmaker", thaiTitle: "เดรสเมกเกอร์", code: "DM-011",
-    version: "1.8 (PC) / 2.2 (macOS)", gameBuild: "Steam · PC & macOS", platform: ["pc", "mac"], source: "nexus", store: "https://store.steampowered.com/app/4019220/Dressmaker/",
+    version: "2.0 (PC) / 2.4 (macOS)", gameBuild: "Steam · PC & macOS", platform: ["pc", "mac"], source: "nexus", store: "https://store.steampowered.com/app/4019220/Dressmaker/",
     purchaseLinks: [
       { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/4019220/Dressmaker/" },
       { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/search/?q=Dressmaker" }
     ],
-    statusText: "พร้อมโหลด", date: "2026-10-14", popularity: 100, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    statusText: "พร้อมโหลด", date: "2026-10-18", popularity: 100, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
     category: "visual", tags: ["Cozy", "Simulation", "งานฝีมือ", "แปลครบ"], colors: ["#541432", "#e84393"], cover: "assets/cover-dressmaker.jpg",
     gallery: [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4019220/6b964f0ee4ad9041718877ec563b0079c3353ce1/ss_6b964f0ee4ad9041718877ec563b0079c3353ce1.600x338.jpg?t=1790484978",
@@ -334,7 +354,7 @@ const mods = [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4019220/fa62a65abc68c79812fd1daa771deb4ef2bc0312/ss_fa62a65abc68c79812fd1daa771deb4ef2bc0312.600x338.jpg?t=1790484978"
     ], trailerTitle: "Dressmaker — Official Trailer",
     description: "ม็อดภาษาไทยสำหรับ Dressmaker เกมแนว Cozy Simulation จำลองชีวิตช่างตัดเสื้อสุดผ่อนคลาย สวมบทดีไซเนอร์เปิดร้าน ออกแบบชุดในสมุดสเก็ตช์ เลือกเนื้อผ้า วางแพทเทิร์น เข้าจักรเย็บผ้า ติดโบว์ประดับลูกไม้ ตัดชุดส่งให้ชาวเมืองตามออร์เดอร์ แปลไทยให้อ่านเพลิน เข้าใจทุกขั้นตอนและชนิดผ้า รองรับทั้ง Windows (PC) และ macOS (คำแปลภาษาไทยขับเคลื่อน/แปลโดย Gemini 3.8 Flash)",
-    changelog: ["อัปเดตม็อดภาษาไทยเวอร์ชัน 1.8 สำหรับ PC และเวอร์ชัน 2.2 สำหรับ macOS บน Nexus Mods พร้อมสคริปต์ติดตั้งสำหรับ Mac", "อัปเดตม็อดภาษาไทยเวอร์ชัน 1.7 ปรับปรุงบทแปลและความเข้ากันได้กับตัวเกม", "เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 (แปลร่วมกับ Gemini 3.8 Flash)", "แปลเนื้อเรื่อง บทสนทนา และความต้องการสั่งตัดชุดของชาวเมือง", "แปลชื่อชนิดเนื้อผ้า เครื่องมือ แพทเทิร์น ของตกแต่ง เมนู และ Tutorial ครบ 100%"],
+    changelog: ["อัปเดตม็อดภาษาไทยเวอร์ชัน 2.0 สำหรับ PC และเวอร์ชัน 2.4 สำหรับ macOS บน Nexus Mods", "อัปเดตม็อดภาษาไทยเวอร์ชัน 1.8 สำหรับ PC และเวอร์ชัน 2.2 สำหรับ macOS บน Nexus Mods พร้อมสคริปต์ติดตั้งสำหรับ Mac", "อัปเดตม็อดภาษาไทยเวอร์ชัน 1.7 ปรับปรุงบทแปลและความเข้ากันได้กับตัวเกม", "เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 (แปลร่วมกับ Gemini 3.8 Flash)", "แปลเนื้อเรื่อง บทสนทนา และความต้องการสั่งตัดชุดของชาวเมือง", "แปลชื่อชนิดเนื้อผ้า เครื่องมือ แพทเทิร์น ของตกแต่ง เมนู และ Tutorial ครบ 100%"],
     install: [
       "ดาวน์โหลดม็อดตามระบบปฏิบัติการที่ใช้งานจากแท็บ Files บน Nexus Mods (PC หรือ macOS) และแตกไฟล์ .zip",
       "สำหรับ PC (Windows): นำไฟล์ไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)",
