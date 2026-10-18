@@ -1,5 +1,25 @@
 const mods = [
   {
+    id: "tales-of-eternia-remastered", title: "Tales of Eternia Remastered", thaiTitle: "เทลส์ ออฟ เอเทอร์เนีย รีมาสเตอร์", code: "TE-029",
+    version: "1.0", gameBuild: "Steam · PC", platform: "pc", source: "mediafire", store: "https://store.steampowered.com/app/3470960/Tales_of_Eternia_Remastered/",
+    purchaseLinks: [
+      { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/3470960/Tales_of_Eternia_Remastered/" },
+      { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/search/?q=Tales%20of%20Eternia%20Remastered" }
+    ],
+    statusText: "พร้อมโหลด", date: "2026-10-18", popularity: 100, size: "ดูที่ MediaFire", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    category: "action", tags: ["JRPG", "Action RPG", "Classic", "แปลครบ"], colors: ["#1c2838", "#d97438"], cover: "assets/cover-tales-of-eternia-remastered.jpg",
+    gallery: [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3470960/ae722eca69c29d1ab05de4975be14cfd7f9caaa8/ss_ae722eca69c29d1ab05de4975be14cfd7f9caaa8.1920x1080.jpg?t=1792128138",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3470960/fbc4b96d19a11ea5008bd09b549d65bd56d960df/ss_fbc4b96d19a11ea5008bd09b549d65bd56d960df.1920x1080.jpg?t=1792128138",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3470960/5aa7bd91105fc473100d1cc3e290c36019b40f4d/ss_5aa7bd91105fc473100d1cc3e290c36019b40f4d.1920x1080.jpg?t=1792128138"
+    ], trailerTitle: "Tales of Eternia Remastered — Launch Trailer",
+    description: "ม็อดภาษาไทยสำหรับ Tales of Eternia Remastered ฉบับรีมาสเตอร์ของหนึ่งในเกมระดับตำนานยุคคลาสสิกของซีรีส์ Tales จากค่าย Bandai Namco Entertainment ร่วมเดินทางไปกับ รีด เฮอร์เชล (Reid Hershel), ฟาราห์ เออร์สเตด (Farah Oersted), คีล ไซเบิล (Keele Zeibel) และ เมอร์ริดี (Meredy) เพื่อหยุดยั้งมหันตภัยการล่มสลายระหว่างสองพิภพ อินเฟอเรีย (Inferia) และ เซเลสเทีย (Celestia) ในปรากฏการณ์ The Great Fall สัมผัสความสนุกของระบบต่อสู้ 2D Linear Motion Battle System (LMBS) อันเร้าใจ แปลไทยจัดเต็มทั้งเนื้อเรื่องหลัก คัตซีน บทสนทนาเควสต์ย่อย ระบบต่อสู้ สกิล ไม้ตาย ท่าผสาน อาวุธ อุปกรณ์สวมใส่ ไอเทม คัมภีร์เวท เครยเมล (Craymel) เมนู และ UI ทั้งหมด 100% พร้อมฟอนต์ไทยคมชัดเข้ากับบรรยากาศการผจญภัยแฟนตาซี",
+    changelog: ["เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 สำหรับ Tales of Eternia Remastered บน Steam ผ่าน MediaFire", "แปลเนื้อเรื่องหลัก คัตซีน บทสนทนาตัวละคร และเควสต์ย่อยทั้งหมด", "แปลระบบต่อสู้ LMBS สกิล อาวุธ อุปกรณ์ เครยเมล ไอเทม เมนู และ UI ครบ 100%"],
+    install: ["ดาวน์โหลดไฟล์ ToE_Remastered_Thai_v1.0.1.zip จากลิงก์ MediaFire และแตกไฟล์ .zip", "นำไฟล์หรือโฟลเดอร์ภาษาไทยไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)", "เปิดเกม Tales of Eternia Remastered ผ่าน Steam แล้วออกผจญภัยสองพิภพเป็นภาษาไทยได้ทันที"],
+    sha: "ตรวจสอบรายละเอียดไฟล์บน MediaFire", nexus: "", drive: "", mediafire: "https://www.mediafire.com/file/bbv0b5tytvqav2v/ToE_Remastered_Thai_v1.0.1.zip/file",
+    post: "https://www.mediafire.com/file/bbv0b5tytvqav2v/ToE_Remastered_Thai_v1.0.1.zip/file"
+  },
+  {
     id: "dishonored-2", title: "Dishonored 2", thaiTitle: "ดิสออนเนอร์ด 2", code: "DH-028",
     version: "1.0", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/403640/Dishonored_2/",
     purchaseLinks: [
