@@ -1,5 +1,25 @@
 const mods = [
   {
+    id: "tavern-keeper", title: "Tavern Keeper", thaiTitle: "ทาเวิร์น คีปเปอร์", code: "TK-030",
+    version: "1.0", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/436780/Tavern_Keeper/",
+    purchaseLinks: [
+      { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/436780/Tavern_Keeper/" },
+      { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/search/?q=Tavern%20Keeper" }
+    ],
+    statusText: "พร้อมโหลด", date: "2026-10-19", popularity: 100, size: "ดูที่ Nexus Mods / MediaFire", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    category: "visual", tags: ["Simulation", "Management", "Tycoon", "แปลครบ"], colors: ["#2d1b0f", "#e69526"], cover: "assets/cover-tavern-keeper.jpg",
+    gallery: [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/436780/ss_a228b8c8f8f0bc0d32cccf467ed67b40000f3c18.600x338.jpg?t=1791434713",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/436780/ea9bbeb2a4f331a54a50f05665f33e1f0ca4f473/ss_ea9bbeb2a4f331a54a50f05665f33e1f0ca4f473.600x338.jpg?t=1791434713",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/436780/65392036651cafd1ad47d095d425a7461f9bc2e6.600x338.jpg?t=1791434713"
+    ], trailerTitle: "Tavern Keeper — Official Announcement Trailer",
+    description: "ม็อดภาษาไทยสำหรับ Tavern Keeper เกมจำลองบริหารจัดการโรงเตี๊ยมแฟนตาซีสุดอบอุ่นและป่วนมันส์ จาก Greenheart Games ผู้สร้างผลงานระดับตำนานอย่าง Game Dev Tycoon สวมบทผู้ดูแลโรงเตี๊ยม ออกแบบสร้างสรรค์และตกแต่งร้านได้อย่างอิสระแบบ Sandbox บริหารจัดการสต็อกอาหาร เครื่องดื่ม จ้างพนักงานพ่อครัว บาร์เทนเดอร์ และรับมือกับลูกค้านานาเผ่าพันธุ์ตั้งแต่ ออร์ค เอลฟ์ คนแคระ ไปจนถึงนักผจญภัยสุดเพี้ยน พร้อมเรื่องราวแบบ Storybook RPG แปลไทยจัดเต็มทั้งเนื้อเรื่อง แคมเปญ บทสนทนา เควสต์และเหตุการณ์สุ่ม เมนูการจัดการร้าน เครื่องมือสร้างและตกแต่ง สูตรอาหาร รายการเครื่องดื่ม การฝึกอบรมพนักงาน และ UI ทั้งหมด 100% พร้อมฟอนต์ไทยคมชัดเข้ากับบรรยากาศโรงเตี๊ยมแฟนตาซี",
+    changelog: ["เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 บน Nexus Mods และ MediaFire", "แปลเนื้อเรื่อง แคมเปญจำลองโรงเตี๊ยม เหตุการณ์สุ่ม และบทสนทนาตัวละครทั้งหมด", "แปลระบบบริหารจัดการร้าน โหมดตกแต่ง เมนูอาหารและเครื่องดื่ม การจัดการพนักงาน และ UI ครบ 100%"],
+    install: ["ดาวน์โหลดม็อด TavernKeeper_Thai_v1.0.zip จากแท็บ Files บน Nexus Mods หรือจากลิงก์ MediaFire และแตกไฟล์ .zip", "นำไฟล์หรือโฟลเดอร์ภาษาไทยไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)", "เปิดเกม Tavern Keeper ผ่าน Steam แล้วเริ่มเปิดโรงเตี๊ยมแฟนตาซีเป็นภาษาไทยได้ทันที"],
+    sha: "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods / MediaFire", nexus: "https://www.nexusmods.com/tavernkeeper/mods/8?tab=files", drive: "", mediafire: "https://www.mediafire.com/file/ghyipua017qd2t0/TavernKeeper_Thai_v1.0.zip/file",
+    post: "https://www.nexusmods.com/tavernkeeper/mods/8"
+  },
+  {
     id: "tales-of-eternia-remastered", title: "Tales of Eternia Remastered", thaiTitle: "เทลส์ ออฟ เอเทอร์เนีย รีมาสเตอร์", code: "TE-029",
     version: "1.0", gameBuild: "Steam · PC", platform: "pc", source: "mediafire", store: "https://store.steampowered.com/app/3470960/Tales_of_Eternia_Remastered/",
     purchaseLinks: [
@@ -623,7 +643,7 @@ function filteredMods() {
   const result = mods.filter((mod) => {
     const haystack = [mod.title, mod.thaiTitle, mod.translator, ...mod.tags].join(" ").toLocaleLowerCase("th");
     return (!query || haystack.includes(query)) &&
-      (state.source === "all" || mod.source === state.source) &&
+      (state.source === "all" || mod.source === state.source || (state.source === "nexus" && Boolean(mod.nexus)) || (state.source === "mediafire" && Boolean(mod.mediafire)) || (state.source === "drive" && Boolean(mod.drive))) &&
       (state.category === "all" || mod.category === state.category) &&
       (state.platform === "all" || mod.platform === state.platform || (Array.isArray(mod.platform) && mod.platform.includes(state.platform))) &&
       (!state.favoritesOnly || favorites.has(mod.id));
