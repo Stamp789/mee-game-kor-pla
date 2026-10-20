@@ -21,12 +21,12 @@ const mods = [
   },
   {
     id: "tavern-keeper", title: "Tavern Keeper", thaiTitle: "ทาเวิร์น คีปเปอร์", code: "TK-030",
-    version: "1.0", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/436780/Tavern_Keeper/",
+    version: "1.1", gameBuild: "Steam · PC", platform: "pc", source: "mediafire", store: "https://store.steampowered.com/app/436780/Tavern_Keeper/",
     purchaseLinks: [
       { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/436780/Tavern_Keeper/" },
       { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/search/?q=Tavern%20Keeper" }
     ],
-    statusText: "พร้อมโหลด", date: "2026-10-19", popularity: 100, size: "ดูที่ Nexus Mods / MediaFire", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    statusText: "พร้อมโหลด", date: "2026-10-20", popularity: 100, size: "ดูที่ MediaFire", translator: "มีเกมก็แปล By.Stamp Nattakit",
     category: "visual", tags: ["Simulation", "Management", "Tycoon", "แปลครบ"], colors: ["#2d1b0f", "#e69526"], cover: "assets/cover-tavern-keeper.jpg",
     gallery: [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/436780/ss_a228b8c8f8f0bc0d32cccf467ed67b40000f3c18.600x338.jpg?t=1791434713",
@@ -34,19 +34,19 @@ const mods = [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/436780/65392036651cafd1ad47d095d425a7461f9bc2e6.600x338.jpg?t=1791434713"
     ], trailerTitle: "Tavern Keeper — Official Announcement Trailer",
     description: "ม็อดภาษาไทยสำหรับ Tavern Keeper เกมจำลองบริหารจัดการโรงเตี๊ยมแฟนตาซีสุดอบอุ่นและป่วนมันส์ จาก Greenheart Games ผู้สร้างผลงานระดับตำนานอย่าง Game Dev Tycoon สวมบทผู้ดูแลโรงเตี๊ยม ออกแบบสร้างสรรค์และตกแต่งร้านได้อย่างอิสระแบบ Sandbox บริหารจัดการสต็อกอาหาร เครื่องดื่ม จ้างพนักงานพ่อครัว บาร์เทนเดอร์ และรับมือกับลูกค้านานาเผ่าพันธุ์ตั้งแต่ ออร์ค เอลฟ์ คนแคระ ไปจนถึงนักผจญภัยสุดเพี้ยน พร้อมเรื่องราวแบบ Storybook RPG แปลไทยจัดเต็มทั้งเนื้อเรื่อง แคมเปญ บทสนทนา เควสต์และเหตุการณ์สุ่ม เมนูการจัดการร้าน เครื่องมือสร้างและตกแต่ง สูตรอาหาร รายการเครื่องดื่ม การฝึกอบรมพนักงาน และ UI ทั้งหมด 100% พร้อมฟอนต์ไทยคมชัดเข้ากับบรรยากาศโรงเตี๊ยมแฟนตาซี",
-    changelog: ["เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 บน Nexus Mods และ MediaFire", "แปลเนื้อเรื่อง แคมเปญจำลองโรงเตี๊ยม เหตุการณ์สุ่ม และบทสนทนาตัวละครทั้งหมด", "แปลระบบบริหารจัดการร้าน โหมดตกแต่ง เมนูอาหารและเครื่องดื่ม การจัดการพนักงาน และ UI ครบ 100%"],
-    install: ["ดาวน์โหลดม็อด TavernKeeper_Thai_v1.0.zip จากแท็บ Files บน Nexus Mods หรือจากลิงก์ MediaFire และแตกไฟล์ .zip", "นำไฟล์หรือโฟลเดอร์ภาษาไทยไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)", "เปิดเกม Tavern Keeper ผ่าน Steam แล้วเริ่มเปิดโรงเตี๊ยมแฟนตาซีเป็นภาษาไทยได้ทันที"],
-    sha: "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods / MediaFire", nexus: "https://www.nexusmods.com/tavernkeeper/mods/8?tab=files", drive: "", mediafire: "https://www.mediafire.com/file/ghyipua017qd2t0/TavernKeeper_Thai_v1.0.zip/file",
-    post: "https://www.nexusmods.com/tavernkeeper/mods/8"
+    changelog: ["อัปเดตม็อดภาษาไทยเวอร์ชัน 1.1 สำหรับ Steam บน MediaFire", "เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 บน MediaFire", "แปลเนื้อเรื่อง แคมเปญจำลองโรงเตี๊ยม เหตุการณ์สุ่ม และบทสนทนาตัวละครทั้งหมด", "แปลระบบบริหารจัดการร้าน โหมดตกแต่ง เมนูอาหารและเครื่องดื่ม การจัดการพนักงาน และ UI ครบ 100%"],
+    install: ["ดาวน์โหลดม็อด TavernKeeper_Thai_v1.1.zip จากลิงก์ MediaFire และแตกไฟล์ .zip", "นำไฟล์หรือโฟลเดอร์ภาษาไทยไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)", "เปิดเกม Tavern Keeper ผ่าน Steam แล้วเริ่มเปิดโรงเตี๊ยมแฟนตาซีเป็นภาษาไทยได้ทันที"],
+    sha: "ตรวจสอบรายละเอียดไฟล์บน MediaFire", nexus: "", drive: "", mediafire: "https://www.mediafire.com/file/77o8oejokco62z3/TavernKeeper_Thai_v1.1.zip/file",
+    post: "https://www.mediafire.com/file/77o8oejokco62z3/TavernKeeper_Thai_v1.1.zip/file"
   },
   {
     id: "tales-of-eternia-remastered", title: "Tales of Eternia Remastered", thaiTitle: "เทลส์ ออฟ เอเทอร์เนีย รีมาสเตอร์", code: "TE-029",
-    version: "1.0", gameBuild: "Steam · PC", platform: "pc", source: "mediafire", store: "https://store.steampowered.com/app/3470960/Tales_of_Eternia_Remastered/",
+    version: "1.1", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/3470960/Tales_of_Eternia_Remastered/",
     purchaseLinks: [
       { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/3470960/Tales_of_Eternia_Remastered/" },
       { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/search/?q=Tales%20of%20Eternia%20Remastered" }
     ],
-    statusText: "พร้อมโหลด", date: "2026-10-19", popularity: 100, size: "ดูที่ Nexus Mods / MediaFire", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    statusText: "พร้อมโหลด", date: "2026-10-20", popularity: 100, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
     category: "action", tags: ["JRPG", "Action RPG", "Classic", "แปลครบ"], colors: ["#1c2838", "#d97438"], cover: "assets/cover-tales-of-eternia-remastered.jpg",
     gallery: [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3470960/ae722eca69c29d1ab05de4975be14cfd7f9caaa8/ss_ae722eca69c29d1ab05de4975be14cfd7f9caaa8.1920x1080.jpg?t=1792128138",
@@ -54,9 +54,9 @@ const mods = [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3470960/5aa7bd91105fc473100d1cc3e290c36019b40f4d/ss_5aa7bd91105fc473100d1cc3e290c36019b40f4d.1920x1080.jpg?t=1792128138"
     ], trailerTitle: "Tales of Eternia Remastered — Launch Trailer",
     description: "ม็อดภาษาไทยสำหรับ Tales of Eternia Remastered ฉบับรีมาสเตอร์ของหนึ่งในเกมระดับตำนานยุคคลาสสิกของซีรีส์ Tales จากค่าย Bandai Namco Entertainment ร่วมเดินทางไปกับ รีด เฮอร์เชล (Reid Hershel), ฟาราห์ เออร์สเตด (Farah Oersted), คีล ไซเบิล (Keele Zeibel) และ เมอร์ริดี (Meredy) เพื่อหยุดยั้งมหันตภัยการล่มสลายระหว่างสองพิภพ อินเฟอเรีย (Inferia) และ เซเลสเทีย (Celestia) ในปรากฏการณ์ The Great Fall สัมผัสความสนุกของระบบต่อสู้ 2D Linear Motion Battle System (LMBS) อันเร้าใจ แปลไทยจัดเต็มทั้งเนื้อเรื่องหลัก คัตซีน บทสนทนาเควสต์ย่อย ระบบต่อสู้ สกิล ไม้ตาย ท่าผสาน อาวุธ อุปกรณ์สวมใส่ ไอเทม คัมภีร์เวท เครยเมล (Craymel) เมนู และ UI ทั้งหมด 100% พร้อมฟอนต์ไทยคมชัดเข้ากับบรรยากาศการผจญภัยแฟนตาซี",
-    changelog: ["เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 บน Nexus Mods และ MediaFire", "แปลเนื้อเรื่องหลัก คัตซีน บทสนทนาตัวละคร และเควสต์ย่อยทั้งหมด", "แปลระบบต่อสู้ LMBS สกิล อาวุธ อุปกรณ์ เครยเมล ไอเทม เมนู และ UI ครบ 100%"],
-    install: ["ดาวน์โหลดม็อดจากแท็บ Files บน Nexus Mods หรือจากลิงก์ MediaFire และแตกไฟล์ .zip", "นำไฟล์หรือโฟลเดอร์ภาษาไทยไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)", "เปิดเกม Tales of Eternia Remastered ผ่าน Steam แล้วออกผจญภัยสองพิภพเป็นภาษาไทยได้ทันที"],
-    sha: "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods / MediaFire", nexus: "https://www.nexusmods.com/talesofeterniaremastered/mods/5?tab=files", drive: "", mediafire: "https://www.mediafire.com/file/bbv0b5tytvqav2v/ToE_Remastered_Thai_v1.0.1.zip/file",
+    changelog: ["อัปเดตม็อดภาษาไทยเวอร์ชัน 1.1 บน Nexus Mods", "เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 บน Nexus Mods", "แปลเนื้อเรื่องหลัก คัตซีน บทสนทนาตัวละคร และเควสต์ย่อยทั้งหมด", "แปลระบบต่อสู้ LMBS สกิล อาวุธ อุปกรณ์ เครยเมล ไอเทม เมนู และ UI ครบ 100%"],
+    install: ["ดาวน์โหลดม็อดจากแท็บ Files บน Nexus Mods และแตกไฟล์ .zip", "นำไฟล์หรือโฟลเดอร์ภาษาไทยไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)", "เปิดเกม Tales of Eternia Remastered ผ่าน Steam แล้วออกผจญภัยสองพิภพเป็นภาษาไทยได้ทันที"],
+    sha: "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods", nexus: "https://www.nexusmods.com/talesofeterniaremastered/mods/5?tab=files", drive: "", mediafire: "",
     post: "https://www.nexusmods.com/talesofeterniaremastered/mods/5"
   },
   {
@@ -301,12 +301,12 @@ const mods = [
   },
   {
     id: "rotwood", title: "Rotwood", thaiTitle: "รอทวู้ด", code: "RW-016",
-    version: "1.0", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/2015270/Rotwood/",
+    version: "1.1", gameBuild: "Steam · PC", platform: "pc", source: "mediafire", store: "https://store.steampowered.com/app/2015270/Rotwood/",
     purchaseLinks: [
       { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/2015270/Rotwood/" },
       { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/search/?q=Rotwood" }
     ],
-    statusText: "พร้อมโหลด", date: "2026-10-04", popularity: 100, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    statusText: "พร้อมโหลด", date: "2026-10-20", popularity: 100, size: "ดูที่ MediaFire", translator: "มีเกมก็แปล By.Stamp Nattakit",
     category: "action", tags: ["Rogue-lite", "Hack and Slash", "Co-op", "แปลครบ"], colors: ["#1c2818", "#d97824"], cover: "assets/cover-rotwood.jpg",
     gallery: [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2015270/ss_4c25d241388383263d04cd1effd2d4bac4590930.600x338.jpg?t=1790967441",
@@ -314,10 +314,10 @@ const mods = [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2015270/ss_ffa9d9d88aeb9b205ad49e20358b425e7969f399.600x338.jpg?t=1790967441"
     ], trailerTitle: "Rotwood — Official Early Access Trailer",
     description: "ม็อดภาษาไทยสำหรับ Rotwood ผลงานเกมแนว Rogue-lite Dungeon Crawler สไตล์ตะลุมบอน (Hack and Slash) ภาพวาด 2D สุดเท่จากค่าย Klei (ผู้สร้าง Don't Starve) จับคู่อาวุธคู่ใจ อัปเกรดคอมโบ ลุยดงมอนสเตอร์กลายพันธุ์ไปพร้อมกับเพื่อน แปลไทยจัดเต็มทั้งคำอธิบายอาวุธ ชุดเกราะ สกิล บัฟ พร สายอัปเกรดความสามารถ บทสนทนาเควสต์ NPC ในค่ายพัก เมนู และ UI ทั้งหมด 100% พร้อมฟอนต์ไทยคมชัดสบายตา",
-    changelog: ["อัปเดตเผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 บน Nexus Mods", "แปลคำอธิบายอาวุธ ชุดเกราะ อุปกรณ์สวมใส่ทุกชิ้น และสกิล/บัฟ/พรทั้งหมด", "แปลบทสนทนาเควสต์ NPC ในค่ายพัก เมนู การตั้งค่า และ UI ครบ 100%"],
-    install: ["ดาวน์โหลดม็อดจากแท็บ Files บน Nexus Mods", "เปิดโฟลเดอร์ตัวเกมบน Steam (คลิกขวาที่ชื่อเกม Rotwood > จัดการ > เปิดดูไฟล์ในเครื่อง)", "นำไฟล์ data.zip และโฟลเดอร์ mods ไปวางทับในโฟลเดอร์ตัวเกมหลัก", "เปิดเกม Rotwood ไปที่เมนู Options > Mods ตรวจสอบให้ม็อดภาษาไทยขึ้น Enabled แล้วเริ่มลุยป่าเน่าได้ทันที"],
-    sha: "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods", nexus: "https://www.nexusmods.com/rotwood/mods/5?tab=files", drive: "",
-    post: "https://www.nexusmods.com/rotwood/mods/5?tab=files"
+    changelog: ["อัปเดตม็อดภาษาไทยเวอร์ชัน 1.1 สำหรับ Steam บน MediaFire", "อัปเดตเผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0", "แปลคำอธิบายอาวุธ ชุดเกราะ อุปกรณ์สวมใส่ทุกชิ้น และสกิล/บัฟ/พรทั้งหมด", "แปลบทสนทนาเควสต์ NPC ในค่ายพัก เมนู การตั้งค่า และ UI ครบ 100%"],
+    install: ["ดาวน์โหลดม็อด Rotwood_Thai_THub_v1.1.zip จากลิงก์ MediaFire และแตกไฟล์ .zip", "เปิดโฟลเดอร์ตัวเกมบน Steam (คลิกขวาที่ชื่อเกม Rotwood > จัดการ > เปิดดูไฟล์ในเครื่อง)", "นำไฟล์ data.zip และโฟลเดอร์ mods ไปวางทับในโฟลเดอร์ตัวเกมหลัก", "เปิดเกม Rotwood ไปที่เมนู Options > Mods ตรวจสอบให้ม็อดภาษาไทยขึ้น Enabled แล้วเริ่มลุยป่าเน่าได้ทันที"],
+    sha: "ตรวจสอบรายละเอียดไฟล์บน MediaFire", nexus: "", drive: "", mediafire: "https://www.mediafire.com/file/t51wds6nxjev456/Rotwood_Thai_THub_v1.1.zip/file",
+    post: "https://www.mediafire.com/file/t51wds6nxjev456/Rotwood_Thai_THub_v1.1.zip/file"
   },
   {
     id: "sengoku-rance", title: "Sengoku Rance", thaiTitle: "เซ็นโกคุ รันซ์", code: "SR-017",
@@ -401,12 +401,12 @@ const mods = [
   },
   {
     id: "dressmaker", title: "Dressmaker", thaiTitle: "เดรสเมกเกอร์", code: "DM-011",
-    version: "2.0 (PC) / 2.4 (macOS)", gameBuild: "Steam · PC & macOS", platform: ["pc", "mac"], source: "nexus", store: "https://store.steampowered.com/app/4019220/Dressmaker/",
+    version: "2.1 (PC) / 2.5 (macOS)", gameBuild: "Steam · PC & macOS", platform: ["pc", "mac"], source: "nexus", store: "https://store.steampowered.com/app/4019220/Dressmaker/",
     purchaseLinks: [
       { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/4019220/Dressmaker/" },
       { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/search/?q=Dressmaker" }
     ],
-    statusText: "พร้อมโหลด", date: "2026-10-18", popularity: 100, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    statusText: "พร้อมโหลด", date: "2026-10-20", popularity: 100, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
     category: "visual", tags: ["Cozy", "Simulation", "งานฝีมือ", "แปลครบ"], colors: ["#541432", "#e84393"], cover: "assets/cover-dressmaker.jpg",
     gallery: [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4019220/6b964f0ee4ad9041718877ec563b0079c3353ce1/ss_6b964f0ee4ad9041718877ec563b0079c3353ce1.600x338.jpg?t=1790484978",
@@ -414,14 +414,14 @@ const mods = [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4019220/fa62a65abc68c79812fd1daa771deb4ef2bc0312/ss_fa62a65abc68c79812fd1daa771deb4ef2bc0312.600x338.jpg?t=1790484978"
     ], trailerTitle: "Dressmaker — Official Trailer",
     description: "ม็อดภาษาไทยสำหรับ Dressmaker เกมแนว Cozy Simulation จำลองชีวิตช่างตัดเสื้อสุดผ่อนคลาย สวมบทดีไซเนอร์เปิดร้าน ออกแบบชุดในสมุดสเก็ตช์ เลือกเนื้อผ้า วางแพทเทิร์น เข้าจักรเย็บผ้า ติดโบว์ประดับลูกไม้ ตัดชุดส่งให้ชาวเมืองตามออร์เดอร์ แปลไทยให้อ่านเพลิน เข้าใจทุกขั้นตอนและชนิดผ้า รองรับทั้ง Windows (PC) และ macOS (คำแปลภาษาไทยขับเคลื่อน/แปลโดย Gemini 3.8 Flash)",
-    changelog: ["อัปเดตม็อดภาษาไทยเวอร์ชัน 2.0 สำหรับ PC และเวอร์ชัน 2.4 สำหรับ macOS บน Nexus Mods", "อัปเดตม็อดภาษาไทยเวอร์ชัน 1.8 สำหรับ PC และเวอร์ชัน 2.2 สำหรับ macOS บน Nexus Mods พร้อมสคริปต์ติดตั้งสำหรับ Mac", "อัปเดตม็อดภาษาไทยเวอร์ชัน 1.7 ปรับปรุงบทแปลและความเข้ากันได้กับตัวเกม", "เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 (แปลร่วมกับ Gemini 3.8 Flash)", "แปลเนื้อเรื่อง บทสนทนา และความต้องการสั่งตัดชุดของชาวเมือง", "แปลชื่อชนิดเนื้อผ้า เครื่องมือ แพทเทิร์น ของตกแต่ง เมนู และ Tutorial ครบ 100%"],
+    changelog: ["อัปเดตม็อดภาษาไทยเวอร์ชัน 2.1 สำหรับ PC และเวอร์ชัน 2.5 สำหรับ macOS บน Nexus Mods", "อัปเดตม็อดภาษาไทยเวอร์ชัน 2.0 สำหรับ PC และเวอร์ชัน 2.4 สำหรับ macOS บน Nexus Mods", "อัปเดตม็อดภาษาไทยเวอร์ชัน 1.8 สำหรับ PC และเวอร์ชัน 2.2 สำหรับ macOS บน Nexus Mods พร้อมสคริปต์ติดตั้งสำหรับ Mac", "อัปเดตม็อดภาษาไทยเวอร์ชัน 1.7 ปรับปรุงบทแปลและความเข้ากันได้กับตัวเกม", "เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 (แปลร่วมกับ Gemini 3.8 Flash)", "แปลเนื้อเรื่อง บทสนทนา และความต้องการสั่งตัดชุดของชาวเมือง", "แปลชื่อชนิดเนื้อผ้า เครื่องมือ แพทเทิร์น ของตกแต่ง เมนู และ Tutorial ครบ 100%"],
     install: [
       "ดาวน์โหลดม็อดตามระบบปฏิบัติการที่ใช้งานจากแท็บ Files บน Nexus Mods (PC หรือ macOS) และแตกไฟล์ .zip",
       "สำหรับ PC (Windows): นำไฟล์ไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)",
       "สำหรับ macOS: ดับเบิลคลิกไฟล์ ติดตั้งภาษาไทย_macOS.command เพื่อติดตั้งอัตโนมัติ (หรือคลิกขวาที่แอป Dressmaker > แสดงเนื้อหาในแพ็กเกจ Show Package Contents > Contents/Resources/Data แล้วนำไฟล์ไปวางทับ)",
       "เข้าเกมแล้วเริ่มเปิดร้านตัดเสื้อเป็นภาษาไทยได้ทันที"
     ],
-    sha: "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods", nexus: "https://www.nexusmods.com/dressmaker/mods/55?tab=files", drive: "",
+    sha: "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods", nexus: "https://www.nexusmods.com/dressmaker/mods/55?tab=files", drive: "", mediafire: "",
     post: "https://www.nexusmods.com/dressmaker/mods/55?tab=files"
   },
   {
