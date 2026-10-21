@@ -1,5 +1,25 @@
 const mods = [
   {
+    id: "neptunia-x-senran-kagura-ninja-wars", title: "Neptunia x SENRAN KAGURA: Ninja Wars", thaiTitle: "เนปจูเนีย X เซ็งรัน คางูระ: นินจา วอร์ส", code: "NW-032",
+    version: "1.0", gameBuild: "Steam · PC", platform: "pc", source: "mediafire", store: "https://store.steampowered.com/app/1836860/Neptunia_x_SENRAN_KAGURA_Ninja_Wars/",
+    purchaseLinks: [
+      { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/1836860/Neptunia_x_SENRAN_KAGURA_Ninja_Wars/" },
+      { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/search/?q=Neptunia%20x%20SENRAN%20KAGURA%3A%20Ninja%20Wars" }
+    ],
+    statusText: "พร้อมโหลด", date: "2026-10-21", popularity: 100, size: "ดูที่ MediaFire", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    category: "action", tags: ["Action RPG", "Hack and Slash", "Anime", "แปลครบ"], colors: ["#2a153d", "#e83e8c"], cover: "assets/cover-neptunia-x-senran-kagura-ninja-wars.jpg",
+    gallery: [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1836860/ss_fa6b7d68b3b44cfa5602302e8bec064d2ff44e33.600x338.jpg?t=1776732382",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1836860/ss_8e7d103819a9417771d01dd99f6b72adebc89b4c.600x338.jpg?t=1776732382",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1836860/ss_3055a819ce45191b7e87ff940d5d6f959111ae6a.600x338.jpg?t=1776732382"
+    ], trailerTitle: "Neptunia x SENRAN KAGURA: Ninja Wars — Official Launch Trailer",
+    description: "ม็อดภาษาไทยสำหรับ Neptunia x SENRAN KAGURA: Ninja Wars การโคจรมาพบกันสุดยิ่งใหญ่ของสองซีรีส์สาวน้อยสุดฮิตระหว่าง Neptunia และ SENRAN KAGURA ในรูปแบบเกม Action RPG สไตล์ Hack and Slash สุดมันส์จาก Idea Factory, Compile Heart และ Tamsoft ณ ดินแดนแห่งนินจา Gamninjustri เมื่อสองสำนักใหญ่ Compa Style และ Honeypa Style ต้องจับมือกันต่อกรกับกองทัพนินจาไซบอร์ก Steeme Legion นำโดยตัวละครใหม่ Yuuki แปลไทยจัดเต็มทั้งเนื้อเรื่องหลัก คัตซีน บทสนทนาตัวละคร เควสต์ย่อย ระบบต่อสู้วิชานินจา (Ninja Art Skills) ดาวกระจาย ยันต์วิญญาณ (Spirit Gems) มินิเกมฝึกตน Peaches & Cream Meditation อุปกรณ์สวมใส่ ไอเทม เมนู และ UI ทั้งหมด 100% พร้อมตัวติดตั้งใช้งานง่ายและฟอนต์ไทยคมชัดสวยงาม",
+    changelog: ["เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 สำหรับ Steam บน MediaFire (พร้อมตัวติดตั้ง Installer)", "แปลเนื้อเรื่องหลัก คัตซีน บทสนทนา และภารกิจย่อยทั้งหมด", "แปลระบบต่อสู้ สกิลวิชานินจา ยันต์วิญญาณ อุปกรณ์ ไอเทม เมนู และ UI ครบ 100%"],
+    install: ["ดาวน์โหลดไฟล์ NinjaWars_Thai_0.5.1_Nexus_Installer.zip จากลิงก์ MediaFire และแตกไฟล์ .zip", "รันไฟล์ตัวติดตั้งภาษาไทย หรือนำไฟล์ไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)", "เปิดเกม Neptunia x SENRAN KAGURA: Ninja Wars ผ่าน Steam แล้วสนุกกับสงครามนินจาสาวเป็นภาษาไทยได้ทันที"],
+    sha: "ตรวจสอบรายละเอียดไฟล์บน MediaFire", nexus: "", drive: "", mediafire: "https://www.mediafire.com/file/oxseiuxghz2y0hw/NinjaWars_Thai_0.5.1_Nexus_Installer.zip/file",
+    post: "https://www.mediafire.com/file/oxseiuxghz2y0hw/NinjaWars_Thai_0.5.1_Nexus_Installer.zip/file"
+  },
+  {
     id: "humankind", title: "HUMANKIND™", thaiTitle: "ฮิวแมนไคด์", code: "HK-031",
     version: "1.0", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/1124300/HUMANKIND/",
     purchaseLinks: [
