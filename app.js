@@ -899,6 +899,7 @@ render();
 const featuredGames = ["absolum", "battle-chef-brigade", "tales-of-eternia-remastered", "rotwood", "monster-prom"]
   .map(id => mods.find(mod => mod.id === id)).filter(Boolean);
 const featuredTitle = document.querySelector("#featuredTitle");
+const featuredPosition = document.querySelector("#featuredPosition");
 const featuredOpen = document.querySelector("#featuredOpen");
 const featuredNext = document.querySelector("#featuredNext");
 const showcase = document.querySelector(".hero-showcase");
@@ -911,7 +912,8 @@ let featuredIndex = 0;
 function updateMotion() {
   document.documentElement.dataset.motion = motionPaused ? "paused" : "running";
   motionToggle.setAttribute("aria-pressed", String(motionPaused));
-  motionToggle.textContent = motionPaused ? "▷ เปิดลูกเล่น" : "Ⅱ พักลูกเล่น";
+  motionToggle.disabled = reducedMotion.matches;
+  motionToggle.textContent = reducedMotion.matches ? "ลดการเคลื่อนไหวตามระบบ" : motionPaused ? "▷ เปิดลูกเล่น" : "Ⅱ พักลูกเล่น";
   if (motionPaused) {
     deck.style.removeProperty("--deck-x");
     deck.style.removeProperty("--deck-y");
@@ -931,6 +933,7 @@ function updateFeatured(animate = false) {
     image.src = featuredGames[(featuredIndex + offset) % featuredGames.length].cover;
   });
   featuredTitle.textContent = selected.title;
+  if (featuredPosition) featuredPosition.textContent = String(featuredIndex + 1).padStart(2, "0");
   featuredOpen.setAttribute("aria-label", `ดูม็อดแนะนำ ${selected.title}`);
   if (animate && !motionPaused && !reducedMotion.matches) {
     deck.getAnimations().forEach(animation => animation.cancel());
