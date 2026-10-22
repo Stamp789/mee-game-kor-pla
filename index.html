@@ -32,8 +32,8 @@
     <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
     <link rel="manifest" href="manifest.webmanifest" />
     <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="theme-arcade.css?v=20261022" />
-    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="theme-arcade.css?v=20261022-soft" />
+    <script src="app.js?v=20261022-soft" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#catalog">ข้ามไปยังคลังม็อด</a>
@@ -71,10 +71,11 @@
 
     <main>
       <section class="hero" aria-labelledby="heroTitle">
+        <div class="hero-ambient" aria-hidden="true"><i></i><i></i><i></i></div>
         <div class="hero-inner">
           <div class="hero-copy">
             <div class="eyebrow"><span>PLAY THAI!</span> MEE GAME KOR PLA</div>
-            <h1 id="heroTitle">เกมเดิม<br /><em>เข้าใจมากกว่าเดิม</em></h1>
+            <h1 id="heroTitle">เกมเดิม<br /><em>อินกว่าเดิม<br />ในภาษาไทย</em><span class="title-spark" aria-hidden="true">✳</span></h1>
             <p>
               ศูนย์รวมม็อดแปลไทยโดย
               <a class="creator-link" href="https://www.facebook.com/profile.php?id=61593924362608" target="_blank" rel="noopener noreferrer">มีเกมก็แปล</a>
@@ -100,15 +101,21 @@
             </div>
           </div>
 
-          <div class="hero-showcase" aria-hidden="true">
-            <div class="showcase-top"><span>THAI PATCH<br />COLLECTION</span><strong>VOL.26</strong></div>
-            <div class="cover-stack">
+          <div class="hero-showcase" aria-label="เลือกชมม็อดแนะนำ">
+            <div class="showcase-top" aria-hidden="true"><span>YOUR NEXT<br />FAVORITE GAME</span><strong>✦ แปลด้วยใจ</strong></div>
+            <div class="cover-stack" aria-hidden="true">
               <img class="showcase-cover cover-a" src="assets/cover-tales-of-eternia-remastered.jpg" alt="" />
               <img class="showcase-cover cover-b" src="assets/cover-battle-chef-brigade.png" alt="" />
               <img class="showcase-cover cover-c" src="assets/cover-absolum.png" alt="" />
             </div>
-            <div class="showcase-badge">แปลไทย<br /><strong>เล่นเข้าใจ!</strong></div>
-            <span class="pixel-spark spark-one">✦</span><span class="pixel-spark spark-two">✦</span>
+            <div class="showcase-badge" aria-hidden="true">โหลดฟรี<br /><strong>เล่นให้ฟิน!</strong></div>
+            <span class="pixel-spark spark-one" aria-hidden="true">✦</span><span class="pixel-spark spark-two" aria-hidden="true">✦</span>
+            <span class="floating-note" aria-hidden="true">เพิ่มภาษาไทย + เพิ่มความอิน ♡</span>
+            <div class="showcase-controls">
+              <button class="showcase-open" id="featuredOpen" type="button"><small>หยิบมาแนะนำ · ดูรายละเอียด ↗</small><strong id="featuredTitle" aria-live="polite" aria-atomic="true">Absolum</strong></button>
+              <button class="showcase-next" id="featuredNext" type="button" aria-label="ดูเกมแนะนำถัดไป">→</button>
+            </div>
+            <button class="motion-toggle" id="motionToggle" type="button" aria-pressed="false">Ⅱ พักลูกเล่น</button>
           </div>
         </div>
         <div class="hero-ticker" aria-hidden="true"><span>THAI MODS ✦ FAN TRANSLATION ✦ PLAY MORE / UNDERSTAND MORE ✦ อัปเดตผลงานล่าสุดจากผู้แปลโดยตรง ✦</span></div>
@@ -123,7 +130,7 @@
 
       <section class="support-section support-section-featured" id="support" aria-labelledby="supportTitle" data-reveal>
         <div class="support-copy">
-          <span class="section-index">SUPPORT / KEEP THAI MODS ALIVE</span>
+          <span class="section-index">♡ เติมพลังให้ผู้แปล</span>
           <h2 id="supportTitle">ชอบงานแปล<br />เลี้ยงกาแฟกันได้ ☕</h2>
           <p>ม็อดทุกชิ้นยังแจกฟรีเหมือนเดิม การสนับสนุนช่วยเรื่องค่าเครื่องมือ การทดสอบ และเวลาสำหรับเกมถัดไป—ตามสะดวก ไม่มีขั้นต่ำ</p>
           <div class="support-points">
@@ -147,7 +154,7 @@
             <span class="section-index">01 / ARCHIVE</span>
             <h2 id="catalogTitle">ผลงานที่แปลเสร็จแล้ว</h2>
           </div>
-          <p>รวบรวมจากโพสต์สาธารณะของเพจ พร้อมลิงก์ดาวน์โหลดจากผู้แปลโดยตรง</p>
+          <div class="catalog-intro"><p>เลือกเรื่องราวถัดไป แล้วเข้าไปเล่นเป็นภาษาไทยด้วยกัน</p><button class="surprise-button" id="surpriseGame" type="button">✧ สุ่มเกมให้หน่อย <span>↗</span></button></div>
         </div>
 
         <div class="catalog-toolbar">
