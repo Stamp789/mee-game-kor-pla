@@ -33,7 +33,7 @@ jobs:
       - name: Prepare static site
         run: |
           mkdir _site
-          cp index.html styles.css app.js manifest.webmanifest .nojekyll _site/
+          cp index.html styles.css theme-arcade.css app.js manifest.webmanifest .nojekyll _site/
           cp -r assets _site/assets
 
       - name: Upload site
