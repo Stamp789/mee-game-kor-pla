@@ -11,7 +11,7 @@
     </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#eceaff" />
+    <meta name="theme-color" content="#f2ebfa" />
     <meta name="robots" content="index, follow" />
     <meta property="og:locale" content="th_TH" />
     <meta property="og:type" content="website" />
@@ -26,15 +26,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=IBM+Plex+Sans+Thai:wght@400;500;600&family=Inter:wght@400;500;600;700&family=Mitr:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Chakra+Petch:wght@500;600;700&family=IBM+Plex+Sans+Thai:wght@400;500;600&family=Inter:wght@400;500;600;700&family=Mitr:wght@400;500;600&family=Noto+Serif+Thai:wght@500;600;700&family=Noto+Sans+JP:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
     <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
     <link rel="manifest" href="manifest.webmanifest" />
     <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="theme-arcade.css?v=20261022-soft" />
-    <link rel="stylesheet" href="theme-retro.css?v=20261023" />
-    <script src="app.js?v=20261023-orbit" defer></script>
+    <link rel="preload" as="image" href="assets/fantasy-sky-realm.webp" />
+    <link rel="stylesheet" href="theme-fantasy.css?v=20261023-realm" />
+    <script src="app.js?v=20261023-realm" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#catalog">ข้ามไปยังคลังม็อด</a>
@@ -45,7 +45,7 @@
           <img class="brand-logo" src="assets/mee-game-kor-pla-logo.png" alt="" />
           <span class="brand-copy">
             <strong>มีเกมก็แปล</strong>
-            <small>THAI GAME MODS</small>
+            <small>THE THAI TRANSLATION GUILD</small>
           </span>
         </a>
 
@@ -72,59 +72,64 @@
 
     <main>
       <section class="hero" aria-labelledby="heroTitle">
+        <img class="fantasy-landscape" src="assets/fantasy-sky-realm.webp" alt="" fetchpriority="high" aria-hidden="true" />
         <div class="hero-ambient" aria-hidden="true"><i></i><i></i><i></i></div>
+        <div class="realm-sparkles" aria-hidden="true"></div>
+        <span class="fantasy-crystal crystal-left" aria-hidden="true"></span><span class="fantasy-crystal crystal-right" aria-hidden="true"></span>
         <div class="hero-inner">
           <div class="hero-copy">
-            <div class="eyebrow"><span>✦ PRESS START</span> THAI PATCH STATION</div>
-            <h1 id="heroTitle">เกมเดิม<br /><em>เปิดโลกใหม่<br />ในภาษาไทย</em><span class="title-spark" aria-hidden="true">✧</span></h1>
+            <div class="realm-crest" aria-hidden="true"><svg viewBox="0 0 160 50"><path d="M8 28h38l14-9 20-14 20 14 14 9h38M30 36h25l25 10 25-10h25M80 5v41M60 19l20 27 20-27-20 7Z"/><circle cx="8" cy="28" r="2"/><circle cx="152" cy="28" r="2"/></svg></div>
+            <div class="eyebrow"><span>THE ENCHANTED ARCHIVE</span>มีเกมก็แปล</div>
+            <h1 id="heroTitle">ปลดล็อกทุกโลก<br /><em>ด้วยมนตร์ภาษาไทย</em></h1>
             <p>
-              ศูนย์รวมม็อดแปลไทยโดย
+              ทุกการผจญภัย มีเรื่องราวที่อยากให้คุณเข้าใจ<br class="desktop-break" /> ค้นพบม็อดแปลไทยจาก
               <a class="creator-link" href="https://www.facebook.com/profile.php?id=61593924362608" target="_blank" rel="noopener noreferrer">มีเกมก็แปล</a>
-              — เช็กเวอร์ชัน วิธีติดตั้ง และดาวน์โหลดจากผู้แปลได้ในที่เดียว
+              แล้วออกเดินทางไปด้วยกัน
             </p>
 
             <div class="hero-actions">
-              <a class="hero-cta primary" href="#catalog">เลือกม็อดที่อยากเล่น <span>↘</span></a>
-              <a class="hero-cta support-cta" href="#support">สนับสนุนผู้แปล ☕</a>
+              <a class="hero-cta primary" href="#catalog"><span aria-hidden="true">✦</span> เปิดคลังม็อดภาษาไทย <span>↗</span></a>
+              <a class="hero-cta support-cta" href="#support">♡ เติมพลังให้ผู้แปล</a>
             </div>
 
             <div class="hero-search" role="search">
               <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 21-4.3-4.3m2.3-5.2a7.5 7.5 0 1 1-15 0 7.5 7.5 0 0 1 15 0Z"/></svg>
               <label class="sr-only" for="heroSearch">ค้นหาม็อด</label>
-              <input id="heroSearch" type="search" placeholder="พิมพ์ชื่อเกมที่อยากเล่นเป็นภาษาไทย..." autocomplete="off" />
+              <input id="heroSearch" type="search" placeholder="ค้นหาโลกที่คุณอยากออกผจญภัย..." autocomplete="off" />
               <kbd>Ctrl K</kbd>
             </div>
 
-            <div class="hero-meta" aria-label="สถิติคลังม็อด">
-              <div><strong id="totalModsHero">32</strong><span>ม็อดพร้อมโหลด</span></div>
-              <div><strong id="completedModsHero">32</strong><span>ผลงานแปลเสร็จ</span></div>
-              <div><strong>03</strong><span>แหล่งดาวน์โหลด</span></div>
-            </div>
           </div>
 
           <div class="hero-showcase" aria-label="เลือกชมม็อดแนะนำ">
-            <div class="retro-screen" aria-hidden="true"><span class="retro-planet"></span><span class="retro-orbit orbit-one"></span><span class="retro-orbit orbit-two"></span><span class="screen-cross cross-one">+</span><span class="screen-cross cross-two">+</span></div>
-            <div class="showcase-top" aria-hidden="true"><span><i class="window-lights"></i> PATCH SELECT / <span id="featuredPosition">01</span></span><strong>199X → NOW</strong></div>
+            <div class="portal-rings" aria-hidden="true"><i></i><i></i><i></i><span>✧</span></div>
+            <div class="showcase-top" aria-hidden="true"><span>THE CHOSEN CHAPTER</span><strong>บทที่ <span id="featuredPosition">01</span></strong></div>
             <div class="cover-stack" aria-hidden="true">
               <img class="showcase-cover cover-a" src="assets/cover-tales-of-eternia-remastered.jpg" alt="" />
               <img class="showcase-cover cover-b" src="assets/cover-battle-chef-brigade.png" alt="" />
               <img class="showcase-cover cover-c" src="assets/cover-absolum.png" alt="" />
             </div>
-            <div class="showcase-badge" aria-hidden="true">THAI MODS<br /><strong>FREE PLAY</strong></div>
+            <div class="showcase-badge" aria-hidden="true">FAN MADE<br /><strong>แจกฟรี</strong></div>
             <span class="pixel-spark spark-one" aria-hidden="true">✦</span><span class="pixel-spark spark-two" aria-hidden="true">✦</span>
-            <span class="floating-note" aria-hidden="true">✦ พร้อมออกเดินทางเป็นภาษาไทย</span>
+            <span class="floating-note" aria-hidden="true">✧ เรื่องราวบทต่อไป<br /><strong>รอคุณอยู่</strong></span>
             <div class="showcase-controls">
-              <button class="showcase-open" id="featuredOpen" type="button"><small>หยิบมาแนะนำ · ดูรายละเอียด ↗</small><strong id="featuredTitle" aria-live="polite" aria-atomic="true">Absolum</strong></button>
+              <button class="showcase-open" id="featuredOpen" type="button"><small>คัมภีร์แนะนำ · เปิดรายละเอียด ↗</small><strong id="featuredTitle" aria-live="polite" aria-atomic="true">Absolum</strong></button>
               <button class="showcase-next" id="featuredNext" type="button" aria-label="ดูเกมแนะนำถัดไป">→</button>
             </div>
             <button class="motion-toggle" id="motionToggle" type="button" aria-pressed="false">Ⅱ พักลูกเล่น</button>
           </div>
+
+          <div class="hero-meta" aria-label="สถิติคลังม็อด">
+            <div><strong id="totalModsHero">32</strong><span>โลกที่พร้อมผจญภัย</span></div>
+            <div><strong id="completedModsHero">32</strong><span>ผลงานแปลเสร็จ</span></div>
+            <div><strong>03</strong><span>แหล่งดาวน์โหลด</span></div>
+          </div>
         </div>
-        <div class="hero-ticker" aria-hidden="true"><span>THAI MODS ✦ FAN TRANSLATION ✦ PLAY MORE / UNDERSTAND MORE ✦ อัปเดตผลงานล่าสุดจากผู้แปลโดยตรง ✦</span></div>
+        <div class="realm-divider" aria-hidden="true"><span>✦</span></div>
       </section>
 
       <section class="trust-strip" aria-label="คุณสมบัติของคลังม็อด">
-        <span class="trust-label" aria-hidden="true">✳ NEXT LEVEL / SAME GAME</span>
+        <span class="trust-label" aria-hidden="true">MADE WITH A LITTLE MAGIC</span>
         <div><span class="status-dot"></span>ตรวจจากหน้าเพจล่าสุด</div>
         <div><svg viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></svg>เฉพาะงานที่แปลเสร็จแล้ว</div>
         <div><svg viewBox="0 0 24 24"><path d="M12 3 4 7v5c0 5 3.4 8 8 9 4.6-1 8-4 8-9V7Z"/></svg>ไฟล์จากผู้แปลโดยตรง</div>
@@ -132,8 +137,8 @@
 
       <section class="support-section support-section-featured" id="support" aria-labelledby="supportTitle" data-reveal>
         <div class="support-copy">
-          <span class="section-index">♡ เติมพลังให้ผู้แปล</span>
-          <h2 id="supportTitle">ชอบงานแปล<br />เลี้ยงกาแฟกันได้ ☕</h2>
+          <span class="section-index">✧ สนับสนุนงานแปล / THE MANA WELL</span>
+          <h2 id="supportTitle">เติมมานาให้ผู้แปล<br /><em>สร้างเรื่องราวบทถัดไป</em></h2>
           <p>ม็อดทุกชิ้นยังแจกฟรีเหมือนเดิม การสนับสนุนช่วยเรื่องค่าเครื่องมือ การทดสอบ และเวลาสำหรับเกมถัดไป—ตามสะดวก ไม่มีขั้นต่ำ</p>
           <div class="support-points">
             <span>ม็อดฟรีทุกชิ้น</span>
@@ -153,10 +158,10 @@
       <section class="catalog-section" id="catalog" aria-labelledby="catalogTitle">
         <div class="section-heading">
           <div>
-            <span class="section-index">01 / ARCHIVE</span>
+            <span class="section-index">CHAPTER I / THE GRIMOIRE</span>
             <h2 id="catalogTitle">ผลงานที่แปลเสร็จแล้ว</h2>
           </div>
-          <div class="catalog-intro"><p>เลือกเรื่องราวถัดไป แล้วเข้าไปเล่นเป็นภาษาไทยด้วยกัน</p><button class="surprise-button" id="surpriseGame" type="button">✧ สุ่มเกมให้หน่อย <span>↗</span></button></div>
+          <div class="catalog-intro"><p>ทุกเกมคือประตูสู่โลกใหม่ เลือกเรื่องราวที่ใช่สำหรับคุณ</p><button class="surprise-button" id="surpriseGame" type="button">✧ ให้โชคชะตาเลือกเกม <span>↗</span></button></div>
         </div>
 
         <div class="catalog-toolbar">
@@ -191,7 +196,7 @@
         </div>
 
         <div class="category-bar" id="categoryFilters" aria-label="กรองตามแนวเกม">
-          <span>EXPLORE BY VIBE</span>
+          <span>เลือกเส้นทางของคุณ</span>
           <button class="category-chip is-active" type="button" data-category="all">ทุกแนว</button>
           <button class="category-chip" type="button" data-category="action">⚔ แอ็กชัน</button>
           <button class="category-chip" type="button" data-category="card">♠ การ์ด / โร้คไลก์</button>
