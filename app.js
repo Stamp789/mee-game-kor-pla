@@ -694,7 +694,7 @@ function filteredMods() {
 function cardTemplate(mod, index) {
   const saved = favorites.has(mod.id);
   return `
-    <article class="mod-card" data-id="${mod.id}" style="--enter-delay:${index * 80}ms" tabindex="0" aria-label="เปิดรายละเอียด ${mod.title}">
+    <article class="mod-card" data-id="${mod.id}" style="--enter-delay:${Math.min(index, 5) * 55}ms" tabindex="0" aria-label="เปิดรายละเอียด ${mod.title}">
       <div class="mod-cover" style="--cover-a:${mod.colors[0]};--cover-b:${mod.colors[1]}">
         <img class="mod-cover-image" src="${mod.cover}" alt="" loading="lazy" />
         <span class="cover-code">${mod.code}</span>
@@ -738,6 +738,7 @@ function bindCards() {
       openModal(card.dataset.id);
     });
     card.addEventListener("keydown", (event) => {
+      if (event.target !== card) return;
       if (event.key === "Enter" || event.key === " ") { event.preventDefault(); openModal(card.dataset.id); }
     });
   });
@@ -893,6 +894,75 @@ document.querySelectorAll("[data-source]").forEach(button => {
 });
 
 render();
+
+// The featured deck is user-controlled: changing the artwork never steals focus.
+const featuredGames = ["absolum", "battle-chef-brigade", "tales-of-eternia-remastered", "rotwood", "monster-prom"]
+  .map(id => mods.find(mod => mod.id === id)).filter(Boolean);
+const featuredTitle = document.querySelector("#featuredTitle");
+const featuredOpen = document.querySelector("#featuredOpen");
+const featuredNext = document.querySelector("#featuredNext");
+const showcase = document.querySelector(".hero-showcase");
+const deck = showcase.querySelector(".cover-stack");
+const motionToggle = document.querySelector("#motionToggle");
+const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+let motionPaused = reducedMotion.matches;
+let featuredIndex = 0;
+
+function updateMotion() {
+  document.documentElement.dataset.motion = motionPaused ? "paused" : "running";
+  motionToggle.setAttribute("aria-pressed", String(motionPaused));
+  motionToggle.textContent = motionPaused ? "▷ เปิดลูกเล่น" : "Ⅱ พักลูกเล่น";
+  if (motionPaused) {
+    deck.style.removeProperty("--deck-x");
+    deck.style.removeProperty("--deck-y");
+    deck.getAnimations().forEach(animation => animation.cancel());
+  }
+}
+motionToggle.addEventListener("click", () => { motionPaused = !motionPaused; updateMotion(); });
+reducedMotion.addEventListener("change", event => { motionPaused = event.matches; updateMotion(); });
+updateMotion();
+
+function updateFeatured(animate = false) {
+  if (!featuredGames.length) return;
+  const selected = featuredGames[featuredIndex];
+  const images = [".cover-c", ".cover-b", ".cover-a"];
+  images.forEach((selector, offset) => {
+    const image = showcase.querySelector(selector);
+    image.src = featuredGames[(featuredIndex + offset) % featuredGames.length].cover;
+  });
+  featuredTitle.textContent = selected.title;
+  featuredOpen.setAttribute("aria-label", `ดูม็อดแนะนำ ${selected.title}`);
+  if (animate && !motionPaused && !reducedMotion.matches) {
+    deck.getAnimations().forEach(animation => animation.cancel());
+    deck.animate([{ opacity: .45, translate: "15px 8px" }, { opacity: 1, translate: "0 0" }],
+      { duration: 420, easing: "cubic-bezier(.2,.8,.2,1)" });
+  }
+}
+featuredNext.addEventListener("click", () => {
+  featuredIndex = (featuredIndex + 1) % featuredGames.length;
+  updateFeatured(true);
+});
+featuredOpen.addEventListener("click", () => openModal(featuredGames[featuredIndex].id));
+updateFeatured();
+
+const finePointer = window.matchMedia("(hover: hover) and (pointer: fine)");
+showcase.addEventListener("pointermove", event => {
+  if (motionPaused || reducedMotion.matches || !finePointer.matches) return;
+  const rect = showcase.getBoundingClientRect();
+  deck.style.setProperty("--deck-x", `${((event.clientY - rect.top) / rect.height - .5) * -7}deg`);
+  deck.style.setProperty("--deck-y", `${((event.clientX - rect.left) / rect.width - .5) * 9}deg`);
+});
+showcase.addEventListener("pointerleave", () => {
+  deck.style.removeProperty("--deck-x");
+  deck.style.removeProperty("--deck-y");
+});
+
+document.querySelector("#surpriseGame").addEventListener("click", () => {
+  const candidates = filteredMods();
+  if (!candidates.length) { showToast("ลองล้างตัวกรอง แล้วสุ่มเกมอีกครั้ง"); return; }
+  openModal(candidates[Math.floor(Math.random() * candidates.length)].id);
+});
+
 const requestedMod = new URLSearchParams(location.search).get("mod");
 if (requestedMod && mods.some(mod => mod.id === requestedMod)) openModal(requestedMod);
 
