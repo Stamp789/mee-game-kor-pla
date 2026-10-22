@@ -321,12 +321,12 @@ const mods = [
   },
   {
     id: "rotwood", title: "Rotwood", thaiTitle: "รอทวู้ด", code: "RW-016",
-    version: "1.1", gameBuild: "Steam · PC", platform: "pc", source: "mediafire", store: "https://store.steampowered.com/app/2015270/Rotwood/",
+    version: "1.2", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/2015270/Rotwood/",
     purchaseLinks: [
       { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/2015270/Rotwood/" },
       { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/search/?q=Rotwood" }
     ],
-    statusText: "พร้อมโหลด", date: "2026-10-20", popularity: 100, size: "ดูที่ MediaFire", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    statusText: "พร้อมโหลด", date: "2026-10-22", popularity: 100, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
     category: "action", tags: ["Rogue-lite", "Hack and Slash", "Co-op", "แปลครบ"], colors: ["#1c2818", "#d97824"], cover: "assets/cover-rotwood.jpg",
     gallery: [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2015270/ss_4c25d241388383263d04cd1effd2d4bac4590930.600x338.jpg?t=1790967441",
@@ -334,10 +334,10 @@ const mods = [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2015270/ss_ffa9d9d88aeb9b205ad49e20358b425e7969f399.600x338.jpg?t=1790967441"
     ], trailerTitle: "Rotwood — Official Early Access Trailer",
     description: "ม็อดภาษาไทยสำหรับ Rotwood ผลงานเกมแนว Rogue-lite Dungeon Crawler สไตล์ตะลุมบอน (Hack and Slash) ภาพวาด 2D สุดเท่จากค่าย Klei (ผู้สร้าง Don't Starve) จับคู่อาวุธคู่ใจ อัปเกรดคอมโบ ลุยดงมอนสเตอร์กลายพันธุ์ไปพร้อมกับเพื่อน แปลไทยจัดเต็มทั้งคำอธิบายอาวุธ ชุดเกราะ สกิล บัฟ พร สายอัปเกรดความสามารถ บทสนทนาเควสต์ NPC ในค่ายพัก เมนู และ UI ทั้งหมด 100% พร้อมฟอนต์ไทยคมชัดสบายตา",
-    changelog: ["อัปเดตม็อดภาษาไทยเวอร์ชัน 1.1 สำหรับ Steam บน MediaFire", "อัปเดตเผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0", "แปลคำอธิบายอาวุธ ชุดเกราะ อุปกรณ์สวมใส่ทุกชิ้น และสกิล/บัฟ/พรทั้งหมด", "แปลบทสนทนาเควสต์ NPC ในค่ายพัก เมนู การตั้งค่า และ UI ครบ 100%"],
-    install: ["ดาวน์โหลดม็อด Rotwood_Thai_THub_v1.1.zip จากลิงก์ MediaFire และแตกไฟล์ .zip", "เปิดโฟลเดอร์ตัวเกมบน Steam (คลิกขวาที่ชื่อเกม Rotwood > จัดการ > เปิดดูไฟล์ในเครื่อง)", "นำไฟล์ data.zip และโฟลเดอร์ mods ไปวางทับในโฟลเดอร์ตัวเกมหลัก", "เปิดเกม Rotwood ไปที่เมนู Options > Mods ตรวจสอบให้ม็อดภาษาไทยขึ้น Enabled แล้วเริ่มลุยป่าเน่าได้ทันที"],
-    sha: "ตรวจสอบรายละเอียดไฟล์บน MediaFire", nexus: "", drive: "", mediafire: "https://www.mediafire.com/file/t51wds6nxjev456/Rotwood_Thai_THub_v1.1.zip/file",
-    post: "https://www.mediafire.com/file/t51wds6nxjev456/Rotwood_Thai_THub_v1.1.zip/file"
+    changelog: ["อัปเดตม็อดภาษาไทยเวอร์ชัน 1.2 สำหรับ Steam เผยแพร่บน Nexus Mods", "อัปเดตม็อดภาษาไทยเวอร์ชัน 1.1", "อัปเดตเผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0", "แปลคำอธิบายอาวุธ ชุดเกราะ อุปกรณ์สวมใส่ทุกชิ้น และสกิล/บัฟ/พรทั้งหมด", "แปลบทสนทนาเควสต์ NPC ในค่ายพัก เมนู การตั้งค่า และ UI ครบ 100%"],
+    install: ["ดาวน์โหลดม็อดจากแท็บ Files บน Nexus Mods และแตกไฟล์ .zip", "เปิดโฟลเดอร์ตัวเกมบน Steam (คลิกขวาที่ชื่อเกม Rotwood > จัดการ > เปิดดูไฟล์ในเครื่อง)", "นำไฟล์ data.zip และโฟลเดอร์ mods ไปวางทับในโฟลเดอร์ตัวเกมหลัก", "เปิดเกม Rotwood ไปที่เมนู Options > Mods ตรวจสอบให้ม็อดภาษาไทยขึ้น Enabled แล้วเริ่มลุยป่าเน่าได้ทันที"],
+    sha: "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods", nexus: "https://www.nexusmods.com/rotwood/mods/5?tab=files", drive: "", mediafire: "",
+    post: "https://www.nexusmods.com/rotwood/mods/5?tab=files"
   },
   {
     id: "sengoku-rance", title: "Sengoku Rance", thaiTitle: "เซ็นโกคุ รันซ์", code: "SR-017",
