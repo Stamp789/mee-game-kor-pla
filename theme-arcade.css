@@ -176,8 +176,8 @@ body::before {
 .store-card:hover { transform:translate(-2px,-3px); border-color:var(--arcade-ink); box-shadow:6px 7px 0 var(--arcade-yellow); }
 .store-mark { border:1.5px solid var(--arcade-ink); border-radius:7px; color:#fff; background:var(--arcade-blue); }
 
-/* Support moved to the closing section */
-.support-section { margin-top:110px; margin-bottom:100px; overflow:hidden; border:3px solid var(--arcade-ink); border-radius:28px; color:var(--arcade-ink); background:linear-gradient(135deg,var(--arcade-yellow),#ff9dc8 54%,#a9eaff); box-shadow:10px 12px 0 var(--arcade-ink); }
+/* Featured support block near the top */
+.support-section { position:relative; margin-top:48px; margin-bottom:0; overflow:hidden; border:3px solid var(--arcade-ink); border-radius:28px; color:var(--arcade-ink); background:linear-gradient(135deg,var(--arcade-yellow),#ff9dc8 54%,#a9eaff); box-shadow:10px 12px 0 var(--arcade-ink); }
 .support-section::before { content:"SUPPORT THE NEXT PATCH"; position:absolute; top:28px; right:-38px; padding:.45rem 3rem; border-block:2px solid var(--arcade-ink); color:#fff; background:var(--arcade-blue); font:700 .66rem "Chakra Petch",sans-serif; letter-spacing:.12em; transform:rotate(10deg); }
 .support-copy { padding:clamp(2rem,5vw,5rem); }
 .support-section h2 { margin:.85rem 0 1.2rem; color:var(--arcade-ink); }
@@ -185,6 +185,9 @@ body::before {
 .support-points span { border:1.5px solid var(--arcade-ink); border-radius:999px; color:var(--arcade-ink); background:rgba(255,255,255,.7); }
 .support-warning { border-left:5px solid var(--arcade-blue); background:rgba(255,255,255,.55); }
 .support-card { margin:45px; border:3px solid var(--arcade-ink); border-radius:18px; background:#fff; box-shadow:7px 8px 0 var(--arcade-ink); transform:rotate(2deg); }
+.support-cta { border-color:var(--arcade-ink); background:var(--arcade-yellow); box-shadow:4px 5px 0 var(--arcade-ink); }
+.support-cta:hover { background:#fff4a3; }
+.support-section + .catalog-section { padding-top:82px; }
 
 /* Modal & footer */
 .mod-modal { border:3px solid var(--arcade-ink); border-radius:22px; box-shadow:12px 14px 0 rgba(23,32,79,.45); }
