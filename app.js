@@ -918,6 +918,8 @@ function updateMotion() {
     deck.style.removeProperty("--deck-x");
     deck.style.removeProperty("--deck-y");
     deck.getAnimations().forEach(animation => animation.cancel());
+    showcase.querySelectorAll(".spell-mote").forEach(mote => mote.remove());
+    showcase.querySelector(".portal-rings")?.getAnimations().forEach(animation => animation.cancel());
   }
 }
 motionToggle.addEventListener("click", () => { motionPaused = !motionPaused; updateMotion(); });
@@ -939,6 +941,29 @@ function updateFeatured(animate = false) {
     deck.getAnimations().forEach(animation => animation.cancel());
     deck.animate([{ opacity: .45, translate: "15px 8px" }, { opacity: 1, translate: "0 0" }],
       { duration: 420, easing: "cubic-bezier(.2,.8,.2,1)" });
+    const portal = showcase.querySelector(".portal-rings");
+    if (portal) {
+      portal.getAnimations().forEach(animation => animation.cancel());
+      portal.animate([{ opacity: .5, scale: .95 }, { opacity: 1, scale: 1.06 }, { opacity: 1, scale: 1 }],
+        { duration: 850, easing: "ease-out" });
+      showcase.querySelectorAll(".spell-mote").forEach(mote => mote.remove());
+      for (let i = 0; i < 8; i++) {
+        const mote = document.createElement("span");
+        mote.className = "spell-mote";
+        mote.setAttribute("aria-hidden", "true");
+        mote.textContent = i % 2 ? "✧" : "·";
+        showcase.append(mote);
+        const angle = i * Math.PI / 4;
+        const x = Math.cos(angle) * 155;
+        const y = Math.sin(angle) * 125;
+        const burst = mote.animate([
+          { opacity: 0, transform: "translate(-50%, -50%) scale(.3)" },
+          { opacity: .9, offset: .3 },
+          { opacity: 0, transform: `translate(calc(-50% + ${x}px), calc(-50% + ${y}px)) scale(1.1)` }
+        ], { duration: 900, easing: "ease-out" });
+        burst.finished.then(() => mote.remove(), () => mote.remove());
+      }
+    }
   }
 }
 featuredNext.addEventListener("click", () => {

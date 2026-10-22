@@ -6,8 +6,8 @@
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#f5f3ff",
-  "theme_color": "#eceaff",
+  "background_color": "#fbf8f3",
+  "theme_color": "#f2ebfa",
   "icons": [
     {
       "src": "assets/mee-game-kor-pla-logo.png",
