@@ -1,0 +1,59 @@
+{
+  "id": "tales-of-symphonia",
+  "title": "Tales of Symphonia",
+  "thaiTitle": "เทลส์ ออฟ ซิมโฟเนีย",
+  "code": "TS-022",
+  "version": "1.0",
+  "gameBuild": "Steam · PC",
+  "platform": "pc",
+  "source": "nexus",
+  "store": "https://store.steampowered.com/app/372360/Tales_of_Symphonia/",
+  "purchaseLinks": [
+    {
+      "label": "ซื้อบน Steam",
+      "href": "https://store.steampowered.com/app/372360/Tales_of_Symphonia/"
+    },
+    {
+      "label": "เปรียบเทียบราคาจากร้านทางการ",
+      "href": "https://isthereanydeal.com/search/?q=Tales%20of%20Symphonia"
+    }
+  ],
+  "statusText": "พร้อมโหลด",
+  "date": "2026-10-11",
+  "popularity": 100,
+  "size": "ดูที่ Nexus Mods",
+  "translator": "มีเกมก็แปล By.Stamp Nattakit",
+  "category": "action",
+  "tags": [
+    "JRPG",
+    "Action RPG",
+    "เนื้อเรื่อง",
+    "แปลครบ"
+  ],
+  "colors": [
+    "#1c2838",
+    "#e74c3c"
+  ],
+  "cover": "assets/cover-tales-of-symphonia.jpg",
+  "gallery": [
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/372360/ss_3deaec81759759fee9d6179a4119a923095ba84a.600x338.jpg?t=1580311676",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/372360/ss_155a14b9f8818a74958a995821da2de1ad2e5581.600x338.jpg?t=1580311676",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/372360/ss_8c07fcad728343947867791b44b439237ced2549.600x338.jpg?t=1580311676"
+  ],
+  "trailerTitle": "Tales of Symphonia — Official Steam Trailer",
+  "description": "ม็อดภาษาไทยสำหรับ Tales of Symphonia มหากาพย์ JRPG ระดับตำนานในดวงใจของแฟนๆ ตระกูล Tales of ร่วมเดินทางไปกับ Lloyd Irving และผองเพื่อนเพื่อฟื้นฟูโลกแห่ง Sylvarant สู่การเดินทางแห่งการกอบกู้ที่เต็มไปด้วยมิตรภาพและการเสียสละ แปลไทยจัดเต็มทั้งเนื้อเรื่องหลัก คัตซีน บทสนทนา สกิต (Skit) ระบบต่อสู้ Linear Motion Battle สกิล ท่าไม้ตาย อาร์เต้ (Artes) ฉายา (Titles) อุปกรณ์สวมใส่ ไอเทม เมนู และ UI ทั้งหมด 100% พร้อมฟอนต์ไทยคมชัดสบายตา",
+  "changelog": [
+    "เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 บน Nexus Mods",
+    "แปลเนื้อเรื่องหลัก คัตซีน บทสนทนาตัวละคร และสกิต (Skit) ทั้งหมด",
+    "แปลระบบต่อสู้ สกิล ท่าไม้ตาย อาร์เต้ ฉายา อุปกรณ์ เมนู และ UI ครบ 100%"
+  ],
+  "install": [
+    "ดาวน์โหลดม็อดจากแท็บ Files บน Nexus Mods และแตกไฟล์ .zip",
+    "นำไฟล์ม็อดภาษาไทยไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)",
+    "เปิดเกม Tales of Symphonia ผ่าน Steam แล้วออกผจญภัยเป็นภาษาไทยได้ทันที"
+  ],
+  "sha": "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods",
+  "nexus": "https://www.nexusmods.com/talesofsymphonia/mods/14?tab=files",
+  "drive": "",
+  "post": "https://www.nexusmods.com/talesofsymphonia/mods/14?tab=files"
+}

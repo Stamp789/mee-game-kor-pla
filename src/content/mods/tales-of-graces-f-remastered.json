@@ -1,0 +1,60 @@
+{
+  "id": "tales-of-graces-f-remastered",
+  "title": "Tales of Graces f Remastered",
+  "thaiTitle": "เทลส์ ออฟ เกรซส์ เอฟ รีมาสเตอร์",
+  "code": "TG-010",
+  "version": "2.0",
+  "gameBuild": "Steam · PC",
+  "platform": "pc",
+  "source": "nexus",
+  "store": "https://store.steampowered.com/app/2530980/Tales_of_Graces_f_Remastered/",
+  "purchaseLinks": [
+    {
+      "label": "ซื้อบน Steam",
+      "href": "https://store.steampowered.com/app/2530980/Tales_of_Graces_f_Remastered/"
+    },
+    {
+      "label": "เปรียบเทียบราคาจากร้านทางการ",
+      "href": "https://isthereanydeal.com/game/tales-of-graces-f-remastered/info/"
+    }
+  ],
+  "statusText": "พร้อมโหลด",
+  "date": "2026-10-04",
+  "popularity": 100,
+  "size": "ดูที่ Nexus Mods",
+  "translator": "มีเกมก็แปล By.Stamp Nattakit",
+  "category": "action",
+  "tags": [
+    "JRPG",
+    "Action RPG",
+    "เนื้อเรื่อง",
+    "แปลครบ"
+  ],
+  "colors": [
+    "#162b4c",
+    "#2563eb"
+  ],
+  "cover": "assets/cover-tales-of-graces-f-remastered.jpg",
+  "gallery": [
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2530980/ss_2f361f479032d3787fe24dbb14af987f764af756.600x338.jpg?t=1739758056",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2530980/ss_1d3e4ec707d98508d63e8429f888a78199472f22.600x338.jpg?t=1739758056",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2530980/ss_8f433e6dafdfe4f8e7b5337ed6fdeb9ee448b762.600x338.jpg?t=1739758056"
+  ],
+  "trailerTitle": "Tales of Graces f Remastered — Official Trailer",
+  "description": "ม็อดภาษาไทยสำหรับ Tales of Graces f Remastered มหากาพย์ JRPG สุดคลาสสิกฉบับรีมาสเตอร์ สัมผัสเรื่องราวแห่งมิตรภาพและพันธสัญญาของ Asbel และเพื่อนๆ แปลไทยครบทั้งเนื้อเรื่องหลัก เนื้อเรื่องเสริม Lineage and Legacies บทสนทนา คัตซีน สกิต (Skit) ระบบต่อสู้ สไตล์ชิฟต์ (Style Shift) อาร์เต้ (Artes) ฉายา (Titles) เมนู และ UI ทั้งหมด",
+  "changelog": [
+    "อัปเดตแพตช์เวอร์ชัน 2.0 (TOGf Remastered ThaiPatch V2) ปรับปรุงบทแปล ข้อความ และความลื่นไหล",
+    "แปลเนื้อเรื่องหลักและบทเสริม Lineage and Legacies ครบถ้วน",
+    "แปลบทสนทนา สกิต (Skit) สกิลการต่อสู้ สไตล์ชิฟต์ และ UI ครบ 100%"
+  ],
+  "install": [
+    "ดาวน์โหลดแพตช์ภาษาไทยเวอร์ชันล่าสุด (V2) จากแท็บ Files บน Nexus Mods",
+    "แตกไฟล์ .zip ที่ดาวน์โหลดมา",
+    "นำไฟล์ไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)",
+    "เข้าเกมแล้วร่วมผจญภัยเป็นภาษาไทยได้ทันที"
+  ],
+  "sha": "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods",
+  "nexus": "https://www.nexusmods.com/talesofgracesfremastered/mods/10?tab=files",
+  "drive": "",
+  "post": "https://www.nexusmods.com/talesofgracesfremastered/mods/10?tab=files"
+}

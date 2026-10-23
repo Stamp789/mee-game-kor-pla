@@ -1,0 +1,186 @@
+/* Progressive enhancement: native document scrolling drives a sticky 3D stage. */
+.box-back {
+  position:absolute; inset:0; display:flex; flex-direction:column; align-items:center;
+  justify-content:center; gap:20px; padding:22px; text-align:center;
+  background:#263bd7; color:#fff8e9; border:4px solid #fff2ca;
+  transform:translateZ(-24px) rotateY(180deg); backface-visibility:hidden;
+}
+.box-back-mark { font:500 37px/1 var(--font); letter-spacing:-.1em; }
+.box-back strong { font-size:29px; line-height:1.2; letter-spacing:-.04em; }
+.box-back>span:not(.box-back-mark) { font:11px/1.4 var(--font); }
+.box-back small { font:5px/1.5 var(--font); letter-spacing:.09em; }
+.box-right { position:absolute; left:100%; top:0; width:24px; height:100%; background:#e7d7ae; transform-origin:left; transform:rotateY(90deg); border:2px solid #ccba8e; }
+.box-base { position:absolute; left:0; top:100%; width:100%; height:24px; background:#e7d7ae; transform-origin:top; transform:rotateX(-90deg); }
+.showcase-shared-art { display:none; }
+.shared-game-object .box-front,.shared-game-object .box-back-cover { position:absolute; inset:0; padding:0; display:block; }
+.shared-game-object .box-back-cover { background:#fff8e9; border-radius:3px; box-shadow:0 22px 28px #050a3a50; }
+.box-cover { position:absolute; inset:0; display:flex; flex-direction:column; visibility:hidden; container-type:inline-size; }
+.box-cover[data-visible=true] { visibility:visible; }
+.box-cover>img { width:100%; height:0; min-height:0; flex:1; object-fit:cover; }
+.shared-game-object .box-label,.shared-game-object .box-bottom { padding:clamp(4px,2.8cqw,9px); gap:4px; }
+.shared-game-object .box-label>span:first-child { font-size:clamp(4px,3.8cqw,10px); white-space:nowrap; }
+.shared-game-object .box-label>span:last-child { font-size:clamp(3px,2.3cqw,6px); white-space:nowrap; }
+.shared-game-object .box-bottom { min-height:clamp(15px,10cqw,34px); font-size:clamp(4px,3cqw,9px); }
+.shared-game-object .box-bottom>span:first-child { overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.shared-game-object .box-bottom>span:last-child { font-size:clamp(6px,4cqw,12px); flex-shrink:0; }
+.showcase-journey { position:relative; background:#283edb; scroll-margin-top:-26px; }
+.scene-watermark,.journey-progress,.journey-motion { display:none; }
+.journey-instruction { display:flex; align-items:center; gap:12px; }
+.journey-scroll-icon { font:21px/1 var(--font); }
+.scroll-experience .play-hero { --hero-scroll:0; }
+.scroll-experience .hero-copy { transform:translate3d(0,calc(var(--hero-scroll) * -65px),0); }
+.scroll-experience .floating-case { animation:none; }
+.scroll-experience .case-main { transform:translate3d(calc(var(--hero-scroll) * 45px),calc(var(--hero-scroll) * -85px),0) rotate(calc(-14deg + var(--hero-scroll) * 36deg)); }
+.scroll-experience .case-back { transform:translate3d(calc(var(--hero-scroll) * -45px),calc(var(--hero-scroll) * 50px),0) rotate(calc(15deg - var(--hero-scroll) * 39deg)); }
+.scroll-experience .case-main .game-object { transform:rotateX(calc(7deg + var(--hero-scroll) * 12deg)) rotateY(calc(-20deg + var(--hero-scroll) * 100deg)); }
+.scroll-experience .case-back .game-object { transform:rotateX(calc(7deg - var(--hero-scroll) * 15deg)) rotateY(calc(-20deg - var(--hero-scroll) * 65deg)); }
+.scroll-experience .sculpture-orbit { transform:rotate(calc(-22deg + var(--hero-scroll) * 105deg)) rotateX(calc(25deg + var(--hero-scroll) * 35deg)); }
+.scroll-experience .spark-one { transform:rotate(calc(-10deg + var(--hero-scroll) * 135deg)); }
+.scroll-experience .spark-two { transform:rotate(calc(18deg - var(--hero-scroll) * 160deg)); }
+.is-scroll-driven { height:500svh; }
+.is-scroll-driven .game-showcase {
+  position:sticky; top:0; height:100svh; min-height:540px; padding-top:32px;
+  padding-bottom:20px; display:flex; flex-direction:column; isolation:isolate;
+  overflow:hidden; transition:none;
+}
+.is-scroll-driven .showcase-heading { flex-shrink:0; padding-bottom:23px; z-index:2; }
+.is-scroll-driven .showcase-tabs { flex-shrink:0; z-index:2; }
+.is-scroll-driven .showcase-tabs button { min-height:54px; }
+.is-scroll-driven .showcase-tabs button:after {
+  content:''; position:absolute; left:0; right:0; bottom:-1px; height:3px;
+  background:var(--stage-accent); transform:scaleX(var(--chapter-fill,0)); transform-origin:left;
+}
+.is-scroll-driven .showcase-tabs button[aria-selected=true]:after { transform:scaleX(var(--chapter-fill,0)); }
+.is-scroll-driven .showcase-panels { flex:1; min-height:0; position:relative; z-index:1; }
+.is-scroll-driven .showcase-panel {
+  position:absolute; inset:0; min-height:0; height:100%; gap:50px;
+  opacity:var(--panel-opacity,0); animation:none; pointer-events:none;
+  grid-template-columns:minmax(0,1fr) minmax(0,1fr); align-items:center;
+}
+.is-scroll-driven .showcase-panel[data-active=true] { pointer-events:auto; }
+.is-scroll-driven .showcase-panel:focus-visible { outline-offset:-4px; }
+.is-scroll-driven .showcase-copy { padding:24px 0; opacity:var(--copy-opacity,1); transform:translate3d(0,var(--copy-rise,0px),0); }
+.is-scroll-driven .showcase-panel:not([data-active=true]) .showcase-copy { visibility:hidden; }
+.motion-paused .showcase-panel { animation:none; }
+.is-scroll-driven .showcase-copy h3 { font-size:clamp(45px,5.5vw,90px); }
+.is-scroll-driven .showcase-art { height:100%; max-height:570px; width:100%; min-height:0; perspective:1000px; }
+.is-scroll-driven .showcase-panel>.showcase-art { display:none; }
+.is-scroll-driven .showcase-shared-art { display:block; position:absolute; top:0; left:calc(50% + 25px); width:calc(50% - 25px); height:100%; max-height:none; pointer-events:none; z-index:2; }
+.is-scroll-driven .showcase-box {
+  top:50%; left:50%; width:clamp(220px,23vw,345px); height:auto; aspect-ratio:3/4;
+  animation:none; transform:translate3d(calc(-50% + var(--scene-drift,0px)),calc(-50% + var(--scene-rise,0px)),0) rotate(var(--scene-tilt,11deg)) scale(var(--scene-scale,1));
+  transform-style:preserve-3d; will-change:transform;
+}
+.is-scroll-driven .showcase-box .game-object { transform:rotateX(var(--scene-pitch,7deg)) rotateY(var(--scene-turn,-18deg)); will-change:transform; }
+.is-scroll-driven .showcase-disc {
+  width:min(100%,450px); height:auto; max-height:none; inset:auto;
+  aspect-ratio:1; left:50%; top:50%;
+  transform:translate(-50%,-50%) rotate(var(--orbit-turn,-15deg)) rotateX(16deg);
+  border-color:#fff8e94d;
+}
+.is-scroll-driven .showcase-disc:after { content:''; position:absolute; inset:28px; border:1px solid #fff8e925; border-radius:50%; }
+.is-scroll-driven .showcase-star { right:-2%; top:10%; font-size:clamp(65px,8vw,115px); transform:rotate(var(--orbit-turn,-15deg)); }
+.is-scroll-driven .edition-stamp { left:-1%; bottom:7%; width:105px; height:105px; font-size:23px; transform:rotate(calc(var(--orbit-turn,0deg) * -.3)); }
+.is-scroll-driven .showcase-bottom { z-index:2; flex-shrink:0; align-items:center; min-height:43px; gap:25px; padding-top:15px; }
+.is-scroll-driven .journey-progress { display:block; flex:1; height:2px; background:#fff8e933; max-width:290px; }
+.is-scroll-driven .journey-progress>span { display:block; height:100%; background:var(--stage-accent); transform:scaleX(var(--journey-progress,0)); transform-origin:left; }
+.is-scroll-driven .journey-motion { display:flex; color:inherit; padding:0; font-size:8px; }
+.is-scroll-driven .journey-instruction { color:#fff8e9; font-size:10px; }
+.is-scroll-driven .scene-watermark {
+  display:block; position:absolute; right:var(--gutter); bottom:55px; z-index:0;
+  font:500 clamp(180px,27vw,420px)/.85 var(--font); letter-spacing:-.09em; color:#fff8e90b; pointer-events:none;
+}
+@media(min-width:1600px) {
+  .is-scroll-driven .game-showcase { padding-top:45px; padding-bottom:28px; }
+  .is-scroll-driven .showcase-copy>.eyebrow { font-size:10px; }
+  .is-scroll-driven .showcase-lead { font-size:28px; }
+  .is-scroll-driven .showcase-description { font-size:15px; max-width:410px; }
+}
+@media(max-height:740px) and (min-width:801px) {
+  .is-scroll-driven .game-showcase { padding-top:22px; padding-bottom:14px; }
+  .is-scroll-driven .showcase-heading { padding-bottom:17px; }
+  .is-scroll-driven .showcase-copy h3 { font-size:clamp(44px,5vw,70px); margin:18px 0; }
+  .is-scroll-driven .showcase-copy { padding:15px 0; }
+  .is-scroll-driven .showcase-description { font-size:12px; margin-bottom:20px; }
+  .is-scroll-driven .showcase-status { margin-top:17px; }
+  .is-scroll-driven .showcase-box { width:clamp(200px,21vw,275px); max-height:calc(100svh - 230px); }
+  .is-scroll-driven .showcase-disc { width:90%; max-height:calc(100svh - 210px); }
+}
+@media(max-width:800px) {
+  .is-scroll-driven { height:460svh; }
+  .is-scroll-driven .game-showcase { padding-top:25px; padding-bottom:18px; }
+  .is-scroll-driven .showcase-heading { padding-bottom:18px; }
+  .is-scroll-driven .showcase-panel { gap:15px; }
+  .is-scroll-driven .showcase-shared-art { left:calc(50% + 7.5px); width:calc(50% - 7.5px); }
+  .is-scroll-driven .showcase-box { width:clamp(190px,29vw,245px); }
+  .is-scroll-driven .showcase-copy h3 { font-size:43px; }
+  .is-scroll-driven .showcase-disc { width:110%; }
+  .is-scroll-driven .edition-stamp { width:83px; height:83px; font-size:18px; }
+  .is-scroll-driven .showcase-bottom { gap:15px; }
+  .is-scroll-driven .journey-instruction { font-size:8px; }
+  .is-scroll-driven .journey-motion { font-size:7px; gap:7px; }
+}
+@media(max-width:600px) {
+  .is-scroll-driven { height:440svh; }
+  .is-scroll-driven .game-showcase { min-height:0; padding-top:21px; padding-bottom:15px; }
+  .is-scroll-driven .showcase-heading { gap:10px; padding-bottom:16px; }
+  .is-scroll-driven .showcase-heading>.eyebrow { font-size:6px; }
+  .is-scroll-driven .showcase-heading h2 { font-size:19px; }
+  .is-scroll-driven .showcase-tabs button { min-height:43px; padding-top:10px; padding-bottom:10px; font-size:9px; }
+  .is-scroll-driven .showcase-panel { display:grid; grid-template-columns:1fr; grid-template-rows:var(--shared-copy-height,250px) minmax(0,1fr); gap:0; }
+  .is-scroll-driven .showcase-copy { padding:22px 0 4px; }
+  .is-scroll-driven .showcase-copy>.eyebrow { font-size:6px; }
+  .is-scroll-driven .showcase-copy h3 { font-size:clamp(31px,9vw,44px); line-height:1.05; margin:11px 0; }
+  .is-scroll-driven .showcase-lead { font-size:17px; margin-bottom:8px; }
+  .is-scroll-driven .showcase-description { font-size:11px; line-height:1.7; margin-bottom:13px; max-width:340px; }
+  .is-scroll-driven .showcase-copy .play-button { min-height:43px; padding:5px 5px 5px 17px; font-size:10px; gap:22px; }
+  .is-scroll-driven .showcase-copy .play-button>span { width:30px; height:30px; }
+  .is-scroll-driven .showcase-status { font-size:7px; margin-top:12px; gap:7px; }
+  .is-scroll-driven .showcase-art { max-height:360px; min-height:0; max-width:360px; margin:auto; }
+  .is-scroll-driven .showcase-shared-art { left:0; top:var(--shared-copy-height,250px); width:100%; height:calc(100% - var(--shared-copy-height,250px)); max-height:none; max-width:none; margin:0; }
+  .is-scroll-driven .showcase-box { width:auto; height:82%; max-height:270px; max-width:205px; top:49%; left:54%; }
+  .is-scroll-driven .showcase-disc { width:auto; height:92%; max-height:310px; top:49%; }
+  .is-scroll-driven .showcase-star { right:1%; top:5%; font-size:55px; }
+  .is-scroll-driven .edition-stamp { width:65px; height:65px; font-size:15px; left:6%; bottom:13%; }
+  .is-scroll-driven .edition-stamp small { font-size:4px; margin-top:4px; }
+  .is-scroll-driven .showcase-bottom { gap:12px; min-height:35px; padding-top:12px; }
+  .is-scroll-driven .journey-instruction { font-size:8px; gap:6px; }
+  .is-scroll-driven .journey-scroll-icon { font-size:17px; }
+  .is-scroll-driven .journey-progress { max-width:none; }
+  .is-scroll-driven .showcase-counter { font-size:9px; }
+  .is-scroll-driven .journey-motion { font-size:0; gap:0; }
+  .is-scroll-driven .journey-motion>span { font-size:18px; }
+  .is-scroll-driven .scene-watermark { bottom:52px; font-size:190px; }
+}
+@media(max-width:600px) and (max-height:720px) {
+  .is-scroll-driven .showcase-description { display:none; }
+  .is-scroll-driven .showcase-copy { padding-top:16px; }
+  .is-scroll-driven .showcase-copy h3 { font-size:31px; margin:10px 0; }
+  .is-scroll-driven .showcase-lead { font-size:16px; }
+  .is-scroll-driven .showcase-status { margin-top:9px; }
+}
+@media(max-height:530px) and (orientation:landscape) {
+  .is-scroll-driven .game-showcase { min-height:0; padding-top:12px; padding-bottom:10px; }
+  .is-scroll-driven .showcase-heading { padding-bottom:9px; flex-wrap:nowrap; }
+  .is-scroll-driven .showcase-heading>.eyebrow { width:auto; font-size:6px; }
+  .is-scroll-driven .showcase-heading h2 { font-size:17px; margin-left:auto; }
+  .is-scroll-driven .showcase-tabs { grid-template-columns:repeat(4,1fr); }
+  .is-scroll-driven .showcase-tabs button { min-height:34px; padding:8px; font-size:8px; border-bottom:0; }
+  .is-scroll-driven .showcase-panel { display:grid; grid-template-columns:1fr 1fr; grid-template-rows:1fr; gap:20px; }
+  .is-scroll-driven .showcase-copy { padding:10px 0; }
+  .is-scroll-driven .showcase-copy h3 { font-size:32px; margin:10px 0; }
+  .is-scroll-driven .showcase-lead { font-size:16px; }
+  .is-scroll-driven .showcase-description { display:none; }
+  .is-scroll-driven .showcase-status { margin-top:10px; font-size:7px; }
+  .is-scroll-driven .showcase-box { height:85%; width:auto; max-height:250px; }
+  .is-scroll-driven .showcase-disc { height:95%; width:auto; }
+  .is-scroll-driven .showcase-art { height:100%; }
+  .is-scroll-driven .showcase-shared-art { top:0; left:calc(50% + 10px); width:calc(50% - 10px); height:100%; }
+  .is-scroll-driven .showcase-copy .play-button { min-height:40px; padding:5px 5px 5px 15px; font-size:10px; }
+  .is-scroll-driven .showcase-copy .play-button>span { width:28px; height:28px; }
+  .is-scroll-driven .edition-stamp { width:60px; height:60px; font-size:14px; bottom:6%; }
+  .is-scroll-driven .showcase-bottom { padding-top:9px; min-height:30px; }
+}
+@media(prefers-reduced-motion:reduce) {
+  .scroll-experience .hero-copy,.scroll-experience .floating-case,.scroll-experience .case-main .game-object,.scroll-experience .case-back .game-object,.scroll-experience .sculpture-orbit { transform:revert; }
+}

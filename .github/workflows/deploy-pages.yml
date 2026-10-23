@@ -28,18 +28,35 @@ jobs:
           persist-credentials: false
 
       - name: Configure Pages
+        id: pages
         uses: actions/configure-pages@v6
 
-      - name: Prepare static site
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Check and test
         run: |
-          mkdir _site
-          cp index.html styles.css theme-arcade.css theme-retro.css theme-fantasy.css app.js manifest.webmanifest .nojekyll _site/
-          cp -r assets _site/assets
+          npm run check
+          npm test
+
+      - name: Build World Journey
+        env:
+          SITE_URL: ${{ steps.pages.outputs.origin }}
+          SITE_BASE: ${{ steps.pages.outputs.base_path }}
+        run: |
+          npm run build
+          npm run audit:site
 
       - name: Upload site
         uses: actions/upload-pages-artifact@v5
         with:
-          path: _site
+          path: dist
           include-hidden-files: true
 
       - name: Deploy

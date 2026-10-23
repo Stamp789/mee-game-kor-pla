@@ -1,0 +1,60 @@
+{
+  "id": "camp-sunshine",
+  "title": "Camp Sunshine",
+  "thaiTitle": "แคมป์ ซันไชน์",
+  "code": "CS-008",
+  "version": "3.0",
+  "gameBuild": "Steam · PC",
+  "platform": "pc",
+  "source": "nexus",
+  "store": "https://store.steampowered.com/app/457570/Camp_Sunshine/",
+  "purchaseLinks": [
+    {
+      "label": "ซื้อบน Steam",
+      "href": "https://store.steampowered.com/app/457570/Camp_Sunshine/"
+    },
+    {
+      "label": "เปรียบเทียบราคาจากร้านทางการ",
+      "href": "https://isthereanydeal.com/game/camp-sunshine/info/"
+    }
+  ],
+  "statusText": "พร้อมโหลด",
+  "date": "2026-09-20",
+  "popularity": 96,
+  "size": "ดูที่ Nexus Mods",
+  "translator": "มีเกมก็แปล By.Stamp Nattakit",
+  "category": "visual",
+  "tags": [
+    "Horror",
+    "Retro 16-bit",
+    "เอาชีวิตรอด",
+    "แปลครบ"
+  ],
+  "colors": [
+    "#2d0e0e",
+    "#a81919"
+  ],
+  "cover": "assets/cover-camp-sunshine.jpg",
+  "gallery": [
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/457570/ss_44fec9d2cdff7b59994e209832bcb34827d16cb7.600x338.jpg?t=1633693100",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/457570/ss_b73c7921a289296c819668f1bfbfcdae0c12e402.600x338.jpg?t=1633693100",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/457570/ss_38c591f26fc417ff01ed19542b1c35ecb5fb27aa.600x338.jpg?t=1633693100"
+  ],
+  "trailerTitle": "Camp Sunshine — Official Trailer",
+  "description": "ม็อดภาษาไทยสำหรับ Camp Sunshine เกมสยองขวัญ 16-bit Retro Horror ย้อนยุคสไตล์หนังสแลชเชอร์ 80s หนีตายจากฆาตกรชุดมาสคอตหมี แปลไทยให้อินทุกเบาะแส อ่านเอกสารรู้เรื่อง ครอบคลุมเนื้อเรื่อง คัตซีน บทสนทนา เอกสาร ไดอารี ไอเทม และหน้า UI วรรณยุกต์ไม่ลอย",
+  "changelog": [
+    "อัปเดตเวอร์ชัน 3.0: เกลาบทแปลให้เป็นธรรมชาติเหมือนคนไทยพูดจริง",
+    "ปรับสำนวนและสรรพนามบทสนทนาตัวละคร ไดอารี (Diary) และรายการไอเทม",
+    "ปรับปรุงข้อความ UI ทั่วทั้งเกมให้อ่านง่ายและเข้ากับบรรยากาศ"
+  ],
+  "install": [
+    "ดาวน์โหลดม็อดจากแท็บ Files บน Nexus Mods",
+    "แตกไฟล์ .zip ที่ดาวน์โหลดมา",
+    "นำไฟล์ไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)",
+    "เข้าเกมแล้วเตรียมไฟฉายให้พร้อมออกสำรวจ"
+  ],
+  "sha": "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods",
+  "nexus": "https://www.nexusmods.com/campsunshine/mods/1?tab=files",
+  "drive": "",
+  "post": "https://www.facebook.com/share/p/1J5wbq3Yaq/"
+}

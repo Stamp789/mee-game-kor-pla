@@ -1,0 +1,59 @@
+{
+  "id": "super-neptunia-rpg",
+  "title": "Super Neptunia RPG",
+  "thaiTitle": "ซูเปอร์ เนปทูเนีย อาร์พีจี",
+  "code": "SN-019",
+  "version": "1.1",
+  "gameBuild": "Steam · PC",
+  "platform": "pc",
+  "source": "nexus",
+  "store": "https://store.steampowered.com/app/1016960/Super_Neptunia_RPG/",
+  "purchaseLinks": [
+    {
+      "label": "ซื้อบน Steam",
+      "href": "https://store.steampowered.com/app/1016960/Super_Neptunia_RPG/"
+    },
+    {
+      "label": "เปรียบเทียบราคาจากร้านทางการ",
+      "href": "https://isthereanydeal.com/search/?q=Super%20Neptunia%20RPG"
+    }
+  ],
+  "statusText": "พร้อมโหลด",
+  "date": "2026-10-11",
+  "popularity": 100,
+  "size": "ดูที่ Nexus Mods",
+  "translator": "มีเกมก็แปล By.Stamp Nattakit",
+  "category": "action",
+  "tags": [
+    "JRPG",
+    "Action RPG",
+    "Side-Scroller",
+    "แปลครบ"
+  ],
+  "colors": [
+    "#291a45",
+    "#9b51e0"
+  ],
+  "cover": "assets/cover-super-neptunia-rpg.jpg",
+  "gallery": [
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1016960/ss_2d1afb6475b31d08afdd712eee9f8e0a98f2aa86.600x338.jpg?t=1776732587",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1016960/ss_a4016a5ec38a970f9ad34b761e392baedf44f92b.600x338.jpg?t=1776732587",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1016960/ss_05b13a412a26af8a115345fd60842c11e599bcfe.600x338.jpg?t=1776732587"
+  ],
+  "trailerTitle": "Super Neptunia RPG — Official Launch Trailer",
+  "description": "ม็อดภาษาไทยสำหรับ Super Neptunia RPG ผลงาน JRPG สไตล์ 2D Side-scrolling จากทีมพัฒนา Artisan Studios ร่วมกับ Compile Heart ผจญภัยไปกับเหล่าเทพธิดาเนปจูนในมิติภาพ 2 มิติสุดน่ารัก แปลไทยจัดเต็มทั้งเนื้อเรื่องหลัก คัตซีน บทสนทนาเควสต์ มุกตลกล้อเลียนวงการเกม สกิลการต่อสู้ ท่าเบรก (Break Attack) อุปกรณ์สวมใส่ ไอเทม เมนู และ UI ทั้งหมด 100% พร้อมฟอนต์ไทยคมชัดสบายตา",
+  "changelog": [
+    "อัปเดตม็อดภาษาไทยเวอร์ชัน 1.1 เผยแพร่บน Nexus Mods",
+    "แปลเนื้อเรื่องหลัก คัตซีน ภารกิจเสริม และบทสนทนาตัวละครทั้งหมด",
+    "แปลสกิลการต่อสู้ อุปกรณ์สวมใส่ ไอเทม เมนู และ UI ครบ 100%"
+  ],
+  "install": [
+    "ดาวน์โหลดม็อดจากแท็บ Files บน Nexus Mods และแตกไฟล์ .zip",
+    "นำไฟล์หรือโฟลเดอร์ภาษาไทยไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)",
+    "เปิดเกม Super Neptunia RPG ผ่าน Steam แล้วสนุกกับภาษาไทยได้ทันที"
+  ],
+  "sha": "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods",
+  "nexus": "https://www.nexusmods.com/superneptuniarpg/mods/2?tab=files",
+  "drive": "",
+  "post": "https://www.nexusmods.com/superneptuniarpg/mods/2?tab=files"
+}

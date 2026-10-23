@@ -1,0 +1,60 @@
+{
+  "id": "humankind",
+  "title": "HUMANKIND™",
+  "thaiTitle": "ฮิวแมนไคด์",
+  "code": "HK-031",
+  "version": "1.0",
+  "gameBuild": "Steam · PC",
+  "platform": "pc",
+  "source": "nexus",
+  "store": "https://store.steampowered.com/app/1124300/HUMANKIND/",
+  "purchaseLinks": [
+    {
+      "label": "ซื้อบน Steam",
+      "href": "https://store.steampowered.com/app/1124300/HUMANKIND/"
+    },
+    {
+      "label": "เปรียบเทียบราคาจากร้านทางการ",
+      "href": "https://isthereanydeal.com/search/?q=HUMANKIND"
+    }
+  ],
+  "statusText": "พร้อมโหลด",
+  "date": "2026-10-20",
+  "popularity": 100,
+  "size": "ดูที่ Nexus Mods",
+  "translator": "มีเกมก็แปล By.Stamp Nattakit",
+  "category": "action",
+  "tags": [
+    "4X",
+    "Turn-Based",
+    "Strategy",
+    "แปลครบ"
+  ],
+  "colors": [
+    "#16213e",
+    "#d4af37"
+  ],
+  "cover": "assets/cover-humankind.jpg",
+  "gallery": [
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1124300/ss_ada8d1a3fcf57994cfad1c237264c13fe37c23f3.600x338.jpg?t=1787683756",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1124300/ss_4b063b1fe81d8f4ebdd34078eebd7425251c9e05.600x338.jpg?t=1787683756",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1124300/ss_db02212187624500658a74a8355394b962912600.600x338.jpg?t=1787683756"
+  ],
+  "trailerTitle": "HUMANKIND™ — Official Gameplay Trailer",
+  "description": "ม็อดภาษาไทยสำหรับ HUMANKIND™ มหากาพย์เกมวางแผนประวัติศาสตร์แนว 4X Turn-Based ระดับมาสเตอร์พีซจาก AMPLITUDE Studios และ SEGA ให้คุณเขียนประวัติศาสตร์มนุษยชาติขึ้นมาใหม่ด้วยมือของคุณเอง ผสมผสาน 60 อารยธรรมตั้งแต่ยุคโบราณ (Ancient Era) จนถึงยุคปัจจุบัน (Contemporary Era) เพื่อสร้างอารยธรรมที่เป็นเอกลักษณ์เฉพาะตัว บริหารเมือง วางแผนกลยุทธ์ ทำสงครามแท็กติกแบบผลัดตาเดิน เจรจาการทูต และเผยแพร่อิทธิพลสร้างชื่อเสียง (Fame) สู่ชัยชนะ แปลไทยจัดเต็มทั้งระบบอารยธรรม วัฒนธรรม สิ่งมหัศจรรย์ ประวัติศาสตร์ เทคโนโลยี นโยบายการปกครอง ศาสนา เควสต์และเหตุการณ์จำลองทางประวัติศาสตร์ ข้อมูลยูนิต อาคาร เมนูการทูต สารานุกรมคำแนะนำ และ UI ทั้งหมด 100% พร้อมฟอนต์ไทยคมชัดสบายตา",
+  "changelog": [
+    "เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 บน Nexus Mods",
+    "แปลระบบอารยธรรม เทคโนโลยี สิ่งมหัศจรรย์ นโยบาย และเหตุการณ์ประวัติศาสตร์ทั้งหมด",
+    "แปลระบบการทูต สงคราม ข้อมูลยูนิต อาคาร สารานุกรม เมนู และ UI ครบ 100%"
+  ],
+  "install": [
+    "ดาวน์โหลดม็อดจากแท็บ Files บน Nexus Mods และแตกไฟล์ .zip",
+    "นำไฟล์หรือโฟลเดอร์ภาษาไทยไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)",
+    "เปิดเกม HUMANKIND ผ่าน Steam แล้วเริ่มสร้างประวัติศาสตร์อารยธรรมเป็นภาษาไทยได้ทันที"
+  ],
+  "sha": "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods",
+  "nexus": "https://www.nexusmods.com/humankind/mods/13?tab=files",
+  "drive": "",
+  "mediafire": "",
+  "post": "https://www.nexusmods.com/humankind/mods/13"
+}

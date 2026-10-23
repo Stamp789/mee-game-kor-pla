@@ -1,0 +1,59 @@
+{
+  "id": "syberia-the-world-before",
+  "title": "Syberia: The World Before",
+  "thaiTitle": "ไซบีเรีย: เดอะ เวิลด์ บีฟอร์",
+  "code": "SY-025",
+  "version": "1.0",
+  "gameBuild": "Steam · PC",
+  "platform": "pc",
+  "source": "nexus",
+  "store": "https://store.steampowered.com/app/1410640/Syberia_The_World_Before/",
+  "purchaseLinks": [
+    {
+      "label": "ซื้อบน Steam",
+      "href": "https://store.steampowered.com/app/1410640/Syberia_The_World_Before/"
+    },
+    {
+      "label": "เปรียบเทียบราคาจากร้านทางการ",
+      "href": "https://isthereanydeal.com/search/?q=Syberia%20The%20World%20Before"
+    }
+  ],
+  "statusText": "พร้อมโหลด",
+  "date": "2026-10-13",
+  "popularity": 100,
+  "size": "ดูที่ Nexus Mods",
+  "translator": "มีเกมก็แปล By.Stamp Nattakit",
+  "category": "visual",
+  "tags": [
+    "Adventure",
+    "Puzzle",
+    "เนื้อเรื่อง",
+    "แปลครบ"
+  ],
+  "colors": [
+    "#1d212b",
+    "#d49b4b"
+  ],
+  "cover": "assets/cover-syberia-the-world-before.jpg",
+  "gallery": [
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1410640/ss_e358939173c6e0f856cf720b3f5f28c984a73954.600x338.jpg?t=1745484690",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1410640/ss_969cd4b17cd598dd9b0d4e7cd81b1dec8f615937.600x338.jpg?t=1745484690",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1410640/ss_1b1fcceeaa0f8627b7d3161f8720b9fd4612f9b1.600x338.jpg?t=1745484690"
+  ],
+  "trailerTitle": "Syberia: The World Before — Official Launch Trailer",
+  "description": "ม็อดภาษาไทยสำหรับ Syberia: The World Before มหากาพย์การเดินทางและปริศนาชิ้นเอกแห่งโลกออโตมาตอนจาก Benoît Sokal สัมผัสเรื่องราว 2 ห้วงเวลาของ Dana Roze ในปี 1937 ที่ต้องเผชิญกับภัยคุกคามสงครามในยุโรป และ Kate Walker ในปี 2004 ที่ตามหาตัวตนและความจริงที่ผูกพันข้ามกาลเวลา แปลไทยจัดเต็มทั้งเนื้อเรื่องหลัก คัตซีน บทสนทนา บันทึกไดอารี ปริศนากลไกออโตมาตอน เอกสารประวัติศาสตร์ เมนู และ UI ทั้งหมด 100% พร้อมฟอนต์ไทยคมชัดสบายตา",
+  "changelog": [
+    "เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 บน Nexus Mods",
+    "แปลเนื้อเรื่องหลัก คัตซีน บทสนทนาตัวละคร และบันทึกไดอารีทั้งหมด",
+    "แปลปริศนากลไกออโตมาตอน เอกสารประวัติศาสตร์ เมนู และ UI ครบ 100%"
+  ],
+  "install": [
+    "ดาวน์โหลดม็อดจากแท็บ Files บน Nexus Mods และแตกไฟล์ .zip",
+    "นำไฟล์ม็อดภาษาไทยไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)",
+    "เปิดเกม Syberia: The World Before ผ่าน Steam แล้วดื่มด่ำกับเรื่องราวเป็นภาษาไทยได้ทันที"
+  ],
+  "sha": "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods",
+  "nexus": "https://www.nexusmods.com/syberiatheworldbefore/mods/4?tab=files",
+  "drive": "",
+  "post": "https://www.nexusmods.com/syberiatheworldbefore/mods/4?tab=files"
+}

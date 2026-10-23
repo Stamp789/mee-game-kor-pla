@@ -1,0 +1,20 @@
+---
+import Icon from './Icon.astro';
+import { cover, getMods } from '../lib/mods';
+const mods = await getMods();
+const sceneIds = ['absolum', 'battle-chef-brigade', 'tales-of-eternia-remastered', 'i-am-setsuna'];
+const worlds = sceneIds.map(id => mods.find(mod => mod.id === id)!);
+---
+<section class="world-stage" aria-label="ฉากสามมิติของโลกเกมแปลไทย" data-world-scene data-covers={JSON.stringify(worlds.map(cover))}>
+  <div class="world-fallback" aria-hidden="true">
+    <div class="poster-orbit orbit-one"></div><div class="poster-orbit orbit-two"></div>
+    <div class="poster-plate plate-one"><img src={cover(worlds[0])} width="540" height="400" alt="" /></div>
+    <div class="poster-plate plate-two"><img src={cover(worlds[1])} width="360" height="240" alt="" /></div>
+    <div class="poster-plate plate-three"><img src={cover(worlds[3])} width="360" height="240" alt="" /></div>
+    <span class="poster-letter">ก</span>
+  </div>
+  <canvas class="world-canvas" aria-hidden="true"></canvas>
+  <div class="stage-top"><span class="micro"><span class="live-dot"></span> WORLDS, UNDERSTOOD.</span><span class="stage-index micro">001 — ∞</span></div>
+  <div class="stage-bottom"><span class="stage-caption">เรื่องราวดี ๆ<br /><strong>ไม่ควรมีกำแพงภาษา</strong></span><span class="stage-hint micro">ขยับเมาส์เพื่อสำรวจ ↔</span><button class="motion-button" type="button" aria-pressed="false" aria-label="พักฉากสามมิติ"><Icon name="pause" size={14} /><span>พักการเคลื่อนไหว</span></button></div>
+</section>
+<script>import '../scripts/world-scene';</script>

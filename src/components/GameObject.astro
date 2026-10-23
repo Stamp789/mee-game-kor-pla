@@ -1,0 +1,17 @@
+---
+import { cover, modUrl, type Mod } from '../lib/mods';
+interface Props { mod: Mod; class?: string; eager?: boolean; decorative?: boolean; }
+const { mod, class: className = '', eager = false, decorative = false } = Astro.props;
+---
+<a href={modUrl(mod)} class:list={['game-object', className]} aria-label={`ดูม็อดภาษาไทย ${mod.title}`} tabindex={decorative ? -1 : undefined} aria-hidden={decorative ? 'true' : undefined}>
+  <div class="box-front">
+    <div class="box-label"><span>มีเกมก็แปล</span><span>THAI EDITION ↗</span></div>
+    <img src={cover(mod)} alt={decorative ? '' : mod.title} width="540" height="660" loading={eager ? 'eager' : 'lazy'} fetchpriority={eager ? 'high' : undefined} />
+    <div class="box-bottom"><span>{mod.title}</span><span>TH</span></div>
+  </div>
+  <div class="box-spine" aria-hidden="true"><span>มีเกมก็แปล / {mod.title}</span></div>
+  <div class="box-top" aria-hidden="true"></div>
+  <div class="box-right" aria-hidden="true"></div>
+  <div class="box-base" aria-hidden="true"></div>
+  <div class="box-back" aria-hidden="true"><span class="box-back-mark">ก ↔ A</span><strong>ทุกโลก<br />เล่นเป็นไทย.</strong><span>{mod.title}</span><small>มีเกมก็แปล / THAI TRANSLATION</small></div>
+</a>

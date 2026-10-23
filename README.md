@@ -1,81 +1,55 @@
-# มีเกมก็แปล — Thai Game Mods
+# มีเกมก็แปล — World Journey
 
-เว็บคลังม็อดแปลภาษาไทยของ [มีเกมก็แปล](https://www.facebook.com/profile.php?id=61593924362608) แบบ static สำหรับ GitHub Pages มีลิงก์ดาวน์โหลดจาก Nexus Mods และ Google Drive พร้อมแหล่งซื้อเกมแท้ของแต่ละเกม
+ดีไซน์หลักที่เลือกใช้: ฉาก 3D เต็มจอ แสงฟ้า/ม่วง/ทอง และกล้องตาม native scroll พร้อมคลังและรายละเอียดม็อด 32 เกม เน้นการใช้งานบน PC/Mac
 
-ข้อมูลในคลังอ้างอิงจากโพสต์สาธารณะของเพจและหน้าม็อดของผู้จัดทำ ประกอบด้วย Absolum, Battle Chef Brigade Deluxe, Camp Sunshine, Company of Heroes 2, Death end re;Quest, Monster Prom, Tales of Berseria, Tales of Graces f Remastered, The Royal Writ และ Vapor World: Over The Mind
+เว็บไซต์หลัก: [มีเกมก็แปล](https://stamp789.github.io/mee-game-kor-pla/)
 
-มีส่วนสถานะโปรเจกต์ม็อดแปลไทย และส่วนสนับสนุนผู้แปลผ่าน PromptPay
+## พัฒนาและเปิดพรีวิว
 
-## จุดเด่น
+ใช้ Node.js 24 และ npm จาก root โปรเจกต์:
 
-- ค้นหาจากชื่อเกม ชื่อไทย ผู้แปล และแท็ก
-- กรองสถานะและแพลตฟอร์ม
-- เรียงตามวันที่ ชื่อ หรือความนิยม
-- บันทึกม็อดโปรดไว้ในอุปกรณ์ด้วย `localStorage`
-- หน้ารายละเอียดพร้อม Game Build, changelog, วิธีติดตั้ง และ SHA-256
-- รองรับหน้าจอคอมพิวเตอร์ แท็บเล็ต และมือถือ
-- ไม่มีฐานข้อมูลหรือค่าเซิร์ฟเวอร์
-- มี GitHub Issue Forms สำหรับรับคำขอม็อดและรายงานบั๊ก
-
-## แก้ข้อมูลม็อด
-
-ข้อมูลม็อดทั้งหมดอยู่ในตัวแปร `mods` ด้านบนของ `app.js` แต่ละรายการรองรับข้อมูลหลักดังนี้:
-
-```js
-{
-  id: "ชื่อสำหรับลิงก์",
-  title: "ชื่อเกมภาษาอังกฤษ",
-  thaiTitle: "ชื่อภาษาไทย",
-  version: "1.0.0",
-  gameBuild: "Steam Build 123456",
-  platform: "pc",
-  source: "drive",
-  cover: "assets/cover-example.jpg",
-  purchaseLinks: [
-    { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/.../" }
-  ],
-  nexus: "ลิงก์หน้าม็อดบน Nexus Mods",
-  drive: "ลิงก์ไฟล์บน Google Drive",
-  post: "ลิงก์โพสต์ต้นทาง"
-}
+```powershell
+npm.cmd ci
+npm.cmd run dev
 ```
 
-ค่า `source` ที่ใช้อยู่คือ `nexus` และ `drive` ส่วน `purchaseLinks` สามารถเพิ่มแหล่งซื้อหรือแหล่งเปรียบเทียบราคาได้หลายรายการ
+พรีวิวชุด build: `npm.cmd run build` แล้ว `npm.cmd run preview`
 
-## เปิดดูบนเครื่อง
+- หน้าแรก: http://127.0.0.1:4321/
+- คลัง: http://127.0.0.1:4321/mods/
+- รายละเอียดตัวอย่าง: http://127.0.0.1:4321/mods/dressmaker/
 
-ใช้เว็บเซิร์ฟเวอร์ static ตัวใดก็ได้ เช่น:
+## แก้ข้อมูลและตรวจงาน
 
-```bash
-python -m http.server 4173
+ข้อมูลหลักอยู่ที่ `src/content/mods/*.json` รูปภาพที่ใช้งานอยู่ใน `public/assets/` หากเปลี่ยนภาพต้นฉบับใน `assets/` ให้รัน `npm.cmd run assets` (ไม่ประมวลผลภาพ QR ซ้ำ)
+
+```powershell
+npm.cmd run check
+npm.cmd test
+npm.cmd run build
+npm.cmd run audit:site
 ```
 
-แล้วเปิด `http://localhost:4173`
+`audit:site` ตรวจหน้า/ภาพ/ไฟล์ภายใน จุดเลื่อน และปุ่มดาวน์โหลดครบทุกเกม ส่วน `npm.cmd run audit:downloads` ตรวจ HTTP headers ของปลายทางภายนอกโดยไม่โหลดไฟล์ม็อด ระบบป้องกันบอตอาจปฏิเสธ HEAD แม้เปิดหน้าในเบราว์เซอร์ได้
 
-## เผยแพร่บน GitHub Pages
+## เผยแพร่
 
-1. สร้าง repository ใหม่บน GitHub
-2. อัปโหลดไฟล์ทั้งหมดในโฟลเดอร์นี้ขึ้น branch `main`
-3. ไปที่ **Settings → Pages**
-4. ในหัวข้อ **Build and deployment** เลือก Source เป็น **GitHub Actions**
-5. Workflow จะเผยแพร่เว็บให้อัตโนมัติทุกครั้งที่ push เข้า `main`
+`.github/workflows/deploy-pages.yml` ติดตั้งด้วย lockfile ตรวจงาน แล้ว build Astro ไปที่ `dist/` ก่อนเผยแพร่ผ่าน GitHub Pages โดเมนและ base path ใช้ค่าจาก Configure Pages จึงรองรับทั้งโดเมนหลักและ project subpath รวม canonical, sitemap และ robots
 
-## เช็กลิสต์ก่อนเปิดเว็บจริง
+การแก้ไฟล์ในเครื่องยังไม่เผยแพร่จนกว่าจะนำขึ้น `main` หรือเรียก workflow โปรดใช้กระบวนการ PR/Branch Protection ของ repository ตามเดิม
 
-- สร้าง repository และตั้ง branch เริ่มต้นเป็น `main`
-- หากใช้โดเมนที่กำหนดเอง ให้เปลี่ยนลิงก์ปุ่ม GitHub ใน `index.html` เป็น URL ของ repository (กรณี URL แบบ `*.github.io` ระบบจะสร้างลิงก์ให้อัตโนมัติ)
-- ตรวจลิงก์ดาวน์โหลด แหล่งซื้อเกม และโพสต์ต้นทางอีกครั้ง
-- ตรวจชื่อบัญชี PromptPay ในแอปธนาคารก่อนเผยแพร่ QR
-- เปิด **Settings → Pages → Source: GitHub Actions**
-- ตรวจ workflow ชื่อ **Deploy static site to GitHub Pages** ให้ผ่านครบทุกขั้นตอน
+## โครงสร้าง
 
-ไฟล์ `.nojekyll` และ workflow สำหรับ GitHub Pages เตรียมไว้แล้ว เว็บไซต์ไม่ต้องมีขั้นตอน build เพิ่มเติม
+- `src/pages/` — หน้าแรก คลัง รายเกม 404 และ sitemap/robots
+- `src/scenes/hero/` — ฉาก Three.js, กล้อง และงบการเรนเดอร์
+- `src/scripts/page-motion.ts` — reveal, แสง hover, tilt, parallax และอนุภาคของหน้าคลัง/รายเกม
+- `src/lib/search.ts` — กติกาค้นหาร่วม รองรับไทย/อังกฤษ หลายคำ และชื่อระบบปฏิบัติการ
+- `src/styles/universe.css`, `page-motion.css`, `journey.css` — ธีมปัจจุบัน
 
-## ความปลอดภัยและลิขสิทธิ์
+ฉากโหลดเฉพาะหน้าแรก จำกัดบัฟเฟอร์สำหรับจอ Retina/4K และลดคุณภาพอัตโนมัติเมื่อ frame interval สูงต่อเนื่อง มีภาพสำรอง ปุ่มพัก reduced motion และหยุดวาดเมื่อซ่อนแท็บ
 
-- สาขา `main` ใช้ Branch Protection และต้องแก้ไขผ่าน Pull Request
-- ปิดการ Force Push และการลบสาขา `main`
-- GitHub Secret Scanning และ Push Protection เปิดใช้งานอยู่
-- ห้ามเก็บรหัสผ่าน Token, API Secret หรือ Private Key ใน repository
-- หลักฐานและ SHA-256 ของโลโก้อยู่ใน `ASSET-PROVENANCE.md`
-- โค้ด ดีไซน์ โลโก้ และงานต้นฉบับสงวนลิขสิทธิ์ตามไฟล์ `LICENSE`
+อ่าน [ผลตรวจพร้อมเผยแพร่](docs/production-readiness.md), [รายละเอียดดีไซน์](docs/world-journey-site.md), [คู่มือ static รุ่นเดิม](docs/legacy-static-readme.md) และ [ดราฟต์เก่า](DRAFT-NOTES.md)
+
+## สิทธิ์และที่มา
+
+ข้อมูลและ URL ต้นฉบับคงไว้ทั้งหมด รูปและชื่อเกมเป็นของเจ้าของผลงานแต่ละราย งานต้นฉบับสงวนลิขสิทธิ์ตาม [LICENSE](LICENSE) ดูที่มาโลโก้ใน [ASSET-PROVENANCE.md](ASSET-PROVENANCE.md)

@@ -67,3 +67,19 @@ owners and are not claimed as original brand assets of this project.
 - Used as a game reference cover; the Thai mod remains credited to the page “มีเกมก็แปล By.Stamp Nattakit”.
 
 
+
+## Language Portal gameplay imagery (2026-10-23)
+
+Official Steam screenshot URLs already recorded in the game content were downloaded for the local redesign preview. Images and games remain property of their respective owners.
+
+- Absolum: public/assets/portal-absolum.jpg
+  - Source: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1904480/d71352f60e6b4cc27c5b9a224d6827ec647d2fac/ss_d71352f60e6b4cc27c5b9a224d6827ec647d2fac.600x338.jpg?t=1782461798
+  - SHA-256: 807b6f4f1017deb693778e019fc3d627362e4af0350959a66533f872bfccde12
+
+- Tales of Berseria: public/assets/portal-tales-of-berseria.jpg
+  - Source: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/429660/ss_55b6307b686684a7c1ee00357eb6be0e05a6024f.600x338.jpg?t=1763571708
+  - SHA-256: 9e94cb20dbb63259139aa2ba3d252637b4877360c79df26796f02f4b66f850e3
+
+- I AM SETSUNA: public/assets/portal-i-am-setsuna.jpg
+  - Source: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/441830/ss_deabbc7ce299a3dcfcfe056129a5e733b30f22c5.600x338.jpg?t=1776654821
+  - SHA-256: ae02b8f527af68afa4fbd6f9967e5ad9715235164360f8657df20c0af045ce5b

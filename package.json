@@ -1,0 +1,27 @@
+{
+  "name": "mee-game-kor-pla-v2",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev --host 127.0.0.1 --port 4321",
+    "build": "node scripts/validate-content.mjs && astro build",
+    "preview": "astro preview --host 127.0.0.1 --port 4321",
+    "check": "astro check",
+    "test": "node --test scripts/production.test.mjs && node scripts/verify-journey-motion.mjs && node scripts/validate-migration.mjs",
+    "audit:site": "node scripts/audit-site.mjs",
+    "audit:downloads": "node scripts/audit-downloads.mjs",
+    "assets": "node scripts/prepare-assets.mjs"
+  },
+  "dependencies": {
+    "astro": "7.4.2",
+    "gsap": "3.15.0",
+    "three": "0.186.1"
+  },
+  "devDependencies": {
+    "@astrojs/check": "0.9.12",
+    "@types/three": "*",
+    "sharp": "*",
+    "typescript": "*"
+  }
+}

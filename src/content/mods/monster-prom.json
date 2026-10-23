@@ -1,0 +1,63 @@
+{
+  "id": "monster-prom",
+  "title": "Monster Prom",
+  "thaiTitle": "มอนสเตอร์ พรอม",
+  "code": "MP-004",
+  "version": "1.0.0",
+  "gameBuild": "Steam R17.1",
+  "platform": "pc",
+  "source": "nexus",
+  "store": "https://store.steampowered.com/app/743450/Monster_Prom/",
+  "purchaseLinks": [
+    {
+      "label": "ซื้อบน Steam",
+      "href": "https://store.steampowered.com/app/743450/Monster_Prom/"
+    },
+    {
+      "label": "ซื้อบน GOG",
+      "href": "https://www.gog.com/en/game/monster_prom"
+    },
+    {
+      "label": "ค้นหาบน Fanatical",
+      "href": "https://www.fanatical.com/en/search?search=Monster%20Prom"
+    }
+  ],
+  "statusText": "พร้อมโหลด",
+  "date": "2026-09-06",
+  "popularity": 94,
+  "size": "ดูที่ Nexus Mods",
+  "translator": "มีเกมก็แปล",
+  "category": "visual",
+  "tags": [
+    "Dating Sim",
+    "Visual Novel",
+    "เนื้อเรื่อง",
+    "แปลครบ"
+  ],
+  "colors": [
+    "#2b176d",
+    "#c13fb9"
+  ],
+  "cover": "assets/cover-monster-prom.jpg",
+  "gallery": [
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/743450/ss_da398bf572dc6acc61a1eef18f521a93c1e36c1b.600x338.jpg?t=1786381243",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/743450/ss_f71abeb355c2296460d4789ec434f2893427e770.600x338.jpg?t=1786381243",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/743450/ss_af27732669adbd2a52185f8479ad2d01ef899d81.600x338.jpg?t=1786381243"
+  ],
+  "trailerTitle": "Monster Prom — Official Trailer",
+  "description": "ม็อดภาษาไทยสำหรับ Monster Prom ครอบคลุมบทสนทนา ตัวเลือก เมนู ข้อความระบบ ป้ายสถานที่ และกราฟิกสำคัญ พร้อมฟอนต์ไทยและการตัดบรรทัดที่ปรับแต่งแล้ว",
+  "changelog": [
+    "เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0.0",
+    "แปลบทสนทนา เมนู ตัวเลือก และข้อความระบบ",
+    "รองรับหน้าตั้งชื่อและโหมดผู้เล่นหลายคน"
+  ],
+  "install": [
+    "ปิดเกมก่อนติดตั้งและดาวน์โหลดไฟล์จาก Nexus Mods",
+    "ทำตามขั้นตอนติดตั้งที่ระบุในหน้าม็อด",
+    "เปิดเกมแล้วเลือก Simplified Chinese เพื่อใช้งานภาษาไทย"
+  ],
+  "sha": "มีระบบตรวจสอบในชุดติดตั้ง",
+  "nexus": "https://www.nexusmods.com/monsterprom/mods/2",
+  "drive": "",
+  "post": "https://www.facebook.com/permalink.php?story_fbid=pfbid0KTYndpUaqC6w885vdc56TG84Hnr3bt22wQgw4pVPaVZANUTXaSCrZcGmm3rsnyUDl&id=61593924362608"
+}

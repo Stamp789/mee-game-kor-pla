@@ -1,0 +1,25 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import WorldJourney from '../components/WorldJourney.astro';
+import ModCard from '../components/ModCard.astro';
+import Icon from '../components/Icon.astro';
+import { getMods, url, modUrl, cover, date, version } from '../lib/mods';
+const mods=await getMods();
+const selected=['absolum','tales-of-berseria','battle-chef-brigade','i-am-setsuna'].map(id=>mods.find(mod=>mod.id===id)!);
+---
+<BaseLayout page="home" title="มีเกมก็แปล — ทุกโลก ในภาษาของคุณ">
+  <WorldJourney />
+  <section id="featured" class="selected-worlds section-space">
+    <div class="section-heading"><div><p class="micro section-kicker"><span class="mint-cross">+</span> 01 / SELECTED WORLDS</p><h2>เรื่องราวที่รัก<br /><span class="muted">ในภาษาที่เป็นคุณ</span></h2></div><div class="section-intro"><p>เลือกโลกใบถัดไป แล้วออกเดินทาง<br />สัมผัสเกมที่รักให้ลึกขึ้น<br />ผ่านทุกบทสนทนาในภาษาไทย</p><a href={url('mods/')} class="text-link">สำรวจทั้ง {mods.length} โลก <Icon /></a></div></div>
+    <div class="editorial-grid">{selected.map((mod,index)=><ModCard mod={mod} index={index} editorial />)}</div>
+  </section>
+  <section class="manifesto-section section-space" id="about">
+    <div class="manifesto-header micro"><span>02 / BEHIND THE WORDS</span><span>MADE WITH CARE. PLAYED WITH HEART.</span></div>
+    <p class="manifesto-statement">เกมที่ดีพาเราไปได้ไกล<br /><span>ภาษาที่เข้าใจ</span><br />พาเราเข้าไปได้ลึกกว่า</p>
+    <div class="manifesto-bottom"><div class="language-seal" aria-hidden="true">ก<span>↔</span>A</div><div><p>เราอยากให้ทุกคนสัมผัสเรื่องราวได้อย่างเต็มอารมณ์<br />มีเกมก็แปลจึงถ่ายทอดบทสนทนาและรายละเอียด<br />จากเกมที่รัก เป็นภาษาไทยที่เข้าใจและรู้สึกได้</p><a href="https://www.facebook.com/profile.php?id=61593924362608" target="_blank" rel="noopener noreferrer" class="text-link">รู้จักคนเบื้องหลังงานแปล <Icon /></a></div></div>
+  </section>
+  <section class="updates-section section-space" id="updates"><div class="section-heading"><div><p class="micro section-kicker">03 / THE LATEST CHAPTERS</p><h2>บทใหม่<span class="muted">ในคลัง</span></h2></div><a href={url('mods/?sort=latest')} class="text-link">ดูอัปเดตทั้งหมด <Icon /></a></div><div class="update-list">{mods.slice(0,4).map(mod=><a href={modUrl(mod)} class="update-row"><span class="micro update-date">{date(mod.date)}</span><span class="update-game"><img src={cover(mod)} width="110" height="65" loading="lazy" alt="" /><h3>{mod.title}</h3></span><span class="update-version">{version(mod.version)}</span><span class="update-arrow"><Icon /></span></a>)}</div></section>
+  <section class="guide-section section-space" id="guide"><div class="section-heading"><div><p class="micro section-kicker">04 / YOUR NEXT ADVENTURE</p><h2>อีกเพียงสามก้าว<br /><span class="muted">สู่โลกที่เข้าใจ</span></h2></div><p class="section-intro">ทุกเกมมีวิธีติดตั้งต่างกัน<br />อ่านรายละเอียดในหน้าม็อดก่อนเริ่มเสมอ</p></div><div class="guide-grid"><div><span class="guide-number">01 <span>↗</span></span><h3>ค้นพบเกมของคุณ</h3><p>เลือกเกมในคลัง ตรวจแพลตฟอร์มและรุ่นเกมที่รองรับ แล้วเปิดหน้าดาวน์โหลดต้นทาง</p></div><div><span class="guide-number">02 <span>↗</span></span><h3>เตรียมพร้อมออกเดินทาง</h3><p>สำรองไฟล์เดิม แล้วติดตั้งตามคำแนะนำเฉพาะเกมที่ผู้แปลระบุไว้</p></div><div><span class="guide-number">03 <span>↗</span></span><h3>ปล่อยใจไปกับเรื่องราว</h3><p>เปิดเกมและตรวจสอบภาษาไทย หากพบปัญหา แจ้งชื่อเกมและเวอร์ชันให้ผู้แปลช่วยดูแล</p></div></div></section>
+  <section class="support-section" id="support"><div><p class="micro"><span class="mint-cross">+</span> KEEP THE STORIES GOING</p><h2>ทุกกำลังใจ<br />มีบทต่อไป<span>↗</span></h2><p>หากงานแปลทำให้โลกของคุณกว้างขึ้น<br />ร่วมเติมพลังให้ผู้แปลได้ตามสะดวก</p><button class="pill pill-light" type="button" id="support-open">สนับสนุนผู้แปล <Icon /></button></div><div class="support-art" aria-hidden="true"><div class="support-orbit"></div><span>ก</span><span class="support-plus">+</span></div></section>
+  <dialog id="support-dialog" class="support-dialog"><div class="dialog-top"><span class="micro">THANK YOU FOR YOUR SUPPORT</span><button type="button" class="round-button dialog-close" aria-label="ปิดช่องทางสนับสนุน"><Icon name="close" /></button></div><h2>เติมพลังให้ผู้แปล</h2><img src={url('assets/support-promptpay.png')} width="440" height="440" alt="QR PromptPay สำหรับสนับสนุนมีเกมก็แปล" loading="lazy" /><p>ตรวจสอบชื่อบัญชีในแอปธนาคารให้ตรงกับภาพก่อนยืนยัน</p></dialog>
+</BaseLayout>

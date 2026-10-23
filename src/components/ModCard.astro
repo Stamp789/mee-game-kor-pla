@@ -1,0 +1,18 @@
+---
+import Icon from './Icon.astro';
+import { cover, modUrl, version, provider, date, type Mod } from '../lib/mods';
+import { modGenres } from '../lib/catalog';
+import { searchTerms } from '../lib/search';
+interface Props { mod: Mod; index?: number; editorial?: boolean; archive?: boolean; }
+const { mod, index = 0, editorial = false, archive = false } = Astro.props;
+---
+<article class:list={['game-card', { 'editorial-card': editorial, 'archive-card': archive }]} data-id={mod.id} data-search={searchTerms(mod)} data-source={mod.source} data-genres={modGenres(mod).join(' ')} data-category={mod.category} data-date={mod.date} data-title={mod.title}>
+  <a class="game-art" href={modUrl(mod)} style={`--game-color:${mod.colors[0]}`}>
+    <img src={cover(mod)} alt={`ภาพปก ${mod.title}`} loading="lazy" width="960" height="600" />
+    <span class="art-label">{archive ? provider(mod.source).toUpperCase() : 'THAI TRANSLATION'} <span>↗</span></span>
+    <span class="art-arrow"><Icon size={26} /></span>
+  </a>
+  <div class="game-caption"><div><p class="micro">{String(index + 1).padStart(2, '0')} / {mod.tags.slice(0, 2).join(' · ')}</p><h3><a href={modUrl(mod)}>{mod.title}</a></h3><p class="game-thai">{mod.thaiTitle}</p></div><button class="round-button favorite-button" data-favorite={mod.id} aria-label={`บันทึก ${mod.title}`} aria-pressed="false" type="button"><Icon name="heart" /></button></div>
+  {archive && <p class="archive-card-date"><span class="archive-list-source">{provider(mod.source)} · </span>อัปเดตในคลัง <time datetime={mod.date}>{date(mod.date)}</time></p>}
+  <div class="game-meta"><span><i class="status-dot"></i>{mod.statusText}</span><span>{version(mod.version)}</span></div>
+</article>

@@ -1,0 +1,69 @@
+{
+  "id": "dressmaker",
+  "title": "Dressmaker",
+  "thaiTitle": "เดรสเมกเกอร์",
+  "code": "DM-011",
+  "version": "2.2 (PC) / 2.6 (macOS)",
+  "gameBuild": "Steam · PC & macOS",
+  "platform": [
+    "pc",
+    "mac"
+  ],
+  "source": "nexus",
+  "store": "https://store.steampowered.com/app/4019220/Dressmaker/",
+  "purchaseLinks": [
+    {
+      "label": "ซื้อบน Steam",
+      "href": "https://store.steampowered.com/app/4019220/Dressmaker/"
+    },
+    {
+      "label": "เปรียบเทียบราคาจากร้านทางการ",
+      "href": "https://isthereanydeal.com/search/?q=Dressmaker"
+    }
+  ],
+  "statusText": "พร้อมโหลด",
+  "date": "2026-10-22",
+  "popularity": 100,
+  "size": "ดูที่ Nexus Mods",
+  "translator": "มีเกมก็แปล By.Stamp Nattakit",
+  "category": "visual",
+  "tags": [
+    "Cozy",
+    "Simulation",
+    "งานฝีมือ",
+    "แปลครบ"
+  ],
+  "colors": [
+    "#541432",
+    "#e84393"
+  ],
+  "cover": "assets/cover-dressmaker.jpg",
+  "gallery": [
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4019220/6b964f0ee4ad9041718877ec563b0079c3353ce1/ss_6b964f0ee4ad9041718877ec563b0079c3353ce1.600x338.jpg?t=1790484978",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4019220/9324e5f5fcaec804ef925bc5e79e8f3f15dfe329/ss_9324e5f5fcaec804ef925bc5e79e8f3f15dfe329.600x338.jpg?t=1790484978",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4019220/fa62a65abc68c79812fd1daa771deb4ef2bc0312/ss_fa62a65abc68c79812fd1daa771deb4ef2bc0312.600x338.jpg?t=1790484978"
+  ],
+  "trailerTitle": "Dressmaker — Official Trailer",
+  "description": "ม็อดภาษาไทยสำหรับ Dressmaker เกมแนว Cozy Simulation จำลองชีวิตช่างตัดเสื้อสุดผ่อนคลาย สวมบทดีไซเนอร์เปิดร้าน ออกแบบชุดในสมุดสเก็ตช์ เลือกเนื้อผ้า วางแพทเทิร์น เข้าจักรเย็บผ้า ติดโบว์ประดับลูกไม้ ตัดชุดส่งให้ชาวเมืองตามออร์เดอร์ แปลไทยให้อ่านเพลิน เข้าใจทุกขั้นตอนและชนิดผ้า รองรับทั้ง Windows (PC) และ macOS (คำแปลภาษาไทยขับเคลื่อน/แปลโดย Gemini 3.8 Flash)",
+  "changelog": [
+    "อัปเดตม็อดภาษาไทยเวอร์ชัน 2.2 สำหรับ PC และเวอร์ชัน 2.6 สำหรับ macOS บน Nexus Mods",
+    "อัปเดตม็อดภาษาไทยเวอร์ชัน 2.1 สำหรับ PC และเวอร์ชัน 2.5 สำหรับ macOS บน Nexus Mods",
+    "อัปเดตม็อดภาษาไทยเวอร์ชัน 2.0 สำหรับ PC และเวอร์ชัน 2.4 สำหรับ macOS บน Nexus Mods",
+    "อัปเดตม็อดภาษาไทยเวอร์ชัน 1.8 สำหรับ PC และเวอร์ชัน 2.2 สำหรับ macOS บน Nexus Mods พร้อมสคริปต์ติดตั้งสำหรับ Mac",
+    "อัปเดตม็อดภาษาไทยเวอร์ชัน 1.7 ปรับปรุงบทแปลและความเข้ากันได้กับตัวเกม",
+    "เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 (แปลร่วมกับ Gemini 3.8 Flash)",
+    "แปลเนื้อเรื่อง บทสนทนา และความต้องการสั่งตัดชุดของชาวเมือง",
+    "แปลชื่อชนิดเนื้อผ้า เครื่องมือ แพทเทิร์น ของตกแต่ง เมนู และ Tutorial ครบ 100%"
+  ],
+  "install": [
+    "ดาวน์โหลดม็อดตามระบบปฏิบัติการที่ใช้งานจากแท็บ Files บน Nexus Mods (PC หรือ macOS) และแตกไฟล์ .zip",
+    "สำหรับ PC (Windows): นำไฟล์ไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)",
+    "สำหรับ macOS: ดับเบิลคลิกไฟล์ ติดตั้งภาษาไทย_macOS.command เพื่อติดตั้งอัตโนมัติ (หรือคลิกขวาที่แอป Dressmaker > แสดงเนื้อหาในแพ็กเกจ Show Package Contents > Contents/Resources/Data แล้วนำไฟล์ไปวางทับ)",
+    "เข้าเกมแล้วเริ่มเปิดร้านตัดเสื้อเป็นภาษาไทยได้ทันที"
+  ],
+  "sha": "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods",
+  "nexus": "https://www.nexusmods.com/dressmaker/mods/55?tab=files",
+  "drive": "",
+  "mediafire": "",
+  "post": "https://www.nexusmods.com/dressmaker/mods/55?tab=files"
+}

@@ -1,0 +1,34 @@
+---
+import Search from '../components/Search.astro';
+import Icon from '../components/Icon.astro';
+import Footer from '../components/Footer.astro';
+import { url } from '../lib/mods';
+import '../styles/global.css';
+import '../styles/immersive.css';
+import '../styles/journey.css';
+---
+<!DOCTYPE html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="สัมผัสโลกเกมภาษาไทยผ่านฉากสามมิติ แสง และการเดินทางตามการเลื่อน" />
+    <meta name="theme-color" content="#060e12" /><meta name="robots" content="noindex" />
+    <link rel="icon" href={url('assets/favicon.svg')} type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <title>มีเกมก็แปล — World Journey</title>
+  </head>
+  <body data-base={url()} data-page="home">
+    <a class="skip-link" href="#featured">ข้ามไปผลงาน</a>
+    <div class="site-shell">
+      <header class="site-header">
+        <a href={url('preview/journey/')} class="wordmark" aria-label="มีเกมก็แปล — เริ่มการเดินทาง"><img src={url('assets/brand.webp')} width="32" height="32" alt="" /><span>มีเกมก็แปล<small>THAI GAME MODS</small></span></a>
+        <nav class="desktop-nav" aria-label="เมนูหลัก"><a href={url('mods/')}>คลังม็อด <span class="nav-dot"></span></a><a href="#featured">ผลงาน</a><a href={url()}>หน้าหลัก</a></nav>
+        <div class="header-actions"><a class="journey-mobile-catalog" href={url('mods/')}>คลังม็อด ↗</a><button class="round-button search-open" aria-label="ค้นหาม็อด" type="button"><Icon name="search" /></button></div>
+      </header>
+      <main id="main"><slot /></main><Footer />
+    </div>
+    <Search /><div id="toast" class="toast" role="status" aria-live="polite"></div>
+    <script>import '../scripts/site-ui';</script>
+  </body>
+</html>
