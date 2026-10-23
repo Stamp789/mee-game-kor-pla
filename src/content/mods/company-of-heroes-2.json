@@ -1,0 +1,64 @@
+{
+  "id": "company-of-heroes-2",
+  "title": "Company of Heroes 2",
+  "thaiTitle": "คอมปะนี ออฟ ฮีโรส์ 2",
+  "code": "CH-007",
+  "version": "2.0",
+  "gameBuild": "Steam · PC",
+  "platform": "pc",
+  "source": "nexus",
+  "store": "https://store.steampowered.com/app/231430/Company_of_Heroes_2/",
+  "purchaseLinks": [
+    {
+      "label": "ซื้อบน Steam",
+      "href": "https://store.steampowered.com/app/231430/Company_of_Heroes_2/"
+    },
+    {
+      "label": "ซื้อบน Fanatical",
+      "href": "https://www.fanatical.com/en/game/company-of-heroes-2"
+    },
+    {
+      "label": "เปรียบเทียบราคาจากร้านทางการ",
+      "href": "https://isthereanydeal.com/game/company-of-heroes-2/info/"
+    }
+  ],
+  "statusText": "พร้อมโหลด",
+  "date": "2026-09-20",
+  "popularity": 98,
+  "size": "ดูที่ Nexus Mods",
+  "translator": "มีเกมก็แปล By.Stamp Nattakit",
+  "category": "action",
+  "tags": [
+    "RTS",
+    "Strategy",
+    "สงคราม",
+    "แปลครบ"
+  ],
+  "colors": [
+    "#1c2833",
+    "#4a5d4e"
+  ],
+  "cover": "assets/cover-company-of-heroes-2.png",
+  "gallery": [
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/231430/ss_253565696b43f08520ea65dc805cda964ee0976e.600x338.jpg?t=1750947634",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/231430/ss_714dbe4aab2d4aeedc147dc472ece500712182b9.600x338.jpg?t=1750947634",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/231430/ss_57852edc2f40cb5c3faaaa6b74f2209a794216b2.600x338.jpg?t=1750947634"
+  ],
+  "trailerTitle": "Company of Heroes 2 — Official Trailer",
+  "description": "ม็อดภาษาไทยสำหรับ Company of Heroes 2 มหาศึกสงครามโลกครั้งที่ 2 จัดเต็มให้สายวางแผนกลยุทธ์ (RTS) แปลครบทั้งข้อมูลยูนิต ทหารราบ ยานเกราะ สกิลผู้บัญชาการ (Commander Abilities) บัฟสนับสนุนทางอากาศและปืนใหญ่ รายละเอียดภารกิจ แคมเปญ บทบรรยาย เมนู การตั้งค่า และ UI ทั้งหมด 100% พร้อมฟอนต์ไทยคมชัดสบายตา",
+  "changelog": [
+    "อัปเดตเวอร์ชัน 2.0: เกลาคำแปลและคำศัพท์ทางทหารให้ตรงบริบทสนามรบ",
+    "ปรับแก้คำทับศัพท์และข้อความใน Unit, Ability, Commander และ Upgrade",
+    "ตรวจแก้ Objective, Victory Point, Tutorial และ UI ต่าง ๆ เพื่อความชัดเจน"
+  ],
+  "install": [
+    "ดาวน์โหลดไฟล์ Company of Heroes 2 Thai Mod จากแท็บ Files บน Nexus Mods",
+    "แตกไฟล์ .zip ที่ดาวน์โหลดมา",
+    "นำไฟล์ไปวางในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)",
+    "เปิดเกมแล้วเข้าสู่สมรภูมิรบได้ทันที"
+  ],
+  "sha": "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods",
+  "nexus": "https://www.nexusmods.com/companyofheroes2/mods/6?tab=files",
+  "drive": "",
+  "post": "https://www.facebook.com/share/p/1J5wbq3Yaq/"
+}

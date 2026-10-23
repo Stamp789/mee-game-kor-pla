@@ -1,0 +1,5 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { url } from '../lib/mods';
+---
+<BaseLayout title="ไม่พบหน้า — มีเกมก็แปล" page="not-found"><section class="not-found"><p class="micro">404 / UNDISCOVERED WORLD</p><h1>โลกใบนี้<br /><span class="muted">ยังหาไม่เจอ.</span></h1><p>ลิงก์อาจเปลี่ยนไป ลองค้นหาเกมที่ต้องการจากคลังม็อด</p><a href={url('mods/')} class="pill pill-blue">กลับไปสำรวจคลังม็อด ↗</a></section></BaseLayout>

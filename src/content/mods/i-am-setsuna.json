@@ -1,0 +1,60 @@
+{
+  "id": "i-am-setsuna",
+  "title": "I AM SETSUNA",
+  "thaiTitle": "ฉันคือเซ็ตสึนะ",
+  "code": "IS-012",
+  "version": "1.2",
+  "gameBuild": "Steam · App 441830 · Build 1706916",
+  "platform": "pc",
+  "source": "nexus",
+  "store": "https://store.steampowered.com/app/441830/I_am_Setsuna/",
+  "purchaseLinks": [
+    {
+      "label": "ซื้อบน Steam",
+      "href": "https://store.steampowered.com/app/441830/I_am_Setsuna/"
+    },
+    {
+      "label": "เปรียบเทียบราคาจากร้านทางการ",
+      "href": "https://isthereanydeal.com/game/i-am-setsuna/info/"
+    }
+  ],
+  "statusText": "พร้อมโหลด",
+  "date": "2026-10-12",
+  "popularity": 100,
+  "size": "ดูที่ Nexus Mods",
+  "translator": "มีเกมก็แปล By.Stamp Nattakit",
+  "category": "visual",
+  "tags": [
+    "JRPG",
+    "Classic RPG",
+    "เนื้อเรื่อง",
+    "แปลครบ"
+  ],
+  "colors": [
+    "#1e3a5f",
+    "#48bfe3"
+  ],
+  "cover": "assets/cover-i-am-setsuna.jpg",
+  "gallery": [
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/441830/ss_deabbc7ce299a3dcfcfe056129a5e733b30f22c5.600x338.jpg?t=1776654821",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/441830/ss_3384f6e85a82c5435697feb464ce6e0ca23a0e28.600x338.jpg?t=1776654821",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/441830/ss_941d098299c89af8ecb1c29df19cc0db46fdaee0.600x338.jpg?t=1776654821"
+  ],
+  "trailerTitle": "I AM SETSUNA — Official Trailer",
+  "description": "ม็อดภาษาไทยสำหรับ I AM SETSUNA ผลงาน JRPG สไตล์คลาสสิกท่ามกลางหิมะขาวและบทเพลงเปียโนอันตราตรึง ดื่มด่ำกับเรื่องราวการเสียสละเพื่อปกป้องโลกของเซ็ตสึนะ แปลครบทั้งเนื้อเรื่องหลัก บทสนทนาตัวละคร คัตซีน รายละเอียดสกิล หินเวท (Spritnite) ระบบโมเมนตัม (Momentum) อุปกรณ์สวมใส่ ไอเทม เมนู การตั้งค่า และ UI ทั้งหมด ฟอนต์ไทยอ่านง่าย วรรณยุกต์ไม่ลอย",
+  "changelog": [
+    "อัปเดตม็อดภาษาไทยเวอร์ชัน 1.2 เผยแพร่บน Nexus Mods",
+    "เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 สำหรับ Steam",
+    "แปลเนื้อเรื่องหลัก บทสนทนาตัวละคร และคัตซีนทั้งหมด",
+    "แปลสกิล หินเวท (Spritnite) ระบบโมเมนตัม ไอเทม เมนู และ UI ครบถ้วน"
+  ],
+  "install": [
+    "ดาวน์โหลดม็อดจากแท็บ Files บน Nexus Mods และแตกไฟล์ .zip",
+    "นำไฟล์ไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)",
+    "เข้าเกมแล้วออกเดินทางฝ่าหิมะได้ทันที"
+  ],
+  "sha": "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods",
+  "nexus": "https://www.nexusmods.com/iamsetsuna/mods/2?tab=files",
+  "drive": "",
+  "post": "https://www.nexusmods.com/iamsetsuna/mods/2?tab=files"
+}

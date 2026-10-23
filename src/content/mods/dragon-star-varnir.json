@@ -1,0 +1,59 @@
+{
+  "id": "dragon-star-varnir",
+  "title": "Dragon Star Varnir",
+  "thaiTitle": "ดรากอน สตาร์ วาร์เนียร์",
+  "code": "DS-023",
+  "version": "1.0",
+  "gameBuild": "Steam · PC",
+  "platform": "pc",
+  "source": "drive",
+  "store": "https://store.steampowered.com/app/1062040/Dragon_Star_Varnir/",
+  "purchaseLinks": [
+    {
+      "label": "ซื้อบน Steam",
+      "href": "https://store.steampowered.com/app/1062040/Dragon_Star_Varnir/"
+    },
+    {
+      "label": "เปรียบเทียบราคาจากร้านทางการ",
+      "href": "https://isthereanydeal.com/search/?q=Dragon%20Star%20Varnir"
+    }
+  ],
+  "statusText": "พร้อมโหลด",
+  "date": "2026-10-12",
+  "popularity": 100,
+  "size": "ดูที่ Google Drive",
+  "translator": "มีเกมก็แปล By.Stamp Nattakit",
+  "category": "action",
+  "tags": [
+    "JRPG",
+    "Turn-Based",
+    "Dark Fantasy",
+    "แปลครบ"
+  ],
+  "colors": [
+    "#1e142b",
+    "#b02a5b"
+  ],
+  "cover": "assets/cover-dragon-star-varnir.jpg",
+  "gallery": [
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1062040/ss_f73eda3c860db805ca7695989a373674e34bc4e7.600x338.jpg?t=1786482012",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1062040/ss_488e37916c2931633eb7bc4a6fe2cf9731c70120.600x338.jpg?t=1786482012",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1062040/ss_1459a1b9347674f68a7131e3631c7c3c34e52911.600x338.jpg?t=1786482012"
+  ],
+  "trailerTitle": "Dragon Star Varnir — Official Steam Trailer",
+  "description": "ม็อดภาษาไทยสำหรับ Dragon Star Varnir มหากาพย์เกม JRPG แนว Dark Fantasy สุดเข้มข้นจากค่าย Compile Heart และ Idea Factory สวมบท Zephy อัศวินผู้รอดชีวิตจากความตายด้วยการดื่มเลือดมังกรจนกลายเป็นผู้ใช้เวทมนตร์ ร่วมชะตากรรมกับเหล่าแม่มดต้องสาปต่อสู้กับมังกรยักษ์กลางเวหา แปลไทยจัดเต็มทั้งเนื้อเรื่องหลัก คัตซีน บทสนทนาในเวิร์กช็อปแม่มด ระบบต่อสู้ 3 ระดับความสูง ท่ากลืนกินมังกร (Devour) สกิล Dragon Core ผังคอร์มังกร อุปกรณ์สวมใส่ ไอเทม เมนู และ UI ทั้งหมด 100% พร้อมฟอนต์ไทยคมชัดสบายตา",
+  "changelog": [
+    "เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 บน Google Drive",
+    "แปลเนื้อเรื่องหลัก คัตซีน บทสนทนาตัวละคร และเหตุการณ์ในแคมป์ทั้งหมด",
+    "แปลระบบต่อสู้ ท่ากลืนกิน สกิล ผังคอร์มังกร เมนู และ UI ครบ 100%"
+  ],
+  "install": [
+    "ดาวน์โหลดไฟล์ม็อดภาษาไทยจากลิงก์ Google Drive ของเพจและแตกไฟล์ .zip",
+    "นำไฟล์หรือโฟลเดอร์ภาษาไทยไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)",
+    "เปิดเกม Dragon Star Varnir ผ่าน Steam แล้วออกล่ามังกรเป็นภาษาไทยได้ทันที"
+  ],
+  "sha": "ตรวจสอบรายละเอียดไฟล์บน Google Drive",
+  "nexus": "",
+  "drive": "https://drive.google.com/file/d/1jsxhVVVpDl64RcoU0Wz1xFFC44PPgHUG/view?usp=sharing",
+  "post": "https://drive.google.com/file/d/1jsxhVVVpDl64RcoU0Wz1xFFC44PPgHUG/view?usp=sharing"
+}

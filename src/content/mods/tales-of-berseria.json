@@ -1,0 +1,64 @@
+{
+  "id": "tales-of-berseria",
+  "title": "Tales of Berseria",
+  "thaiTitle": "เทลส์ ออฟ เบอร์เซเรีย",
+  "code": "TB-009",
+  "version": "2.0",
+  "gameBuild": "Steam · PC",
+  "platform": "pc",
+  "source": "nexus",
+  "store": "https://store.steampowered.com/app/429660/Tales_of_Berseria/",
+  "purchaseLinks": [
+    {
+      "label": "ซื้อบน Steam",
+      "href": "https://store.steampowered.com/app/429660/Tales_of_Berseria/"
+    },
+    {
+      "label": "ค้นหาบน Fanatical",
+      "href": "https://www.fanatical.com/en/game/tales-of-berseria"
+    },
+    {
+      "label": "เปรียบเทียบราคาจากร้านทางการ",
+      "href": "https://isthereanydeal.com/game/tales-of-berseria/info/"
+    }
+  ],
+  "statusText": "พร้อมโหลด",
+  "date": "2026-09-20",
+  "popularity": 99,
+  "size": "ดูที่ Nexus Mods",
+  "translator": "มีเกมก็แปล By.Stamp Nattakit",
+  "category": "visual",
+  "tags": [
+    "JRPG",
+    "Action RPG",
+    "เนื้อเรื่อง",
+    "แปลครบ"
+  ],
+  "colors": [
+    "#1b0d26",
+    "#b31343"
+  ],
+  "cover": "assets/cover-tales-of-berseria.jpg",
+  "gallery": [
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/429660/ss_55b6307b686684a7c1ee00357eb6be0e05a6024f.600x338.jpg?t=1763571708",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/429660/ss_8a95a8aeef9af710ab71f49606271da9053127fb.600x338.jpg?t=1763571708",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/429660/ss_755410557ed1499bd2271869a3e87cda172e5555.600x338.jpg?t=1763571708"
+  ],
+  "trailerTitle": "Tales of Berseria — Official Trailer",
+  "description": "ม็อดภาษาไทยสำหรับ Tales of Berseria มหากาพย์ JRPG สุดเข้มข้น ดำดิ่งสู่เส้นทางล้างแค้นของ Velvet Crowe แปลไทยจัดเต็มทั้งเนื้อเรื่องหลัก บทสนทนาตัวละคร คัตซีน สกิต (Skit) มุกตลกและบทสนทนาย่อยของปาร์ตี้ครบทุกฉาก ชื่ออาร์เต้ (Artes) สกิลคอมโบ เบรกโซล (Break Soul) อุปกรณ์สวมใส่ เมนู การตั้งค่า หน้าต่างสอนเล่น และ UI ทั้งหมด",
+  "changelog": [
+    "อัปเดตเวอร์ชัน 2.0: ปรับสำนวนบทแปลให้เป็นธรรมชาติและเข้ากับมู้ด Dark Fantasy ยิ่งขึ้น",
+    "ปรับน้ำเสียงตัวละคร สรรพนาม และความต่อเนื่องของบทสนทนา",
+    "ปรับปรุงคำศัพท์เฉพาะ สกิต (Skit) คุยเล่น และข้อความในระบบ"
+  ],
+  "install": [
+    "ดาวน์โหลดม็อดจากแท็บ Files บน Nexus Mods",
+    "แตกไฟล์ .zip ที่ดาวน์โหลดมา",
+    "นำไฟล์ไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)",
+    "เข้าเกมแล้วออกเดินทางล้างแค้นได้ทันที"
+  ],
+  "sha": "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods",
+  "nexus": "https://www.nexusmods.com/talesofberseria/mods/86?tab=files",
+  "drive": "",
+  "post": "https://www.facebook.com/share/p/1J5wbq3Yaq/"
+}

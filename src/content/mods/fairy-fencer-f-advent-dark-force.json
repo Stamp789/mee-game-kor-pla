@@ -1,0 +1,59 @@
+{
+  "id": "fairy-fencer-f-advent-dark-force",
+  "title": "Fairy Fencer F: Advent Dark Force",
+  "thaiTitle": "แฟรี่ เฟนเซอร์ เอฟ: แอดเวนต์ ดาร์ก ฟอร์ซ",
+  "code": "FF-027",
+  "version": "1.0",
+  "gameBuild": "Steam · PC",
+  "platform": "pc",
+  "source": "nexus",
+  "store": "https://store.steampowered.com/app/524580/Fairy_Fencer_F_Advent_Dark_Force/",
+  "purchaseLinks": [
+    {
+      "label": "ซื้อบน Steam",
+      "href": "https://store.steampowered.com/app/524580/Fairy_Fencer_F_Advent_Dark_Force/"
+    },
+    {
+      "label": "เปรียบเทียบราคาจากร้านทางการ",
+      "href": "https://isthereanydeal.com/search/?q=Fairy%20Fencer%20F%20Advent%20Dark%20Force"
+    }
+  ],
+  "statusText": "พร้อมโหลด",
+  "date": "2026-10-15",
+  "popularity": 100,
+  "size": "ดูที่ Nexus Mods",
+  "translator": "มีเกมก็แปล By.Stamp Nattakit",
+  "category": "action",
+  "tags": [
+    "JRPG",
+    "Turn-Based",
+    "Fantasy",
+    "แปลครบ"
+  ],
+  "colors": [
+    "#19152b",
+    "#d44b58"
+  ],
+  "cover": "assets/cover-fairy-fencer-f-advent-dark-force.jpg",
+  "gallery": [
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/524580/ss_d5d1dd6132ce9f74fc4c7597bcf59b0189e338d1.600x338.jpg?t=1786482829",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/524580/ss_9ca706bfc28589df107832473a55858d5d44e0cf.600x338.jpg?t=1786482829",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/524580/ss_e8ac95968b90a86dfcb042782734904fcae2f3de.600x338.jpg?t=1786482829"
+  ],
+  "trailerTitle": "Fairy Fencer F: Advent Dark Force — OP Trailer",
+  "description": "ม็อดภาษาไทยสำหรับ Fairy Fencer F: Advent Dark Force มหากาพย์เกม JRPG แนวแฟนตาซีจากค่าย Idea Factory และ Compile Heart ดีไซน์ตัวละครโดย Tsunako พร้อมบทเพลงจาก Nobuo Uematsu สวมบท Fang นักดาบหนุ่มจอมขี้เกียจผู้ดึงดาบ Fury ที่ผนึกวิญญาณแฟรี่เอาไว้ จนต้องพัวพันกับสงครามชะตากรรมระหว่างเทพธิดาและเทพอสูร แปลไทยจัดเต็มเนื้อเรื่องครบทั้ง 3 รูท (Goddess Story, Vile God Story, Evil Goddess Story) คัตซีน บทสนทนาตัวละคร ระบบแปลงร่าง Fairize อาวุธ Fury หินแฟรี่ สกิล ไอเทม เมนู และ UI ทั้งหมด 100% พร้อมฟอนต์ไทยคมชัดสวยงาม",
+  "changelog": [
+    "เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 บน Nexus Mods",
+    "แปลเนื้อเรื่องหลักครบทั้ง 3 เส้นทาง (Goddess, Vile God, Evil Goddess) และคัตซีนทั้งหมด",
+    "แปลระบบต่อสู้ แปลงร่าง Fairize อาวุธ Fury สกิล ไอเทม เมนู และ UI ครบ 100%"
+  ],
+  "install": [
+    "ดาวน์โหลดม็อดจากแท็บ Files บน Nexus Mods และแตกไฟล์ .zip",
+    "นำไฟล์หรือโฟลเดอร์ภาษาไทยไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)",
+    "เปิดเกม Fairy Fencer F: Advent Dark Force ผ่าน Steam แล้วออกผจญภัยเป็นภาษาไทยได้ทันที"
+  ],
+  "sha": "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods",
+  "nexus": "https://www.nexusmods.com/fairyfencerfsdventdarkforce/mods/3?tab=files",
+  "drive": "",
+  "post": "https://www.nexusmods.com/fairyfencerfsdventdarkforce/mods/3?tab=description"
+}

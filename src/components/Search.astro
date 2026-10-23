@@ -1,0 +1,18 @@
+---
+import Icon from './Icon.astro';
+import { getMods, modUrl, cover, version } from '../lib/mods';
+import { searchTerms } from '../lib/search';
+const mods = await getMods();
+---
+<dialog id="search-dialog" class="search-dialog" aria-labelledby="search-label">
+  <div class="dialog-top"><span class="micro">FIND YOUR NEXT WORLD</span><button class="round-button dialog-close" aria-label="ปิดการค้นหา" type="button"><Icon name="close" /></button></div>
+  <label for="global-search" id="search-label" class="search-label">อยากเล่นเกมอะไร?</label>
+  <div class="search-input-wrap"><Icon name="search" size={25} /><input id="global-search" type="search" autocomplete="off" placeholder="ชื่อเกม ชื่อไทย หรือแนวเกม…" /><kbd>ESC</kbd></div>
+  <p class="search-feedback" aria-live="polite">เกมที่คุณอาจสนใจ</p>
+  <div class="search-results">
+    {mods.map((mod, i) => <a href={modUrl(mod)} class="search-result" data-search={searchTerms(mod)} hidden={i > 5}>
+      <img src={cover(mod)} width="76" height="50" alt="" loading="lazy" /><span><strong>{mod.title}</strong><small>{version(mod.version)}</small></span><Icon />
+    </a>)}
+  </div>
+  <p class="search-empty" hidden>ยังไม่พบเกมที่ค้นหา ลองใช้ชื่อสั้นลงหรือชื่อภาษาอังกฤษ</p>
+</dialog>

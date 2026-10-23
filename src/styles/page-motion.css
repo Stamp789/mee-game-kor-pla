@@ -1,0 +1,46 @@
+/* The archive and game pages share the homepage's light and depth.
+   Content stays visible until JS explicitly enables the enhancement. */
+.page-lightfield{position:fixed;inset:0;z-index:-1;overflow:hidden;pointer-events:none}
+.page-particles{position:absolute;inset:0;width:100%;height:100%;opacity:.78}
+.page-orbits{position:absolute;width:min(80vw,1250px);height:auto;right:-20%;top:-24%;opacity:.18;stroke:#b2d9ff;stroke-width:.65;transform:translate3d(0,var(--field-drift,0px),0) rotate(var(--orbit-turn,0deg));transform-origin:center;will-change:transform}
+.page-orbits ellipse:nth-child(2){stroke:#c9baff;opacity:.55}.page-orbits circle{fill:#d9efff;filter:drop-shadow(0 0 7px #9cdcff)}
+.page-reading-progress{position:fixed;z-index:30;left:0;right:0;top:0;height:2px;pointer-events:none}
+.page-reading-progress span{display:block;height:100%;background:linear-gradient(90deg,#a8efff,#c8baff,#ffe4b8);box-shadow:0 0 13px #acdeff9e;transform:scaleX(var(--page-progress,0));transform-origin:left;will-change:transform}
+.motion-ready .motion-reveal{opacity:0;transform:translate3d(0,38px,0);transition:opacity .75s ease var(--reveal-delay,0ms),transform .95s cubic-bezier(.16,1,.3,1) var(--reveal-delay,0ms)}
+.motion-ready .motion-reveal.is-revealed{opacity:1;transform:none}
+/* Keep fragment target boxes fixed while their contents enter. */
+.motion-ready :is(.detail-section,.download-panel).motion-reveal{transform:none}
+.motion-ready :is(.detail-section,.download-panel).motion-reveal>:not(.surface-glow){transform:translate3d(0,30px,0);transition:transform .95s cubic-bezier(.16,1,.3,1)}
+.motion-ready :is(.detail-section,.download-panel).motion-reveal.is-revealed>:not(.surface-glow){transform:none}
+.motion-ready .archive-hero,.motion-ready .detail-heading{animation:none}
+.motion-ready .archive-hero h1{transform:translate3d(0,var(--title-drift,0px),0)}
+.motion-ready .archive-total:before{transform:translate(-50%,-50%) rotate(calc(-25deg + var(--orbit-turn,0deg))) scaleX(1.22) scaleY(.8)}
+.motion-ready .archive-total:after{transform:translate(-50%,-50%) rotate(calc(35deg - var(--orbit-turn,0deg))) scaleX(.7)}
+.motion-ready .detail-visual>img{transform:translate3d(0,var(--art-drift,0px),0) scale(1.1);will-change:transform}
+.detail-nav a{position:relative;transition:color .3s}
+.detail-nav a:after{content:'';position:absolute;height:2px;left:0;right:0;bottom:-26px;background:linear-gradient(90deg,#b9e9ff,#d0baff);box-shadow:0 0 12px #b7d5ff6b;transform:scaleX(0);transform-origin:left;transition:transform .45s cubic-bezier(.2,.7,.2,1)}
+.detail-nav a.is-current{color:#def2ff}.detail-nav a.is-current:after,.detail-nav a:hover:after{transform:scaleX(1)}
+.motion-ready .detail-section{position:relative}
+.motion-ready .detail-section:before{content:'';position:absolute;top:0;left:0;width:100%;height:1px;background:linear-gradient(90deg,#b2e9ff88,#b9a5ff44,transparent);transform:scaleX(0);transform-origin:left;transition:transform 1.2s cubic-bezier(.16,1,.3,1)}
+.motion-ready .detail-section.is-revealed:before{transform:scaleX(1)}
+.surface-glow{position:absolute;inset:0;z-index:3;pointer-events:none;border-radius:inherit;opacity:0;background:radial-gradient(340px circle at var(--light-x,50%) var(--light-y,50%),#c7eeff30,transparent 70%);box-shadow:inset 0 0 0 1px #d1e7ff38;mix-blend-mode:screen;transition:opacity .45s}
+[data-light-surface].is-hovered>.surface-glow,[data-light-surface]:focus-visible>.surface-glow{opacity:1}
+@media(min-width:900px) and (hover:hover) and (pointer:fine){
+  .motion-ready .game-card{perspective:1100px}
+  .motion-ready .game-art{transform:rotateX(var(--tilt-x,0deg)) rotateY(var(--tilt-y,0deg));transition:transform .45s cubic-bezier(.16,1,.3,1),box-shadow .4s,border-color .4s}
+  .motion-ready .game-art.is-hovered{box-shadow:0 24px 50px #0005,0 0 42px #93caff24;border-color:#c4e4ff9c;will-change:transform;transition:box-shadow .4s,border-color .4s}
+  .motion-ready .game-art img{transform:scale(1.035);transition:transform .8s cubic-bezier(.16,1,.3,1),filter .55s}
+  .motion-ready .game-art.is-hovered img{transform:translate3d(var(--image-x,0px),var(--image-y,0px),0) scale(1.09);filter:saturate(1.14) brightness(1.06)}
+  .motion-ready .art-arrow{transition:transform .5s cubic-bezier(.16,1,.3,1),background .3s,box-shadow .3s}
+  .motion-ready .game-art.is-hovered .art-arrow{transform:translate3d(-5px,-5px,0) rotate(-8deg) scale(1.13);box-shadow:0 0 30px #c0e6ff60;background:#daf1ff;color:#142e46}
+  .motion-ready .game-card h3 a{transition:color .3s,text-shadow .3s}.motion-ready .game-card:has(.is-hovered) h3 a{color:#c0e9ff;text-shadow:0 0 25px #a0d9ff33}
+  body:is([data-page=catalog],[data-page=detail]) .pill:hover{transform:translateY(-3px);box-shadow:0 8px 35px #b1d4ff30}
+  body[data-page=catalog] .genre-filter:hover{transform:translateX(6px)}
+  .archive-toolbar{transition:box-shadow .4s,border-color .4s}.archive-toolbar:focus-within{border-color:#c6eaff9c!important;box-shadow:0 0 55px #a7ceff20!important}
+  .motion-ready .download-panel{transition:box-shadow .5s,border-color .5s}.motion-ready .download-panel.is-hovered{border-color:#c6e5ffa1;box-shadow:0 0 60px #a7c7ff25,0 25px 65px #0003}
+  .install-list li{transition:transform .4s,background .4s}.install-list li:hover{transform:translateX(7px);background:linear-gradient(90deg,#b8deff07,transparent)}
+  .step-index{transition:text-shadow .4s,color .4s}.install-list li:hover .step-index{color:#e4f6ff;text-shadow:0 0 24px #a8dfff99}
+  .purchase-link svg{transition:transform .4s}.purchase-link:hover svg{transform:translate(4px,-4px)}
+}
+@media(max-width:899px){.page-lightfield{display:none}.detail-nav a:after{bottom:-20px}.motion-ready .motion-reveal{transform:translate3d(0,18px,0)}.motion-ready .motion-reveal.is-revealed{transform:none}.motion-ready .detail-visual>img{transform:none;will-change:auto}}
+@media(prefers-reduced-motion:reduce){.page-lightfield{display:none}.motion-ready .motion-reveal{opacity:1;transform:none;transition:none}.surface-glow,.detail-nav a:after{transition:none}.motion-ready .game-art,.motion-ready .game-art img,.motion-ready .detail-visual>img{transform:none!important;will-change:auto}.motion-ready .archive-hero h1{transform:none}.motion-ready .detail-section:before{transform:none;transition:none}}

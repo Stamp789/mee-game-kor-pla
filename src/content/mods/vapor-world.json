@@ -1,0 +1,63 @@
+{
+  "id": "vapor-world",
+  "title": "Vapor World: Over The Mind",
+  "thaiTitle": "เวเปอร์ เวิลด์: เหนือห้วงจิต",
+  "code": "VW-002",
+  "version": "—",
+  "gameBuild": "PC",
+  "platform": "pc",
+  "source": "drive",
+  "store": "https://store.steampowered.com/app/1996090/Vapor_World_Over_The_Mind/",
+  "purchaseLinks": [
+    {
+      "label": "ซื้อบน Steam",
+      "href": "https://store.steampowered.com/app/1996090/Vapor_World_Over_The_Mind/"
+    },
+    {
+      "label": "ค้นหาบน Xbox / Game Pass",
+      "href": "https://www.xbox.com/en-us/search/results?q=Vapor%20World%3A%20Over%20The%20Mind"
+    },
+    {
+      "label": "เปรียบเทียบราคาจากร้านทางการ",
+      "href": "https://isthereanydeal.com/search/?q=Vapor%20World%3A%20Over%20The%20Mind"
+    }
+  ],
+  "statusText": "พร้อมโหลด",
+  "date": "2026-09-13",
+  "popularity": 98,
+  "size": "ดูที่ Google Drive",
+  "translator": "มีเกมก็แปล",
+  "category": "action",
+  "tags": [
+    "Souls-like",
+    "Platformer",
+    "เนื้อเรื่อง",
+    "แปลครบ"
+  ],
+  "colors": [
+    "#123c78",
+    "#7b3fd0"
+  ],
+  "cover": "assets/cover-vapor-world.jpg",
+  "gallery": [
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1996090/8f89ddbfaa57a7ca71b68be3274b1a4f17ca5d48/ss_8f89ddbfaa57a7ca71b68be3274b1a4f17ca5d48.600x338.jpg?t=1787549229",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1996090/531198a3d14c2f7547ec5a1f7591e0da84ed4c76/ss_531198a3d14c2f7547ec5a1f7591e0da84ed4c76.600x338.jpg?t=1787549229",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1996090/7e1e9c33d1d63caf372439c72a91157dfd865b42/ss_7e1e9c33d1d63caf372439c72a91157dfd865b42.600x338.jpg?t=1787549229"
+  ],
+  "trailerTitle": "Vapor World: Over The Mind — Official Trailer",
+  "description": "ม็อดภาษาไทยสำหรับเกมแอ็กชัน 2.5D แนว Souls-like ครอบคลุมเนื้อเรื่อง บทสนทนา Lore สกิล อุปกรณ์ ไอเทม เมนู และบทสอนเล่น",
+  "changelog": [
+    "แปลเนื้อเรื่อง บทสนทนา และบันทึกครบถ้วน",
+    "แปลสกิล อุปกรณ์ ไอเทม และเอฟเฟกต์สถานะ",
+    "แปล UI การตั้งค่า และ Tutorial ครบ 100%"
+  ],
+  "install": [
+    "ดาวน์โหลดและแตกไฟล์ ZIP",
+    "นำโฟลเดอร์ม็อดไปวางทับในโฟลเดอร์หลักของเกม",
+    "เปิดเกมและตรวจสอบการแสดงผลภาษาไทย"
+  ],
+  "sha": "—",
+  "nexus": "",
+  "drive": "https://drive.google.com/drive/folders/1Id8gez8vS1n62e8xMDC6pyvznw9voQYS?usp=sharing",
+  "post": "https://www.facebook.com/permalink.php?story_fbid=pfbid0E9aP8J88qATQQDWDWRo4TrRQtr4xCVjShoFBn8wXSFLpPXm6uC9uSH1W5UuTz32yl&id=61593924362608"
+}

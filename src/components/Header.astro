@@ -1,0 +1,25 @@
+---
+import Icon from './Icon.astro';
+import { url } from '../lib/mods';
+const { page = 'home' } = Astro.props;
+---
+<header class="site-header">
+  <a class="wordmark" href={url()} aria-label="มีเกมก็แปล — หน้าแรก">
+    <img src={url('assets/brand.webp')} width="42" height="42" alt="" />
+    <span>มีเกมก็แปล<small>THAI GAME MODS</small></span>
+  </a>
+  <nav class="desktop-nav" aria-label="เมนูหลัก">
+    <a href={url('mods/')} aria-current={page === 'catalog' ? 'page' : undefined}>คลังม็อด <span class="nav-dot"></span></a>
+    <a href={url('#about')}>รู้จักผู้แปล</a>
+    <a href={url('#guide')}>วิธีติดตั้ง</a>
+  </nav>
+  <div class="header-actions">
+    <a class="journey-mobile-catalog" href={url('mods/')}>คลังม็อด ↗</a>
+    <button class="round-button search-open" aria-label="ค้นหาม็อด" type="button"><Icon name="search" /></button>
+    <button class="menu-open round-button" aria-label="เปิดเมนู" aria-controls="mobile-menu" type="button"><span class="menu-lines"></span></button>
+  </div>
+</header>
+<dialog id="mobile-menu" class="menu-dialog">
+  <div class="dialog-top"><span class="micro">EXPLORE THE WORLDS</span><button class="round-button dialog-close" type="button" aria-label="ปิดเมนู"><Icon name="close" /></button></div>
+  <nav aria-label="เมนูมือถือ"><a href={url()}>เริ่มการเดินทาง ↗</a><a href={url('mods/')}>คลังม็อด ↗</a><a href={url('mods/?saved=1')}>เกมที่บันทึกไว้ ↗</a><a href={url('#guide')}>วิธีติดตั้ง ↗</a><a href={url('#support')}>สนับสนุนผู้แปล ↗</a></nav>
+</dialog>

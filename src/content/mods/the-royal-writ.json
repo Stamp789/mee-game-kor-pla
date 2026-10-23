@@ -1,0 +1,63 @@
+{
+  "id": "the-royal-writ",
+  "title": "The Royal Writ",
+  "thaiTitle": "พระราชโองการ",
+  "code": "RW-003",
+  "version": "2.0.0",
+  "gameBuild": "Steam / PC",
+  "platform": "pc",
+  "source": "drive",
+  "store": "https://store.steampowered.com/app/3333700/The_Royal_Writ/",
+  "purchaseLinks": [
+    {
+      "label": "ซื้อบน Steam",
+      "href": "https://store.steampowered.com/app/3333700/The_Royal_Writ/"
+    },
+    {
+      "label": "ค้นหาบน Fanatical",
+      "href": "https://www.fanatical.com/en/search?search=The%20Royal%20Writ"
+    },
+    {
+      "label": "เปรียบเทียบราคาจากร้านทางการ",
+      "href": "https://isthereanydeal.com/search/?q=The%20Royal%20Writ"
+    }
+  ],
+  "statusText": "พร้อมโหลด",
+  "date": "2026-09-12",
+  "popularity": 96,
+  "size": "ดูที่ Google Drive",
+  "translator": "มีเกมก็แปล",
+  "category": "card",
+  "tags": [
+    "Roguelike",
+    "Deck-builder",
+    "การ์ด",
+    "แปลครบ"
+  ],
+  "colors": [
+    "#3d246f",
+    "#d59a2f"
+  ],
+  "cover": "assets/cover-the-royal-writ.png",
+  "gallery": [
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3333700/14e106d15bc01d1bf1592be1574b9297fb88f211/ss_14e106d15bc01d1bf1592be1574b9297fb88f211.600x338.jpg?t=1785491287",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3333700/4614a75531ec0ec56835e8d3289e35b967db0d43/ss_4614a75531ec0ec56835e8d3289e35b967db0d43.600x338.jpg?t=1785491287",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3333700/6f2e7cd0cf4bdb26b9b84e2043cac97bfcea55f2/ss_6f2e7cd0cf4bdb26b9b84e2043cac97bfcea55f2.600x338.jpg?t=1785491287"
+  ],
+  "trailerTitle": "The Royal Writ — Official Trailer",
+  "description": "ม็อดภาษาไทยสำหรับเกม Roguelike Deck-builder ครอบคลุมเนื้อเรื่อง การ์ด ยูนิต ยุทธภัณฑ์ วัตถุโบราณ เมนู และบทสอนเล่น พร้อมสำนวนตลกร้ายแบบยุคกลาง",
+  "changelog": [
+    "อัปเดตม็อดภาษาไทยเป็นเวอร์ชัน 2.0.0",
+    "แปลชื่อการ์ด ยูนิต และ Card Effects ครบทุกใบ",
+    "แปล UI การตั้งค่า และ Tutorial ครบ 100%"
+  ],
+  "install": [
+    "ดาวน์โหลดและแตกไฟล์ ZIP",
+    "นำโฟลเดอร์ Content ไปวางทับในโฟลเดอร์หลักของเกม",
+    "เปิดเกมและตรวจสอบว่าเมนูแสดงภาษาไทย"
+  ],
+  "sha": "—",
+  "nexus": "",
+  "drive": "https://drive.google.com/drive/folders/1Ay9ihHPOEcuhW_-yIVI17IGSSHbN2oaa?usp=sharing",
+  "post": "https://www.facebook.com/permalink.php?story_fbid=pfbid0nyDanzufEsswWfUtgeDU8gH1c5Rawm4k9qmfzSoakvbDkU8c4rv1jx4Nk1mbxun9l&id=61593924362608"
+}

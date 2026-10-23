@@ -1,0 +1,16 @@
+---
+import { cover, type Mod } from '../lib/mods';
+interface Props { mods: Mod[]; }
+const { mods } = Astro.props;
+---
+<div class="game-object shared-game-object" aria-hidden="true" data-journey-box>
+  {[0, 1].map(side => <div class={side === 0 ? 'box-front' : 'box-back box-back-cover'}>
+    {mods.map((mod, index) => index % 2 === side && <div class="box-cover" data-box-cover={index} data-visible={index === side ? 'true' : 'false'}>
+      <div class="box-label"><span>มีเกมก็แปล</span><span>THAI EDITION ↗</span></div>
+      <img src={cover(mod)} alt="" width="540" height="660" loading="eager" decoding="async" />
+      <div class="box-bottom"><span>{mod.title}</span><span>TH</span></div>
+    </div>)}
+  </div>)}
+  <div class="box-spine"><span>มีเกมก็แปล / THAI EDITION</span></div>
+  <div class="box-top"></div><div class="box-right"></div><div class="box-base"></div>
+</div>

@@ -1,0 +1,33 @@
+---
+import Icon from './Icon.astro';
+import { getMods, cover, url, modUrl } from '../lib/mods';
+const mods = await getMods();
+const worlds = ['absolum', 'tales-of-berseria', 'i-am-setsuna'].map(id => mods.find(mod => mod.id === id)!);
+---
+<section class="immersive-hero" aria-labelledby="world-title" data-immersive-world data-images={JSON.stringify(worlds.map(mod => url(`assets/portal-${mod.id}.jpg`)))}>
+  <div class="world-poster" aria-hidden="true"><div class="poster-aura"></div><div class="poster-window"><img src={url('assets/portal-absolum.jpg')} width="600" height="338" alt="" fetchpriority="high" /></div><div class="poster-ring"></div><div class="poster-reflection"></div></div>
+  <canvas class="immersive-canvas" aria-hidden="true"></canvas>
+  <div class="hero-vignette" aria-hidden="true"></div>
+  <div class="world-coordinate micro" aria-hidden="true">TRANSLATING WORLDS <span>INDEPENDENT THAI TRANSLATION PROJECT</span></div>
+  <div class="immersive-copy">
+    <p class="micro portal-kicker"><i></i> A NEW LANGUAGE. THE SAME ADVENTURE.</p>
+    <h1 id="world-title">โลกเดิม<br />ความรู้สึก<span class="outline-word">ใหม่</span><span class="mint-period">.</span></h1>
+    <p class="portal-description">ก้าวข้ามกำแพงภาษา แล้วหลงเข้าไปในเรื่องราว<br />ม็อดแปลไทยจากคนรักเกม ถึงคนรักเกม</p>
+    <a class="portal-cta" href={url('mods/')}><span>ค้นพบโลกของคุณ</span><span class="cta-orb"><Icon size={22} /></span></a>
+    <p class="portal-count micro">{String(mods.length).padStart(2, '0')} WORLDS <span>—</span> COUNTLESS STORIES</p>
+  </div>
+  <div class="portal-label micro" aria-hidden="true"><span class="label-cross">+</span> THE LANGUAGE PORTAL <span>ก / A</span></div>
+  <div class="hero-bottom">
+    <a href="#featured" class="scroll-invitation"><span class="scroll-line"></span><span class="micro">SCROLL TO<br />ANOTHER WORLD</span><span>↓</span></a>
+    <div class="world-selection">
+      <div class="world-selection-heading"><span class="micro">WORLDS IN FOCUS</span><span class="micro"><span data-world-index>01</span> / 03</span></div>
+      <div class="world-tabs" role="group" aria-label="เลือกเกมในฉาก">
+        {worlds.map((mod, i) => <button class="world-tab" type="button" data-world={i} aria-pressed={i === 0 ? 'true' : 'false'} aria-label={`แสดงโลก ${mod.title}`}><img src={cover(mod)} alt="" width="140" height="80" loading="eager" /><span>{mod.title}</span><span class="world-tab-number">0{i + 1}</span></button>)}
+      </div>
+      <a class="focus-game-link" href={modUrl(worlds[0])} data-world-link data-links={JSON.stringify(worlds.map(modUrl))}><span data-world-title>{worlds[0].title}</span><span>สำรวจม็อดนี้ ↗</span></a>
+    </div>
+  </div>
+  <button class="ambient-toggle" type="button" aria-pressed="false" aria-label="พักการเคลื่อนไหว"><span class="ambient-bars" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span data-motion-label>เคลื่อนไหว</span></button>
+  <noscript><p class="scene-noscript">เปิด JavaScript เพื่อเปลี่ยนฉากเกม · เลือกดูม็อดทั้งหมดได้จากปุ่มด้านบน</p></noscript>
+</section>
+<script>import '../scripts/immersive-world';</script>
