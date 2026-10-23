@@ -1,0 +1,60 @@
+{
+  "id": "megadimension-neptunia-vii",
+  "title": "Megadimension Neptunia VII",
+  "thaiTitle": "เมกะไดเมนชัน เนปจูเนีย วีทู",
+  "code": "MN-034",
+  "version": "1.0",
+  "gameBuild": "Steam · PC",
+  "platform": "pc",
+  "source": "nexus",
+  "store": "https://store.steampowered.com/app/460120/Megadimension_Neptunia_VII/",
+  "purchaseLinks": [
+    {
+      "label": "ซื้อบน Steam",
+      "href": "https://store.steampowered.com/app/460120/Megadimension_Neptunia_VII/"
+    },
+    {
+      "label": "เปรียบเทียบราคาจากร้านทางการ",
+      "href": "https://isthereanydeal.com/search/?q=Megadimension%20Neptunia%20VII"
+    }
+  ],
+  "statusText": "พร้อมโหลด",
+  "date": "2026-10-23",
+  "popularity": 100,
+  "size": "ดูที่ Nexus Mods",
+  "translator": "มีเกมก็แปล By.Stamp Nattakit",
+  "category": "action",
+  "tags": [
+    "JRPG",
+    "Turn-Based",
+    "Anime",
+    "แปลครบ"
+  ],
+  "colors": [
+    "#24143b",
+    "#e040fb"
+  ],
+  "cover": "assets/cover-megadimension-neptunia-vii.png",
+  "gallery": [
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/460120/ss_506f8073bfe353ec56691e857ca5ea49406d027c.600x338.jpg?t=1730845028",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/460120/ss_3afd3dbaee0d10710c79ae795861a9305babb4f7.600x338.jpg?t=1730845028",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/460120/ss_7a0b915d6bcd275cc573550c241560cd7d36e670.600x338.jpg?t=1730845028"
+  ],
+  "trailerTitle": "Megadimension Neptunia VII — Official Steam Trailer",
+  "description": "ม็อดภาษาไทยสำหรับ Megadimension Neptunia VII มหากาพย์เกม JRPG ภาคหลักสุดยิ่งใหญ่แห่งซีรีส์ Hyperdimension Neptunia จากค่าย Idea Factory และ Compile Heart ร่วมผจญภัยทะลุมิติไปกับเทพธิดาเนปจูน (Neptune), เนปเกียร์ (Nepgear) และอุซึเมะ เทนโนะโบชิ (Uzume Tennouboshi) ผ่านเรื่องราวสุดเข้มข้นถึง 3 มิติ 3 เนื้อเรื่องใหญ่ (Zero Dimension Neptunia Z, Hyperdimension Neptunia G และ Heart Dimension Neptunia H) พร้อมการแปลงร่างขั้นใหม่ NEXT Form และศึกบอสขนาดยักษ์ Giant Battles แปลไทยจัดเต็มทั้งเนื้อเรื่องหลักทั้ง 3 มิติ คัตซีน บทสนทนา เหตุการณ์ย่อย ระบบต่อสู้ คอมโบ สกิล ท่าไม้ตาย EXE Drive การพัฒนาเมืองและสร้างแผ่นเกม อุปกรณ์สวมใส่ ไอเทม เมนู และ UI ทั้งหมด 100% พร้อมฟอนต์ไทยคมชัดสวยงาม",
+  "changelog": [
+    "เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 สำหรับ Steam บน Nexus Mods",
+    "แปลเนื้อเรื่องหลักครบทั้ง 3 มิติ (Zero Dimension, Hyperdimension, Heart Dimension) คัตซีน และบทสนทนาตัวละครทั้งหมด",
+    "แปลระบบต่อสู้ ร่าง NEXT Form สกิล ท่าไม้ตาย อุปกรณ์ ไอเทม เมนู และ UI ครบ 100%"
+  ],
+  "install": [
+    "ดาวน์โหลดม็อดจากแท็บ Files บน Nexus Mods และแตกไฟล์ .zip",
+    "นำไฟล์หรือโฟลเดอร์ภาษาไทยไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)",
+    "เปิดเกม Megadimension Neptunia VII ผ่าน Steam แล้วออกผจญภัยทะลุมิติเป็นภาษาไทยได้ทันที"
+  ],
+  "sha": "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods",
+  "nexus": "https://www.nexusmods.com/megadimensionneptuniavii/mods/1?tab=files",
+  "drive": "",
+  "mediafire": "",
+  "post": "https://www.nexusmods.com/megadimensionneptuniavii/mods/1"
+}
