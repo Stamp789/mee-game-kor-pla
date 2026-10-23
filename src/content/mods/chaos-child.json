@@ -1,0 +1,60 @@
+{
+  "id": "chaos-child",
+  "title": "CHAOS;CHILD",
+  "thaiTitle": "เคออส;ไชลด์",
+  "code": "CC-033",
+  "version": "1.0",
+  "gameBuild": "Steam · PC",
+  "platform": "pc",
+  "source": "nexus",
+  "store": "https://store.steampowered.com/app/970570/CHAOSCHILD/",
+  "purchaseLinks": [
+    {
+      "label": "ซื้อบน Steam",
+      "href": "https://store.steampowered.com/app/970570/CHAOSCHILD/"
+    },
+    {
+      "label": "เปรียบเทียบราคาจากร้านทางการ",
+      "href": "https://isthereanydeal.com/search/?q=CHAOS%3BCHILD"
+    }
+  ],
+  "statusText": "พร้อมโหลด",
+  "date": "2026-10-23",
+  "popularity": 100,
+  "size": "ดูที่ Nexus Mods",
+  "translator": "มีเกมก็แปล By.Stamp Nattakit",
+  "category": "visual",
+  "tags": [
+    "Visual Novel",
+    "Sci-Fi",
+    "Mystery",
+    "แปลครบ"
+  ],
+  "colors": [
+    "#1e122b",
+    "#c0392b"
+  ],
+  "cover": "assets/cover-chaos-child.png",
+  "gallery": [
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/970570/ss_abc4465250f0a917882c403ecede18b78e86df02.600x338.jpg?t=1715703383",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/970570/ss_d6c213d56a208ba8cac714e49b7c68fc4c77f46a.600x338.jpg?t=1715703383",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/970570/ss_a89c2892ff07558d2af0e783530a759a018b5a5d.600x338.jpg?t=1715703383"
+  ],
+  "trailerTitle": "CHAOS;CHILD — Official Steam Trailer",
+  "description": "ม็อดภาษาไทยสำหรับ CHAOS;CHILD สุดยอดเกมแนว Science Adventure Visual Novel สืบสวนสอบสวนระทึกขวัญจิตวิทยาจากค่าย MAGES. และ 5pb. (ผู้สร้าง STEINS;GATE) ย้อนกลับไปยังย่านชิบูยะในปี 2015 หกปีหลังจากเหตุการณ์แผ่นดินไหวครั้งใหญ่ เมื่อคดีฆาตกรรมต่อเนื่องสุดพิสดาร \"การกลับมาของความบ้าคลั่งยุคใหม่ (Return of the New Generation Madness)\" เริ่มต้นขึ้นอีกครั้ง สวมบท มิยาชิโระ ทาคุรุ (Takuru Miyashiro) ประธานชมรมหนังสือพิมพ์โรงเรียนเฮคิโฮ ออกสืบหาความจริงเบื้องหลังคดีสยองขวัญและเผชิญหน้ากับภาพหลอน Delusion Trigger แปลไทยจัดเต็มทั้งเนื้อเรื่องหลัก รูทตัวละคร ตอนจบทุกเส้นทาง บทสนทนา ระบบเลือกภาพหลอน (Positive / Negative Delusion) แผนผังสืบสวน ข้อมูลคำศัพท์ (TIPS) เมนู และ UI ทั้งหมด 100% พร้อมฟอนต์ไทยคมชัดเข้ากับบรรยากาศลึกลับระทึกขวัญ",
+  "changelog": [
+    "เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 สำหรับ Steam บน Nexus Mods",
+    "แปลเนื้อเรื่องหลัก รูทตัวละคร ตอนจบทุกเส้นทาง และบทสนทนาทั้งหมด",
+    "แปลระบบ Delusion Trigger ข้อมูลคำศัพท์ (TIPS) แผนผังสืบสวน เมนู และ UI ครบ 100%"
+  ],
+  "install": [
+    "ดาวน์โหลดม็อดจากหน้า Nexus Mods และแตกไฟล์ .zip",
+    "นำไฟล์หรือโฟลเดอร์ภาษาไทยไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)",
+    "เปิดเกม CHAOS;CHILD ผ่าน Steam แล้วสัมผัสเรื่องราวสืบสวนระทึกขวัญเป็นภาษาไทยได้ทันที"
+  ],
+  "sha": "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods",
+  "nexus": "https://www.nexusmods.com/mods/2?game_id=10760",
+  "drive": "",
+  "mediafire": "",
+  "post": "https://www.nexusmods.com/mods/2?game_id=10760"
+}
