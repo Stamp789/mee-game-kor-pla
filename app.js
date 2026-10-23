@@ -1,5 +1,45 @@
 const mods = [
   {
+    id: "megadimension-neptunia-vii", title: "Megadimension Neptunia VII", thaiTitle: "เมกะไดเมนชัน เนปจูเนีย วีทู", code: "MN-034",
+    version: "1.0", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/460120/Megadimension_Neptunia_VII/",
+    purchaseLinks: [
+      { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/460120/Megadimension_Neptunia_VII/" },
+      { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/search/?q=Megadimension%20Neptunia%20VII" }
+    ],
+    statusText: "พร้อมโหลด", date: "2026-10-23", popularity: 100, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    category: "action", tags: ["JRPG", "Turn-Based", "Anime", "แปลครบ"], colors: ["#24143b", "#e040fb"], cover: "assets/cover-megadimension-neptunia-vii.png",
+    gallery: [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/460120/ss_506f8073bfe353ec56691e857ca5ea49406d027c.600x338.jpg?t=1730845028",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/460120/ss_3afd3dbaee0d10710c79ae795861a9305babb4f7.600x338.jpg?t=1730845028",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/460120/ss_7a0b915d6bcd275cc573550c241560cd7d36e670.600x338.jpg?t=1730845028"
+    ], trailerTitle: "Megadimension Neptunia VII — Official Steam Trailer",
+    description: "ม็อดภาษาไทยสำหรับ Megadimension Neptunia VII มหากาพย์เกม JRPG ภาคหลักสุดยิ่งใหญ่แห่งซีรีส์ Hyperdimension Neptunia จากค่าย Idea Factory และ Compile Heart ร่วมผจญภัยทะลุมิติไปกับเทพธิดาเนปจูน (Neptune), เนปเกียร์ (Nepgear) และอุซึเมะ เทนโนะโบชิ (Uzume Tennouboshi) ผ่านเรื่องราวสุดเข้มข้นถึง 3 มิติ 3 เนื้อเรื่องใหญ่ (Zero Dimension Neptunia Z, Hyperdimension Neptunia G และ Heart Dimension Neptunia H) พร้อมการแปลงร่างขั้นใหม่ NEXT Form และศึกบอสขนาดยักษ์ Giant Battles แปลไทยจัดเต็มทั้งเนื้อเรื่องหลักทั้ง 3 มิติ คัตซีน บทสนทนา เหตุการณ์ย่อย ระบบต่อสู้ คอมโบ สกิล ท่าไม้ตาย EXE Drive การพัฒนาเมืองและสร้างแผ่นเกม อุปกรณ์สวมใส่ ไอเทม เมนู และ UI ทั้งหมด 100% พร้อมฟอนต์ไทยคมชัดสวยงาม",
+    changelog: ["เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 สำหรับ Steam บน Nexus Mods", "แปลเนื้อเรื่องหลักครบทั้ง 3 มิติ (Zero Dimension, Hyperdimension, Heart Dimension) คัตซีน และบทสนทนาตัวละครทั้งหมด", "แปลระบบต่อสู้ ร่าง NEXT Form สกิล ท่าไม้ตาย อุปกรณ์ ไอเทม เมนู และ UI ครบ 100%"],
+    install: ["ดาวน์โหลดม็อดจากแท็บ Files บน Nexus Mods และแตกไฟล์ .zip", "นำไฟล์หรือโฟลเดอร์ภาษาไทยไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)", "เปิดเกม Megadimension Neptunia VII ผ่าน Steam แล้วออกผจญภัยทะลุมิติเป็นภาษาไทยได้ทันที"],
+    sha: "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods", nexus: "https://www.nexusmods.com/megadimensionneptuniavii/mods/1?tab=files", drive: "", mediafire: "",
+    post: "https://www.nexusmods.com/megadimensionneptuniavii/mods/1"
+  },
+  {
+    id: "chaos-child", title: "CHAOS;CHILD", thaiTitle: "เคออส;ไชลด์", code: "CC-033",
+    version: "1.0", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/970570/CHAOSCHILD/",
+    purchaseLinks: [
+      { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/970570/CHAOSCHILD/" },
+      { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/search/?q=CHAOS%3BCHILD" }
+    ],
+    statusText: "พร้อมโหลด", date: "2026-10-23", popularity: 100, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    category: "visual", tags: ["Visual Novel", "Sci-Fi", "Mystery", "แปลครบ"], colors: ["#1e122b", "#c0392b"], cover: "assets/cover-chaos-child.png",
+    gallery: [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/970570/ss_abc4465250f0a917882c403ecede18b78e86df02.600x338.jpg?t=1715703383",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/970570/ss_d6c213d56a208ba8cac714e49b7c68fc4c77f46a.600x338.jpg?t=1715703383",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/970570/ss_a89c2892ff07558d2af0e783530a759a018b5a5d.600x338.jpg?t=1715703383"
+    ], trailerTitle: "CHAOS;CHILD — Official Steam Trailer",
+    description: "ม็อดภาษาไทยสำหรับ CHAOS;CHILD สุดยอดเกมแนว Science Adventure Visual Novel สืบสวนสอบสวนระทึกขวัญจิตวิทยาจากค่าย MAGES. และ 5pb. (ผู้สร้าง STEINS;GATE) ย้อนกลับไปยังย่านชิบูยะในปี 2015 หกปีหลังจากเหตุการณ์แผ่นดินไหวครั้งใหญ่ เมื่อคดีฆาตกรรมต่อเนื่องสุดพิสดาร \"การกลับมาของความบ้าคลั่งยุคใหม่ (Return of the New Generation Madness)\" เริ่มต้นขึ้นอีกครั้ง สวมบท มิยาชิโระ ทาคุรุ (Takuru Miyashiro) ประธานชมรมหนังสือพิมพ์โรงเรียนเฮคิโฮ ออกสืบหาความจริงเบื้องหลังคดีสยองขวัญและเผชิญหน้ากับภาพหลอน Delusion Trigger แปลไทยจัดเต็มทั้งเนื้อเรื่องหลัก รูทตัวละคร ตอนจบทุกเส้นทาง บทสนทนา ระบบเลือกภาพหลอน (Positive / Negative Delusion) แผนผังสืบสวน ข้อมูลคำศัพท์ (TIPS) เมนู และ UI ทั้งหมด 100% พร้อมฟอนต์ไทยคมชัดเข้ากับบรรยากาศลึกลับระทึกขวัญ",
+    changelog: ["เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 สำหรับ Steam บน Nexus Mods", "แปลเนื้อเรื่องหลัก รูทตัวละคร ตอนจบทุกเส้นทาง และบทสนทนาทั้งหมด", "แปลระบบ Delusion Trigger ข้อมูลคำศัพท์ (TIPS) แผนผังสืบสวน เมนู และ UI ครบ 100%"],
+    install: ["ดาวน์โหลดม็อดจากหน้า Nexus Mods และแตกไฟล์ .zip", "นำไฟล์หรือโฟลเดอร์ภาษาไทยไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)", "เปิดเกม CHAOS;CHILD ผ่าน Steam แล้วสัมผัสเรื่องราวสืบสวนระทึกขวัญเป็นภาษาไทยได้ทันที"],
+    sha: "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods", nexus: "https://www.nexusmods.com/mods/2?game_id=10760", drive: "", mediafire: "",
+    post: "https://www.nexusmods.com/mods/2?game_id=10760"
+  },
+  {
     id: "neptunia-x-senran-kagura-ninja-wars", title: "Neptunia x SENRAN KAGURA: Ninja Wars", thaiTitle: "เนปจูเนีย X เซ็งรัน คางูระ: นินจา วอร์ส", code: "NW-032",
     version: "1.0", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/1836860/Neptunia_x_SENRAN_KAGURA_Ninja_Wars/",
     purchaseLinks: [
