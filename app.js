@@ -1,5 +1,45 @@
 const mods = [
   {
+    id: "dot-hack-gu-last-recode", title: ".hack//G.U. Last Recode", thaiTitle: "ดอทแฮ็ค//จี.ยู. ลาสต์ รีโค้ด", code: "HG-036",
+    version: "1.0", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/525480/hackGU_Last_Recode/",
+    purchaseLinks: [
+      { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/525480/hackGU_Last_Recode/" },
+      { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/search/?q=.hack%2F%2FG.U.%20Last%20Recode" }
+    ],
+    statusText: "รออัปเดตลิงก์", date: "2026-10-25", popularity: 100, size: "รออัปเดตลิงก์ดาวน์โหลด", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    category: "action", tags: ["Action RPG", "JRPG", "Cyberpunk", "แปลครบ"], colors: ["#18142c", "#00b4d8"], cover: "assets/cover-dot-hack-gu-last-recode.png",
+    gallery: [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/525480/ss_5f779085f75ee51a5f36891cd0605c02f0e8e79a.600x338.jpg?t=1701322437",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/525480/ss_e96f6370e9c04909095502a61a2dfd7a26be489d.600x338.jpg?t=1701322437",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/525480/ss_fbecc013f994cbff02d60328576424b428aa709c.600x338.jpg?t=1701322437"
+    ], trailerTitle: ".hack//G.U. Last Recode — Official Steam Trailer",
+    description: "ม็อดภาษาไทยสำหรับ .hack//G.U. Last Recode มหากาพย์เกม Action JRPG ระดับตำนานจาก CyberConnect2 และ Bandai Namco Entertainment ฉบับรีมาสเตอร์ HD ที่รวบรวมเนื้อเรื่องครบทั้ง 4 โวลุ่ม (Vol. 1//Rebirth, Vol. 2//Reminisce, Vol. 3//Redemption และบทส่งท้ายใหม่ Vol. 4//Reconnection) ล็อกอินเข้าสู่โลกเกมออนไลน์เสมือนจริง \"The World R:2\" สวมบท ฮาเซโอะ (Haseo) นักล่า PKK ฉายา \"ความตระหนกแห่งความตาย (The Terror of Death)\" ออกตามล่า Tri-Edge เพื่อช่วยเหลือ Shino และไขปริศนาแห่ง AIDA แปลไทยจัดเต็มทั้งเนื้อเรื่องหลักครบทั้ง 4 ภาค คัตซีน บทสนทนา ระบบต่อสู้ Rengeki การปลุกพลังร่าง Avatar (Skeith) ระบบเดสก์ท็อป อีเมล กระดานข่าวฟอรัม ข่าวสาร อุปกรณ์สวมใส่ ไอเทม เมนู และ UI ทั้งหมด 100% พร้อมฟอนต์ไทยคมชัดสวยงาม",
+    changelog: ["เตรียมความพร้อมม็อดภาษาไทยเวอร์ชัน 1.0 สำหรับ Steam (รออัปเดตลิงก์ดาวน์โหลด)", "แปลเนื้อเรื่องหลักครบทั้ง 4 โวลุ่ม (Rebirth, Reminisce, Redemption, Reconnection) และคัตซีนทั้งหมด", "แปลระบบต่อสู้ ร่าง Avatar อีเมล ฟอรัมจำลองในเกม อุปกรณ์ ไอเทม เมนู และ UI ครบ 100%"],
+    install: ["ดาวน์โหลดไฟล์ม็อดภาษาไทย (กำลังเตรียมอัปเดตลิงก์ดาวน์โหลด) และแตกไฟล์ .zip", "นำไฟล์หรือโฟลเดอร์ภาษาไทยไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)", "เปิดเกม .hack//G.U. Last Recode ผ่าน Steam แล้วล็อกอินเข้าสู่ The World เป็นภาษาไทยได้ทันที"],
+    sha: "รออัปเดตลิงก์ดาวน์โหลด", nexus: "https://www.nexusmods.com/dothackgulastrecode", drive: "", mediafire: "",
+    post: "https://www.nexusmods.com/dothackgulastrecode"
+  },
+  {
+    id: "omori", title: "OMORI", thaiTitle: "โอโมริ", code: "OM-035",
+    version: "1.0", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/1150690/OMORI/",
+    purchaseLinks: [
+      { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/1150690/OMORI/" },
+      { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/search/?q=OMORI" }
+    ],
+    statusText: "พร้อมโหลด", date: "2026-10-25", popularity: 100, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    category: "visual", tags: ["JRPG", "Psychological Horror", "เนื้อเรื่อง", "แปลครบ"], colors: ["#14111f", "#9b5de5"], cover: "assets/cover-omori.png",
+    gallery: [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1150690/ss_219463835487a7205f0af93fb02d2c84855c667b.600x338.jpg?t=1671584768",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1150690/ss_4bb5647e9094a13078d23f2a9daa4a9bd160841e.600x338.jpg?t=1671584768",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1150690/ss_72e19b9ca001c03084b9eb7f5665514e60a6a6dd.600x338.jpg?t=1671584768"
+    ], trailerTitle: "OMORI — Official Steam Launch Trailer",
+    description: "ม็อดภาษาไทยสำหรับ OMORI เกมแนว Surreal Psychological Horror RPG ระดับขึ้นหิ้งจาก OMOCAT สำรวจโลกความฝันอันสดใสหลากสีสันและโลกความจริงที่ซ่อนความทรงจำอันแสนเจ็บปวด ร่วมเดินทางไปกับ OMORI และผองเพื่อน Aubrey, Kel, Hero และ Basil สัมผัสเรื่องราวแห่งมิตรภาพ ความกลัว และความลับที่ถูกลืมเลือน แปลไทยจัดเต็มทั้งเนื้อเรื่องหลักทุกเส้นทาง (Sunny Route / Hikikomori Route) บทสนทนา คัตซีน สมุดภาพถ่าย (Photo Album) บันทึก Hangman ระบบต่อสู้ด้วยอารมณ์ความรู้สึก (Emotion System: Happy, Sad, Angry) สกิล ท่าประสาน (Follow-ups) อาวุธ เครื่องราง ไอเทม ของกิน เมนู และ UI ทั้งหมด 100% พร้อมฟอนต์ไทยลายมือสุดน่ารักเข้ากับมู้ดต้นฉบับ",
+    changelog: ["เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 สำหรับ Steam บน Nexus Mods", "แปลเนื้อเรื่องหลักครบทุกเส้นทาง บทสนทนาตัวละคร และคำบรรยายสมุดภาพถ่ายทั้งหมด", "แปลระบบต่อสู้อารมณ์ สกิล ท่าประสาน ไอเทม เควสต์ย่อย เมนู และ UI ครบ 100%"],
+    install: ["ดาวน์โหลดม็อดจากแท็บ Files บน Nexus Mods และแตกไฟล์ .zip", "นำไฟล์หรือโฟลเดอร์ภาษาไทยไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)", "เปิดเกม OMORI ผ่าน Steam แล้วออกสำรวจโลกความฝันเป็นภาษาไทยได้ทันที"],
+    sha: "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods", nexus: "https://www.nexusmods.com/omori/mods/115?tab=files", drive: "", mediafire: "",
+    post: "https://www.nexusmods.com/omori/mods/115"
+  },
+  {
     id: "megadimension-neptunia-vii", title: "Megadimension Neptunia VII", thaiTitle: "เมกะไดเมนชัน เนปจูเนีย วีทู", code: "MN-034",
     version: "1.0", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/460120/Megadimension_Neptunia_VII/",
     purchaseLinks: [
