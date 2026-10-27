@@ -6,7 +6,7 @@ const mods = [
       { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/525480/hackGU_Last_Recode/" },
       { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/search/?q=.hack%2F%2FG.U.%20Last%20Recode" }
     ],
-    statusText: "รออัปเดตลิงก์", date: "2026-10-25", popularity: 100, size: "รออัปเดตลิงก์ดาวน์โหลด", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    statusText: "พร้อมโหลด", date: "2026-10-27", popularity: 100, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
     category: "action", tags: ["Action RPG", "JRPG", "Cyberpunk", "แปลครบ"], colors: ["#18142c", "#00b4d8"], cover: "assets/cover-dot-hack-gu-last-recode.png",
     gallery: [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/525480/ss_5f779085f75ee51a5f36891cd0605c02f0e8e79a.600x338.jpg?t=1701322437",
@@ -14,10 +14,10 @@ const mods = [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/525480/ss_fbecc013f994cbff02d60328576424b428aa709c.600x338.jpg?t=1701322437"
     ], trailerTitle: ".hack//G.U. Last Recode — Official Steam Trailer",
     description: "ม็อดภาษาไทยสำหรับ .hack//G.U. Last Recode มหากาพย์เกม Action JRPG ระดับตำนานจาก CyberConnect2 และ Bandai Namco Entertainment ฉบับรีมาสเตอร์ HD ที่รวบรวมเนื้อเรื่องครบทั้ง 4 โวลุ่ม (Vol. 1//Rebirth, Vol. 2//Reminisce, Vol. 3//Redemption และบทส่งท้ายใหม่ Vol. 4//Reconnection) ล็อกอินเข้าสู่โลกเกมออนไลน์เสมือนจริง \"The World R:2\" สวมบท ฮาเซโอะ (Haseo) นักล่า PKK ฉายา \"ความตระหนกแห่งความตาย (The Terror of Death)\" ออกตามล่า Tri-Edge เพื่อช่วยเหลือ Shino และไขปริศนาแห่ง AIDA แปลไทยจัดเต็มทั้งเนื้อเรื่องหลักครบทั้ง 4 ภาค คัตซีน บทสนทนา ระบบต่อสู้ Rengeki การปลุกพลังร่าง Avatar (Skeith) ระบบเดสก์ท็อป อีเมล กระดานข่าวฟอรัม ข่าวสาร อุปกรณ์สวมใส่ ไอเทม เมนู และ UI ทั้งหมด 100% พร้อมฟอนต์ไทยคมชัดสวยงาม",
-    changelog: ["เตรียมความพร้อมม็อดภาษาไทยเวอร์ชัน 1.0 สำหรับ Steam (รออัปเดตลิงก์ดาวน์โหลด)", "แปลเนื้อเรื่องหลักครบทั้ง 4 โวลุ่ม (Rebirth, Reminisce, Redemption, Reconnection) และคัตซีนทั้งหมด", "แปลระบบต่อสู้ ร่าง Avatar อีเมล ฟอรัมจำลองในเกม อุปกรณ์ ไอเทม เมนู และ UI ครบ 100%"],
-    install: ["ดาวน์โหลดไฟล์ม็อดภาษาไทย (กำลังเตรียมอัปเดตลิงก์ดาวน์โหลด) และแตกไฟล์ .zip", "นำไฟล์หรือโฟลเดอร์ภาษาไทยไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)", "เปิดเกม .hack//G.U. Last Recode ผ่าน Steam แล้วล็อกอินเข้าสู่ The World เป็นภาษาไทยได้ทันที"],
-    sha: "รออัปเดตลิงก์ดาวน์โหลด", nexus: "https://www.nexusmods.com/dothackgulastrecode", drive: "", mediafire: "",
-    post: "https://www.nexusmods.com/dothackgulastrecode"
+    changelog: ["เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 สำหรับ Steam บน Nexus Mods", "แปลเนื้อเรื่องหลักครบทั้ง 4 โวลุ่ม (Rebirth, Reminisce, Redemption, Reconnection) และคัตซีนทั้งหมด", "แปลระบบต่อสู้ ร่าง Avatar อีเมล ฟอรัมจำลองในเกม อุปกรณ์ ไอเทม เมนู และ UI ครบ 100%"],
+    install: ["ดาวน์โหลดม็อดจากแท็บ Files บน Nexus Mods และแตกไฟล์ .zip", "นำไฟล์หรือโฟลเดอร์ภาษาไทยไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)", "เปิดเกม .hack//G.U. Last Recode ผ่าน Steam แล้วล็อกอินเข้าสู่ The World เป็นภาษาไทยได้ทันที"],
+    sha: "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods", nexus: "https://www.nexusmods.com/hacklastrecode/mods/380?tab=files", drive: "", mediafire: "",
+    post: "https://www.nexusmods.com/hacklastrecode/mods/380?published=1"
   },
   {
     id: "omori", title: "OMORI", thaiTitle: "โอโมริ", code: "OM-035",
