@@ -1,5 +1,25 @@
 const mods = [
   {
+    id: "shenmue-i-and-ii", title: "Shenmue I & II", thaiTitle: "เชนมู I & II", code: "SM-037",
+    version: "1.0", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/758330/Shenmue_I__II/",
+    purchaseLinks: [
+      { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/758330/Shenmue_I__II/" },
+      { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/search/?q=Shenmue%20I%20%26%20II" }
+    ],
+    statusText: "พร้อมโหลด", date: "2026-10-28", popularity: 100, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    category: "action", tags: ["Action Adventure", "Open World", "Martial Arts", "แปลครบ"], colors: ["#1c1410", "#d97724"], cover: "assets/cover-shenmue-i-and-ii.png",
+    gallery: [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/758330/ss_d46aa961641d57eba3cd4d57f9f23df048de86f5.600x338.jpg?t=1763674637",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/758330/ss_e4f079c1d223a9f6179574c79b4c670980d1fae4.600x338.jpg?t=1763674637",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/758330/ss_e0279d238d9c817467b3284f5eda4ce3a65806a6.600x338.jpg?t=1763674637"
+    ], trailerTitle: "Shenmue I & II — Official Steam Launch Trailer",
+    description: "ม็อดภาษาไทยสำหรับ Shenmue I & II ตำนานเกม Open-World Action Adventure ผู้บุกเบิกวงการเกมยุคใหม่ผลงานชิ้นเอกของ Yu Suzuki จาก SEGA สวมบท เรียว ฮาซึกิ (Ryo Hazuki) นักสู้หนุ่มผู้เชี่ยวชาญศิลปะการต่อสู้ฮาซึกิยิวยิตสู ออกเดินทางสืบหาความจริงเบื้องหลังการสังหารบิดาและตามล่า หลาน ตี้ (Lan Di) พร้อมไขปริศนากระจกมังกรและกระจกหงส์ ตั้งแต่ออกสำรวจเมืองโยโกซึกะ (Yokosuka) ในภาคแรก สู่การเดินทางข้ามน้ำข้ามทะเลมายังมหานครฮ่องกงและกุ้ยหลินในภาคที่สอง แปลไทยจัดเต็มครบทั้ง Shenmue I และ Shenmue II ครอบคลุมเนื้อเรื่องหลัก คัตซีน บทสนทนาการถามไถ่เบาะแสจากชาวเมือง สมุดจดบันทึก (Notebook) ของเรียว คัมภีร์กระบวนท่าศิลปะการต่อสู้ (Move Scrolls) ระบบ QTE มินิเกมตู้เกมอาร์เคด งานพาร์ตไทม์ขับรถโฟร์คลิฟต์ ของสะสมกาชาปอง เมนู และ UI ทั้งหมด 100% พร้อมฟอนต์ไทยคมชัดสวยงาม",
+    changelog: ["เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 สำหรับ Steam บน Nexus Mods (รองรับครบทั้งภาค Shenmue I และ Shenmue II)", "แปลเนื้อเรื่องหลัก คัตซีน บทสนทนาชาวเมือง และสมุดจดบันทึกเบาะแสทั้งหมด", "แปลคัมภีร์กระบวนท่าต่อสู้ มินิเกม ไอเทม ของสะสม เมนู และ UI ครบ 100%"],
+    install: ["ดาวน์โหลดม็อดจากแท็บ Files บน Nexus Mods และแตกไฟล์ .zip", "นำไฟล์หรือโฟลเดอร์ภาษาไทยไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)", "เปิดเกม Shenmue I & II ผ่าน Steam แล้วออกเดินทางสืบหาความจริงเป็นภาษาไทยได้ทันที"],
+    sha: "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods", nexus: "https://www.nexusmods.com/shenmue/mods/53?tab=files", drive: "", mediafire: "",
+    post: "https://www.nexusmods.com/shenmue/mods/53?published=1"
+  },
+  {
     id: "dot-hack-gu-last-recode", title: ".hack//G.U. Last Recode", thaiTitle: "ดอทแฮ็ค//จี.ยู. ลาสต์ รีโค้ด", code: "HG-036",
     version: "1.0", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/525480/hackGU_Last_Recode/",
     purchaseLinks: [
