@@ -1,0 +1,60 @@
+{
+  "id": "koikatsu-party",
+  "title": "Koikatsu Party",
+  "thaiTitle": "โคอิคัตสึ! ปาร์ตี้",
+  "code": "KP-039",
+  "version": "1.0",
+  "gameBuild": "Steam · PC",
+  "platform": "pc",
+  "source": "nexus",
+  "store": "https://store.steampowered.com/app/1073440/__Koikatsu_Party/",
+  "purchaseLinks": [
+    {
+      "label": "ซื้อบน Steam",
+      "href": "https://store.steampowered.com/app/1073440/__Koikatsu_Party/"
+    },
+    {
+      "label": "เปรียบเทียบราคาจากร้านทางการ",
+      "href": "https://isthereanydeal.com/search/?q=Koikatsu%20Party"
+    }
+  ],
+  "statusText": "เร็ว ๆ นี้",
+  "date": "2026-11-08",
+  "popularity": 100,
+  "size": "เร็ว ๆ นี้",
+  "translator": "มีเกมก็แปล By.Stamp Nattakit",
+  "category": "visual",
+  "tags": [
+    "Simulation",
+    "Anime",
+    "Character Customization",
+    "แปลครบ"
+  ],
+  "colors": [
+    "#2b1429",
+    "#ff5ca8"
+  ],
+  "cover": "assets/cover-koikatsu-party.png",
+  "gallery": [
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1073440/ss_a4fce22ff624dd2b5e15c66eac102a32c16b584e.600x338.jpg?t=1779379786",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1073440/ss_cbdc0aef202f1bb90daa4d7a4f2996abae51ad52.600x338.jpg?t=1779379786",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1073440/ss_0b7bca9eb57693183f52c03390e2cb20238e91c0.600x338.jpg?t=1779379786"
+  ],
+  "trailerTitle": "Koikatsu Party — Official Steam Trailer",
+  "description": "ม็อดภาษาไทยสำหรับ Koikatsu Party (โคอิคัตสึ! ปาร์ตี้) เกมจำลองชีวิตวัยเรียนและสร้างตัวละครอนิเมะ 3D ระดับละเอียดขั้นสุด ออกแบบตัวละครได้อิสระทุกสัดส่วน ทรงผม เสื้อผ้า เครื่องประดับ และบุคลิกนิสัย พร้อมสนุกกับกิจกรรมชมรมและการใช้ชีวิตในรั้วโรงเรียน แปลไทยครบทั้งระบบสร้างตัวละคร (Character Maker) หมวดหมู่การปรับแต่งร่างกายและใบหน้า เครื่องแต่งกาย บุคลิกภาพ บทสนทนาของตัวละคร เหตุการณ์ความสัมพันธ์ เมนู การตั้งค่า และ UI ทั้งหมด 100% พร้อมฟอนต์ไทยคมชัดอ่านง่าย (สถานะ: เร็ว ๆ นี้)",
+  "changelog": [
+    "เตรียมเปิดให้ดาวน์โหลดม็อดภาษาไทยเวอร์ชัน 1.0 เร็ว ๆ นี้",
+    "แปลระบบสร้างตัวละคร (Character Maker) หมวดเสื้อผ้า ทรงผม และส่วนปรับแต่งทั้งหมด",
+    "แปลบทสนทนา บุคลิกตัวละคร เมนู การตั้งค่า และ UI ครบ 100%"
+  ],
+  "install": [
+    "รออัปเดตลิงก์ดาวน์โหลดม็อดภาษาไทยเร็ว ๆ นี้",
+    "เมื่อดาวน์โหลดแล้ว แตกไฟล์ .zip และนำไฟล์ไปวางทับในโฟลเดอร์ตัวเกมหลัก",
+    "เปิดเกม Koikatsu Party แล้วสนุกกับเมนูและบทสนทนาภาษาไทยได้ทันที"
+  ],
+  "sha": "รออัปเดตลิงก์ดาวน์โหลด",
+  "nexus": "https://www.nexusmods.com/koikatsu",
+  "drive": "",
+  "mediafire": "",
+  "post": "https://www.facebook.com/profile.php?id=61593924362608"
+}
