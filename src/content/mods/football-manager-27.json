@@ -6,7 +6,7 @@
   "version": "1.0",
   "gameBuild": "Steam · PC",
   "platform": "pc",
-  "source": "mediafire",
+  "source": "nexus",
   "store": "https://store.steampowered.com/app/4530370/Football_Manager_27/",
   "purchaseLinks": [
     {
@@ -21,7 +21,7 @@
   "statusText": "พร้อมโหลด",
   "date": "2026-11-08",
   "popularity": 100,
-  "size": "ดูที่ MediaFire",
+  "size": "ดูที่ Nexus Mods / MediaFire",
   "translator": "มีเกมก็แปล By.Stamp Nattakit",
   "category": "visual",
   "tags": [
@@ -43,18 +43,18 @@
   "trailerTitle": "Football Manager 27 — Official Steam Trailer",
   "description": "ม็อดภาษาไทยสำหรับ Football Manager 27 สุดยอดเกมจำลองการบริหารจัดการสโมสรฟุตบอลระดับโลกจาก Sports Interactive และ SEGA สวมบทผู้จัดการทีมวางแผนแท็กติก แก้เกมข้างสนาม ซื้อขายนักเตะ ปั้นดาวรุ่ง พูดคุยปลุกใจลูกทีมในห้องแต่งตัว และให้สัมภาษณ์สื่อมวลชน แปลไทยจัดเต็มพร้อมตัวติดตั้งใช้งานง่าย ครอบคลุมทั้งเมนูการบริหารสโมสร แท็กติก บทบาทนักเตะ ค่าพลัง รายงานแมวมอง การเจรจาสัญญา ข่าวสารในวงการฟุตบอล บทสนทนาการประชุมทีม สัมภาษณ์สื่อมวลชน การฝึกซ้อม และ UI ทั้งหมด 100% พร้อมฟอนต์ไทยคมชัดอ่านง่าย",
   "changelog": [
-    "เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 (ไฟล์แพ็กเกจพร้อมติดตั้ง) บน MediaFire",
+    "เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 (ไฟล์แพ็กเกจพร้อมติดตั้ง) บน Nexus Mods และ MediaFire",
     "แปลเมนูการจัดการสโมสร แผนการเล่น บทบาทตำแหน่ง และค่าพลังนักเตะทั้งหมด",
     "แปลข่าวสาร รายงานแมวมอง การเจรจาซื้อขาย บทสัมภาษณ์สื่อ และ UI ครบ 100%"
   ],
   "install": [
-    "ดาวน์โหลดไฟล์ FM27_Thai_Mod จากลิงก์ MediaFire และแตกไฟล์ .zip",
+    "ดาวน์โหลดไฟล์ FM27_Thai_Mod จากลิงก์ Nexus Mods หรือ MediaFire และแตกไฟล์ .zip",
     "รันตัวติดตั้งหรือทำตามขั้นตอนในไฟล์คู่มือเพื่อนำไฟล์ภาษาไทยไปติดตั้งในโฟลเดอร์เกม Football Manager 27",
     "เปิดเกม Football Manager 27 เลือกภาษาไทยในหน้าตั้งค่า แล้วเริ่มคุมทีมคว้าแชมป์ได้ทันที"
   ],
-  "sha": "ตรวจสอบรายละเอียดไฟล์บน MediaFire",
-  "nexus": "",
+  "sha": "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods / MediaFire",
+  "nexus": "https://www.nexusmods.com/mods/2?game_id=10976",
   "drive": "",
   "mediafire": "https://www.mediafire.com/file/n9325ml4sx44zkm/FM27_Thai_Mod_v1.1_%25E0%25B9%2581%25E0%25B8%2588%25E0%25B8%2581%25E0%25B8%259E%25E0%25B8%25A3%25E0%25B9%2589%25E0%25B8%25AD%25E0%25B8%25A1%25E0%25B8%2595%25E0%25B8%25B4%25E0%25B8%2594%25E0%25B8%2595%25E0%25B8%25B1%25E0%25B9%2589%25E0%25B8%2587.zip/file",
-  "post": "https://www.mediafire.com/file/n9325ml4sx44zkm/FM27_Thai_Mod_v1.1_%25E0%25B9%2581%25E0%25B8%2588%25E0%25B8%2581%25E0%25B8%259E%25E0%25B8%25A3%25E0%25B9%2589%25E0%25B8%25AD%25E0%25B8%25A1%25E0%25B8%2595%25E0%25B8%25B4%25E0%25B8%2594%25E0%25B8%2595%25E0%25B8%25B1%25E0%25B9%2589%25E0%25B8%2587.zip/file"
+  "post": "https://www.nexusmods.com/mods/2?game_id=10976"
 }
