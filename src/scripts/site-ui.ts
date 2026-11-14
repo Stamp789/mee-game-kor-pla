@@ -96,7 +96,10 @@ for (const dialog of document.querySelectorAll<HTMLDialogElement>('dialog')) {
   dialog.querySelectorAll('a').forEach(link => link.addEventListener('click', () => dialog.close()));
 }
 document.querySelector('.menu-open')?.addEventListener('click', () => document.querySelector<HTMLDialogElement>('#mobile-menu')?.showModal());
-document.querySelector('#support-open')?.addEventListener('click', () => document.querySelector<HTMLDialogElement>('#support-dialog')?.showModal());
+document.querySelectorAll('[data-support-open], #support-open').forEach(button => button.addEventListener('click', () => {
+  document.querySelectorAll<HTMLDialogElement>('dialog[open]').forEach(dialog => dialog.close());
+  document.querySelector<HTMLDialogElement>('#support-dialog')?.showModal();
+}));
 document.querySelector('.share-button')?.addEventListener('click', async () => {
   try { await navigator.clipboard.writeText(location.href.split('#')[0]); toast('คัดลอกลิงก์หน้านี้แล้ว'); }
   catch { toast('คัดลอกลิงก์หน้านี้ได้จากแถบที่อยู่ของเบราว์เซอร์'); }

@@ -4,24 +4,23 @@ import ModCard from '../../components/ModCard.astro';
 import Icon from '../../components/Icon.astro';
 import { getMods, url, date } from '../../lib/mods';
 import { genres, modGenres } from '../../lib/catalog';
-import '../../styles/archive.css';
 
 const mods = await getMods();
 ---
-<BaseLayout title="คลังม็อดภาษาไทย — มีเกมก็แปล" page="catalog">
+<BaseLayout title="ชั้นวางแผ่น — ร้านเกมมีเกมก็แปล" page="catalog">
   <div class="archive-page">
     <nav class="archive-breadcrumb" aria-label="เส้นทางหน้า">
-      <a href={url()}>หน้าแรก</a><span>/</span><span aria-current="page">คลังม็อด</span>
+      <a href={url()}>หน้าร้าน</a><span>/</span><span aria-current="page">ชั้นวางแผ่น</span>
     </nav>
 
     <section class="archive-hero" aria-labelledby="archive-title">
       <div>
-        <p class="micro section-kicker">THE TRANSLATION ARCHIVE / ALL WORLDS, ONE PLACE</p>
-        <h1 id="archive-title">คลังม็อด<span class="blue-text">.</span></h1>
-        <p class="archive-tagline">เลือกโลกที่รัก แล้วเล่นให้เข้าใจมากขึ้น</p>
+        <p class="micro section-kicker">ทุกแผ่นในร้าน · แปลไทยแล้ว</p>
+        <h1 id="archive-title" class="painted-head">ชั้นวางแผ่น</h1>
+        <p class="archive-tagline">หยิบเกมที่ชอบ แล้วเล่นเป็นภาษาไทย</p>
       </div>
       <div class="archive-intro">
-        <span class="archive-total">{String(mods.length).padStart(2, '0')}<small>WORLDS TO EXPLORE</small></span>
+        <span class="archive-total">{String(mods.length).padStart(2, '0')}<small>แผ่นในร้าน</small></span>
         <div><p>เรื่องราวใหม่ในภาษาที่คุ้นเคย<br />รวมม็อดแปลไทยจากมีเกมก็แปล<br />พร้อมรายละเอียดและวิธีติดตั้ง</p><span class="archive-updated">อัปเดตล่าสุดในคลัง · {date(mods[0].date)}</span></div>
       </div>
     </section>
@@ -31,7 +30,7 @@ const mods = await getMods();
         <div class="archive-search">
           <Icon name="search" size={23} />
           <label for="catalog-query" class="sr-only">ค้นหาในคลังม็อด</label>
-          <input id="catalog-query" name="q" type="search" placeholder="ชื่อเกม ชื่อไทย หรือแนวเกมที่อยากเล่น…" autocomplete="off" />
+          <input id="catalog-query" name="q" type="search" placeholder="ถามเจ้าของร้าน: ชื่อเกม ชื่อไทย หรือแนวเกม…" autocomplete="off" />
           <button class="query-clear round-button" type="button" aria-label="ล้างคำค้นหา" hidden><Icon name="close" size={15} /></button>
         </div>
         <div class="archive-sort">
@@ -46,7 +45,7 @@ const mods = await getMods();
 
       <div class="archive-layout">
         <aside class="archive-sidebar" aria-label="ตัวกรองม็อด">
-          <div class="archive-sidebar-heading"><span class="micro">FIND YOUR WORLD</span><button class="reset-filter" type="button" hidden>ล้างตัวกรอง ↺</button></div>
+          <div class="archive-sidebar-heading"><span class="micro">หมวดชั้นวาง</span><button class="reset-filter" type="button" hidden>ล้างตัวกรอง ↺</button></div>
           <div class="genre-list" role="group" aria-label="แนวเกม">
             {genres.map(genre => <button class="genre-filter" data-genre={genre.id} aria-pressed={genre.id === 'all' ? 'true' : 'false'} type="button"><span>{genre.label}</span><span class="genre-count">{genre.id === 'all' ? mods.length : mods.filter(mod => modGenres(mod).includes(genre.id)).length}</span></button>)}
           </div>
@@ -54,21 +53,21 @@ const mods = await getMods();
             <label for="archive-source" class="micro">แหล่งดาวน์โหลด</label>
             <select id="archive-source" name="source" form="archive-search-form"><option value="all">ทุกแหล่งดาวน์โหลด</option><option value="nexus">Nexus Mods</option><option value="drive">Google Drive</option><option value="mediafire">MediaFire</option></select>
           </div>
-          <button class="saved-filter" aria-pressed="false" type="button"><span><Icon name="heart" size={17} /> เกมที่บันทึกไว้</span><span class="saved-count">0</span></button>
-          <div class="archive-sidebar-note"><span class="archive-note-symbol" aria-hidden="true">↗</span><p>เจอโลกที่อยากเล่นแล้ว?<br />เปิดรายละเอียดเพื่อตรวจรุ่นเกม<br />และอ่านวิธีติดตั้งก่อนดาวน์โหลด</p><a href={url('#guide')}>อ่านคำแนะนำเบื้องต้น <Icon size={13} /></a></div>
+          <button class="saved-filter" aria-pressed="false" type="button"><span><Icon name="heart" size={17} /> แผ่นที่จองไว้</span><span class="saved-count">0</span></button>
+          <div class="archive-sidebar-note"><span class="archive-note-symbol" aria-hidden="true">↗</span><p>เจอแผ่นที่ชอบแล้ว?<br />เปิดดูรายละเอียดเพื่อเช็กรุ่นเกม<br />และอ่านวิธีลงก่อนโหลดนะ</p><a href={url('#guide')}>อ่านกฎของร้าน <Icon size={13} /></a></div>
         </aside>
 
         <div class="archive-main" id="archive-results">
           <div class="archive-results-heading">
-            <div><span class="micro results-eyebrow">THE COMPLETE COLLECTION</span><h2 class="results-title" tabindex="-1">ม็อดทั้งหมด</h2></div>
+            <div><span class="micro results-eyebrow">บนชั้น</span><h2 class="results-title" tabindex="-1">ม็อดทั้งหมด</h2></div>
             <span class="result-count" aria-live="polite" aria-atomic="true">{mods.length} เกมในคลัง</span>
           </div>
           <div class="active-filters" aria-label="ตัวกรองที่ใช้อยู่" hidden></div>
           <noscript><p class="archive-noscript">เปิด JavaScript เพื่อค้นหา กรอง และบันทึกเกม หรือเลือกจากรายการทั้งหมดด้านล่าง</p></noscript>
-          <div class="catalog-grid archive-results" data-view="grid">{mods.map((mod, index) => <ModCard mod={mod} index={index} archive />)}</div>
-          <div class="catalog-empty" hidden><span aria-hidden="true">↗</span><h2>ยังไม่เจอโลกที่ตามหา</h2><p class="empty-message">ลองเปลี่ยนคำค้น หรือเลือกแนวเกมอื่น</p><button class="pill pill-dark reset-filter" type="button">แสดงทุกเกม <Icon name="right" size={17} /></button></div>
+          <div class="catalog-grid archive-results case-grid" data-view="grid">{mods.map((mod, index) => <ModCard mod={mod} index={index} archive />)}</div>
+          <div class="catalog-empty" hidden><span aria-hidden="true">↗</span><h2>หาแผ่นนี้ไม่เจอ</h2><p class="empty-message">ลองเปลี่ยนคำค้น หรือเลือกแนวเกมอื่น</p><button class="pill pill-dark reset-filter" type="button">แสดงทุกเกม <Icon name="right" size={17} /></button></div>
           <div class="archive-pagination" hidden><p class="pagination-summary"></p><nav class="page-buttons" aria-label="หน้ารายการม็อด"></nav></div>
-          <div class="archive-endnote"><span class="micro">FAN-MADE. STORY-DRIVEN.</span><a href={url('#support')}>ให้เรื่องราวดี ๆ มีบทต่อไป <Icon size={15} /></a></div>
+          <div class="archive-endnote"><span class="micro">งานแปลโดยแฟนเกม</span><a href={url('#support')}>ช่วยค่าไฟร้าน <Icon size={15} /></a></div>
         </div>
       </div>
     </section>

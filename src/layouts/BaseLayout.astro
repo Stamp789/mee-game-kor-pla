@@ -2,23 +2,19 @@
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import Search from '../components/Search.astro';
-import PageMotion from '../components/PageMotion.astro';
 import { url } from '../lib/mods';
-import '../styles/global.css';
-import '../styles/immersive.css';
-import '../styles/journey.css';
-import '../styles/universe.css';
-import '../styles/page-motion.css';
+import '../styles/gallery.css';
+import '../styles/thai-shop.css';
 interface Props { title?: string; description?: string; image?: string; page?: string; }
-const { title = 'มีเกมก็แปล — ทุกโลก ในภาษาของคุณ', description = 'ค้นพบม็อดแปลเกมภาษาไทยจากมีเกมก็แปล พร้อมรายละเอียดเวอร์ชัน วิธีติดตั้ง และลิงก์ดาวน์โหลดจากผู้แปล', image, page } = Astro.props;
+const { title = 'ร้านเกมมีเกมก็แปล — ม็อดแปลไทย', description = 'ค้นพบม็อดแปลเกมภาษาไทยจากมีเกมก็แปล พร้อมรายละเอียดเวอร์ชัน วิธีติดตั้ง และลิงก์ดาวน์โหลดจากผู้แปล', image, page } = Astro.props;
 ---
 <!DOCTYPE html>
-<html lang="th">
+<html lang="th" data-theme="light">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content={description} />
-    <meta name="theme-color" content="#08131e" />
+    <meta name="theme-color" content="#7fd3ff" />
     {page === 'not-found' && <meta name="robots" content="noindex" />}
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
@@ -27,18 +23,22 @@ const { title = 'มีเกมก็แปล — ทุกโลก ในภ
     {image && <meta property="og:image" content={new URL(image, Astro.site || Astro.url).href} />}
     {Astro.site && <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site)} />}
     <link rel="icon" href={url('assets/favicon.svg')} type="image/svg+xml" />
+    <script is:inline>try{var t=localStorage.getItem('shop-theme');if(t==='dark'||t==='light')document.documentElement.dataset.theme=t}catch(e){}</script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Chonburi&family=IBM+Plex+Sans+Thai:wght@400;500;600&family=Kanit:wght@300;400;600;800&family=Sriracha&display=swap" rel="stylesheet" />
     <title>{title}</title>
   </head>
   <body data-base={url()} data-page={page || 'home'}>
     <a href="#main" class="skip-link">ข้ามไปเนื้อหา</a>
-    <div class="universe-atmosphere" aria-hidden="true"><i></i><i></i><i></i></div>
-    {(page === 'catalog' || page === 'detail') && <PageMotion />}
-    <div class="site-shell"><Header page={page} /><main id="main"><slot /></main><Footer /></div>
+    <svg class="sr-only" aria-hidden="true" focusable="false"><filter id="paint" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".035" numOctaves="2" seed="4" result="n" /><feDisplacementMap in="SourceGraphic" in2="n" scale="5" xChannelSelector="R" yChannelSelector="G" result="d" /><feComponentTransfer in="d"><feFuncR type="discrete" tableValues="0 .2 .4 .6 .8 1" /><feFuncG type="discrete" tableValues="0 .2 .4 .6 .8 1" /><feFuncB type="discrete" tableValues="0 .2 .4 .6 .8 1" /></feComponentTransfer></filter></svg>
+    <div class="scenery" aria-hidden="true"><span class="sky-orb"></span><span class="stars"></span><i class="cloud c1"></i><i class="cloud c2"></i><i class="cloud c3"></i><i class="cloud c4"></i></div>
+    <Header page={page} />
+    <main id="main"><slot /></main>
+    <Footer />
     <Search />
+    <dialog id="support-dialog" class="support-dialog" aria-labelledby="support-dialog-title"><div class="dialog-top"><span class="micro">ขอบคุณที่ช่วยค่าไฟร้าน</span><button type="button" class="round-button dialog-close" aria-label="ปิดช่องทางสนับสนุน">✕</button></div><h2 id="support-dialog-title">เติมพลังให้ผู้แปล</h2><img src={url('assets/support-promptpay.png')} width="440" height="440" alt="QR PromptPay สำหรับสนับสนุนมีเกมก็แปล" loading="lazy" /><p>ตรวจสอบชื่อบัญชีในแอปธนาคารให้ตรงกับภาพก่อนยืนยัน</p></dialog>
     <div id="toast" class="toast" role="status" aria-live="polite"></div>
-    <script>import '../scripts/site-ui';</script>
+    <script>import '../scripts/site-ui'; import '../scripts/gallery';</script>
   </body>
 </html>
