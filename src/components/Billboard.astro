@@ -1,0 +1,48 @@
+---
+import Icon from './Icon.astro';
+import { cover, modUrl, version, date, type Mod } from '../lib/mods';
+interface Props { mods: Mod[]; heading?: 'h1' | 'h2'; detail?: boolean; total?: number; }
+const { mods, heading = 'h2', detail = false, total = mods.length } = Astro.props;
+const data = mods.map(mod => ({ id: mod.id, title: mod.title, thai: mod.thaiTitle, cover: cover(mod), href: detail ? '#download-panel' : modUrl(mod), c0: mod.colors[0], c1: mod.colors[1] || mod.colors[0], shots: mod.gallery.slice(0, 4), date: date(mod.date), version: version(mod.version), tags: mod.tags.slice(0, 2).join(' · ') }));
+const g = data[0];
+const Heading = heading;
+const kickers = ['เข้าฉายแล้ว! แปลไทยทั้งเรื่อง', 'ฮิตทั้งบาง! แปลไทยแล้ว', 'ห้ามพลาด! เล่นเป็นภาษาไทย', 'มาแรง! ซับไทยเต็มเกม'];
+---
+<div class="storefront" data-billboard data-games={JSON.stringify(data)} data-kickers={JSON.stringify(kickers)} data-detail={detail ? '1' : undefined} style={`--c0:${g.c0};--c1:${g.c1}`}>
+  <aside class="crt" aria-hidden="true">
+    <div class="crt-body">
+      <div class="crt-screen"><img data-bb-shot src={g.shots[0] || g.cover} alt="" width="600" height="338" loading="lazy" referrerpolicy="no-referrer" /><span class="crt-static"></span><span class="crt-osd">CH <b data-bb-ch>01</b></span></div>
+      <div class="crt-panel"><i></i><i></i><span>มีเกมก็แปล TV</span></div>
+    </div>
+    <p class="hand-note note-tilt-l">ลองเล่นได้<br />ภาษาไทยล้วน!</p>
+  </aside>
+
+  <div class="billboard">
+    <div class="bb-frame">
+      <div class="bb-canvas">
+        <img class="bb-art" data-bb-art src={g.cover} alt={`ภาพปก ${g.title}`} width="1440" height="810" fetchpriority={detail || heading === 'h2' ? 'high' : undefined} />
+        <div class="bb-type">
+          <p class="bb-kicker" data-bb-kicker>{kickers[0]}</p>
+          <Heading class="bb-title" data-bb-thai>{g.thai}</Heading>
+          <p class="bb-en" data-bb-title>{g.title}</p>
+        </div>
+        <span class="bb-burst"><span>ฟรี!</span></span>
+        <span class="bb-tag" data-bb-tags>{g.tags}</span>
+      </div>
+    </div>
+    <div class="bb-legs" aria-hidden="true"><i></i><i></i></div>
+    <div class="bb-bar">
+      {mods.length > 1 && <button type="button" class="bb-btn" data-bb-step="-1" aria-label="ป้ายก่อนหน้า"><Icon name="back" size={18} /></button>}
+      <p class="bb-info"><span data-bb-date>เข้าฉาย {g.date}</span> · <span data-bb-version>{g.version}</span>{mods.length > 1 && <> · <span><b data-bb-index>1</b>/{mods.length}</span></>}</p>
+      {mods.length > 1 && <button type="button" class="bb-btn" data-bb-step="1" aria-label="ป้ายถัดไป"><Icon name="right" size={18} /></button>}
+      <a class="bb-cta" href={g.href} data-bb-link>{detail ? <>รับตั๋ว · ดาวน์โหลด <Icon name="download" size={18} /></> : <>ดูเรื่องนี้ <Icon name="right" size={18} /></>}</a>
+    </div>
+  </div>
+
+  <aside class="shop-notes" aria-label="ประกาศหน้าร้าน">
+    {detail
+      ? <><p class="hand-note note-yellow">แปลไทย<br /><b>100%</b></p><p class="hand-note note-tilt-r">อ่านวิธีลง<br />ก่อนนะจ๊ะ</p></>
+      : <><p class="hand-note note-yellow">แปลไทยแล้ว<br /><b>{total} เกม!</b></p><p class="hand-note note-tilt-r">เล่นฟรี<br />ไม่ต้องเติม</p><p class="hand-note note-pink">ร้านเปิด<br />ทุกวัน</p></>}
+  </aside>
+</div>
+<script>import '../scripts/billboard';</script>
