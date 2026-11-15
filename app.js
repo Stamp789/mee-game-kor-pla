@@ -46,7 +46,7 @@ const mods = [
       { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/2638080/Annihilated/" },
       { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/search/?q=Annihilated" }
     ],
-    statusText: "พร้อมโหลด", date: "2026-11-15", popularity: 100, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    statusText: "พร้อมโหลด", date: "2026-11-15", popularity: 100, size: "ดูที่ Nexus Mods / Google Drive", translator: "มีเกมก็แปล By.Stamp Nattakit",
     category: "action", tags: ["Roguelite", "RPG", "Dark Fantasy", "แปลครบ"], colors: ["#1a1118", "#dc2626"], cover: "assets/cover-annihilated.png",
     gallery: [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2638080/fc1d9f9aa3e0a762bcae28ef969fdff1bd8f02cc/ss_fc1d9f9aa3e0a762bcae28ef969fdff1bd8f02cc.600x338.jpg?t=1794308502",
@@ -54,9 +54,9 @@ const mods = [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2638080/c193280f6c07ed8f751e46eeb2523194f43f3ea8/ss_c193280f6c07ed8f751e46eeb2523194f43f3ea8.600x338.jpg?t=1794308502"
     ], trailerTitle: "Annihilated — Official Steam Trailer",
     description: "ม็อดภาษาไทยสำหรับ Annihilated เกมแนว Story-Driven Roguelite RPG สุดเข้มข้น เมื่อปาร์ตี้ของผู้กล้าถูกบดขยี้จนย่อยยับในดันเจี้ยนต้องสาป คุณต้องแบกรับหนึ่งในผู้กล้าที่แตกสลายหนีตายออกจากห้วงลึก เรียนรู้บาดแผลในอดีตที่ทำให้พวกเขาพังทลาย และสะสางบัญชีแค้นไปด้วยกันผ่าน 4 เส้นทาง 4 ผู้กล้า และ 4 บทสรุปแห่งชะตากรรม แปลไทยจัดเต็มทั้งเนื้อเรื่องหลักครบทั้ง 4 รูท บทสนทนา คัตซีน เหตุการณ์ในดันเจี้ยน ระบบต่อสู้ สกิล อาวุธ ไอเทม เมนู และ UI ทั้งหมด 100% พร้อมฟอนต์ไทยคมชัดเข้ากับบรรยากาศดาร์กแฟนตาซี",
-    changelog: ["เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 สำหรับ Steam บน Nexus Mods", "แปลเนื้อเรื่องหลักครบทั้ง 4 เส้นทางของผู้กล้า บทสนทนา และคัตซีนทั้งหมด", "แปลระบบต่อสู้ สกิล อุปกรณ์ ไอเทม เมนู และ UI ครบ 100%"],
-    install: ["ดาวน์โหลดม็อดจากแท็บ Files บน Nexus Mods และแตกไฟล์ .zip", "นำไฟล์หรือโฟลเดอร์ภาษาไทยไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)", "เปิดเกม Annihilated ผ่าน Steam แล้วออกเดินทางฝ่าดันเจี้ยนต้องสาปเป็นภาษาไทยได้ทันที"],
-    sha: "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods", nexus: "https://www.nexusmods.com/mods/2?game_id=11099&tab=files", drive: "", mediafire: "",
+    changelog: ["เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 สำหรับ Steam บน Nexus Mods และ Google Drive", "แปลเนื้อเรื่องหลักครบทั้ง 4 เส้นทางของผู้กล้า บทสนทนา และคัตซีนทั้งหมด", "แปลระบบต่อสู้ สกิล อุปกรณ์ ไอเทม เมนู และ UI ครบ 100%"],
+    install: ["ดาวน์โหลดม็อดจากแท็บ Files บน Nexus Mods หรือ Google Drive และแตกไฟล์ .zip", "นำไฟล์หรือโฟลเดอร์ภาษาไทยไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)", "เปิดเกม Annihilated ผ่าน Steam แล้วออกเดินทางฝ่าดันเจี้ยนต้องสาปเป็นภาษาไทยได้ทันที"],
+    sha: "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods", nexus: "https://www.nexusmods.com/mods/2?game_id=11099&tab=files", drive: "https://drive.google.com/file/d/1puEG5VrUAA9uGJhcf_nupAOYJyxuFv7V/view?usp=sharing", mediafire: "",
     post: "https://www.nexusmods.com/mods/2?game_id=11099&tab=files"
   },
   {
