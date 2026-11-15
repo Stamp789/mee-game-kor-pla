@@ -1,5 +1,65 @@
 const mods = [
   {
+    id: "9-kings", title: "9 Kings", thaiTitle: "ไนน์คิงส์: ตำนานราชันย์พิกเซล", code: "NK-042",
+    version: "1.0", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/2784470/9_Kings/",
+    purchaseLinks: [
+      { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/2784470/9_Kings/" },
+      { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/search/?q=9%20Kings" }
+    ],
+    statusText: "พร้อมโหลด", date: "2026-11-15", popularity: 100, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    category: "card", tags: ["Roguelike", "Strategy", "Kingdom Builder", "แปลครบ"], colors: ["#2b1810", "#f59e0b"], cover: "assets/cover-9-kings.png",
+    gallery: [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2784470/8a33a3ab2c3226768c4653009354ee8af6da0ff8/ss_8a33a3ab2c3226768c4653009354ee8af6da0ff8.600x338.jpg?t=1794598226",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2784470/97c945f6430ac846df710a7418a9050c043f3478/ss_97c945f6430ac846df710a7418a9050c043f3478.600x338.jpg?t=1794598226",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2784470/930e1484af2a1eb7a9744aac9e720d93a4084233/ss_930e1484af2a1eb7a9744aac9e720d93a4084233.600x338.jpg?t=1794598226"
+    ], trailerTitle: "9 Kings — Official Steam Trailer",
+    description: "ม็อดภาษาไทยสำหรับ 9 Kings เกมแนว Roguelike Kingdom Builder วางแผนสร้างอาณาจักรและจัดทัพประจัญบานสุดมันส์ ขยายอาณาเขตอาณาจักรของคุณ ผสมผสานการ์ดสิ่งปลูกสร้าง กองทัพทหาร เวทมนตร์ และพระราชกฤษฎีกานับพันรูปแบบเพื่อสร้างคอมโบสุดโกง รับมือศึกสงครามขนาดมหึมาและโค่นล้มราชันย์คู่แข่งทั้ง 9 เพื่อก้าวขึ้นเป็นราชาเหนือราชันย์ (King of Kings) แปลไทยจัดเต็มทั้งชื่อและคำอธิบายการ์ดทุกใบ ความสามารถราชันย์ สิ่งปลูกสร้าง ยูนิตทหาร คาถา พระราชกฤษฎีกา (Decrees) เหตุการณ์สุ่ม เมนู และ UI ทั้งหมด 100% พร้อมฟอนต์ไทยคมชัดอ่านง่าย",
+    changelog: ["เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 สำหรับ Steam บน Nexus Mods", "แปลชื่อและคำอธิบายการ์ด สิ่งปลูกสร้าง ยูนิต กองทัพ และพระราชกฤษฎีกาทั้งหมด", "แปลความสามารถของราชันย์ทั้ง 9 เหตุการณ์ในเกม เมนู และ UI ครบ 100%"],
+    install: ["ดาวน์โหลดม็อดจากแท็บ Files บน Nexus Mods และแตกไฟล์ .zip", "นำไฟล์หรือโฟลเดอร์ภาษาไทยไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)", "เปิดเกม 9 Kings ผ่าน Steam แล้วเริ่มสร้างอาณาจักรพิกเซลเป็นภาษาไทยได้ทันที"],
+    sha: "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods", nexus: "https://www.nexusmods.com/9kings/mods/8?tab=files", drive: "", mediafire: "",
+    post: "https://www.nexusmods.com/9kings/mods/8?tab=files"
+  },
+  {
+    id: "love-curse-find-your-soulmate", title: "Love Curse: Find Your Soulmate", thaiTitle: "เลิฟ เคิร์ส: ตามหารักแท้แก้คำสาป", code: "LC-041",
+    version: "1.0", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/3069120/Love_Curse_Find_Your_Soulmate/",
+    purchaseLinks: [
+      { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/3069120/Love_Curse_Find_Your_Soulmate/" },
+      { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/search/?q=Love%20Curse%3A%20Find%20Your%20Soulmate" }
+    ],
+    statusText: "พร้อมโหลด", date: "2026-11-15", popularity: 100, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    category: "visual", tags: ["Visual Novel", "Romance", "Mystery", "แปลครบ"], colors: ["#2b1224", "#ec4899"], cover: "assets/cover-love-curse-find-your-soulmate.png",
+    gallery: [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3069120/25257414bd18b80e32185fcabe6bad0ef8d1cad4/ss_25257414bd18b80e32185fcabe6bad0ef8d1cad4.600x338.jpg?t=1787138479",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3069120/416104265b1ecbca75abf229ee9ae5ab4bdbdc92/ss_416104265b1ecbca75abf229ee9ae5ab4bdbdc92.600x338.jpg?t=1787138479",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3069120/290f420e9a294e76c6a245efc8ca574b1271f2fd/ss_290f420e9a294e76c6a245efc8ca574b1271f2fd.600x338.jpg?t=1787138479"
+    ], trailerTitle: "Love Curse: Find Your Soulmate — Official Steam Trailer",
+    description: "ม็อดภาษาไทยสำหรับ Love Curse: Find Your Soulmate เกมแนว Romantic Mystery Visual Novel (GL / Yuri) ภาพประกอบสุดงดงาม เมื่อคุณต้องคำสาปลึกลับที่มีเพียงวิธีเดียวที่จะถอนคำสาปได้ นั่นคือการตามหา \"เนื้อคู่แท้จริง (Soulmate)\" ให้พบก่อนที่เวลาจะหมดลง ท่ามกลางหญิงสาวผู้มีเสน่ห์และความลับที่ซ่อนอยู่เบื้องหลังคำสาป แปลไทยจัดเต็มทั้งเนื้อเรื่องหลัก รูทตัวละครทุกเส้นทาง ตัวเลือกการตัดสินใจ ตอนจบทุกแบบ ข้อความแชต บันทึกความทรงจำ เมนู และ UI ทั้งหมด 100% พร้อมฟอนต์ไทยคมชัดอ่านสบายตา",
+    changelog: ["เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 สำหรับ Steam บน Nexus Mods", "แปลเนื้อเรื่องหลัก รูทความสัมพันธ์ของตัวละครทุกเส้นทาง และฉากจบทั้งหมด", "แปลตัวเลือกบทสนทนา ข้อความโทรศัพท์ เมนู และ UI ครบ 100%"],
+    install: ["ดาวน์โหลดม็อดจากแท็บ Files บน Nexus Mods และแตกไฟล์ .zip", "นำไฟล์หรือโฟลเดอร์ภาษาไทยไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)", "เปิดเกม Love Curse: Find Your Soulmate ผ่าน Steam แล้วออกตามหารักแท้เป็นภาษาไทยได้ทันที"],
+    sha: "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods", nexus: "https://www.nexusmods.com/lovecursefindyoursoulmate/mods/2?tab=files", drive: "", mediafire: "",
+    post: "https://www.nexusmods.com/lovecursefindyoursoulmate/mods/2"
+  },
+  {
+    id: "annihilated", title: "Annihilated", thaiTitle: "แอนไนอิเลเต็ด", code: "AN-040",
+    version: "1.0", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/2638080/Annihilated/",
+    purchaseLinks: [
+      { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/2638080/Annihilated/" },
+      { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/search/?q=Annihilated" }
+    ],
+    statusText: "พร้อมโหลด", date: "2026-11-15", popularity: 100, size: "ดูที่ Nexus Mods / MediaFire (24 ชม.)", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    category: "action", tags: ["Roguelite", "RPG", "Dark Fantasy", "แปลครบ"], colors: ["#1a1118", "#dc2626"], cover: "assets/cover-annihilated.png",
+    gallery: [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2638080/fc1d9f9aa3e0a762bcae28ef969fdff1bd8f02cc/ss_fc1d9f9aa3e0a762bcae28ef969fdff1bd8f02cc.600x338.jpg?t=1794308502",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2638080/623e5c376d58dd1a4962871e9d82f348f3d1a161/ss_623e5c376d58dd1a4962871e9d82f348f3d1a161.600x338.jpg?t=1794308502",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2638080/c193280f6c07ed8f751e46eeb2523194f43f3ea8/ss_c193280f6c07ed8f751e46eeb2523194f43f3ea8.600x338.jpg?t=1794308502"
+    ], trailerTitle: "Annihilated — Official Steam Trailer",
+    description: "ม็อดภาษาไทยสำหรับ Annihilated เกมแนว Story-Driven Roguelite RPG สุดเข้มข้น เมื่อปาร์ตี้ของผู้กล้าถูกบดขยี้จนย่อยยับในดันเจี้ยนต้องสาป คุณต้องแบกรับหนึ่งในผู้กล้าที่แตกสลายหนีตายออกจากห้วงลึก เรียนรู้บาดแผลในอดีตที่ทำให้พวกเขาพังทลาย และสะสางบัญชีแค้นไปด้วยกันผ่าน 4 เส้นทาง 4 ผู้กล้า และ 4 บทสรุปแห่งชะตากรรม แปลไทยจัดเต็มทั้งเนื้อเรื่องหลักครบทั้ง 4 รูท บทสนทนา คัตซีน เหตุการณ์ในดันเจี้ยน ระบบต่อสู้ สกิล อาวุธ ไอเทม เมนู และ UI ทั้งหมด 100% พร้อมฟอนต์ไทยคมชัดเข้ากับบรรยากาศดาร์กแฟนตาซี",
+    changelog: ["เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 สำหรับ Steam บน Nexus Mods (และลิงก์สำรอง MediaFire เฉพาะ 24 ชั่วโมงแรก)", "แปลเนื้อเรื่องหลักครบทั้ง 4 เส้นทางของผู้กล้า บทสนทนา และคัตซีนทั้งหมด", "แปลระบบต่อสู้ สกิล อุปกรณ์ ไอเทม เมนู และ UI ครบ 100%"],
+    install: ["ดาวน์โหลดม็อดจากแท็บ Files บน Nexus Mods (หรือ MediaFire ภายใน 24 ชม. แรก) และแตกไฟล์ .zip", "นำไฟล์หรือโฟลเดอร์ภาษาไทยไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)", "เปิดเกม Annihilated ผ่าน Steam แล้วออกเดินทางฝ่าดันเจี้ยนต้องสาปเป็นภาษาไทยได้ทันที"],
+    sha: "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods", nexus: "https://www.nexusmods.com/mods/2?game_id=11099&tab=files", drive: "", mediafire: "https://www.mediafire.com/file/rxyrahd40z7zdwj/Annihilated_Thai_Mod_v1.0_Nexus.zip/file",
+    post: "https://www.nexusmods.com/mods/2?game_id=11099&tab=files"
+  },
+  {
     id: "koikatsu-party", title: "Koikatsu Party", thaiTitle: "โคอิคัตสึ! ปาร์ตี้", code: "KP-039",
     version: "1.0", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/1073440/__Koikatsu_Party/",
     purchaseLinks: [
@@ -21,12 +81,12 @@ const mods = [
   },
   {
     id: "football-manager-27", title: "Football Manager 27", thaiTitle: "ฟุตบอล เมเนเจอร์ 27", code: "FM-038",
-    version: "1.0", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/4530370/Football_Manager_27/",
+    version: "1.3", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/4530370/Football_Manager_27/",
     purchaseLinks: [
       { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/4530370/Football_Manager_27/" },
       { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/search/?q=Football%20Manager%2027" }
     ],
-    statusText: "พร้อมโหลด", date: "2026-11-08", popularity: 100, size: "ดูที่ Nexus Mods / MediaFire", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    statusText: "พร้อมโหลด", date: "2026-11-15", popularity: 100, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
     category: "visual", tags: ["Simulation", "Sports", "Management", "แปลครบ"], colors: ["#160d29", "#7b2cbf"], cover: "assets/cover-football-manager-27.png",
     gallery: [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4530370/5aa99feabe3f860d4e52f4ae234c51195cfff1ca/ss_5aa99feabe3f860d4e52f4ae234c51195cfff1ca.600x338.jpg?t=1793982134",
@@ -34,9 +94,9 @@ const mods = [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4530370/acb06ebdf3f9249294e48042d374dbdf77808b7f/ss_acb06ebdf3f9249294e48042d374dbdf77808b7f.600x338.jpg?t=1793982134"
     ], trailerTitle: "Football Manager 27 — Official Steam Trailer",
     description: "ม็อดภาษาไทยสำหรับ Football Manager 27 สุดยอดเกมจำลองการบริหารจัดการสโมสรฟุตบอลระดับโลกจาก Sports Interactive และ SEGA สวมบทผู้จัดการทีมวางแผนแท็กติก แก้เกมข้างสนาม ซื้อขายนักเตะ ปั้นดาวรุ่ง พูดคุยปลุกใจลูกทีมในห้องแต่งตัว และให้สัมภาษณ์สื่อมวลชน แปลไทยจัดเต็มพร้อมตัวติดตั้งใช้งานง่าย ครอบคลุมทั้งเมนูการบริหารสโมสร แท็กติก บทบาทนักเตะ ค่าพลัง รายงานแมวมอง การเจรจาสัญญา ข่าวสารในวงการฟุตบอล บทสนทนาการประชุมทีม สัมภาษณ์สื่อมวลชน การฝึกซ้อม และ UI ทั้งหมด 100% พร้อมฟอนต์ไทยคมชัดอ่านง่าย",
-    changelog: ["เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 (ไฟล์แพ็กเกจพร้อมติดตั้ง) บน Nexus Mods และ MediaFire", "แปลเมนูการจัดการสโมสร แผนการเล่น บทบาทตำแหน่ง และค่าพลังนักเตะทั้งหมด", "แปลข่าวสาร รายงานแมวมอง การเจรจาซื้อขาย บทสัมภาษณ์สื่อ และ UI ครบ 100%"],
-    install: ["ดาวน์โหลดไฟล์ FM27_Thai_Mod จากลิงก์ Nexus Mods หรือ MediaFire และแตกไฟล์ .zip", "รันตัวติดตั้งหรือทำตามขั้นตอนในไฟล์คู่มือเพื่อนำไฟล์ภาษาไทยไปติดตั้งในโฟลเดอร์เกม Football Manager 27", "เปิดเกม Football Manager 27 เลือกภาษาไทยในหน้าตั้งค่า แล้วเริ่มคุมทีมคว้าแชมป์ได้ทันที"],
-    sha: "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods / MediaFire", nexus: "https://www.nexusmods.com/mods/2?game_id=10976", drive: "", mediafire: "https://www.mediafire.com/file/n9325ml4sx44zkm/FM27_Thai_Mod_v1.1_%25E0%25B9%2581%25E0%25B8%2588%25E0%25B8%2581%25E0%25B8%259E%25E0%25B8%25A3%25E0%25B9%2589%25E0%25B8%25AD%25E0%25B8%25A1%25E0%25B8%2595%25E0%25B8%25B4%25E0%25B8%2594%25E0%25B8%2595%25E0%25B8%25B1%25E0%25B9%2589%25E0%25B8%2587.zip/file",
+    changelog: ["อัปเดตม็อดภาษาไทยเวอร์ชัน 1.3 บน Nexus Mods", "เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 (ไฟล์แพ็กเกจพร้อมติดตั้ง) บน Nexus Mods", "แปลเมนูการจัดการสโมสร แผนการเล่น บทบาทตำแหน่ง และค่าพลังนักเตะทั้งหมด", "แปลข่าวสาร รายงานแมวมอง การเจรจาซื้อขาย บทสัมภาษณ์สื่อ และ UI ครบ 100%"],
+    install: ["ดาวน์โหลดไฟล์ FM27_Thai_Mod จากลิงก์ Nexus Mods และแตกไฟล์ .zip", "รันตัวติดตั้งหรือทำตามขั้นตอนในไฟล์คู่มือเพื่อนำไฟล์ภาษาไทยไปติดตั้งในโฟลเดอร์เกม Football Manager 27", "เปิดเกม Football Manager 27 เลือกภาษาไทยในหน้าตั้งค่า แล้วเริ่มคุมทีมคว้าแชมป์ได้ทันที"],
+    sha: "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods", nexus: "https://www.nexusmods.com/mods/2?game_id=10976", drive: "", mediafire: "",
     post: "https://www.nexusmods.com/mods/2?game_id=10976"
   },
   {
@@ -938,7 +998,7 @@ function openModal(id) {
           <p class="purchase-note">ตรวจสอบภูมิภาค ราคา และแพลตฟอร์มที่รองรับจากหน้าร้านก่อนสั่งซื้อ</p>
           ${mod.nexus ? `<a class="download-button primary" href="${mod.nexus}" target="_blank" rel="noopener noreferrer"><span>NEXUS MODS</span><span>↗</span></a>` : ""}
           ${mod.drive ? `<a class="download-button secondary" href="${mod.drive}" target="_blank" rel="noopener noreferrer"><span>GOOGLE DRIVE</span><span>↗</span></a>` : ""}
-          ${mod.mediafire ? `<a class="download-button mediafire" href="${mod.mediafire}" target="_blank" rel="noopener noreferrer"><span>MEDIAFIRE</span><span>↗</span></a>` : ""}
+          ${mod.mediafire && !(mod.id === "annihilated" && Date.now() >= Date.parse("2026-11-16T11:16:35+07:00")) ? `<a class="download-button mediafire" href="${mod.mediafire}" target="_blank" rel="noopener noreferrer"><span>MEDIAFIRE</span><span>↗</span></a>` : ""}
           ${mod.post ? `<a class="download-button facebook" href="${mod.post}" target="_blank" rel="noopener noreferrer"><span>โพสต์ต้นทาง</span><span>↗</span></a>` : ""}
         </div>
         <p class="download-note">ข้อมูลและลิงก์ตรวจสอบจากโพสต์สาธารณะของเพจ “มีเกมก็แปล”</p>
