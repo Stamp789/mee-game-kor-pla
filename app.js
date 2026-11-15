@@ -41,7 +41,7 @@ const mods = [
   },
   {
     id: "annihilated", title: "Annihilated", thaiTitle: "แอนไนอิเลเต็ด", code: "AN-040",
-    version: "1.0", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/2638080/Annihilated/",
+    version: "1.1", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/2638080/Annihilated/",
     purchaseLinks: [
       { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/2638080/Annihilated/" },
       { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/search/?q=Annihilated" }
@@ -54,7 +54,7 @@ const mods = [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2638080/c193280f6c07ed8f751e46eeb2523194f43f3ea8/ss_c193280f6c07ed8f751e46eeb2523194f43f3ea8.600x338.jpg?t=1794308502"
     ], trailerTitle: "Annihilated — Official Steam Trailer",
     description: "ม็อดภาษาไทยสำหรับ Annihilated เกมแนว Story-Driven Roguelite RPG สุดเข้มข้น เมื่อปาร์ตี้ของผู้กล้าถูกบดขยี้จนย่อยยับในดันเจี้ยนต้องสาป คุณต้องแบกรับหนึ่งในผู้กล้าที่แตกสลายหนีตายออกจากห้วงลึก เรียนรู้บาดแผลในอดีตที่ทำให้พวกเขาพังทลาย และสะสางบัญชีแค้นไปด้วยกันผ่าน 4 เส้นทาง 4 ผู้กล้า และ 4 บทสรุปแห่งชะตากรรม แปลไทยจัดเต็มทั้งเนื้อเรื่องหลักครบทั้ง 4 รูท บทสนทนา คัตซีน เหตุการณ์ในดันเจี้ยน ระบบต่อสู้ สกิล อาวุธ ไอเทม เมนู และ UI ทั้งหมด 100% พร้อมฟอนต์ไทยคมชัดเข้ากับบรรยากาศดาร์กแฟนตาซี",
-    changelog: ["เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 สำหรับ Steam บน Nexus Mods และ Google Drive", "แปลเนื้อเรื่องหลักครบทั้ง 4 เส้นทางของผู้กล้า บทสนทนา และคัตซีนทั้งหมด", "แปลระบบต่อสู้ สกิล อุปกรณ์ ไอเทม เมนู และ UI ครบ 100%"],
+    changelog: ["อัปเดตม็อดภาษาไทยเวอร์ชัน 1.1 บน Nexus Mods และ Google Drive", "เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 สำหรับ Steam บน Nexus Mods และ Google Drive", "แปลเนื้อเรื่องหลักครบทั้ง 4 เส้นทางของผู้กล้า บทสนทนา และคัตซีนทั้งหมด", "แปลระบบต่อสู้ สกิล อุปกรณ์ ไอเทม เมนู และ UI ครบ 100%"],
     install: ["ดาวน์โหลดม็อดจากแท็บ Files บน Nexus Mods หรือ Google Drive และแตกไฟล์ .zip", "นำไฟล์หรือโฟลเดอร์ภาษาไทยไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)", "เปิดเกม Annihilated ผ่าน Steam แล้วออกเดินทางฝ่าดันเจี้ยนต้องสาปเป็นภาษาไทยได้ทันที"],
     sha: "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods", nexus: "https://www.nexusmods.com/mods/2?game_id=11099&tab=files", drive: "https://drive.google.com/file/d/1puEG5VrUAA9uGJhcf_nupAOYJyxuFv7V/view?usp=sharing", mediafire: "",
     post: "https://www.nexusmods.com/mods/2?game_id=11099&tab=files"
@@ -81,7 +81,7 @@ const mods = [
   },
   {
     id: "football-manager-27", title: "Football Manager 27", thaiTitle: "ฟุตบอล เมเนเจอร์ 27", code: "FM-038",
-    version: "1.3", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/4530370/Football_Manager_27/",
+    version: "1.4", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/4530370/Football_Manager_27/",
     purchaseLinks: [
       { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/4530370/Football_Manager_27/" },
       { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/search/?q=Football%20Manager%2027" }
@@ -94,7 +94,7 @@ const mods = [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4530370/acb06ebdf3f9249294e48042d374dbdf77808b7f/ss_acb06ebdf3f9249294e48042d374dbdf77808b7f.600x338.jpg?t=1793982134"
     ], trailerTitle: "Football Manager 27 — Official Steam Trailer",
     description: "ม็อดภาษาไทยสำหรับ Football Manager 27 สุดยอดเกมจำลองการบริหารจัดการสโมสรฟุตบอลระดับโลกจาก Sports Interactive และ SEGA สวมบทผู้จัดการทีมวางแผนแท็กติก แก้เกมข้างสนาม ซื้อขายนักเตะ ปั้นดาวรุ่ง พูดคุยปลุกใจลูกทีมในห้องแต่งตัว และให้สัมภาษณ์สื่อมวลชน แปลไทยจัดเต็มพร้อมตัวติดตั้งใช้งานง่าย ครอบคลุมทั้งเมนูการบริหารสโมสร แท็กติก บทบาทนักเตะ ค่าพลัง รายงานแมวมอง การเจรจาสัญญา ข่าวสารในวงการฟุตบอล บทสนทนาการประชุมทีม สัมภาษณ์สื่อมวลชน การฝึกซ้อม และ UI ทั้งหมด 100% พร้อมฟอนต์ไทยคมชัดอ่านง่าย",
-    changelog: ["อัปเดตม็อดภาษาไทยเวอร์ชัน 1.3 บน Nexus Mods", "เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 (ไฟล์แพ็กเกจพร้อมติดตั้ง) บน Nexus Mods", "แปลเมนูการจัดการสโมสร แผนการเล่น บทบาทตำแหน่ง และค่าพลังนักเตะทั้งหมด", "แปลข่าวสาร รายงานแมวมอง การเจรจาซื้อขาย บทสัมภาษณ์สื่อ และ UI ครบ 100%"],
+    changelog: ["อัปเดตม็อดภาษาไทยเวอร์ชัน 1.4 บน Nexus Mods", "อัปเดตม็อดภาษาไทยเวอร์ชัน 1.3 บน Nexus Mods", "เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 (ไฟล์แพ็กเกจพร้อมติดตั้ง) บน Nexus Mods", "แปลเมนูการจัดการสโมสร แผนการเล่น บทบาทตำแหน่ง และค่าพลังนักเตะทั้งหมด", "แปลข่าวสาร รายงานแมวมอง การเจรจาซื้อขาย บทสัมภาษณ์สื่อ และ UI ครบ 100%"],
     install: ["ดาวน์โหลดไฟล์ FM27_Thai_Mod จากลิงก์ Nexus Mods และแตกไฟล์ .zip", "รันตัวติดตั้งหรือทำตามขั้นตอนในไฟล์คู่มือเพื่อนำไฟล์ภาษาไทยไปติดตั้งในโฟลเดอร์เกม Football Manager 27", "เปิดเกม Football Manager 27 เลือกภาษาไทยในหน้าตั้งค่า แล้วเริ่มคุมทีมคว้าแชมป์ได้ทันที"],
     sha: "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods", nexus: "https://www.nexusmods.com/mods/2?game_id=10976", drive: "", mediafire: "",
     post: "https://www.nexusmods.com/mods/2?game_id=10976"
@@ -121,12 +121,12 @@ const mods = [
   },
   {
     id: "dot-hack-gu-last-recode", title: ".hack//G.U. Last Recode", thaiTitle: "ดอทแฮ็ค//จี.ยู. ลาสต์ รีโค้ด", code: "HG-036",
-    version: "1.0", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/525480/hackGU_Last_Recode/",
+    version: "1.1", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/525480/hackGU_Last_Recode/",
     purchaseLinks: [
       { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/525480/hackGU_Last_Recode/" },
       { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/search/?q=.hack%2F%2FG.U.%20Last%20Recode" }
     ],
-    statusText: "พร้อมโหลด", date: "2026-10-27", popularity: 100, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    statusText: "พร้อมโหลด", date: "2026-10-28", popularity: 100, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
     category: "action", tags: ["Action RPG", "JRPG", "Cyberpunk", "แปลครบ"], colors: ["#18142c", "#00b4d8"], cover: "assets/cover-dot-hack-gu-last-recode.png",
     gallery: [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/525480/ss_5f779085f75ee51a5f36891cd0605c02f0e8e79a.600x338.jpg?t=1701322437",
@@ -134,7 +134,7 @@ const mods = [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/525480/ss_fbecc013f994cbff02d60328576424b428aa709c.600x338.jpg?t=1701322437"
     ], trailerTitle: ".hack//G.U. Last Recode — Official Steam Trailer",
     description: "ม็อดภาษาไทยสำหรับ .hack//G.U. Last Recode มหากาพย์เกม Action JRPG ระดับตำนานจาก CyberConnect2 และ Bandai Namco Entertainment ฉบับรีมาสเตอร์ HD ที่รวบรวมเนื้อเรื่องครบทั้ง 4 โวลุ่ม (Vol. 1//Rebirth, Vol. 2//Reminisce, Vol. 3//Redemption และบทส่งท้ายใหม่ Vol. 4//Reconnection) ล็อกอินเข้าสู่โลกเกมออนไลน์เสมือนจริง \"The World R:2\" สวมบท ฮาเซโอะ (Haseo) นักล่า PKK ฉายา \"ความตระหนกแห่งความตาย (The Terror of Death)\" ออกตามล่า Tri-Edge เพื่อช่วยเหลือ Shino และไขปริศนาแห่ง AIDA แปลไทยจัดเต็มทั้งเนื้อเรื่องหลักครบทั้ง 4 ภาค คัตซีน บทสนทนา ระบบต่อสู้ Rengeki การปลุกพลังร่าง Avatar (Skeith) ระบบเดสก์ท็อป อีเมล กระดานข่าวฟอรัม ข่าวสาร อุปกรณ์สวมใส่ ไอเทม เมนู และ UI ทั้งหมด 100% พร้อมฟอนต์ไทยคมชัดสวยงาม",
-    changelog: ["เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 สำหรับ Steam บน Nexus Mods", "แปลเนื้อเรื่องหลักครบทั้ง 4 โวลุ่ม (Rebirth, Reminisce, Redemption, Reconnection) และคัตซีนทั้งหมด", "แปลระบบต่อสู้ ร่าง Avatar อีเมล ฟอรัมจำลองในเกม อุปกรณ์ ไอเทม เมนู และ UI ครบ 100%"],
+    changelog: ["อัปเดตม็อดภาษาไทยเวอร์ชัน 1.1 สำหรับ Steam บน Nexus Mods (28 Oct 2026)", "เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 สำหรับ Steam บน Nexus Mods", "แปลเนื้อเรื่องหลักครบทั้ง 4 โวลุ่ม (Rebirth, Reminisce, Redemption, Reconnection) และคัตซีนทั้งหมด", "แปลระบบต่อสู้ ร่าง Avatar อีเมล ฟอรัมจำลองในเกม อุปกรณ์ ไอเทม เมนู และ UI ครบ 100%"],
     install: ["ดาวน์โหลดม็อดจากแท็บ Files บน Nexus Mods และแตกไฟล์ .zip", "นำไฟล์หรือโฟลเดอร์ภาษาไทยไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)", "เปิดเกม .hack//G.U. Last Recode ผ่าน Steam แล้วล็อกอินเข้าสู่ The World เป็นภาษาไทยได้ทันที"],
     sha: "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods", nexus: "https://www.nexusmods.com/hacklastrecode/mods/380?tab=files", drive: "", mediafire: "",
     post: "https://www.nexusmods.com/hacklastrecode/mods/380?published=1"
@@ -181,12 +181,12 @@ const mods = [
   },
   {
     id: "chaos-child", title: "CHAOS;CHILD", thaiTitle: "เคออส;ไชลด์", code: "CC-033",
-    version: "1.0", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/970570/CHAOSCHILD/",
+    version: "1.1", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/970570/CHAOSCHILD/",
     purchaseLinks: [
       { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/970570/CHAOSCHILD/" },
       { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/search/?q=CHAOS%3BCHILD" }
     ],
-    statusText: "พร้อมโหลด", date: "2026-10-23", popularity: 100, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    statusText: "พร้อมโหลด", date: "2026-11-08", popularity: 100, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
     category: "visual", tags: ["Visual Novel", "Sci-Fi", "Mystery", "แปลครบ"], colors: ["#1e122b", "#c0392b"], cover: "assets/cover-chaos-child.png",
     gallery: [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/970570/ss_abc4465250f0a917882c403ecede18b78e86df02.600x338.jpg?t=1715703383",
@@ -194,7 +194,7 @@ const mods = [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/970570/ss_a89c2892ff07558d2af0e783530a759a018b5a5d.600x338.jpg?t=1715703383"
     ], trailerTitle: "CHAOS;CHILD — Official Steam Trailer",
     description: "ม็อดภาษาไทยสำหรับ CHAOS;CHILD สุดยอดเกมแนว Science Adventure Visual Novel สืบสวนสอบสวนระทึกขวัญจิตวิทยาจากค่าย MAGES. และ 5pb. (ผู้สร้าง STEINS;GATE) ย้อนกลับไปยังย่านชิบูยะในปี 2015 หกปีหลังจากเหตุการณ์แผ่นดินไหวครั้งใหญ่ เมื่อคดีฆาตกรรมต่อเนื่องสุดพิสดาร \"การกลับมาของความบ้าคลั่งยุคใหม่ (Return of the New Generation Madness)\" เริ่มต้นขึ้นอีกครั้ง สวมบท มิยาชิโระ ทาคุรุ (Takuru Miyashiro) ประธานชมรมหนังสือพิมพ์โรงเรียนเฮคิโฮ ออกสืบหาความจริงเบื้องหลังคดีสยองขวัญและเผชิญหน้ากับภาพหลอน Delusion Trigger แปลไทยจัดเต็มทั้งเนื้อเรื่องหลัก รูทตัวละคร ตอนจบทุกเส้นทาง บทสนทนา ระบบเลือกภาพหลอน (Positive / Negative Delusion) แผนผังสืบสวน ข้อมูลคำศัพท์ (TIPS) เมนู และ UI ทั้งหมด 100% พร้อมฟอนต์ไทยคมชัดเข้ากับบรรยากาศลึกลับระทึกขวัญ",
-    changelog: ["เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 สำหรับ Steam บน Nexus Mods", "แปลเนื้อเรื่องหลัก รูทตัวละคร ตอนจบทุกเส้นทาง และบทสนทนาทั้งหมด", "แปลระบบ Delusion Trigger ข้อมูลคำศัพท์ (TIPS) แผนผังสืบสวน เมนู และ UI ครบ 100%"],
+    changelog: ["อัปเดตม็อดภาษาไทยเวอร์ชัน 1.1 สำหรับ Steam บน Nexus Mods (08 Nov 2026)", "เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 สำหรับ Steam บน Nexus Mods", "แปลเนื้อเรื่องหลัก รูทตัวละคร ตอนจบทุกเส้นทาง และบทสนทนาทั้งหมด", "แปลระบบ Delusion Trigger ข้อมูลคำศัพท์ (TIPS) แผนผังสืบสวน เมนู และ UI ครบ 100%"],
     install: ["ดาวน์โหลดม็อดจากหน้า Nexus Mods และแตกไฟล์ .zip", "นำไฟล์หรือโฟลเดอร์ภาษาไทยไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)", "เปิดเกม CHAOS;CHILD ผ่าน Steam แล้วสัมผัสเรื่องราวสืบสวนระทึกขวัญเป็นภาษาไทยได้ทันที"],
     sha: "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods", nexus: "https://www.nexusmods.com/mods/2?game_id=10760", drive: "", mediafire: "",
     post: "https://www.nexusmods.com/mods/2?game_id=10760"
