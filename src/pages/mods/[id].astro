@@ -34,7 +34,7 @@ const seatNo = (all.findIndex(item => item.id === mod.id) + 1);
       <h2>{mod.thaiTitle}</h2>
       <p class="ticket-en">{mod.title}</p>
       <dl><div><dt>โรง</dt><dd>{mod.gameBuild}</dd></div><div><dt>ที่นั่ง</dt><dd>ไหนก็ได้ ({String(seatNo).padStart(2, '0')})</dd></div><div><dt>ฉบับ</dt><dd>{version(mod.version)}</dd></div><div><dt>ขนาด</dt><dd>{mod.size}</dd></div><div><dt>ผู้แปล</dt><dd>{mod.translator}</dd></div></dl>
-      <div class="download-links">{downloads.map((item, i) => <a class:list={['ticket-link', { primary: i === 0 }]} href={item.href} data-expires-at={mod.id === 'annihilated' && item.source === 'mediafire' ? '2026-11-16T11:16:35+07:00' : undefined} target="_blank" rel="noopener noreferrer" aria-label={`รับม็อด ${mod.title} จาก ${provider(item.source)} (เปิดแท็บใหม่)`}>โหลดจาก {provider(item.source)}{mod.id === 'annihilated' && item.source === 'mediafire' ? ' (24 ชม.)' : ''} <Icon name="download" size={18} /></a>)}</div>
+      <div class="download-links">{downloads.map((item, i) => <a class:list={['ticket-link', { primary: i === 0 }]} href={item.href} data-expires-at={mod.id === 'annihilated' && item.source === 'drive' ? '2026-11-16T12:00:00+07:00' : undefined} target="_blank" rel="noopener noreferrer" aria-label={`รับม็อด ${mod.title} จาก ${provider(item.source)} (เปิดแท็บใหม่)`}>โหลดจาก {provider(item.source)} <Icon name="download" size={18} /></a>)}</div>
       <p class="download-footnote">เปิดหน้าดาวน์โหลดต้นทาง เช็กไฟล์ล่าสุดก่อนลง{downloads.some(item => item.source === 'nexus') && <> · ต้องล็อกอิน Nexus Mods ก่อนโหลด</>}</p>
       {mod.post && <a href={mod.post} class="original-post" target="_blank" rel="noopener noreferrer">ดูโพสต์ต้นทาง <Icon size={15} /></a>}
     </div>
