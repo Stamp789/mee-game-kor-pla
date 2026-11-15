@@ -1,0 +1,60 @@
+{
+  "id": "love-curse-find-your-soulmate",
+  "title": "Love Curse: Find Your Soulmate",
+  "thaiTitle": "เลิฟ เคิร์ส: ตามหารักแท้แก้คำสาป",
+  "code": "LC-041",
+  "version": "1.0",
+  "gameBuild": "Steam · PC",
+  "platform": "pc",
+  "source": "nexus",
+  "store": "https://store.steampowered.com/app/3069120/Love_Curse_Find_Your_Soulmate/",
+  "purchaseLinks": [
+    {
+      "label": "ซื้อบน Steam",
+      "href": "https://store.steampowered.com/app/3069120/Love_Curse_Find_Your_Soulmate/"
+    },
+    {
+      "label": "เปรียบเทียบราคาจากร้านทางการ",
+      "href": "https://isthereanydeal.com/search/?q=Love%20Curse%3A%20Find%20Your%20Soulmate"
+    }
+  ],
+  "statusText": "พร้อมโหลด",
+  "date": "2026-11-15",
+  "popularity": 100,
+  "size": "ดูที่ Nexus Mods",
+  "translator": "มีเกมก็แปล By.Stamp Nattakit",
+  "category": "visual",
+  "tags": [
+    "Visual Novel",
+    "Romance",
+    "Mystery",
+    "แปลครบ"
+  ],
+  "colors": [
+    "#2b1224",
+    "#ec4899"
+  ],
+  "cover": "assets/cover-love-curse-find-your-soulmate.png",
+  "gallery": [
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3069120/25257414bd18b80e32185fcabe6bad0ef8d1cad4/ss_25257414bd18b80e32185fcabe6bad0ef8d1cad4.600x338.jpg?t=1787138479",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3069120/416104265b1ecbca75abf229ee9ae5ab4bdbdc92/ss_416104265b1ecbca75abf229ee9ae5ab4bdbdc92.600x338.jpg?t=1787138479",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3069120/290f420e9a294e76c6a245efc8ca574b1271f2fd/ss_290f420e9a294e76c6a245efc8ca574b1271f2fd.600x338.jpg?t=1787138479"
+  ],
+  "trailerTitle": "Love Curse: Find Your Soulmate — Official Steam Trailer",
+  "description": "ม็อดภาษาไทยสำหรับ Love Curse: Find Your Soulmate เกมแนว Romantic Mystery Visual Novel (GL / Yuri) ภาพประกอบสุดงดงาม เมื่อคุณต้องคำสาปลึกลับที่มีเพียงวิธีเดียวที่จะถอนคำสาปได้ นั่นคือการตามหา \"เนื้อคู่แท้จริง (Soulmate)\" ให้พบก่อนที่เวลาจะหมดลง ท่ามกลางหญิงสาวผู้มีเสน่ห์และความลับที่ซ่อนอยู่เบื้องหลังคำสาป แปลไทยจัดเต็มทั้งเนื้อเรื่องหลัก รูทตัวละครทุกเส้นทาง ตัวเลือกการตัดสินใจ ตอนจบทุกแบบ ข้อความแชต บันทึกความทรงจำ เมนู และ UI ทั้งหมด 100% พร้อมฟอนต์ไทยคมชัดอ่านสบายตา",
+  "changelog": [
+    "เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 สำหรับ Steam บน Nexus Mods",
+    "แปลเนื้อเรื่องหลัก รูทความสัมพันธ์ของตัวละครทุกเส้นทาง และฉากจบทั้งหมด",
+    "แปลตัวเลือกบทสนทนา ข้อความโทรศัพท์ เมนู และ UI ครบ 100%"
+  ],
+  "install": [
+    "ดาวน์โหลดม็อดจากแท็บ Files บน Nexus Mods และแตกไฟล์ .zip",
+    "นำไฟล์หรือโฟลเดอร์ภาษาไทยไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)",
+    "เปิดเกม Love Curse: Find Your Soulmate ผ่าน Steam แล้วออกตามหารักแท้เป็นภาษาไทยได้ทันที"
+  ],
+  "sha": "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods",
+  "nexus": "https://www.nexusmods.com/lovecursefindyoursoulmate/mods/2?tab=files",
+  "drive": "",
+  "mediafire": "",
+  "post": "https://www.nexusmods.com/lovecursefindyoursoulmate/mods/2"
+}

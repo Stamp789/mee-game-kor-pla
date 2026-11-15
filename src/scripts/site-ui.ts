@@ -113,3 +113,7 @@ const legacyAnchors: Record<string, string> = { '#catalog': 'mods/', '#stores': 
 if (!requestedMod && legacyAnchors[location.hash]) {
   location.replace(`${document.body.dataset.base || '/'}${legacyAnchors[location.hash]}`);
 }
+
+document.querySelectorAll<HTMLElement>('[data-expires-at]').forEach(el => {
+  if (Date.now() >= Date.parse(el.dataset.expiresAt!)) el.remove();
+});

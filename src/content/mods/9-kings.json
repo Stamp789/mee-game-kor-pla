@@ -1,0 +1,60 @@
+{
+  "id": "9-kings",
+  "title": "9 Kings",
+  "thaiTitle": "ไนน์คิงส์: ตำนานราชันย์พิกเซล",
+  "code": "NK-042",
+  "version": "1.0",
+  "gameBuild": "Steam · PC",
+  "platform": "pc",
+  "source": "nexus",
+  "store": "https://store.steampowered.com/app/2784470/9_Kings/",
+  "purchaseLinks": [
+    {
+      "label": "ซื้อบน Steam",
+      "href": "https://store.steampowered.com/app/2784470/9_Kings/"
+    },
+    {
+      "label": "เปรียบเทียบราคาจากร้านทางการ",
+      "href": "https://isthereanydeal.com/search/?q=9%20Kings"
+    }
+  ],
+  "statusText": "พร้อมโหลด",
+  "date": "2026-11-15",
+  "popularity": 100,
+  "size": "ดูที่ Nexus Mods",
+  "translator": "มีเกมก็แปล By.Stamp Nattakit",
+  "category": "card",
+  "tags": [
+    "Roguelike",
+    "Strategy",
+    "Kingdom Builder",
+    "แปลครบ"
+  ],
+  "colors": [
+    "#2b1810",
+    "#f59e0b"
+  ],
+  "cover": "assets/cover-9-kings.png",
+  "gallery": [
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2784470/8a33a3ab2c3226768c4653009354ee8af6da0ff8/ss_8a33a3ab2c3226768c4653009354ee8af6da0ff8.600x338.jpg?t=1794598226",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2784470/97c945f6430ac846df710a7418a9050c043f3478/ss_97c945f6430ac846df710a7418a9050c043f3478.600x338.jpg?t=1794598226",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2784470/930e1484af2a1eb7a9744aac9e720d93a4084233/ss_930e1484af2a1eb7a9744aac9e720d93a4084233.600x338.jpg?t=1794598226"
+  ],
+  "trailerTitle": "9 Kings — Official Steam Trailer",
+  "description": "ม็อดภาษาไทยสำหรับ 9 Kings เกมแนว Roguelike Kingdom Builder วางแผนสร้างอาณาจักรและจัดทัพประจัญบานสุดมันส์ ขยายอาณาเขตอาณาจักรของคุณ ผสมผสานการ์ดสิ่งปลูกสร้าง กองทัพทหาร เวทมนตร์ และพระราชกฤษฎีกานับพันรูปแบบเพื่อสร้างคอมโบสุดโกง รับมือศึกสงครามขนาดมหึมาและโค่นล้มราชันย์คู่แข่งทั้ง 9 เพื่อก้าวขึ้นเป็นราชาเหนือราชันย์ (King of Kings) แปลไทยจัดเต็มทั้งชื่อและคำอธิบายการ์ดทุกใบ ความสามารถราชันย์ สิ่งปลูกสร้าง ยูนิตทหาร คาถา พระราชกฤษฎีกา (Decrees) เหตุการณ์สุ่ม เมนู และ UI ทั้งหมด 100% พร้อมฟอนต์ไทยคมชัดอ่านง่าย",
+  "changelog": [
+    "เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 สำหรับ Steam บน Nexus Mods",
+    "แปลชื่อและคำอธิบายการ์ด สิ่งปลูกสร้าง ยูนิต กองทัพ และพระราชกฤษฎีกาทั้งหมด",
+    "แปลความสามารถของราชันย์ทั้ง 9 เหตุการณ์ในเกม เมนู และ UI ครบ 100%"
+  ],
+  "install": [
+    "ดาวน์โหลดม็อดจากแท็บ Files บน Nexus Mods และแตกไฟล์ .zip",
+    "นำไฟล์หรือโฟลเดอร์ภาษาไทยไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)",
+    "เปิดเกม 9 Kings ผ่าน Steam แล้วเริ่มสร้างอาณาจักรพิกเซลเป็นภาษาไทยได้ทันที"
+  ],
+  "sha": "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods",
+  "nexus": "https://www.nexusmods.com/9kings/mods/8?tab=files",
+  "drive": "",
+  "mediafire": "",
+  "post": "https://www.nexusmods.com/9kings/mods/8?tab=files"
+}
