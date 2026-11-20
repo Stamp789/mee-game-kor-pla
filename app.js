@@ -687,7 +687,7 @@ const mods = [
   },
   {
     id: "battle-chef-brigade", title: "Battle Chef Brigade Deluxe", thaiTitle: "แบทเทิล เชฟ บริเกด", code: "BC-005",
-    version: "1.1", gameBuild: "Battle Chef Brigade / Deluxe · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/452570/Battle_Chef_Brigade_Deluxe/",
+    version: "2.0", gameBuild: "Battle Chef Brigade / Deluxe · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/452570/Battle_Chef_Brigade_Deluxe/",
     purchaseLinks: [
       { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/452570/Battle_Chef_Brigade_Deluxe/" },
       { label: "ซื้อบน GOG", href: "https://www.gog.com/en/game/battle_chef_brigade" },
@@ -701,7 +701,7 @@ const mods = [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/452570/ss_3ca66263530a1c8b1d661fa7d7a19b108ed76c43.600x338.jpg?t=1763397067"
     ], trailerTitle: "Battle Chef Brigade — Release Trailer",
     description: "ม็อดภาษาไทยสำหรับ Battle Chef Brigade แปลครบทั้งเนื้อเรื่อง บทสนทนาตัวละคร การแข่งขันทำอาหาร สูตรอาหาร วัตถุดิบ รสชาติ บทตัดสิน เมนู UI และระบบสอนเล่น พร้อมฟอนต์ไทยที่อ่านง่าย",
-    changelog: ["อัปเดตม็อดภาษาไทยเวอร์ชัน 1.1 บน Nexus Mods", "แปลบทสนทนาและเนื้อเรื่องภาษาไทยครบถ้วน", "แปลวัตถุดิบ รสชาติ สูตรและชื่อเมนูอาหาร", "แปลเมนู UI ระบบควบคุม และบทสอนเล่น 100%"],
+    changelog: ["อัปเดตม็อดภาษาไทยเวอร์ชัน 2.0 บน Nexus Mods", "แปลบทสนทนาและเนื้อเรื่องภาษาไทยครบถ้วน", "แปลวัตถุดิบ รสชาติ สูตรและชื่อเมนูอาหาร", "แปลเมนู UI ระบบควบคุม และบทสอนเล่น 100%"],
     install: ["ดาวน์โหลด Battle Chef Brigade Thai Mod V1 จากแท็บ Files บน Nexus Mods", "แตกไฟล์ ZIP แล้วนำไฟล์ไปวางทับในโฟลเดอร์หลักของเกม", "เปิดเกมและเข้าเล่นได้ทันที โดยไม่ต้องติดตั้ง Mod Loader เพิ่มเติม"],
     sha: "Nexus Mods: Safe to use", nexus: "https://www.nexusmods.com/battlechefbrigade/mods/2?tab=files", drive: "",
     post: ""
