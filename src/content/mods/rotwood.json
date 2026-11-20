@@ -3,7 +3,7 @@
   "title": "Rotwood",
   "thaiTitle": "รอทวู้ด",
   "code": "RW-016",
-  "version": "1.2",
+  "version": "1.4",
   "gameBuild": "Steam · PC",
   "platform": "pc",
   "source": "nexus",
@@ -19,7 +19,7 @@
     }
   ],
   "statusText": "พร้อมโหลด",
-  "date": "2026-10-22",
+  "date": "2026-11-20",
   "popularity": 100,
   "size": "ดูที่ Nexus Mods",
   "translator": "มีเกมก็แปล By.Stamp Nattakit",
@@ -43,6 +43,7 @@
   "trailerTitle": "Rotwood — Official Early Access Trailer",
   "description": "ม็อดภาษาไทยสำหรับ Rotwood ผลงานเกมแนว Rogue-lite Dungeon Crawler สไตล์ตะลุมบอน (Hack and Slash) ภาพวาด 2D สุดเท่จากค่าย Klei (ผู้สร้าง Don't Starve) จับคู่อาวุธคู่ใจ อัปเกรดคอมโบ ลุยดงมอนสเตอร์กลายพันธุ์ไปพร้อมกับเพื่อน แปลไทยจัดเต็มทั้งคำอธิบายอาวุธ ชุดเกราะ สกิล บัฟ พร สายอัปเกรดความสามารถ บทสนทนาเควสต์ NPC ในค่ายพัก เมนู และ UI ทั้งหมด 100% พร้อมฟอนต์ไทยคมชัดสบายตา",
   "changelog": [
+    "อัปเดตม็อดภาษาไทยเวอร์ชัน 1.4 สำหรับ Steam เผยแพร่บน Nexus Mods",
     "อัปเดตม็อดภาษาไทยเวอร์ชัน 1.2 สำหรับ Steam เผยแพร่บน Nexus Mods",
     "อัปเดตม็อดภาษาไทยเวอร์ชัน 1.1",
     "อัปเดตเผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0",
