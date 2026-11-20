@@ -3,7 +3,7 @@
   "title": "Battle Chef Brigade Deluxe",
   "thaiTitle": "แบทเทิล เชฟ บริเกด",
   "code": "BC-005",
-  "version": "1",
+  "version": "1.1",
   "gameBuild": "Battle Chef Brigade / Deluxe · PC",
   "platform": "pc",
   "source": "nexus",
@@ -23,7 +23,7 @@
     }
   ],
   "statusText": "พร้อมโหลด",
-  "date": "2026-09-13",
+  "date": "2026-11-20",
   "popularity": 99,
   "size": "42.0 MB",
   "translator": "มีเกมก็แปล By.Stamp Nattakit",
@@ -47,6 +47,7 @@
   "trailerTitle": "Battle Chef Brigade — Release Trailer",
   "description": "ม็อดภาษาไทยสำหรับ Battle Chef Brigade แปลครบทั้งเนื้อเรื่อง บทสนทนาตัวละคร การแข่งขันทำอาหาร สูตรอาหาร วัตถุดิบ รสชาติ บทตัดสิน เมนู UI และระบบสอนเล่น พร้อมฟอนต์ไทยที่อ่านง่าย",
   "changelog": [
+    "อัปเดตม็อดภาษาไทยเวอร์ชัน 1.1 บน Nexus Mods",
     "แปลบทสนทนาและเนื้อเรื่องภาษาไทยครบถ้วน",
     "แปลวัตถุดิบ รสชาติ สูตรและชื่อเมนูอาหาร",
     "แปลเมนู UI ระบบควบคุม และบทสอนเล่น 100%"
