@@ -41,12 +41,12 @@ const mods = [
   },
   {
     id: "annihilated", title: "Annihilated", thaiTitle: "แอนไนอิเลเต็ด", code: "AN-040",
-    version: "1.1", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/2638080/Annihilated/",
+    version: "1.2", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/2638080/Annihilated/",
     purchaseLinks: [
       { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/2638080/Annihilated/" },
       { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/search/?q=Annihilated" }
     ],
-    statusText: "พร้อมโหลด", date: "2026-11-15", popularity: 100, size: "ดูที่ Nexus Mods / Google Drive", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    statusText: "พร้อมโหลด", date: "2026-11-20", popularity: 100, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
     category: "action", tags: ["Roguelite", "RPG", "Dark Fantasy", "แปลครบ"], colors: ["#1a1118", "#dc2626"], cover: "assets/cover-annihilated.png",
     gallery: [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2638080/fc1d9f9aa3e0a762bcae28ef969fdff1bd8f02cc/ss_fc1d9f9aa3e0a762bcae28ef969fdff1bd8f02cc.600x338.jpg?t=1794308502",
@@ -54,9 +54,9 @@ const mods = [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2638080/c193280f6c07ed8f751e46eeb2523194f43f3ea8/ss_c193280f6c07ed8f751e46eeb2523194f43f3ea8.600x338.jpg?t=1794308502"
     ], trailerTitle: "Annihilated — Official Steam Trailer",
     description: "ม็อดภาษาไทยสำหรับ Annihilated เกมแนว Story-Driven Roguelite RPG สุดเข้มข้น เมื่อปาร์ตี้ของผู้กล้าถูกบดขยี้จนย่อยยับในดันเจี้ยนต้องสาป คุณต้องแบกรับหนึ่งในผู้กล้าที่แตกสลายหนีตายออกจากห้วงลึก เรียนรู้บาดแผลในอดีตที่ทำให้พวกเขาพังทลาย และสะสางบัญชีแค้นไปด้วยกันผ่าน 4 เส้นทาง 4 ผู้กล้า และ 4 บทสรุปแห่งชะตากรรม แปลไทยจัดเต็มทั้งเนื้อเรื่องหลักครบทั้ง 4 รูท บทสนทนา คัตซีน เหตุการณ์ในดันเจี้ยน ระบบต่อสู้ สกิล อาวุธ ไอเทม เมนู และ UI ทั้งหมด 100% พร้อมฟอนต์ไทยคมชัดเข้ากับบรรยากาศดาร์กแฟนตาซี",
-    changelog: ["อัปเดตม็อดภาษาไทยเวอร์ชัน 1.1 บน Nexus Mods และ Google Drive", "เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 สำหรับ Steam บน Nexus Mods และ Google Drive", "แปลเนื้อเรื่องหลักครบทั้ง 4 เส้นทางของผู้กล้า บทสนทนา และคัตซีนทั้งหมด", "แปลระบบต่อสู้ สกิล อุปกรณ์ ไอเทม เมนู และ UI ครบ 100%"],
-    install: ["ดาวน์โหลดม็อดจากแท็บ Files บน Nexus Mods หรือ Google Drive และแตกไฟล์ .zip", "นำไฟล์หรือโฟลเดอร์ภาษาไทยไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)", "เปิดเกม Annihilated ผ่าน Steam แล้วออกเดินทางฝ่าดันเจี้ยนต้องสาปเป็นภาษาไทยได้ทันที"],
-    sha: "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods", nexus: "https://www.nexusmods.com/mods/2?game_id=11099&tab=files", drive: "https://drive.google.com/file/d/1puEG5VrUAA9uGJhcf_nupAOYJyxuFv7V/view?usp=sharing", mediafire: "",
+    changelog: ["อัปเดตม็อดภาษาไทยเวอร์ชัน 1.2 บน Nexus Mods", "อัปเดตม็อดภาษาไทยเวอร์ชัน 1.1 บน Nexus Mods และ Google Drive", "เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 สำหรับ Steam บน Nexus Mods และ Google Drive", "แปลเนื้อเรื่องหลักครบทั้ง 4 เส้นทางของผู้กล้า บทสนทนา และคัตซีนทั้งหมด", "แปลระบบต่อสู้ สกิล อุปกรณ์ ไอเทม เมนู และ UI ครบ 100%"],
+    install: ["ดาวน์โหลดม็อดจากแท็บ Files บน Nexus Mods และแตกไฟล์ .zip", "นำไฟล์หรือโฟลเดอร์ภาษาไทยไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)", "เปิดเกม Annihilated ผ่าน Steam แล้วออกเดินทางฝ่าดันเจี้ยนต้องสาปเป็นภาษาไทยได้ทันที"],
+    sha: "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods", nexus: "https://www.nexusmods.com/mods/2?game_id=11099&tab=files", drive: "", mediafire: "",
     post: "https://www.nexusmods.com/mods/2?game_id=11099&tab=files"
   },
   {
@@ -81,12 +81,12 @@ const mods = [
   },
   {
     id: "football-manager-27", title: "Football Manager 27", thaiTitle: "ฟุตบอล เมเนเจอร์ 27", code: "FM-038",
-    version: "1.4", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/4530370/Football_Manager_27/",
+    version: "1.5", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/4530370/Football_Manager_27/",
     purchaseLinks: [
       { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/4530370/Football_Manager_27/" },
       { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/search/?q=Football%20Manager%2027" }
     ],
-    statusText: "พร้อมโหลด", date: "2026-11-15", popularity: 100, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    statusText: "พร้อมโหลด", date: "2026-11-20", popularity: 100, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
     category: "visual", tags: ["Simulation", "Sports", "Management", "แปลครบ"], colors: ["#160d29", "#7b2cbf"], cover: "assets/cover-football-manager-27.png",
     gallery: [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4530370/5aa99feabe3f860d4e52f4ae234c51195cfff1ca/ss_5aa99feabe3f860d4e52f4ae234c51195cfff1ca.600x338.jpg?t=1793982134",
@@ -94,7 +94,7 @@ const mods = [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4530370/acb06ebdf3f9249294e48042d374dbdf77808b7f/ss_acb06ebdf3f9249294e48042d374dbdf77808b7f.600x338.jpg?t=1793982134"
     ], trailerTitle: "Football Manager 27 — Official Steam Trailer",
     description: "ม็อดภาษาไทยสำหรับ Football Manager 27 สุดยอดเกมจำลองการบริหารจัดการสโมสรฟุตบอลระดับโลกจาก Sports Interactive และ SEGA สวมบทผู้จัดการทีมวางแผนแท็กติก แก้เกมข้างสนาม ซื้อขายนักเตะ ปั้นดาวรุ่ง พูดคุยปลุกใจลูกทีมในห้องแต่งตัว และให้สัมภาษณ์สื่อมวลชน แปลไทยจัดเต็มพร้อมตัวติดตั้งใช้งานง่าย ครอบคลุมทั้งเมนูการบริหารสโมสร แท็กติก บทบาทนักเตะ ค่าพลัง รายงานแมวมอง การเจรจาสัญญา ข่าวสารในวงการฟุตบอล บทสนทนาการประชุมทีม สัมภาษณ์สื่อมวลชน การฝึกซ้อม และ UI ทั้งหมด 100% พร้อมฟอนต์ไทยคมชัดอ่านง่าย",
-    changelog: ["อัปเดตม็อดภาษาไทยเวอร์ชัน 1.4 บน Nexus Mods", "อัปเดตม็อดภาษาไทยเวอร์ชัน 1.3 บน Nexus Mods", "เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 (ไฟล์แพ็กเกจพร้อมติดตั้ง) บน Nexus Mods", "แปลเมนูการจัดการสโมสร แผนการเล่น บทบาทตำแหน่ง และค่าพลังนักเตะทั้งหมด", "แปลข่าวสาร รายงานแมวมอง การเจรจาซื้อขาย บทสัมภาษณ์สื่อ และ UI ครบ 100%"],
+    changelog: ["อัปเดตม็อดภาษาไทยเวอร์ชัน 1.5 บน Nexus Mods", "อัปเดตม็อดภาษาไทยเวอร์ชัน 1.4 บน Nexus Mods", "อัปเดตม็อดภาษาไทยเวอร์ชัน 1.3 บน Nexus Mods", "เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 (ไฟล์แพ็กเกจพร้อมติดตั้ง) บน Nexus Mods", "แปลเมนูการจัดการสโมสร แผนการเล่น บทบาทตำแหน่ง และค่าพลังนักเตะทั้งหมด", "แปลข่าวสาร รายงานแมวมอง การเจรจาซื้อขาย บทสัมภาษณ์สื่อ และ UI ครบ 100%"],
     install: ["ดาวน์โหลดไฟล์ FM27_Thai_Mod จากลิงก์ Nexus Mods และแตกไฟล์ .zip", "รันตัวติดตั้งหรือทำตามขั้นตอนในไฟล์คู่มือเพื่อนำไฟล์ภาษาไทยไปติดตั้งในโฟลเดอร์เกม Football Manager 27", "เปิดเกม Football Manager 27 เลือกภาษาไทยในหน้าตั้งค่า แล้วเริ่มคุมทีมคว้าแชมป์ได้ทันที"],
     sha: "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods", nexus: "https://www.nexusmods.com/mods/2?game_id=10976", drive: "", mediafire: "",
     post: "https://www.nexusmods.com/mods/2?game_id=10976"
@@ -687,13 +687,13 @@ const mods = [
   },
   {
     id: "battle-chef-brigade", title: "Battle Chef Brigade Deluxe", thaiTitle: "แบทเทิล เชฟ บริเกด", code: "BC-005",
-    version: "1", gameBuild: "Battle Chef Brigade / Deluxe · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/452570/Battle_Chef_Brigade_Deluxe/",
+    version: "1.1", gameBuild: "Battle Chef Brigade / Deluxe · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/452570/Battle_Chef_Brigade_Deluxe/",
     purchaseLinks: [
       { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/452570/Battle_Chef_Brigade_Deluxe/" },
       { label: "ซื้อบน GOG", href: "https://www.gog.com/en/game/battle_chef_brigade" },
       { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/game/battle-chef-brigade-deluxe/info/" }
     ],
-    statusText: "พร้อมโหลด", date: "2026-09-13", popularity: 99, size: "42.0 MB", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    statusText: "พร้อมโหลด", date: "2026-11-20", popularity: 99, size: "42.0 MB", translator: "มีเกมก็แปล By.Stamp Nattakit",
     category: "action", tags: ["Action", "Puzzle", "Cooking", "แปลครบ"], colors: ["#ff9c21", "#6553d8"], cover: "assets/cover-battle-chef-brigade.png",
     gallery: [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/452570/ss_c7de4fb6c763dcc137029c8238221245f2828bbf.600x338.jpg?t=1763397067",
@@ -701,7 +701,7 @@ const mods = [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/452570/ss_3ca66263530a1c8b1d661fa7d7a19b108ed76c43.600x338.jpg?t=1763397067"
     ], trailerTitle: "Battle Chef Brigade — Release Trailer",
     description: "ม็อดภาษาไทยสำหรับ Battle Chef Brigade แปลครบทั้งเนื้อเรื่อง บทสนทนาตัวละคร การแข่งขันทำอาหาร สูตรอาหาร วัตถุดิบ รสชาติ บทตัดสิน เมนู UI และระบบสอนเล่น พร้อมฟอนต์ไทยที่อ่านง่าย",
-    changelog: ["แปลบทสนทนาและเนื้อเรื่องภาษาไทยครบถ้วน", "แปลวัตถุดิบ รสชาติ สูตรและชื่อเมนูอาหาร", "แปลเมนู UI ระบบควบคุม และบทสอนเล่น 100%"],
+    changelog: ["อัปเดตม็อดภาษาไทยเวอร์ชัน 1.1 บน Nexus Mods", "แปลบทสนทนาและเนื้อเรื่องภาษาไทยครบถ้วน", "แปลวัตถุดิบ รสชาติ สูตรและชื่อเมนูอาหาร", "แปลเมนู UI ระบบควบคุม และบทสอนเล่น 100%"],
     install: ["ดาวน์โหลด Battle Chef Brigade Thai Mod V1 จากแท็บ Files บน Nexus Mods", "แตกไฟล์ ZIP แล้วนำไฟล์ไปวางทับในโฟลเดอร์หลักของเกม", "เปิดเกมและเข้าเล่นได้ทันที โดยไม่ต้องติดตั้ง Mod Loader เพิ่มเติม"],
     sha: "Nexus Mods: Safe to use", nexus: "https://www.nexusmods.com/battlechefbrigade/mods/2?tab=files", drive: "",
     post: ""
