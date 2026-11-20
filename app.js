@@ -1,12 +1,12 @@
 const mods = [
   {
     id: "9-kings", title: "9 Kings", thaiTitle: "ไนน์คิงส์: ตำนานราชันย์พิกเซล", code: "NK-042",
-    version: "1.0", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/2784470/9_Kings/",
+    version: "1.1", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/2784470/9_Kings/",
     purchaseLinks: [
       { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/2784470/9_Kings/" },
       { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/search/?q=9%20Kings" }
     ],
-    statusText: "พร้อมโหลด", date: "2026-11-15", popularity: 100, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    statusText: "พร้อมโหลด", date: "2026-11-20", popularity: 100, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
     category: "card", tags: ["Roguelike", "Strategy", "Kingdom Builder", "แปลครบ"], colors: ["#2b1810", "#f59e0b"], cover: "assets/cover-9-kings.png",
     gallery: [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2784470/8a33a3ab2c3226768c4653009354ee8af6da0ff8/ss_8a33a3ab2c3226768c4653009354ee8af6da0ff8.600x338.jpg?t=1794598226",
@@ -14,7 +14,7 @@ const mods = [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2784470/930e1484af2a1eb7a9744aac9e720d93a4084233/ss_930e1484af2a1eb7a9744aac9e720d93a4084233.600x338.jpg?t=1794598226"
     ], trailerTitle: "9 Kings — Official Steam Trailer",
     description: "ม็อดภาษาไทยสำหรับ 9 Kings เกมแนว Roguelike Kingdom Builder วางแผนสร้างอาณาจักรและจัดทัพประจัญบานสุดมันส์ ขยายอาณาเขตอาณาจักรของคุณ ผสมผสานการ์ดสิ่งปลูกสร้าง กองทัพทหาร เวทมนตร์ และพระราชกฤษฎีกานับพันรูปแบบเพื่อสร้างคอมโบสุดโกง รับมือศึกสงครามขนาดมหึมาและโค่นล้มราชันย์คู่แข่งทั้ง 9 เพื่อก้าวขึ้นเป็นราชาเหนือราชันย์ (King of Kings) แปลไทยจัดเต็มทั้งชื่อและคำอธิบายการ์ดทุกใบ ความสามารถราชันย์ สิ่งปลูกสร้าง ยูนิตทหาร คาถา พระราชกฤษฎีกา (Decrees) เหตุการณ์สุ่ม เมนู และ UI ทั้งหมด 100% พร้อมฟอนต์ไทยคมชัดอ่านง่าย",
-    changelog: ["เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 สำหรับ Steam บน Nexus Mods", "แปลชื่อและคำอธิบายการ์ด สิ่งปลูกสร้าง ยูนิต กองทัพ และพระราชกฤษฎีกาทั้งหมด", "แปลความสามารถของราชันย์ทั้ง 9 เหตุการณ์ในเกม เมนู และ UI ครบ 100%"],
+    changelog: ["อัปเดตม็อดภาษาไทยเวอร์ชัน 1.1 บน Nexus Mods", "เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 สำหรับ Steam บน Nexus Mods", "แปลชื่อและคำอธิบายการ์ด สิ่งปลูกสร้าง ยูนิต กองทัพ และพระราชกฤษฎีกาทั้งหมด", "แปลความสามารถของราชันย์ทั้ง 9 เหตุการณ์ในเกม เมนู และ UI ครบ 100%"],
     install: ["ดาวน์โหลดม็อดจากแท็บ Files บน Nexus Mods และแตกไฟล์ .zip", "นำไฟล์หรือโฟลเดอร์ภาษาไทยไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)", "เปิดเกม 9 Kings ผ่าน Steam แล้วเริ่มสร้างอาณาจักรพิกเซลเป็นภาษาไทยได้ทันที"],
     sha: "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods", nexus: "https://www.nexusmods.com/9kings/mods/8?tab=files", drive: "", mediafire: "",
     post: "https://www.nexusmods.com/9kings/mods/8?tab=files"
@@ -521,12 +521,12 @@ const mods = [
   },
   {
     id: "rotwood", title: "Rotwood", thaiTitle: "รอทวู้ด", code: "RW-016",
-    version: "1.2", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/2015270/Rotwood/",
+    version: "1.4", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/2015270/Rotwood/",
     purchaseLinks: [
       { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/2015270/Rotwood/" },
       { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/search/?q=Rotwood" }
     ],
-    statusText: "พร้อมโหลด", date: "2026-10-22", popularity: 100, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    statusText: "พร้อมโหลด", date: "2026-11-20", popularity: 100, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
     category: "action", tags: ["Rogue-lite", "Hack and Slash", "Co-op", "แปลครบ"], colors: ["#1c2818", "#d97824"], cover: "assets/cover-rotwood.jpg",
     gallery: [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2015270/ss_4c25d241388383263d04cd1effd2d4bac4590930.600x338.jpg?t=1790967441",
@@ -534,7 +534,7 @@ const mods = [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2015270/ss_ffa9d9d88aeb9b205ad49e20358b425e7969f399.600x338.jpg?t=1790967441"
     ], trailerTitle: "Rotwood — Official Early Access Trailer",
     description: "ม็อดภาษาไทยสำหรับ Rotwood ผลงานเกมแนว Rogue-lite Dungeon Crawler สไตล์ตะลุมบอน (Hack and Slash) ภาพวาด 2D สุดเท่จากค่าย Klei (ผู้สร้าง Don't Starve) จับคู่อาวุธคู่ใจ อัปเกรดคอมโบ ลุยดงมอนสเตอร์กลายพันธุ์ไปพร้อมกับเพื่อน แปลไทยจัดเต็มทั้งคำอธิบายอาวุธ ชุดเกราะ สกิล บัฟ พร สายอัปเกรดความสามารถ บทสนทนาเควสต์ NPC ในค่ายพัก เมนู และ UI ทั้งหมด 100% พร้อมฟอนต์ไทยคมชัดสบายตา",
-    changelog: ["อัปเดตม็อดภาษาไทยเวอร์ชัน 1.2 สำหรับ Steam เผยแพร่บน Nexus Mods", "อัปเดตม็อดภาษาไทยเวอร์ชัน 1.1", "อัปเดตเผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0", "แปลคำอธิบายอาวุธ ชุดเกราะ อุปกรณ์สวมใส่ทุกชิ้น และสกิล/บัฟ/พรทั้งหมด", "แปลบทสนทนาเควสต์ NPC ในค่ายพัก เมนู การตั้งค่า และ UI ครบ 100%"],
+    changelog: ["อัปเดตม็อดภาษาไทยเวอร์ชัน 1.4 สำหรับ Steam เผยแพร่บน Nexus Mods", "อัปเดตม็อดภาษาไทยเวอร์ชัน 1.2 สำหรับ Steam เผยแพร่บน Nexus Mods", "อัปเดตม็อดภาษาไทยเวอร์ชัน 1.1", "อัปเดตเผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0", "แปลคำอธิบายอาวุธ ชุดเกราะ อุปกรณ์สวมใส่ทุกชิ้น และสกิล/บัฟ/พรทั้งหมด", "แปลบทสนทนาเควสต์ NPC ในค่ายพัก เมนู การตั้งค่า และ UI ครบ 100%"],
     install: ["ดาวน์โหลดม็อดจากแท็บ Files บน Nexus Mods และแตกไฟล์ .zip", "เปิดโฟลเดอร์ตัวเกมบน Steam (คลิกขวาที่ชื่อเกม Rotwood > จัดการ > เปิดดูไฟล์ในเครื่อง)", "นำไฟล์ data.zip และโฟลเดอร์ mods ไปวางทับในโฟลเดอร์ตัวเกมหลัก", "เปิดเกม Rotwood ไปที่เมนู Options > Mods ตรวจสอบให้ม็อดภาษาไทยขึ้น Enabled แล้วเริ่มลุยป่าเน่าได้ทันที"],
     sha: "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods", nexus: "https://www.nexusmods.com/rotwood/mods/5?tab=files", drive: "", mediafire: "",
     post: "https://www.nexusmods.com/rotwood/mods/5?tab=files"
@@ -581,12 +581,12 @@ const mods = [
   },
   {
     id: "songs-of-glimmerwick", title: "Songs of Glimmerwick", thaiTitle: "ซองส์ ออฟ กลิมเมอร์วิก", code: "SG-015",
-    version: "1.5", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/1706510/Songs_of_Glimmerwick/",
+    version: "1.7", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/1706510/Songs_of_Glimmerwick/",
     purchaseLinks: [
       { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/1706510/Songs_of_Glimmerwick/" },
       { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/search/?q=Songs%20of%20Glimmerwick" }
     ],
-    statusText: "พร้อมโหลด", date: "2026-10-22", popularity: 100, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    statusText: "พร้อมโหลด", date: "2026-11-20", popularity: 100, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
     category: "visual", tags: ["Cozy", "RPG", "Life Sim", "แปลครบ"], colors: ["#111d33", "#4382c4"], cover: "assets/cover-songs-of-glimmerwick.jpg",
     gallery: [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1706510/8f81aa9749570b1101434d289e65923e8d0ad3ed/ss_8f81aa9749570b1101434d289e65923e8d0ad3ed.600x338.jpg?t=1790786083",
@@ -594,7 +594,7 @@ const mods = [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1706510/d1679309c946e407de8e9a7f0caef1cf9710f3d9/ss_d1679309c946e407de8e9a7f0caef1cf9710f3d9.600x338.jpg?t=1790786083"
     ], trailerTitle: "Songs of Glimmerwick — Official Trailer",
     description: "ม็อดภาษาไทยสำหรับ Songs of Glimmerwick เกมแนว Cozy RPG x Witch Life Sim ภาพลายเส้นนิทาน 2D สุดละมุน ดำดิ่งสู่ชีวิตนักเรียนในสถาบันเวทมนตร์กลิมเมอร์วิค ฝึกเป่าขลุ่ยร่ายคาถา ดูแลสวนพฤกษาเวท ผูกมิตรกับเพื่อนร่วมชั้น ทำเควสต์ และไขปริศนาสุดอบอุ่นหัวใจ แปลไทยให้อินกับทุกตัวโน้ต เรื่องราว และระบบการเล่นแบบเพลินตา",
-    changelog: ["อัปเดตม็อดภาษาไทยเวอร์ชัน 1.5 เผยแพร่บน Nexus Mods", "อัปเดตม็อดภาษาไทยเวอร์ชัน 1.3 ปรับปรุงบทแปลและเนื้อหาในเกมให้สมบูรณ์ยิ่งขึ้น", "อัปเดตม็อดภาษาไทยเวอร์ชัน 1.2 ปรับปรุงบทแปลและเนื้อหาในเกม", "เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 สำหรับ Steam", "แปลเนื้อเรื่องหลัก บทสนทนาเพื่อนร่วมชั้น และเควสต์ชาวเมืองทั้งหมด", "แปลบทเพลงเวทมนตร์ โน้ตเพลง พืชพรรณเวท ไอเทม วัตถุดิบปรุงยา สมุดบันทึก เมนู และ UI ครบ 100%"],
+    changelog: ["อัปเดตม็อดภาษาไทยเวอร์ชัน 1.7 เผยแพร่บน Nexus Mods", "อัปเดตม็อดภาษาไทยเวอร์ชัน 1.5 เผยแพร่บน Nexus Mods", "อัปเดตม็อดภาษาไทยเวอร์ชัน 1.3 ปรับปรุงบทแปลและเนื้อหาในเกมให้สมบูรณ์ยิ่งขึ้น", "อัปเดตม็อดภาษาไทยเวอร์ชัน 1.2 ปรับปรุงบทแปลและเนื้อหาในเกม", "เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 สำหรับ Steam", "แปลเนื้อเรื่องหลัก บทสนทนาเพื่อนร่วมชั้น และเควสต์ชาวเมืองทั้งหมด", "แปลบทเพลงเวทมนตร์ โน้ตเพลง พืชพรรณเวท ไอเทม วัตถุดิบปรุงยา สมุดบันทึก เมนู และ UI ครบ 100%"],
     install: ["ดาวน์โหลดม็อดจากแท็บ Files บน Nexus Mods", "แตกไฟล์ .zip ที่ดาวน์โหลดมา", "นำไฟล์ไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)", "เข้าเกมแล้วไปเริ่มเทอมใหม่ในโรงเรียนเวทมนตร์ได้ทันที"],
     sha: "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods", nexus: "https://www.nexusmods.com/songsofglimmerwick/mods/4?tab=files", drive: "",
     post: "https://www.nexusmods.com/songsofglimmerwick/mods/4?tab=files"
