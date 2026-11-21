@@ -1,12 +1,13 @@
 const mods = [
   {
     id: "9-kings", title: "9 Kings", thaiTitle: "ไนน์คิงส์: ตำนานราชันย์พิกเซล", code: "NK-042",
-    version: "1.1", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/2784470/9_Kings/",
+    version: "1.2", gameBuild: "Steam / Game Pass · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/2784470/9_Kings/",
     purchaseLinks: [
       { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/2784470/9_Kings/" },
+      { label: "ค้นหาบน Xbox / Game Pass", href: "https://www.xbox.com/en-us/search/results?q=9%20Kings" },
       { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/search/?q=9%20Kings" }
     ],
-    statusText: "พร้อมโหลด", date: "2026-11-20", popularity: 100, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    statusText: "พร้อมโหลด", date: "2026-11-21", popularity: 100, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
     category: "card", tags: ["Roguelike", "Strategy", "Kingdom Builder", "แปลครบ"], colors: ["#2b1810", "#f59e0b"], cover: "assets/cover-9-kings.png",
     gallery: [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2784470/8a33a3ab2c3226768c4653009354ee8af6da0ff8/ss_8a33a3ab2c3226768c4653009354ee8af6da0ff8.600x338.jpg?t=1794598226",
@@ -14,8 +15,8 @@ const mods = [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2784470/930e1484af2a1eb7a9744aac9e720d93a4084233/ss_930e1484af2a1eb7a9744aac9e720d93a4084233.600x338.jpg?t=1794598226"
     ], trailerTitle: "9 Kings — Official Steam Trailer",
     description: "ม็อดภาษาไทยสำหรับ 9 Kings เกมแนว Roguelike Kingdom Builder วางแผนสร้างอาณาจักรและจัดทัพประจัญบานสุดมันส์ ขยายอาณาเขตอาณาจักรของคุณ ผสมผสานการ์ดสิ่งปลูกสร้าง กองทัพทหาร เวทมนตร์ และพระราชกฤษฎีกานับพันรูปแบบเพื่อสร้างคอมโบสุดโกง รับมือศึกสงครามขนาดมหึมาและโค่นล้มราชันย์คู่แข่งทั้ง 9 เพื่อก้าวขึ้นเป็นราชาเหนือราชันย์ (King of Kings) แปลไทยจัดเต็มทั้งชื่อและคำอธิบายการ์ดทุกใบ ความสามารถราชันย์ สิ่งปลูกสร้าง ยูนิตทหาร คาถา พระราชกฤษฎีกา (Decrees) เหตุการณ์สุ่ม เมนู และ UI ทั้งหมด 100% พร้อมฟอนต์ไทยคมชัดอ่านง่าย",
-    changelog: ["อัปเดตม็อดภาษาไทยเวอร์ชัน 1.1 บน Nexus Mods", "เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 สำหรับ Steam บน Nexus Mods", "แปลชื่อและคำอธิบายการ์ด สิ่งปลูกสร้าง ยูนิต กองทัพ และพระราชกฤษฎีกาทั้งหมด", "แปลความสามารถของราชันย์ทั้ง 9 เหตุการณ์ในเกม เมนู และ UI ครบ 100%"],
-    install: ["ดาวน์โหลดม็อดจากแท็บ Files บน Nexus Mods และแตกไฟล์ .zip", "นำไฟล์หรือโฟลเดอร์ภาษาไทยไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)", "เปิดเกม 9 Kings ผ่าน Steam แล้วเริ่มสร้างอาณาจักรพิกเซลเป็นภาษาไทยได้ทันที"],
+    changelog: ["อัปเดตม็อดภาษาไทยเวอร์ชัน 1.2 รองรับทั้ง Steam และ Game Pass บน Nexus Mods", "อัปเดตม็อดภาษาไทยเวอร์ชัน 1.1 บน Nexus Mods", "เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 สำหรับ Steam บน Nexus Mods", "แปลชื่อและคำอธิบายการ์ด สิ่งปลูกสร้าง ยูนิต กองทัพ และพระราชกฤษฎีกาทั้งหมด", "แปลความสามารถของราชันย์ทั้ง 9 เหตุการณ์ในเกม เมนู และ UI ครบ 100%"],
+    install: ["ดาวน์โหลดม็อดจากแท็บ Files บน Nexus Mods และแตกไฟล์ .zip", "นำไฟล์หรือโฟลเดอร์ภาษาไทยไปวางทับในโฟลเดอร์ตัวเกมหลัก (รองรับทั้ง Steam และ PC Game Pass)", "เปิดเกม 9 Kings ผ่าน Steam หรือแอป Xbox (Game Pass) แล้วเริ่มสร้างอาณาจักรพิกเซลเป็นภาษาไทยได้ทันที"],
     sha: "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods", nexus: "https://www.nexusmods.com/9kings/mods/8?tab=files", drive: "", mediafire: "",
     post: "https://www.nexusmods.com/9kings/mods/8?tab=files"
   },
@@ -361,20 +362,20 @@ const mods = [
   },
   {
     id: "outward-definitive-edition", title: "Outward Definitive Edition", thaiTitle: "เอาต์เวิร์ด ดีฟินิทิฟ เอดิชัน", code: "OW-024",
-    version: "1.0", gameBuild: "Steam · PC (Definitive Edition)", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/794260/Outward_Definitive_Edition/",
+    version: "2.0", gameBuild: "Steam · PC (Definitive Edition)", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/794260/Outward_Definitive_Edition/",
     purchaseLinks: [
       { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/794260/Outward_Definitive_Edition/" },
       { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/search/?q=Outward%20Definitive%20Edition" }
     ],
-    statusText: "พร้อมโหลด", date: "2026-10-13", popularity: 100, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
-    category: "action", tags: ["Action RPG", "Survival", "Open World", "แปลครบ"], colors: ["#1f241a", "#b87333"], cover: "assets/cover-outward-definitive-edition.jpg",
+    statusText: "พร้อมโหลด", date: "2026-11-21", popularity: 100, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    category: "action", tags: ["Action RPG", "Survival", "Open World", "แปลครบ"], colors: ["#1f241a", "#b87333"], cover: "assets/cover-outward-definitive-edition.png",
     gallery: [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/794260/ss_251c8ef1c93a999d05572b16886224d8aab95f27.600x338.jpg?t=1787229712",
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/794260/ss_abd9187020fa918e56539455dd6d1ac9d3f3e212.600x338.jpg?t=1787229712",
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/794260/ss_2e15a19569ad372956f49d321e83ce40666401a6.600x338.jpg?t=1787229712"
     ], trailerTitle: "Outward: Definitive Edition — Release Trailer",
     description: "ม็อดภาษาไทยสำหรับ Outward Definitive Edition เกมแนว Open-World Action RPG เอาชีวิตรอดสุดฮาร์ดคอร์ที่คุณเป็นเพียงคนธรรมดา ไม่ใช่ผู้ถูกเลือก สัมผัสความท้าทายในการผจญภัย ทั้งการจัดการความหิว ความกระหาย ความหนาวเหน็บ พิษ และโรคภัย พร้อมเนื้อหาครบทั้งเกมหลักและ DLC ครบชุด (The Soroboreans และ The Three Brothers) แปลไทยจัดเต็มทั้งเนื้อเรื่อง เควสต์หลัก เควสต์ฝ่าย คัตซีน บทสนทนา คาถาเวทมนตร์ สกิล อุปกรณ์สวมใส่ ไอเทม กระเป๋าเดินทาง การคราฟต์ เมนู และ UI ทั้งหมด 100% พร้อมฟอนต์ไทยคมชัดสบายตา",
-    changelog: ["เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 บน Nexus Mods", "แปลเนื้อเรื่องหลัก เควสต์ฝ่าย และเนื้อหา DLC The Soroboreans / The Three Brothers ครบถ้วน", "แปลระบบเอาชีวิตรอด สกิล เวทมนตร์ ไอเทม การคราฟต์ เมนู และ UI ครบ 100%"],
+    changelog: ["อัปเดตม็อดภาษาไทยเวอร์ชัน 2.0 บน Nexus Mods", "เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 บน Nexus Mods", "แปลเนื้อเรื่องหลัก เควสต์ฝ่าย และเนื้อหา DLC The Soroboreans / The Three Brothers ครบถ้วน", "แปลระบบเอาชีวิตรอด สกิล เวทมนตร์ ไอเทม การคราฟต์ เมนู และ UI ครบ 100%"],
     install: ["ดาวน์โหลดม็อดจากแท็บ Files บน Nexus Mods และแตกไฟล์ .zip", "นำไฟล์หรือโฟลเดอร์ภาษาไทยไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)", "เปิดเกม Outward Definitive Edition ผ่าน Steam แล้วออกผจญภัยเป็นภาษาไทยได้ทันที"],
     sha: "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods", nexus: "https://www.nexusmods.com/outward/mods/369?tab=files", drive: "",
     post: "https://www.nexusmods.com/outward/mods/369?published=1"
@@ -501,21 +502,21 @@ const mods = [
   },
   {
     id: "tales-of-graces-f-remastered", title: "Tales of Graces f Remastered", thaiTitle: "เทลส์ ออฟ เกรซส์ เอฟ รีมาสเตอร์", code: "TG-010",
-    version: "2.0", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/2530980/Tales_of_Graces_f_Remastered/",
+    version: "3.0", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/2530980/Tales_of_Graces_f_Remastered/",
     purchaseLinks: [
       { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/2530980/Tales_of_Graces_f_Remastered/" },
       { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/game/tales-of-graces-f-remastered/info/" }
     ],
-    statusText: "พร้อมโหลด", date: "2026-10-04", popularity: 100, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
-    category: "action", tags: ["JRPG", "Action RPG", "เนื้อเรื่อง", "แปลครบ"], colors: ["#162b4c", "#2563eb"], cover: "assets/cover-tales-of-graces-f-remastered.jpg",
+    statusText: "พร้อมโหลด", date: "2026-11-21", popularity: 100, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    category: "action", tags: ["JRPG", "Action RPG", "เนื้อเรื่อง", "แปลครบ"], colors: ["#162b4c", "#2563eb"], cover: "assets/cover-tales-of-graces-f-remastered.png",
     gallery: [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2530980/ss_2f361f479032d3787fe24dbb14af987f764af756.600x338.jpg?t=1739758056",
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2530980/ss_1d3e4ec707d98508d63e8429f888a78199472f22.600x338.jpg?t=1739758056",
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2530980/ss_8f433e6dafdfe4f8e7b5337ed6fdeb9ee448b762.600x338.jpg?t=1739758056"
     ], trailerTitle: "Tales of Graces f Remastered — Official Trailer",
     description: "ม็อดภาษาไทยสำหรับ Tales of Graces f Remastered มหากาพย์ JRPG สุดคลาสสิกฉบับรีมาสเตอร์ สัมผัสเรื่องราวแห่งมิตรภาพและพันธสัญญาของ Asbel และเพื่อนๆ แปลไทยครบทั้งเนื้อเรื่องหลัก เนื้อเรื่องเสริม Lineage and Legacies บทสนทนา คัตซีน สกิต (Skit) ระบบต่อสู้ สไตล์ชิฟต์ (Style Shift) อาร์เต้ (Artes) ฉายา (Titles) เมนู และ UI ทั้งหมด",
-    changelog: ["อัปเดตแพตช์เวอร์ชัน 2.0 (TOGf Remastered ThaiPatch V2) ปรับปรุงบทแปล ข้อความ และความลื่นไหล", "แปลเนื้อเรื่องหลักและบทเสริม Lineage and Legacies ครบถ้วน", "แปลบทสนทนา สกิต (Skit) สกิลการต่อสู้ สไตล์ชิฟต์ และ UI ครบ 100%"],
-    install: ["ดาวน์โหลดแพตช์ภาษาไทยเวอร์ชันล่าสุด (V2) จากแท็บ Files บน Nexus Mods", "แตกไฟล์ .zip ที่ดาวน์โหลดมา", "นำไฟล์ไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)", "เข้าเกมแล้วร่วมผจญภัยเป็นภาษาไทยได้ทันที"],
+    changelog: ["อัปเดตแพตช์ภาษาไทยเวอร์ชัน 3.0 บน Nexus Mods", "อัปเดตแพตช์เวอร์ชัน 2.0 (TOGf Remastered ThaiPatch V2) ปรับปรุงบทแปล ข้อความ และความลื่นไหล", "แปลเนื้อเรื่องหลักและบทเสริม Lineage and Legacies ครบถ้วน", "แปลบทสนทนา สกิต (Skit) สกิลการต่อสู้ สไตล์ชิฟต์ และ UI ครบ 100%"],
+    install: ["ดาวน์โหลดแพตช์ภาษาไทยเวอร์ชันล่าสุด (V3.0) จากแท็บ Files บน Nexus Mods", "แตกไฟล์ .zip ที่ดาวน์โหลดมา", "นำไฟล์ไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)", "เข้าเกมแล้วร่วมผจญภัยเป็นภาษาไทยได้ทันที"],
     sha: "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods", nexus: "https://www.nexusmods.com/talesofgracesfremastered/mods/10?tab=files", drive: "",
     post: "https://www.nexusmods.com/talesofgracesfremastered/mods/10?tab=files"
   },

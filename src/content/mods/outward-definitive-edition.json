@@ -3,7 +3,7 @@
   "title": "Outward Definitive Edition",
   "thaiTitle": "เอาต์เวิร์ด ดีฟินิทิฟ เอดิชัน",
   "code": "OW-024",
-  "version": "1.0",
+  "version": "2.0",
   "gameBuild": "Steam · PC (Definitive Edition)",
   "platform": "pc",
   "source": "nexus",
@@ -19,7 +19,7 @@
     }
   ],
   "statusText": "พร้อมโหลด",
-  "date": "2026-10-13",
+  "date": "2026-11-21",
   "popularity": 100,
   "size": "ดูที่ Nexus Mods",
   "translator": "มีเกมก็แปล By.Stamp Nattakit",
@@ -34,7 +34,7 @@
     "#1f241a",
     "#b87333"
   ],
-  "cover": "assets/cover-outward-definitive-edition.jpg",
+  "cover": "assets/cover-outward-definitive-edition.png",
   "gallery": [
     "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/794260/ss_251c8ef1c93a999d05572b16886224d8aab95f27.600x338.jpg?t=1787229712",
     "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/794260/ss_abd9187020fa918e56539455dd6d1ac9d3f3e212.600x338.jpg?t=1787229712",
@@ -43,6 +43,7 @@
   "trailerTitle": "Outward: Definitive Edition — Release Trailer",
   "description": "ม็อดภาษาไทยสำหรับ Outward Definitive Edition เกมแนว Open-World Action RPG เอาชีวิตรอดสุดฮาร์ดคอร์ที่คุณเป็นเพียงคนธรรมดา ไม่ใช่ผู้ถูกเลือก สัมผัสความท้าทายในการผจญภัย ทั้งการจัดการความหิว ความกระหาย ความหนาวเหน็บ พิษ และโรคภัย พร้อมเนื้อหาครบทั้งเกมหลักและ DLC ครบชุด (The Soroboreans และ The Three Brothers) แปลไทยจัดเต็มทั้งเนื้อเรื่อง เควสต์หลัก เควสต์ฝ่าย คัตซีน บทสนทนา คาถาเวทมนตร์ สกิล อุปกรณ์สวมใส่ ไอเทม กระเป๋าเดินทาง การคราฟต์ เมนู และ UI ทั้งหมด 100% พร้อมฟอนต์ไทยคมชัดสบายตา",
   "changelog": [
+    "อัปเดตม็อดภาษาไทยเวอร์ชัน 2.0 บน Nexus Mods",
     "เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 บน Nexus Mods",
     "แปลเนื้อเรื่องหลัก เควสต์ฝ่าย และเนื้อหา DLC The Soroboreans / The Three Brothers ครบถ้วน",
     "แปลระบบเอาชีวิตรอด สกิล เวทมนตร์ ไอเทม การคราฟต์ เมนู และ UI ครบ 100%"
