@@ -4,10 +4,10 @@ import { cover, modUrl, version, provider, date, type Mod } from '../lib/mods';
 import { modGenres } from '../lib/catalog';
 import { searchTerms } from '../lib/search';
 interface Props { mod: Mod; index?: number; editorial?: boolean; archive?: boolean; }
-const { mod, archive = false } = Astro.props;
+const { mod, index = 0, archive = false } = Astro.props;
 const isNew = Date.now() - new Date(`${mod.date}T00:00:00+07:00`).getTime() < 30 * 864e5;
 ---
-<article class:list={['game-card', 'case', { 'archive-card': archive }]} style={`--c0:${mod.colors[0]};--c1:${mod.colors[1] || mod.colors[0]}`} data-id={mod.id} data-search={searchTerms(mod)} data-source={mod.source} data-genres={modGenres(mod).join(' ')} data-category={mod.category} data-date={mod.date} data-title={mod.title}>
+<article class:list={['game-card', 'case', { 'archive-card': archive }]} style={`--c0:${mod.colors[0]};--c1:${mod.colors[1] || mod.colors[0]}`} data-id={mod.id} data-order={index} data-search={searchTerms(mod)} data-source={mod.source} data-genres={modGenres(mod).join(' ')} data-category={mod.category} data-date={mod.date} data-title={mod.title}>
   <div class="case-3d">
     <a class="case-front" href={modUrl(mod)} tabindex="-1" aria-hidden="true">
       <span class="case-band"><span>มีเกมก็แปล</span><span>แปลไทย</span></span>
