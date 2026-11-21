@@ -6,7 +6,7 @@ const records = await Promise.all(files.filter(f => f.endsWith('.json')).map(asy
   assert.equal(`${record.id}.json`, file);
   assert.match(record.id, /^[a-z0-9]+(?:-[a-z0-9]+)*$/);
   assert.ok(record.title && record.translator && record.version, `Required metadata: ${record.id}`);
-  assert.ok([record.nexus, record.drive, record.mediafire].some(Boolean), `Download URL missing: ${record.id}`);
+  assert.ok(record.statusText === 'เร็ว ๆ นี้' || [record.nexus, record.drive, record.mediafire].some(Boolean), `Download URL missing: ${record.id}`);
   for (const key of ['nexus', 'drive', 'mediafire', 'post', 'store']) {
     if (record[key]) assert.equal(new URL(record[key]).protocol, 'https:');
   }
