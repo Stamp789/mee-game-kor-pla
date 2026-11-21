@@ -36,7 +36,7 @@ const shelf = mods.slice(0, 8);
           <span class="poster-art"><img src={cover(mod)} alt="" width="960" height="540" loading="lazy" /></span>
           <span class="poster-thai">{mod.thaiTitle}</span>
           <span class="poster-en">{mod.title}</span>
-          <span class="poster-date">เข้าฉาย {date(mod.date)}</span>
+          <span class="poster-date">{mod.statusText === 'เร็ว ๆ นี้' ? 'เร็ว ๆ นี้ (Coming Soon)' : `เข้าฉาย ${date(mod.date)}`}</span>
         </a>
       ))}
     </div>

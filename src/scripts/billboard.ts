@@ -1,4 +1,4 @@
-type Game = { id: string; title: string; thai: string; cover: string; href: string; c0: string; c1: string; shots: string[]; date: string; version: string; tags: string };
+type Game = { id: string; title: string; thai: string; cover: string; href: string; c0: string; c1: string; shots: string[]; date: string; version: string; tags: string; comingSoon?: boolean };
 
 const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
 
@@ -25,8 +25,8 @@ document.querySelectorAll<HTMLElement>('[data-billboard]').forEach(root => {
     canvas.classList.remove('pasting'); void canvas.offsetWidth; canvas.classList.add('pasting');
     art.src = g.cover; art.alt = `ภาพปก ${g.title}`;
     $('thai')!.textContent = g.thai; $('title')!.textContent = g.title; $('tags')!.textContent = g.tags;
-    $('kicker')!.textContent = kickers[index % kickers.length] || '';
-    $('date')!.textContent = `เข้าฉาย ${g.date}`; $('version')!.textContent = g.version;
+    $('kicker')!.textContent = g.comingSoon ? 'เร็ว ๆ นี้! (COMING SOON)' : (kickers[index % kickers.length] || '');
+    $('date')!.textContent = g.date; $('version')!.textContent = g.version;
     const i = $('index'); if (i) i.textContent = String(index + 1);
     $<HTMLAnchorElement>('link')!.href = g.href;
     tune(g.shots[0] || g.cover);

@@ -26,6 +26,7 @@ test('multiword / platform searches use the same matcher in both search surfaces
 });
 test('every primary download provider has a real HTTPS destination', () => {
   for (const mod of records) {
+    if (mod.statusText === 'เร็ว ๆ นี้' && !mod[mod.source]) continue;
     assert.ok(mod[mod.source], `missing primary download: ${mod.id}`);
     for (const key of ['nexus', 'drive', 'mediafire']) if (mod[key]) {
       const target = new URL(mod[key]); assert.equal(target.protocol, 'https:');
@@ -43,6 +44,7 @@ test('render budget bounds bloom buffers at Retina / 4K / 8K sizes without chang
 });
 test('download buttons open Nexus Files directly and preserve Drive / MediaFire targets', () => {
   for (const mod of records) {
+    if (mod.statusText === 'เร็ว ๆ นี้' && !mod[mod.source]) continue;
     const actual = downloadUrl(mod.source, mod[mod.source]);
     if (mod.source === 'nexus') {
       const original = new URL(mod.nexus), target = new URL(actual);
