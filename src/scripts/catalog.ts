@@ -96,7 +96,7 @@ if (catalog) {
     const matches = baseMatches.filter(card => matchesGenre(card, genre)).sort((a, b) =>
       sort.value === 'name'
         ? a.dataset.title!.localeCompare(b.dataset.title!, 'en')
-        : b.dataset.date!.localeCompare(a.dataset.date!) || a.dataset.title!.localeCompare(b.dataset.title!, 'en'),
+        : b.dataset.date!.localeCompare(a.dataset.date!) || Number(a.dataset.order) - Number(b.dataset.order),
     );
     const pageCount = Math.max(1, Math.ceil(matches.length / pageSize));
     page = Math.min(page, pageCount);

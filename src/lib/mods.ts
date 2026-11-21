@@ -7,6 +7,12 @@ export const modUrl = (mod: Mod) => url(`mods/${mod.id}/`);
 export const provider = (source: string) => ({ nexus: 'Nexus Mods', drive: 'Google Drive', mediafire: 'MediaFire' }[source] || source);
 export const version = (value: string) => value === '—' ? 'ดูเวอร์ชันที่ต้นทาง' : `v${value.replace(/^v/i, '')}`;
 export const date = (value: string) => new Intl.DateTimeFormat('th-TH-u-ca-gregory', { day: 'numeric', month: 'short', year: 'numeric', timeZone: 'Asia/Bangkok' }).format(new Date(`${value}T00:00:00+07:00`));
+const codeOrder = (code: string) => Number(code.match(/\d+/)?.[0] || 0);
+const priorityOrder = (mod: Mod) => mod.id === 'way-of-the-samurai-4' ? 44.5 : codeOrder(mod.code);
 export async function getMods(): Promise<Mod[]> {
-  return (await getCollection('mods')).map(entry => ({ ...entry.data, id: entry.id })).sort((a, b) => b.date.localeCompare(a.date) || a.title.localeCompare(b.title));
+  return (await getCollection('mods')).map(entry => ({ ...entry.data, id: entry.id })).sort((a, b) =>
+    b.date.localeCompare(a.date) ||
+    priorityOrder(b) - priorityOrder(a) ||
+    a.title.localeCompare(b.title),
+  );
 }

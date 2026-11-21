@@ -5,10 +5,9 @@ import ModCard from '../components/ModCard.astro';
 import Icon from '../components/Icon.astro';
 import { getMods, url, modUrl, cover, date } from '../lib/mods';
 const mods = await getMods();
-const pick = ['omori', 'tales-of-berseria', 'shenmue-i-and-ii', 'football-manager-27', 'absolum', 'dressmaker'].map(id => mods.find(mod => mod.id === id)).filter(Boolean) as typeof mods;
-const featured = pick.length >= 3 ? pick : mods.slice(0, 6);
+const featured = mods.slice(0, 6);
 const showing = mods.slice(0, 8);
-const shelf = mods.slice(8, 16);
+const shelf = mods.slice(0, 8);
 ---
 <BaseLayout page="home" title="ร้านเกมมีเกมก็แปล — ม็อดแปลไทย">
   <section class="street" aria-labelledby="shop-title">
