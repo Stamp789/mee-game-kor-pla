@@ -1,5 +1,45 @@
 const mods = [
   {
+    id: "way-of-the-samurai-4", title: "Way of the Samurai 4", thaiTitle: "วิถีซามูไร 4", code: "WS-043",
+    version: "1.0", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/312780/Way_of_the_Samurai_4/",
+    purchaseLinks: [
+      { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/312780/Way_of_the_Samurai_4/" },
+      { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/search/?q=Way%20of%20the%20Samurai%204" }
+    ],
+    statusText: "พร้อมโหลด", date: "2026-11-21", popularity: 100, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    category: "action", tags: ["Action", "Adventure", "Open World", "แปลครบ"], colors: ["#241517", "#d97706"], cover: "assets/cover-way-of-the-samurai-4.png",
+    gallery: [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/312780/ss_059d5260031b90356f0a3809434e52fa3d2205c5.600x338.jpg?t=1757053932",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/312780/ss_e588fca8fe0be8bff152dae6bc23d8c4d89e61c1.600x338.jpg?t=1757053932",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/312780/ss_93f291d7fae7d1e43b92aeaaae9e903e79e1228a.600x338.jpg?t=1757053932"
+    ], trailerTitle: "Way of the Samurai 4 — Official Steam Trailer",
+    description: "ม็อดภาษาไทยสำหรับ Way of the Samurai 4 (วิถีซามูไร 4) เกมแอ็กชันผจญภัย Open World ยุคเปิดประเทศญี่ปุ่นในเมืองท่าอามิฮามะ สวมบทโรนินนิรนามกำหนดชะตากรรมของตนเองท่ามกลางความขัดแย้งของสามขั้วอำนาจ ทั้งฝ่ายสนับสนุนโชกุน ฝ่ายรักชาติขับไล่ชาวต่างชาติ และกองกำลังจากชาติตะวันตก พร้อมฉากจบหลากหลายรูปแบบตามการตัดสินใจของคุณ แปลไทยครบทั้งเนื้อเรื่องหลัก เควสต์ย่อย บทสนทนาทุกเส้นทาง ระบบต่อสู้ วิชาดาบ อาวุธ เครื่องแต่งกาย เมนู และ UI ทั้งหมด 100% พร้อมฟอนต์ไทยคมชัดเข้ากับบรรยากาศยุคซามูไร",
+    changelog: ["เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 สำหรับ Steam บน Nexus Mods", "แปลเนื้อเรื่องหลัก เควสต์ย่อย บทสนทนา และฉากจบทุกเส้นทาง", "แปลระบบต่อสู้ ท่าดาบ อาวุธ อุปกรณ์สวมใส่ เมนู และ UI ครบ 100%"],
+    install: ["ดาวน์โหลดม็อดจากแท็บ Files บน Nexus Mods และแตกไฟล์ .zip", "นำไฟล์หรือโฟลเดอร์ภาษาไทยไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)", "เปิดเกม Way of the Samurai 4 ผ่าน Steam แล้วสนุกกับเนื้อเรื่องและวิถีซามูไรภาษาไทยได้ทันที"],
+    sha: "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods", nexus: "https://www.nexusmods.com/wayofthesamurai4/mods/12?tab=files", drive: "", mediafire: "",
+    post: "https://www.nexusmods.com/wayofthesamurai4/mods/12"
+  },
+  {
+    id: "ys-viii-lacrimosa-of-dana", title: "Ys VIII: Lacrimosa of DANA", thaiTitle: "อีส VIII: ลาครีโมซา ออฟ ดาน่า", code: "YS-044",
+    version: "1.0", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/579180/Ys_VIII_Lacrimosa_of_DANA/",
+    purchaseLinks: [
+      { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/579180/Ys_VIII_Lacrimosa_of_DANA/" },
+      { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/search/?q=Ys%20VIII%3A%20Lacrimosa%20of%20DANA" }
+    ],
+    statusText: "เร็ว ๆ นี้", date: "2026-11-21", popularity: 100, size: "เร็ว ๆ นี้", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    category: "action", tags: ["Action RPG", "Adventure", "Anime", "แปลครบ"], colors: ["#0c192c", "#0284c7"], cover: "assets/cover-ys-viii-lacrimosa-of-dana.png",
+    gallery: [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/579180/ss_b9edf7c7049f10b352eb5104893c87bebd06ace4.600x338.jpg?t=1732666782",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/579180/ss_91ba8c23c9eb5f931a95dd436594d69357b100a0.600x338.jpg?t=1732666782",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/579180/ss_6939bbd6bdd662090d8e03dfc5fce86516818b83.600x338.jpg?t=1732666782"
+    ], trailerTitle: "Ys VIII: Lacrimosa of DANA — Official Steam Trailer",
+    description: "ม็อดภาษาไทยสำหรับ Ys VIII: Lacrimosa of DANA (อีส VIII: ลาครีโมซา ออฟ ดาน่า) สุดยอดเกม Action RPG ระดับตำนานจาก Nihon Falcom ติดตามการผจญภัยของ อดอล คริสติน ที่เรืออับปางมาติดเกาะต้องสาปเซเรน รวบรวมผู้รอดชีวิต สร้างหมู่บ้าน ค้นหาความลับของอารยธรรมโบราณและสาวงามปริศนานามว่า ดาน่า ในความฝัน แปลไทยจัดเต็มทั้งเนื้อเรื่องหลัก เควสต์ย่อย บทสนทนาตัวละคร ระบบต่อสู้ สกิล ไอเทม อุปกรณ์ เมนู และ UI ทั้งหมด 100% พร้อมฟอนต์ไทยคมชัดอ่านสบายตา (สถานะ: เร็ว ๆ นี้)",
+    changelog: ["เตรียมเปิดให้ดาวน์โหลดม็อดภาษาไทยเวอร์ชัน 1.0 เร็ว ๆ นี้", "แปลเนื้อเรื่องหลัก เควสต์ผู้รอดชีวิต และบทสนทนาทั้งหมด", "แปลระบบต่อสู้ สกิล ไอเทม อุปกรณ์ เมนู และ UI ครบ 100%"],
+    install: ["รออัปเดตลิงก์ดาวน์โหลดม็อดภาษาไทยเร็ว ๆ นี้", "เมื่อดาวน์โหลดแล้ว แตกไฟล์ .zip และนำไฟล์ไปวางทับในโฟลเดอร์ตัวเกมหลัก", "เปิดเกม Ys VIII: Lacrimosa of DANA แล้วสนุกกับการผจญภัยภาษาไทยได้ทันที"],
+    sha: "รออัปเดตลิงก์ดาวน์โหลด", nexus: "https://www.nexusmods.com/ysviiilacrimosaofdana", drive: "", mediafire: "",
+    post: "https://www.facebook.com/profile.php?id=61593924362608"
+  },
+  {
     id: "9-kings", title: "9 Kings", thaiTitle: "ไนน์คิงส์: ตำนานราชันย์พิกเซล", code: "NK-042",
     version: "1.2", gameBuild: "Steam / Game Pass · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/2784470/9_Kings/",
     purchaseLinks: [

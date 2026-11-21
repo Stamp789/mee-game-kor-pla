@@ -1,0 +1,60 @@
+{
+  "id": "way-of-the-samurai-4",
+  "title": "Way of the Samurai 4",
+  "thaiTitle": "วิถีซามูไร 4",
+  "code": "WS-043",
+  "version": "1.0",
+  "gameBuild": "Steam · PC",
+  "platform": "pc",
+  "source": "nexus",
+  "store": "https://store.steampowered.com/app/312780/Way_of_the_Samurai_4/",
+  "purchaseLinks": [
+    {
+      "label": "ซื้อบน Steam",
+      "href": "https://store.steampowered.com/app/312780/Way_of_the_Samurai_4/"
+    },
+    {
+      "label": "เปรียบเทียบราคาจากร้านทางการ",
+      "href": "https://isthereanydeal.com/search/?q=Way%20of%20the%20Samurai%204"
+    }
+  ],
+  "statusText": "พร้อมโหลด",
+  "date": "2026-11-21",
+  "popularity": 100,
+  "size": "ดูที่ Nexus Mods",
+  "translator": "มีเกมก็แปล By.Stamp Nattakit",
+  "category": "action",
+  "tags": [
+    "Action",
+    "Adventure",
+    "Open World",
+    "แปลครบ"
+  ],
+  "colors": [
+    "#241517",
+    "#d97706"
+  ],
+  "cover": "assets/cover-way-of-the-samurai-4.png",
+  "gallery": [
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/312780/ss_059d5260031b90356f0a3809434e52fa3d2205c5.600x338.jpg?t=1757053932",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/312780/ss_e588fca8fe0be8bff152dae6bc23d8c4d89e61c1.600x338.jpg?t=1757053932",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/312780/ss_93f291d7fae7d1e43b92aeaaae9e903e79e1228a.600x338.jpg?t=1757053932"
+  ],
+  "trailerTitle": "Way of the Samurai 4 — Official Steam Trailer",
+  "description": "ม็อดภาษาไทยสำหรับ Way of the Samurai 4 (วิถีซามูไร 4) เกมแอ็กชันผจญภัย Open World ยุคเปิดประเทศญี่ปุ่นในเมืองท่าอามิฮามะ สวมบทโรนินนิรนามกำหนดชะตากรรมของตนเองท่ามกลางความขัดแย้งของสามขั้วอำนาจ ทั้งฝ่ายสนับสนุนโชกุน ฝ่ายรักชาติขับไล่ชาวต่างชาติ และกองกำลังจากชาติตะวันตก พร้อมฉากจบหลากหลายรูปแบบตามการตัดสินใจของคุณ แปลไทยครบทั้งเนื้อเรื่องหลัก เควสต์ย่อย บทสนทนาทุกเส้นทาง ระบบต่อสู้ วิชาดาบ อาวุธ เครื่องแต่งกาย เมนู และ UI ทั้งหมด 100% พร้อมฟอนต์ไทยคมชัดเข้ากับบรรยากาศยุคซามูไร",
+  "changelog": [
+    "เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 สำหรับ Steam บน Nexus Mods",
+    "แปลเนื้อเรื่องหลัก เควสต์ย่อย บทสนทนา และฉากจบทุกเส้นทาง",
+    "แปลระบบต่อสู้ ท่าดาบ อาวุธ อุปกรณ์สวมใส่ เมนู และ UI ครบ 100%"
+  ],
+  "install": [
+    "ดาวน์โหลดม็อดจากแท็บ Files บน Nexus Mods และแตกไฟล์ .zip",
+    "นำไฟล์หรือโฟลเดอร์ภาษาไทยไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)",
+    "เปิดเกม Way of the Samurai 4 ผ่าน Steam แล้วสนุกกับเนื้อเรื่องและวิถีซามูไรภาษาไทยได้ทันที"
+  ],
+  "sha": "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods",
+  "nexus": "https://www.nexusmods.com/wayofthesamurai4/mods/12?tab=files",
+  "drive": "",
+  "mediafire": "",
+  "post": "https://www.nexusmods.com/wayofthesamurai4/mods/12"
+}
