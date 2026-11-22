@@ -21,23 +21,23 @@ const mods = [
   },
   {
     id: "ys-viii-lacrimosa-of-dana", title: "Ys VIII: Lacrimosa of DANA", thaiTitle: "อีส VIII: ลาครีโมซา ออฟ ดาน่า", code: "YS-044",
-    version: "1.0", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/579180/Ys_VIII_Lacrimosa_of_DANA/",
+    version: "1.0", gameBuild: "Steam · PC", platform: "pc", source: "drive", store: "https://store.steampowered.com/app/579180/Ys_VIII_Lacrimosa_of_DANA/",
     purchaseLinks: [
       { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/579180/Ys_VIII_Lacrimosa_of_DANA/" },
       { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/search/?q=Ys%20VIII%3A%20Lacrimosa%20of%20DANA" }
     ],
-    statusText: "เร็ว ๆ นี้", date: "2026-11-21", popularity: 100, size: "เร็ว ๆ นี้", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    statusText: "พร้อมโหลด", date: "2026-11-22", popularity: 100, size: "ดูที่ Google Drive", translator: "มีเกมก็แปล By.Stamp Nattakit",
     category: "action", tags: ["Action RPG", "Adventure", "Anime", "แปลครบ"], colors: ["#0c192c", "#0284c7"], cover: "assets/cover-ys-viii-lacrimosa-of-dana.png",
     gallery: [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/579180/ss_b9edf7c7049f10b352eb5104893c87bebd06ace4.600x338.jpg?t=1732666782",
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/579180/ss_91ba8c23c9eb5f931a95dd436594d69357b100a0.600x338.jpg?t=1732666782",
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/579180/ss_6939bbd6bdd662090d8e03dfc5fce86516818b83.600x338.jpg?t=1732666782"
     ], trailerTitle: "Ys VIII: Lacrimosa of DANA — Official Steam Trailer",
-    description: "ม็อดภาษาไทยสำหรับ Ys VIII: Lacrimosa of DANA (อีส VIII: ลาครีโมซา ออฟ ดาน่า) สุดยอดเกม Action RPG ระดับตำนานจาก Nihon Falcom ติดตามการผจญภัยของ อดอล คริสติน ที่เรืออับปางมาติดเกาะต้องสาปเซเรน รวบรวมผู้รอดชีวิต สร้างหมู่บ้าน ค้นหาความลับของอารยธรรมโบราณและสาวงามปริศนานามว่า ดาน่า ในความฝัน แปลไทยจัดเต็มทั้งเนื้อเรื่องหลัก เควสต์ย่อย บทสนทนาตัวละคร ระบบต่อสู้ สกิล ไอเทม อุปกรณ์ เมนู และ UI ทั้งหมด 100% พร้อมฟอนต์ไทยคมชัดอ่านสบายตา (สถานะ: เร็ว ๆ นี้)",
-    changelog: ["เตรียมเปิดให้ดาวน์โหลดม็อดภาษาไทยเวอร์ชัน 1.0 เร็ว ๆ นี้", "แปลเนื้อเรื่องหลัก เควสต์ผู้รอดชีวิต และบทสนทนาทั้งหมด", "แปลระบบต่อสู้ สกิล ไอเทม อุปกรณ์ เมนู และ UI ครบ 100%"],
-    install: ["รออัปเดตลิงก์ดาวน์โหลดม็อดภาษาไทยเร็ว ๆ นี้", "เมื่อดาวน์โหลดแล้ว แตกไฟล์ .zip และนำไฟล์ไปวางทับในโฟลเดอร์ตัวเกมหลัก", "เปิดเกม Ys VIII: Lacrimosa of DANA แล้วสนุกกับการผจญภัยภาษาไทยได้ทันที"],
-    sha: "รออัปเดตลิงก์ดาวน์โหลด", nexus: "", drive: "", mediafire: "",
-    post: "https://www.facebook.com/profile.php?id=61593924362608"
+    description: "ม็อดภาษาไทยสำหรับ Ys VIII: Lacrimosa of DANA (อีส VIII: ลาครีโมซา ออฟ ดาน่า) สุดยอดเกม Action RPG ระดับตำนานจาก Nihon Falcom ติดตามการผจญภัยของ อดอล คริสติน ที่เรืออับปางมาติดเกาะต้องสาปเซเรน รวบรวมผู้รอดชีวิต สร้างหมู่บ้าน ค้นหาความลับของอารยธรรมโบราณและสาวงามปริศนานามว่า ดาน่า ในความฝัน แปลไทยจัดเต็มทั้งเนื้อเรื่องหลัก เควสต์ย่อย บทสนทนาตัวละคร ระบบต่อสู้ สกิล ไอเทม อุปกรณ์ เมนู และ UI ทั้งหมด 100% พร้อมฟอนต์ไทยคมชัดอ่านสบายตา",
+    changelog: ["เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 สำหรับ Steam บน Google Drive (เปิดให้ดาวน์โหลดวันที่ 23/11/69 เวลา 12:00 น.)","แปลเนื้อเรื่องหลัก เควสต์ผู้รอดชีวิต และบทสนทนาทั้งหมด","แปลระบบต่อสู้ สกิล ไอเทม อุปกรณ์ เมนู และ UI ครบ 100%"],
+    install: ["ดาวน์โหลดไฟล์ม็อดภาษาไทยจากลิงก์ Google Drive (เปิดให้ดาวน์โหลด 23/11/69 เวลา 12:00 น.) และแตกไฟล์ .zip","นำไฟล์หรือโฟลเดอร์ภาษาไทยไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)","เปิดเกม Ys VIII: Lacrimosa of DANA แล้วสนุกกับการผจญภัยภาษาไทยได้ทันที"],
+    sha: "ตรวจสอบรายละเอียดไฟล์บน Google Drive", nexus: "", drive: "https://drive.google.com/file/d/1djowH0hJXqrcFrysChOSHLAeen2wCUZL/view?usp=sharing", mediafire: "",
+    post: "https://drive.google.com/file/d/1djowH0hJXqrcFrysChOSHLAeen2wCUZL/view?usp=sharing"
   },
   {
     id: "9-kings", title: "9 Kings", thaiTitle: "ไนน์คิงส์: ตำนานราชันย์พิกเซล", code: "NK-042",

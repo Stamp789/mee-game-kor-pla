@@ -15,6 +15,7 @@ const downloads = [
 ].filter(item => item.href).map(item => ({ ...item, href: downloadUrl(item.source, item.href!) })).sort((a, b) => Number(b.source === mod.source) - Number(a.source === mod.source));
 const hasChecksum = /^[a-f0-9]{64}$/i.test(mod.sha);
 const seatNo = (all.findIndex(item => item.id === mod.id) + 1);
+const unlockAt = mod.id === 'ys-viii-lacrimosa-of-dana' ? '2026-11-23T12:00:00+07:00' : undefined;
 ---
 <BaseLayout title={`${mod.title} — ม็อดภาษาไทย | ร้านเกมมีเกมก็แปล`} description={mod.description.slice(0, 160)} image={cover(mod)} page="detail">
   <nav class="breadcrumb shop-crumb" aria-label="เส้นทางหน้า"><a href={url()}>หน้าร้าน</a><span>/</span><a href={url('mods/')}>ชั้นวางแผ่น</a><span>/</span><span aria-current="page">{mod.title}</span></nav>
@@ -33,10 +34,15 @@ const seatNo = (all.findIndex(item => item.id === mod.id) + 1);
       <p class="ticket-head"><span>มีเกมก็แปล</span><span>ตั๋วฟรี</span></p>
       <h2>{mod.thaiTitle}</h2>
       <p class="ticket-en">{mod.title}</p>
-      <dl><div><dt>โรง</dt><dd>{mod.gameBuild}</dd></div><div><dt>ที่นั่ง</dt><dd>ไหนก็ได้ ({String(seatNo).padStart(2, '0')})</dd></div><div><dt>ฉบับ</dt><dd>{mod.statusText === 'เร็ว ๆ นี้' ? 'Coming Soon (เร็ว ๆ นี้)' : version(mod.version)}</dd></div><div><dt>ขนาด</dt><dd>{mod.size}</dd></div><div><dt>ผู้แปล</dt><dd>{mod.translator}</dd></div></dl>
-      <div class="download-links">{mod.statusText === 'เร็ว ๆ นี้' || downloads.length === 0 ? <span class="ticket-link primary" aria-disabled="true" style="pointer-events:none;opacity:0.88">เร็ว ๆ นี้ (Coming Soon) · ยังไม่มีให้โหลด</span> : downloads.map((item, i) => <a class:list={['ticket-link', { primary: i === 0 }]} href={item.href} data-expires-at={mod.id === 'annihilated' && item.source === 'drive' ? '2026-11-16T12:00:00+07:00' : undefined} target="_blank" rel="noopener noreferrer" aria-label={`รับม็อด ${mod.title} จาก ${provider(item.source)} (เปิดแท็บใหม่)`}>โหลดจาก {provider(item.source)} <Icon name="download" size={18} /></a>)}</div>
-      <p class="download-footnote">{mod.statusText === 'เร็ว ๆ นี้' || downloads.length === 0 ? 'ม็อดนี้อยู่ในสถานะ Coming Soon (เร็ว ๆ นี้) ยังไม่เปิดให้ดาวน์โหลดในขณะนี้' : <>เปิดหน้าดาวน์โหลดต้นทาง เช็กไฟล์ล่าสุดก่อนลง{downloads.some(item => item.source === 'nexus') && <> · ต้องล็อกอิน Nexus Mods ก่อนโหลด</>}</>}</p>
-      {mod.post && <a href={mod.post} class="original-post" target="_blank" rel="noopener noreferrer">ดูโพสต์ต้นทาง <Icon size={15} /></a>}
+      <dl><div><dt>โรง</dt><dd>{mod.gameBuild}</dd></div><div><dt>ที่นั่ง</dt><dd>ไหนก็ได้ ({String(seatNo).padStart(2, '0')})</dd></div><div><dt>ฉบับ</dt><dd data-unlock-version={unlockAt}>{unlockAt ? 'v1.0 (เปิดโหลด 23/11/69 · 12:00 น.)' : mod.statusText === 'เร็ว ๆ นี้' ? 'Coming Soon (เร็ว ๆ นี้)' : version(mod.version)}</dd></div><div><dt>ขนาด</dt><dd>{mod.size}</dd></div><div><dt>ผู้แปล</dt><dd>{mod.translator}</dd></div></dl>
+      <div class="download-links">
+        {unlockAt && <span class="ticket-link primary" data-unlock-placeholder={unlockAt} aria-disabled="true" style="pointer-events:none;opacity:0.92">⏳ เปิดให้โหลด 23/11/69 เวลา 12:00 น.</span>}
+        {mod.statusText === 'เร็ว ๆ นี้' || downloads.length === 0
+          ? <span class="ticket-link primary" aria-disabled="true" style="pointer-events:none;opacity:0.88">เร็ว ๆ นี้ (Coming Soon) · ยังไม่มีให้โหลด</span>
+          : downloads.map((item, i) => <a class:list={['ticket-link', { primary: i === 0 }]} href={item.href} hidden={Boolean(unlockAt)} data-unlock-at={unlockAt} data-expires-at={mod.id === 'annihilated' && item.source === 'drive' ? '2026-11-16T12:00:00+07:00' : undefined} target="_blank" rel="noopener noreferrer" aria-label={`รับม็อด ${mod.title} จาก ${provider(item.source)} (เปิดแท็บใหม่)`}>โหลดจาก {provider(item.source)} <Icon name="download" size={18} /></a>)}
+      </div>
+      <p class="download-footnote" data-unlock-footnote={unlockAt}>{unlockAt ? 'ลิงก์ดาวน์โหลด Google Drive จะเปิดให้กดอัตโนมัติในวันที่ 23/11/69 เวลา 12:00 น.' : mod.statusText === 'เร็ว ๆ นี้' || downloads.length === 0 ? 'ม็อดนี้อยู่ในสถานะ Coming Soon (เร็ว ๆ นี้) ยังไม่เปิดให้ดาวน์โหลดในขณะนี้' : <>เปิดหน้าดาวน์โหลดต้นทาง เช็กไฟล์ล่าสุดก่อนลง{downloads.some(item => item.source === 'nexus') && <> · ต้องล็อกอิน Nexus Mods ก่อนโหลด</>}</>}</p>
+      {mod.post && <a href={mod.post} hidden={Boolean(unlockAt)} data-unlock-at={unlockAt} class="original-post" target="_blank" rel="noopener noreferrer">ดูโพสต์ต้นทาง <Icon size={15} /></a>}
     </div>
     <div class="ticket-stub" aria-hidden="true"><span>ADMIT ONE</span><b>{mod.code}</b></div>
   </section></aside></div>
