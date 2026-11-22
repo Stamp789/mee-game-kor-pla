@@ -1,0 +1,284 @@
+---
+import Icon from './Icon.astro';
+
+interface Props {
+  currentCount: number;
+}
+
+const { currentCount = 44 } = Astro.props;
+const targetCount = 51;
+const remainingCount = Math.max(0, targetCount - currentCount);
+
+const finalChapters = [
+  {
+    disc: 45,
+    countdown: 7,
+    badge: 'นับถอยหลังอีก 7 แผ่น',
+    stage: 'CHAPTER I · พันธสัญญาแห่งการเริ่มต้นบทอำลา',
+    title: 'Disgaea 2 PC',
+    thaiTitle: 'ดิสไกอา 2 พีซี',
+    chapterTitle: '“คำสาปจะร้ายกาจแค่ไหน... ก็หยุดลูกบ้าและคำสัญญาของเราไม่ได้”',
+    story:
+      'เปิดฉากการนับถอยหลัง 7 แผ่นสุดท้าย ด้วยสุดยอดเกม Tactical RPG อารมณ์ขันสุดเพี้ยนระดับตำนานจาก Nippon Ichi Software เมื่อ Adell ชายหนุ่มมนุษย์เพียงคนเดียวในโลกปีศาจ Veldime ตั้งปณิธานว่าจะโค่นจอมมาร Zenon เพื่อคลายคำสาปให้ครอบครัว แต่กลับอัญเชิญ Rozalin ลูกสาวจอมมารออกมาแทน! แผ่นที่ 45 คือตัวแทนของความบ้าบิ่นและการรักษาคำพูดของร้านมีเกมก็แปล ที่ต่อให้ระบบเกมจะลึกทะลุเลเวล 9999 หรือมุกตลกจะแสบสันแค่ไหน เราก็พร้อมแปลไทยให้คุณได้ฮาและวางแผนกันอย่างถึงพริกถึงขิง',
+    quote: '“ลูกผู้ชายพูดแล้วไม่คืนคำ — เปิดฉาก 7 แผ่นสุดท้ายด้วยเสียงหัวเราะและกลยุทธ์ระดับปีศาจ”',
+    tags: ['Tactical RPG', 'Anime / Comedy', 'Nippon Ichi'],
+    store: 'https://store.steampowered.com/app/495280/Disgaea_2_PC/',
+    image: 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/495280/header.jpg?t=1732584321',
+    c0: '#26121f',
+    c1: '#e11d48',
+  },
+  {
+    disc: 46,
+    countdown: 6,
+    badge: 'นับถอยหลังอีก 6 แผ่น',
+    stage: 'CHAPTER II · โพรงกระต่ายสู่ความหมายของชีวิต',
+    title: 'Wonderful Everyday Down the Rabbit-Hole',
+    thaiTitle: 'วันเดอร์ฟูล เอฟวรีเดย์: โพรงกระต่ายสู่ฟากฟ้าและโลกใบเดิม',
+    chapterTitle: '“โลกใบเดิมที่งดงามขึ้น... เมื่อเราเข้าใจทุกถ้อยคำ”',
+    story:
+      'เข้าสู่แผ่นที่ 46 กับนิยายภาพปรัชญาและจิตวิทยาระดับขึ้นหิ้งที่ตั้งคำถามกับผู้เล่นว่า “การใช้ชีวิตอย่างมีความสุขคืออะไร?” เหมือนวันแรกที่ร้านมีเกมก็แปลเปิดประตูชวนคุณกระโดดลงโพรงกระต่ายไปสำรวจโลกของตัวอักษร แม้เรื่องราวจะซับซ้อน ลึกลับ หรือชวนตั้งคำถามเพียงใด แต่เมื่อกำแพงภาษาทลายลง ทุกวันธรรมดาในเกมกลับกลายเป็นวันอันแสนอัศจรรย์',
+    quote: '“จงใช้ชีวิตอย่างมีความสุขเถิด” — ถ้อยคำปรัชญาที่ร้านอยากฝากไว้ในความทรงจำของคนเล่น',
+    tags: ['Visual Novel', 'ปรัชญา / จิตวิทยา', 'เนื้อเรื่องเข้มข้น'],
+    store: 'https://store.steampowered.com/app/658620/Wonderful_Everyday_Down_the_RabbitHole/',
+    image: 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/658620/header.jpg?t=1790569056',
+    c0: '#1d243b',
+    c1: '#3b82f6',
+  },
+  {
+    disc: 47,
+    countdown: 5,
+    badge: 'นับถอยหลังอีก 5 แผ่น',
+    stage: 'CHAPTER III · ฟันเฟืองที่ไม่ยอมหยุดหมุน',
+    title: 'Fuga: Melodies of Steel',
+    thaiTitle: 'ฟูกะ: ท่วงทำนองแห่งเหล็กกล้า',
+    chapterTitle: '“ขบวนรถถังแห่งความหวัง... ที่จะแล่นไปให้ถึงสถานีสุดท้าย”',
+    story:
+      'แผ่นที่ 47 เมื่อกลุ่มเด็ก ๆ ต้องก้าวขึ้นรถถังยักษ์โบราณ Taranis เพื่อฝ่าไฟสงครามและปกป้องคนสำคัญ ทุกฟันเฟืองที่หมุนไปข้างหน้าแลกมาด้วยความเสียสละและความผูกพัน ไม่ต่างจากร้านเล็ก ๆ แห่งนี้ที่ขับเคลื่อนมาได้ไกลเกินฝันด้วยแรงใจจากผู้เล่นทุกคน ท่วงทำนองแห่งเหล็กกล้าแผ่นนี้คือคำมั่นสัญญาว่าเราจะเดินเครื่องแปลต่อไปอย่างสุดกำลังจนถึงแผ่นที่ 51',
+    quote: '“ตราบใดที่เสียงเพลงยังไม่จบ ขบวนรถไฟสายแปลไทยนี้ก็จะไม่หยุดวิ่ง”',
+    tags: ['Tactical RPG', 'ดราม่าสงคราม', 'มิตรภาพ'],
+    store: 'https://store.steampowered.com/app/1357860/Fuga_Melodies_of_Steel/',
+    image: 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1357860/header.jpg?t=1795047038',
+    c0: '#271c15',
+    c1: '#d97706',
+  },
+  {
+    disc: 48,
+    countdown: 4,
+    badge: 'นับถอยหลังอีก 4 แผ่น',
+    stage: 'CHAPTER IV · ภารกิจทลายกำแพงภาษา',
+    title: 'TROUBLESHOOTER: Abandoned Children',
+    thaiTitle: 'ทรับเบิลชูตเตอร์: เหล่าเด็กผู้ถูกทอดทิ้ง',
+    chapterTitle: '“ไม่มีเกมน้ำดีเกมไหน... ควรถูกทอดทิ้งเพราะกำแพงภาษา”',
+    story:
+      'แผ่นที่ 48 พาคุณเข้าสู่มหานคร Valhalla ในเกมวางแผนกลยุทธ์ Turn-Based ระดับมหากาพย์ที่อัดแน่นด้วยปมชีวิตตัวละครและระบบสกิลสุดลึกซึ้ง เกมที่มีปริมาณบทสนทนาและรายละเอียดมหาศาลจนหลายคนไม่กล้าแตะ ร้านมีเกมก็แปลขอรับหน้าที่เป็น “Troubleshooter” สะสางอุปสรรคทางภาษา เพื่อให้เรื่องราวของเหล่าเด็กผู้ถูกทอดทิ้งได้เปล่งประกายเป็นภาษาไทยอย่างสมบูรณ์',
+    quote: '“เกมที่คนคิดว่าแปลยากเกินไป คือเกมที่ร้านนี้อยากฝากไว้ก่อนปิดประตู”',
+    tags: ['Tactical Turn-Based', 'วางแผนกลยุทธ์', 'เนื้อเรื่องมหากาพย์'],
+    store: 'https://store.steampowered.com/app/470310/TROUBLESHOOTER_Abandoned_Children/',
+    image: 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/470310/header.jpg?t=1747107944',
+    c0: '#181826',
+    c1: '#7c3aed',
+  },
+  {
+    disc: 49,
+    countdown: 3,
+    badge: 'นับถอยหลังอีก 3 แผ่น',
+    stage: 'CHAPTER V · จดหมายรักถึงยุคทองแห่งร้านเกม',
+    title: 'GRANDIA II HD Remaster',
+    thaiTitle: 'แกรนเดีย II เอชดี รีมาสเตอร์',
+    chapterTitle: '“กลิ่นอายการผจญภัยวัยเยาว์... ที่หวนกลับมาพูดภาษาของเรา”',
+    story:
+      'โค้งสุดท้ายกับ 3 แผ่นก่อนปิดร้าน! แผ่นที่ 49 คือการย้อนเวลาสู่มนตร์เสน่ห์แห่ง JRPG คลาสสิกยุคทอง ร่วมเดินทางไปกับ Ryudo ทหารรับจ้างหนุ่มปากร้าย กับสองสาว Elena และ Millennia ท่ามกลางศึกแห่งแสงสว่างและความมืด แผ่นนี้คือจดหมายรักถึงยุคสมัยที่พวกเราเคยเปิดดิกชันนารีเล่นเกมหน้าจอทีวีตู้ปลา วันนี้ความทรงจำวัยเด็กนั้นกำลังจะกลับมาให้คุณอินได้เต็มร้อยเป็นภาษาไทย',
+    quote: '“แด่วัยเด็กของพวกเราทุกคน ที่เคยนั่งเปิดดิกฯ แปลคำศัพท์ทีละบรรทัดหน้าจอทีวี”',
+    tags: ['Classic JRPG', 'ตำนานยุคทอง', 'แฟนตาซีผจญภัย'],
+    store: 'https://store.steampowered.com/app/330390/GRANDIA_II_HD_Remaster/',
+    image: 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/330390/header.jpg?t=1791225085',
+    c0: '#162836',
+    c1: '#0ea5e9',
+  },
+  {
+    disc: 50,
+    countdown: 2,
+    badge: 'รองสุดท้าย · เหลืออีก 2 แผ่น',
+    stage: 'CHAPTER VI · แสงแห่งความหวังก่อนปิดม่าน',
+    title: 'Danganronpa Another Episode: Ultra Despair Girls',
+    thaiTitle: 'ดันกันรอนปะ อะนาเธอร์ เอพพิโซด: อัลตร้า เดสแพร์ เกิร์ลส์',
+    chapterTitle: '“ท่ามกลางความสิ้นหวัง... มิตรภาพและความหวังจะพาเราไปถึงตอนจบ”',
+    story:
+      'แผ่นที่ 50 — รองสุดท้ายก่อนถึงจุดหมาย! เมื่อ Komaru Naegi เด็กสาวธรรมดาและ Toko Fukawa ต้องจับมือกันฝ่ามหานคร Towa City ที่จมดิ่งสู่ความสิ้นหวัง เต็มไปด้วยปริศนาหุ่นหมี Monokuma และบทสนทนาสุดเข้มข้น นี่คือบทพิสูจน์ว่าต่อให้เส้นทางจะหนักหนาแค่ไหน “ความหวัง” จะพาเราฝ่าไปจนถึงหน้าประตูบทสุดท้ายได้เสมอ เตรียมหัวใจให้พร้อมก่อนก้าวสู่แผ่นที่ 51',
+    quote: '“ก่อนที่ไฟร้านจะดับลง ขอให้ความหวังส่องสว่างไปจนถึงบรรทัดสุดท้าย”',
+    tags: ['Action Adventure', 'Danganronpa', 'ปริศนา / ระทึกขวัญ'],
+    store: 'https://store.steampowered.com/app/555950/Danganronpa_Another_Episode_Ultra_Despair_Girls/',
+    image: 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/555950/header.jpg?t=1715701294',
+    c0: '#2b1224',
+    c1: '#ec4899',
+  },
+  {
+    disc: 51,
+    countdown: 1,
+    badge: 'แผ่นที่ 51 · ปิดตำนานร้าน',
+    stage: 'FINAL CHAPTER · ปัจฉิมบทแห่งมีเกมก็แปล',
+    title: 'Atelier Sophie 2: The Alchemist of the Mysterious Dream',
+    thaiTitle: 'อเทลิเยร์ โซฟี 2: นักเล่นแร่แปรธาตุแห่งความฝันอันลึกลับ',
+    chapterTitle: '“หลอมรวมทุกความฝันตลอด 51 เกม... ไว้ในหม้อปรุงยาใบสุดท้าย”',
+    story:
+      'และแล้วก็เดินทางมาถึง แผ่นที่ 51 — แผ่นสุดท้ายก่อนปิดร้านมีเกมก็แปล ในโลกแห่งความฝัน Erde Wiege ที่โซฟีออกตามหาคนสำคัญและรังสรรค์ปาฏิหาริย์ด้วยศาสตร์แห่งการเล่นแร่แปรธาตุ... ตลอด 51 เกมที่ผ่านมา ร้านเล็ก ๆ แห่งนี้ก็เปรียบเสมือนโรงเล่นแร่แปรธาตุที่หลอมรวม “ความรักในเกม” กับ “ภาษาไทย” เข้าด้วยกัน แม้ประตูหน้าร้านจะปิดลงเมื่อแผ่นที่ 51 เสร็จสมบูรณ์ แต่ความฝันทั้ง 51 โลกจะยังคงอบอุ่นอยู่ในใจของลูกค้าทุกคนตลอดไป',
+    quote: '“ขอบคุณที่แวะมาหยิบแผ่นในร้านความฝันแห่งนี้... จนถึงแผ่นที่ 51”',
+    tags: ['Alchemy JRPG', 'ความฝันอันลึกลับ', 'ปัจฉิมบทแผ่นที่ 51'],
+    store: 'https://store.steampowered.com/app/1621310/Atelier_Sophie_2_The_Alchemist_of_the_Mysterious_Dream/',
+    image: 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1621310/header.jpg?t=1793770763',
+    c0: '#241538',
+    c1: '#f59e0b',
+    isFinale: true,
+  },
+];
+---
+
+<section class="shop-section farewell-section" id="final-countdown" aria-labelledby="farewell-title" data-farewell>
+  <div class="farewell-board">
+    <div class="farewell-marquee">
+      <span class="neon-mini farewell-neon">✦ THE FINAL COUNTDOWN · โปรเจกต์ส่งท้าย 51 เกม ก่อนปิดร้าน ✦</span>
+      <span class="farewell-counter-pill">เดินทางมาแล้ว <b>{currentCount}</b> / {targetCount} แผ่น · เหลืออีก <b>{remainingCount}</b> บทสุดท้าย</span>
+    </div>
+
+    <header class="farewell-hero">
+      <div class="farewell-title-wrap">
+        <p class="hand farewell-kicker">บันทึกหน้าสุดท้ายของเจ้าของร้าน — ก่อนดึงประตูเหล็กลง</p>
+        <h2 id="farewell-title" class="painted-head">นับถอยหลัง 51 เกม<br /><span>ก่อนปิดร้านมีเกมก็แปล</span></h2>
+      </div>
+      <div class="farewell-prologue">
+        <p>
+          จากแผ่นที่ 01 ที่เริ่มต้นด้วยความฝันเล็ก ๆ ว่าอยากเห็นเกมที่เรารักพูดภาษาไทย...
+          วันนี้ชั้นไม้ในร้านเดินทางมาถึง <strong>แผ่นที่ {currentCount}</strong> แล้วครับ
+          ก่อนที่ไฟนีออนหน้าร้าน <strong>มีเกมก็แปล</strong> จะค่อย ๆ หรี่แสงลงและปิดร้านเมื่อครบ <strong>51 เกม</strong>
+          เจ้าของร้านขอตั้งใจปรุง <strong>7 แผ่นสุดท้าย (แผ่นที่ 45 – 51)</strong>
+          ให้เป็นเหมือนเรื่องราว 7 บทอำลา ที่เรียงร้อยตั้งแต่พันธสัญญาในโลกปีศาจ โพรงกระต่ายแห่งความฝัน
+          ไปจนถึงหม้อปรุงยาใบสุดท้ายในโลกแห่งความทรงจำ
+        </p>
+      </div>
+    </header>
+
+    <div class="farewell-meter" aria-label="แถบนับถอยหลังสู่เกมที่ 51">
+      <div class="farewell-meter-top">
+        <span class="farewell-meter-label">เส้นทางความทรงจำของร้าน: <strong>แผ่นที่ 01 — {currentCount} (อยู่บนชั้นแล้ว)</strong></span>
+        <span class="farewell-meter-target">กำลังนับถอยหลัง: <strong>แผ่นที่ 45 → 51 (ปัจฉิมบท)</strong></span>
+      </div>
+      <div class="farewell-track" role="progressbar" aria-valuenow={currentCount} aria-valuemin={0} aria-valuemax={targetCount}>
+        <div class="farewell-track-fill" style={`width:${Math.min(100, (currentCount / targetCount) * 100)}%`}>
+          <span>{currentCount} แผ่นสำเร็จแล้ว</span>
+        </div>
+        <div class="farewell-track-remaining">
+          <span>อีก {remainingCount} แผ่นปิดตำนาน</span>
+        </div>
+      </div>
+
+      <div class="farewell-steps" role="tablist" aria-label="เลือกอ่านเรื่องราว 7 แผ่นสุดท้าย">
+        <button type="button" class="farewell-step is-active" data-disc-filter="all" role="tab" aria-selected="true">
+          <small>ดูทั้งหมด</small>
+          <strong>ครบทั้ง 7 บทอำลา</strong>
+        </button>
+        {finalChapters.map(item => (
+          <button
+            type="button"
+            class:list={['farewell-step', { 'is-finale': item.isFinale }]}
+            data-disc-filter={String(item.disc)}
+            role="tab"
+            aria-selected="false"
+          >
+            <small>{item.isFinale ? 'FINAL DISC' : `นับถอยหลัง -0${item.countdown}`}</small>
+            <strong>แผ่นที่ {item.disc}</strong>
+          </button>
+        ))}
+      </div>
+    </div>
+
+    <ol class="farewell-timeline">
+      {finalChapters.map(item => (
+        <li
+          class:list={['farewell-card', { 'farewell-card--finale': item.isFinale }]}
+          style={`--fc0:${item.c0};--fc1:${item.c1}`}
+          data-disc-card={String(item.disc)}
+        >
+          <div class="farewell-disc-badge" aria-hidden="true">
+            <span class="disc-no">แผ่นที่ <b>{item.disc}</b></span>
+            <span class="disc-count">{item.isFinale ? '★ บทสุดท้าย ★' : `เหลืออีก ${item.countdown} แผ่น`}</span>
+          </div>
+
+          <div class="farewell-media">
+            <div class="farewell-art-frame">
+              <img
+                src={item.image}
+                alt={`ภาพปกเกม ${item.title}`}
+                width="460"
+                height="215"
+                loading="lazy"
+                referrerpolicy="no-referrer"
+              />
+              <span class="farewell-status-ribbon">{item.badge}</span>
+            </div>
+            <div class="farewell-tags">
+              {item.tags.map(tag => <span>{tag}</span>)}
+            </div>
+          </div>
+
+          <div class="farewell-story">
+            <p class="farewell-stage">{item.stage}</p>
+            <h3 class="farewell-game-title">
+              <span class="en">{item.title}</span>
+              <span class="th">{item.thaiTitle}</span>
+            </h3>
+            <p class="farewell-chapter-quote">{item.chapterTitle}</p>
+            <p class="farewell-narrative">{item.story}</p>
+            <blockquote class="farewell-note">{item.quote}</blockquote>
+            <div class="farewell-card-actions">
+              <span class="farewell-coming-chip">
+                {item.isFinale ? '✦ แผ่นที่ 51 · โปรเจกต์ปิดร้าน (Coming Soon)' : `⏳ โปรเจกต์แผ่นที่ ${item.disc}/51 (Coming Soon)`}
+              </span>
+              <a href={item.store} target="_blank" rel="noopener noreferrer" class="shop-link">
+                ดูเกมบน Steam <Icon size={15} />
+              </a>
+            </div>
+          </div>
+        </li>
+      ))}
+    </ol>
+
+    <footer class="farewell-epilogue">
+      <div class="farewell-ticket">
+        <div class="farewell-ticket-body">
+          <span class="farewell-ticket-kicker">ตั๋วที่ระลึกรอบสุดท้าย · THE 51ST GAME CURTAIN CALL</span>
+          <h3>“ร้านอาจมีวันปิดไฟ... แต่ 51 โลกภาษาไทยจะเปิดรอคุณเสมอ”</h3>
+          <p>
+            ทุกแผ่นตั้งแต่แผ่นที่ 1 ถึงแผ่นที่ 51 จะยังคงแจกฟรีบนหน้าเว็บนี้เหมือนเดิมไม่เปลี่ยนแปลง
+            มาร่วมเดินทางนับถอยหลังไปพร้อมกับ 7 เรื่องราวสุดท้ายของร้านมีเกมก็แปลด้วยกันนะครับ
+          </p>
+        </div>
+        <div class="farewell-ticket-actions">
+          <a href="#support" class="bb-cta" data-support-open>ร่วมส่งกำลังใจให้ 7 แผ่นสุดท้าย <Icon name="right" size={18} /></a>
+          <a href="https://www.facebook.com/profile.php?id=61593924362608" target="_blank" rel="noopener noreferrer" class="shop-link">
+            ติดตามความคืบหน้าหน้าเพจ <Icon size={16} />
+          </a>
+        </div>
+      </div>
+    </footer>
+  </div>
+</section>
+
+<script>
+  document.querySelectorAll<HTMLElement>('[data-farewell]').forEach(section => {
+    const buttons = [...section.querySelectorAll<HTMLButtonElement>('[data-disc-filter]')];
+    const cards = [...section.querySelectorAll<HTMLElement>('[data-disc-card]')];
+    buttons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const target = btn.dataset.discFilter || 'all';
+        buttons.forEach(b => {
+          const active = b === btn;
+          b.classList.toggle('is-active', active);
+          b.setAttribute('aria-selected', String(active));
+        });
+        cards.forEach(card => {
+          card.hidden = target !== 'all' && card.dataset.discCard !== target;
+        });
+      });
+    });
+  });
+</script>

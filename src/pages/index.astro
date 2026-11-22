@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Billboard from '../components/Billboard.astro';
+import FinalCountdown from '../components/FinalCountdown.astro';
 import ModCard from '../components/ModCard.astro';
 import Icon from '../components/Icon.astro';
 import { getMods, url, modUrl, cover, date } from '../lib/mods';
@@ -9,11 +10,11 @@ const featured = mods.slice(0, 6);
 const showing = mods.slice(0, 8);
 const shelf = mods.slice(0, 8);
 ---
-<BaseLayout page="home" title="ร้านเกมมีเกมก็แปล — ม็อดแปลไทย">
+<BaseLayout page="home" title="ร้านเกมมีเกมก็แปล — ม็อดแปลไทย (นับถอยหลังโปรเจกต์ส่งท้าย 51 เกม)">
   <section class="street" aria-labelledby="shop-title">
     <div class="neon-sign">
       <h1 id="shop-title" class="neon-main">มีเกมก็แปล</h1>
-      <p class="neon-sub"><span>ร้านเกม</span><i>•</i><span>แปลไทย</span><i>•</i><span>เปิดทุกวัน</span></p>
+      <p class="neon-sub"><span>ร้านเกม</span><i>•</i><span>แปลไทย</span><i>•</i><span>ปัจฉิมบท 51 เกม</span></p>
     </div>
     <Billboard mods={featured} total={mods.length} />
     <div class="awning" aria-hidden="true"></div>
@@ -23,10 +24,12 @@ const shelf = mods.slice(0, 8);
     <div class="piggy-box" aria-hidden="true"><span class="piggy-slot"></span><span class="coin c-a">฿</span><span class="coin c-b">฿</span><span class="piggy-label">ตู้รับบริจาค</span></div>
     <div class="piggy-copy">
       <h2 id="support-title" class="painted-head painted-head--small">ช่วยค่าไฟร้านหน่อย</h2>
-      <p class="hand">ทุกเกมในร้านแปลฟรี ถ้าชอบงานแปล อยากให้ร้านเปิดต่อ หยอดตู้ได้ตามสะดวก ไม่บังคับจ้า</p>
+      <p class="hand">ทุกเกมในร้านแปลฟรี ถ้าชอบงานแปล อยากร่วมส่งท้ายอีก 7 แผ่นสุดท้ายก่อนปิดร้านที่ 51 เกม หยอดตู้ได้ตามสะดวก ไม่บังคับจ้า</p>
     </div>
     <button class="bb-cta piggy-cta" type="button" data-support-open>หยอดตู้ช่วยร้าน <Icon name="right" size={18} /></button>
   </section>
+
+  <FinalCountdown currentCount={mods.length} />
 
   <section class="shop-section" id="featured" aria-labelledby="showing-title">
     <header class="sign-head"><h2 id="showing-title" class="painted-head">เข้าฉายแล้ว</h2><p class="hand">เรื่องใหม่ล่าสุดของร้าน แปลไทยมาสด ๆ</p><a href={url('mods/?sort=latest')} class="shop-link">ดูโปรแกรมทั้งหมด <Icon size={16} /></a></header>
@@ -60,7 +63,7 @@ const shelf = mods.slice(0, 8);
     <figure class="polaroid"><img src={url('assets/brand.webp')} width="200" height="200" alt="โลโก้มีเกมก็แปล" loading="lazy" /><figcaption>เจ้าของร้าน</figcaption></figure>
     <div class="owner-letter">
       <h2 id="owner-title" class="painted-head painted-head--small">จากเจ้าของร้าน</h2>
-      <p>เกมดี ๆ มันพาเราไปได้ไกล แต่ถ้าอ่านรู้เรื่องด้วย มันจะพาเราไปได้ลึกกว่าเดิมเยอะ ร้านนี้เลยตั้งใจแปลทุกบทสนทนาให้เป็นภาษาไทยที่อ่านแล้วรู้สึกตาม ไม่ใช่แค่อ่านออก</p>
+      <p>เกมดี ๆ มันพาเราไปได้ไกล แต่ถ้าอ่านรู้เรื่องด้วย มันจะพาเราไปได้ลึกกว่าเดิมเยอะ ร้านนี้เลยตั้งใจแปลทุกบทสนทนาให้เป็นภาษาไทยที่อ่านแล้วรู้สึกตาม ไม่ใช่แค่อ่านออก และในโค้งสุดท้ายก่อนที่ร้านจะปิดตัวลงเมื่อครบ 51 เกม ขอบคุณทุกคนที่แวะมาหยิบแผ่นและร่วมเดินทางไปด้วยกันจนถึงบทสุดท้ายครับ</p>
       <p class="hand owner-sign">— มีเกมก็แปล By.Stamp Nattakit</p>
       <a href="https://www.facebook.com/profile.php?id=61593924362608" target="_blank" rel="noopener noreferrer" class="shop-link">ทักมาคุยที่เพจ <Icon size={16} /></a>
     </div>

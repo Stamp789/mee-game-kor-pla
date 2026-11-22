@@ -452,3 +452,501 @@ main, .site-footer { position: relative; z-index: 1; }
   .header-actions { gap: 6px; }
   .donate-btn { padding: 0 10px 0 6px; font-size: .85rem; }
 }
+
+/* ==========================================================
+   THE FINAL COUNTDOWN — โปรเจกต์ส่งท้าย 51 เกม ก่อนปิดร้าน
+   ========================================================== */
+.nav-finale {
+  color: var(--hot) !important;
+  font-weight: 700 !important;
+  background: rgba(246, 192, 38, .28);
+  padding: 4px 12px;
+  border-radius: 99px;
+  border: 2px solid #1a1206;
+  box-shadow: 2px 2px 0 #1a1206;
+}
+.nav-finale:hover {
+  background: var(--accent);
+  color: #1a1206 !important;
+}
+
+.farewell-section {
+  padding-top: clamp(36px, 5vw, 64px);
+  padding-bottom: clamp(30px, 5vw, 60px);
+}
+.farewell-board {
+  position: relative;
+  display: grid;
+  gap: clamp(24px, 3.5vw, 38px);
+  padding: clamp(24px, 4vw, 48px);
+  border: 4px solid #1a1206;
+  border-radius: 26px;
+  background:
+    radial-gradient(600px 280px at 10% 0%, rgba(255, 79, 216, .14), transparent 70%),
+    radial-gradient(600px 300px at 90% 100%, rgba(246, 192, 38, .22), transparent 70%),
+    linear-gradient(180deg, #fffdf6 0%, #fff4d8 100%);
+  box-shadow: 10px 10px 0 #1a1206, 0 28px 60px -24px rgba(90, 40, 0, .45);
+  color: var(--paper-ink);
+}
+
+.farewell-marquee {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px 20px;
+}
+.farewell-neon {
+  font-size: clamp(.95rem, 1.5vw, 1.15rem);
+  padding: 6px 16px;
+}
+.farewell-counter-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 16px;
+  border: 2px solid #1a1206;
+  border-radius: 99px;
+  background: #ffe066;
+  color: #1a1206;
+  font: 600 .95rem var(--thai-serif);
+  box-shadow: 3px 3px 0 #1a1206;
+}
+.farewell-counter-pill b {
+  color: var(--hot);
+  font-size: 1.15rem;
+}
+
+.farewell-hero {
+  display: grid;
+  grid-template-columns: minmax(280px, 1.1fr) minmax(300px, 1.4fr);
+  gap: clamp(20px, 4vw, 44px);
+  align-items: center;
+  padding-bottom: 18px;
+  border-bottom: 3px dashed rgba(26, 18, 6, .22);
+}
+.farewell-kicker {
+  color: var(--hot);
+  font-size: 1.15rem;
+  margin-bottom: 6px;
+}
+.farewell-title-wrap .painted-head {
+  font-size: clamp(2.1rem, 4.6vw, 3.8rem);
+  line-height: 1.22;
+}
+.farewell-title-wrap .painted-head span {
+  font-size: .78em;
+  color: #fff3c4;
+}
+.farewell-prologue {
+  padding: 20px 24px;
+  background: var(--paper);
+  border: 2px solid #1a1206;
+  border-radius: 16px;
+  box-shadow: 5px 5px 0 #1a1206;
+  font-size: 1.05rem;
+  line-height: 1.85;
+  color: var(--paper-ink);
+  transform: rotate(-.4deg);
+}
+.farewell-prologue strong {
+  color: var(--hot);
+}
+
+/* Progress meter & tabs */
+.farewell-meter {
+  display: grid;
+  gap: 16px;
+  padding: 20px 22px;
+  background: rgba(255, 255, 255, .72);
+  border: 2px solid #1a1206;
+  border-radius: 18px;
+}
+.farewell-meter-top {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+  font: 500 .98rem var(--thai-serif);
+}
+.farewell-meter-target strong {
+  color: var(--hot);
+}
+.farewell-track {
+  display: flex;
+  height: 34px;
+  border: 3px solid #1a1206;
+  border-radius: 99px;
+  overflow: hidden;
+  background: #2a1638;
+  box-shadow: inset 0 2px 6px rgba(0, 0, 0, .35);
+}
+.farewell-track-fill {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: repeating-linear-gradient(-45deg, #f6c026 0 14px, #ffd859 14px 28px);
+  color: #1a1206;
+  font: 700 .88rem var(--thai-serif);
+  border-right: 3px solid #1a1206;
+  white-space: nowrap;
+  padding: 0 12px;
+}
+.farewell-track-remaining {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffe6fb;
+  font: 600 .85rem var(--thai-serif);
+  text-shadow: 0 0 8px var(--pink);
+  white-space: nowrap;
+  padding: 0 10px;
+}
+
+.farewell-steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(135px, 1fr));
+  gap: 10px;
+}
+.farewell-step {
+  display: grid;
+  gap: 2px;
+  padding: 10px 12px;
+  text-align: left;
+  border: 2px solid #1a1206;
+  border-radius: 12px;
+  background: #fff;
+  color: #1a1206;
+  font-family: var(--thai-serif);
+  cursor: pointer;
+  transition: transform .15s, box-shadow .15s, background .15s;
+}
+.farewell-step small {
+  font-size: .72rem;
+  color: var(--paper-ink-2);
+  font-weight: 600;
+}
+.farewell-step strong {
+  font-size: .98rem;
+}
+.farewell-step:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 4px 4px 0 #1a1206;
+  background: #fff9db;
+}
+.farewell-step.is-active {
+  background: var(--accent);
+  box-shadow: 4px 4px 0 #1a1206;
+}
+.farewell-step.is-active small {
+  color: #1a1206;
+}
+.farewell-step.is-finale {
+  border-color: var(--hot);
+  background: linear-gradient(135deg, #fff0f6, #ffe066);
+}
+.farewell-step.is-finale.is-active {
+  background: var(--hot);
+  color: #fff;
+  border-color: #1a1206;
+}
+.farewell-step.is-finale.is-active small {
+  color: #ffe066;
+}
+
+/* Countdown timeline cards */
+.farewell-timeline {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 24px;
+}
+.farewell-card {
+  position: relative;
+  display: grid;
+  grid-template-columns: 128px minmax(240px, 340px) 1fr;
+  gap: clamp(18px, 2.8vw, 32px);
+  align-items: center;
+  padding: clamp(18px, 2.8vw, 28px);
+  border: 3px solid #1a1206;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 6px 6px 0 #1a1206;
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+.farewell-card[hidden] {
+  display: none !important;
+}
+.farewell-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 10px 10px 0 #1a1206;
+}
+.farewell-card--finale {
+  border-width: 4px;
+  background: linear-gradient(135deg, #fff9db 0%, #ffe8cc 52%, #ffd6e7 100%);
+  box-shadow: 8px 8px 0 #1a1206, 0 0 36px -8px rgba(226, 64, 28, .45);
+}
+
+.farewell-disc-badge {
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  gap: 6px;
+  padding: 16px 10px;
+  border: 3px solid #1a1206;
+  border-radius: 16px;
+  background: linear-gradient(180deg, var(--fc0), color-mix(in srgb, var(--fc1) 70%, #111));
+  color: #fff;
+  text-align: center;
+  box-shadow: 4px 4px 0 #1a1206;
+}
+.disc-no {
+  font: 600 .85rem var(--thai-serif);
+  color: #ffe066;
+}
+.disc-no b {
+  display: block;
+  font: 400 2.6rem/1 var(--serif);
+  color: #fff3c4;
+  text-shadow: 2px 2px 0 #1a1206;
+  margin-top: 2px;
+}
+.disc-count {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 99px;
+  background: rgba(0, 0, 0, .45);
+  font: 600 .76rem var(--thai-serif);
+  color: #fff;
+}
+
+.farewell-media {
+  display: grid;
+  gap: 10px;
+}
+.farewell-art-frame {
+  position: relative;
+  aspect-ratio: 460 / 215;
+  border: 3px solid #1a1206;
+  border-radius: 12px;
+  overflow: hidden;
+  background: var(--fc0);
+  box-shadow: 4px 4px 0 #1a1206;
+}
+.farewell-art-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.farewell-status-ribbon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 3px 11px;
+  border: 2px solid #1a1206;
+  border-radius: 99px;
+  background: var(--accent);
+  color: #1a1206;
+  font: 700 .78rem var(--thai-serif);
+  box-shadow: 2px 2px 0 #1a1206;
+}
+.farewell-card--finale .farewell-status-ribbon {
+  background: var(--hot);
+  color: #fff;
+}
+.farewell-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.farewell-tags span {
+  padding: 2px 10px;
+  border: 1.5px solid #1a1206;
+  border-radius: 99px;
+  background: var(--paper);
+  font: 600 .76rem var(--thai-serif);
+  color: var(--paper-ink);
+}
+
+.farewell-story {
+  display: grid;
+  gap: 10px;
+}
+.farewell-stage {
+  font: 700 .82rem var(--thai-serif);
+  letter-spacing: .04em;
+  color: var(--hot);
+}
+.farewell-game-title {
+  display: grid;
+  gap: 2px;
+  margin: 0;
+}
+.farewell-game-title .en {
+  font: 400 clamp(1.35rem, 2.2vw, 1.85rem)/1.25 var(--serif);
+  color: #1a1206;
+}
+.farewell-game-title .th {
+  font: 600 .98rem var(--thai-serif);
+  color: var(--paper-ink-2);
+}
+.farewell-chapter-quote {
+  font: 400 1.15rem/1.4 var(--hand);
+  color: #8a2a12;
+  margin: 0;
+}
+.farewell-narrative {
+  font-size: .98rem;
+  line-height: 1.75;
+  color: var(--paper-ink);
+  margin: 0;
+}
+.farewell-note {
+  margin: 2px 0 0;
+  padding: 8px 14px;
+  border-left: 4px solid var(--fc1);
+  background: rgba(246, 192, 38, .18);
+  border-radius: 0 10px 10px 0;
+  font: 400 .98rem var(--hand);
+  color: var(--paper-ink);
+}
+.farewell-card-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px 18px;
+  margin-top: 4px;
+}
+.farewell-coming-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 12px;
+  border-radius: 8px;
+  background: #1a1206;
+  color: var(--accent);
+  font: 600 .84rem var(--thai-serif);
+}
+
+.farewell-epilogue {
+  padding-top: 8px;
+}
+.farewell-ticket {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px 32px;
+  padding: clamp(20px, 3vw, 32px);
+  border: 3px dashed #1a1206;
+  border-radius: 20px;
+  background: linear-gradient(100deg, #ffe066 0%, #fff3c4 55%, #ffd6e7 100%);
+  color: #1a1206;
+}
+.farewell-ticket-body {
+  display: grid;
+  gap: 6px;
+  max-width: 760px;
+}
+.farewell-ticket-kicker {
+  font: 700 .82rem var(--thai-serif);
+  letter-spacing: .05em;
+  color: var(--hot);
+}
+.farewell-ticket-body h3 {
+  font: 400 clamp(1.35rem, 2.4vw, 1.9rem)/1.3 var(--serif);
+  margin: 0;
+}
+.farewell-ticket-body p {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+.farewell-ticket-actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 14px 20px;
+}
+
+@media (max-width: 980px) {
+  .farewell-hero {
+    grid-template-columns: 1fr;
+  }
+  .farewell-card {
+    grid-template-columns: 110px 1fr;
+  }
+  .farewell-story {
+    grid-column: 1 / -1;
+  }
+}
+@media (max-width: 600px) {
+  .farewell-card {
+    grid-template-columns: 1fr;
+  }
+  .farewell-disc-badge {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 16px;
+  }
+  .disc-no b {
+    display: inline;
+    font-size: 1.6rem;
+    margin-left: 6px;
+  }
+  .farewell-track-remaining {
+    display: none;
+  }
+  .farewell-track-fill {
+    width: 100% !important;
+    border-right: 0;
+  }
+}
+
+:root[data-theme="dark"] .nav-finale {
+  background: rgba(255, 79, 216, .2);
+  color: #ffe066 !important;
+  border-color: var(--accent);
+}
+:root[data-theme="dark"] .farewell-board {
+  background:
+    radial-gradient(600px 280px at 10% 0%, rgba(255, 79, 216, .18), transparent 70%),
+    radial-gradient(600px 300px at 90% 100%, rgba(79, 227, 255, .14), transparent 70%),
+    linear-gradient(180deg, #1f162e 0%, #150f20 100%);
+  color: var(--ink);
+  border-color: var(--accent);
+  box-shadow: 10px 10px 0 #000, 0 0 60px -20px var(--pink);
+}
+:root[data-theme="dark"] .farewell-hero {
+  border-bottom-color: var(--hair);
+}
+:root[data-theme="dark"] .farewell-meter {
+  background: rgba(255, 255, 255, .05);
+  border-color: var(--hair);
+}
+:root[data-theme="dark"] .farewell-card {
+  background: #231934;
+  color: var(--ink);
+  border-color: #000;
+  box-shadow: 6px 6px 0 #000;
+}
+:root[data-theme="dark"] .farewell-card--finale {
+  background: linear-gradient(135deg, #321b3d 0%, #2a1832 55%, #3d1d2e 100%);
+  border-color: var(--accent);
+}
+:root[data-theme="dark"] .farewell-game-title .en {
+  color: #fff3c4;
+}
+:root[data-theme="dark"] .farewell-game-title .th,
+:root[data-theme="dark"] .farewell-narrative {
+  color: var(--ink-2);
+}
+:root[data-theme="dark"] .farewell-chapter-quote {
+  color: #ffd23f;
+}
+:root[data-theme="dark"] .farewell-note {
+  color: var(--ink);
+  background: rgba(246, 192, 38, .12);
+}
