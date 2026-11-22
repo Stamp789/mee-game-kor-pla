@@ -20,8 +20,8 @@ const mods = await getMods();
         <p class="archive-tagline">หยิบเกมที่ชอบ แล้วเล่นเป็นภาษาไทย</p>
       </div>
       <div class="archive-intro">
-        <span class="archive-total">{String(mods.length).padStart(2, '0')}<small>แผ่นในร้าน</small></span>
-        <div><p>เรื่องราวใหม่ในภาษาที่คุ้นเคย<br />รวมม็อดแปลไทยจากมีเกมก็แปล<br />พร้อมรายละเอียดและวิธีติดตั้ง</p><span class="archive-updated">อัปเดตล่าสุดในคลัง · {date(mods[0].date)}</span></div>
+        <span class="archive-total">{String(mods.length).padStart(2, '0')}<small>จาก 51 แผ่นก่อนปิดร้าน</small></span>
+        <div><p>เรื่องราวใหม่ในภาษาที่คุ้นเคย<br />รวมม็อดแปลไทยจากมีเกมก็แปล<br />พร้อมรายละเอียดและวิธีติดตั้ง</p><span class="archive-updated">อัปเดตล่าสุดในคลัง · {date(mods[0].date)} · <a href={url('#final-countdown')} class="shop-link">อ่านเรื่องราวนับถอยหลัง 7 แผ่นสุดท้าย (45–51) ↗</a></span></div>
       </div>
     </section>
 
