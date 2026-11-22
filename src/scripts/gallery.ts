@@ -2,20 +2,22 @@ const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
 const finePointer = matchMedia('(pointer: fine)').matches;
 const root = document.documentElement;
 
-/* Lights (theme) toggle */
+/* Lights (theme) toggle: dark = โหมดเตรียมจากลา (ค่าเริ่มต้น), light = โหมดวันวาน (ธีมสดใสเดิม) */
 const toggle = document.querySelector<HTMLButtonElement>('.lights-toggle');
-const isDark = () => root.dataset.theme ? root.dataset.theme === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+const themeLabel = document.querySelector<HTMLElement>('[data-theme-label]');
+const isDark = () => root.dataset.theme ? root.dataset.theme === 'dark' : true;
 function syncToggle() {
   if (!toggle) return;
   const dark = isDark();
   toggle.setAttribute('aria-pressed', String(dark));
-  toggle.setAttribute('aria-label', dark ? 'เปลี่ยนเป็นโหมดกลางวัน' : 'เปลี่ยนเป็นโหมดกลางคืน');
+  toggle.setAttribute('aria-label', dark ? 'สลับกลับไปใช้ธีมสดใสเดิม (โหมดวันวาน)' : 'สลับเป็นธีมเตรียมจากลา (โหมดคืนอำลา)');
+  if (themeLabel) themeLabel.textContent = dark ? '🕯️ ธีมจากลา' : '☀️ ธีมสดใสเดิม';
 }
 syncToggle();
 toggle?.addEventListener('click', () => {
   const next = isDark() ? 'light' : 'dark';
   root.dataset.theme = next;
-  try { localStorage.setItem('shop-theme', next); } catch { /* storage blocked */ }
+  try { localStorage.setItem('shop-theme-v2', next); } catch { /* storage blocked */ }
   syncToggle();
 });
 

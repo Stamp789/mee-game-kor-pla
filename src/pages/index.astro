@@ -10,15 +10,23 @@ const featured = mods.slice(0, 6);
 const showing = mods.slice(0, 8);
 const shelf = mods.slice(0, 8);
 ---
-<BaseLayout page="home" title="ร้านเกมมีเกมก็แปล — ม็อดแปลไทย (นับถอยหลังโปรเจกต์ส่งท้าย 51 เกม)">
+<BaseLayout page="home" title="ร้านเกมมีเกมก็แปล — ม็อดแปลไทย (นับถอยหลังโปรเจกต์ส่งท้าย 51 เกม ก่อนปิดร้าน)">
   <section class="street" aria-labelledby="shop-title">
     <div class="neon-sign">
-      <h1 id="shop-title" class="neon-main">มีเกมก็แปล</h1>
-      <p class="neon-sub"><span>ร้านเกม</span><i>•</i><span>แปลไทย</span><i>•</i><span>ปัจฉิมบท 51 เกม</span></p>
+      <h1 id="shop-title" class="neon-main">มีเกมก็แป<span class="neon-flicker-char">ล</span></h1>
+      <p class="neon-sub"><span>ร้านเกมหน้าปากซอย</span><i>•</i><span>44/51 แผ่น</span><i>•</i><span>คืนสุดท้ายก่อนปิดร้าน</span></p>
+    </div>
+    <div class="street-farewell-banner">
+      <a href="#final-countdown" class="street-farewell-pill">
+        <span>🕯️ ประกาศแจ้งปิดร้านถาวรเมื่อครบ 51 เกม</span>
+        <strong>เปิดอ่านบันทึกนับถอยหลัง 7 แผ่นสุดท้าย (แผ่นที่ 45 – 51) ↓</strong>
+      </a>
     </div>
     <Billboard mods={featured} total={mods.length} />
     <div class="awning" aria-hidden="true"></div>
   </section>
+
+  <FinalCountdown currentCount={mods.length} />
 
   <section class="piggy" id="support" aria-labelledby="support-title">
     <div class="piggy-box" aria-hidden="true"><span class="piggy-slot"></span><span class="coin c-a">฿</span><span class="coin c-b">฿</span><span class="piggy-label">ตู้รับบริจาค</span></div>
@@ -28,8 +36,6 @@ const shelf = mods.slice(0, 8);
     </div>
     <button class="bb-cta piggy-cta" type="button" data-support-open>หยอดตู้ช่วยร้าน <Icon name="right" size={18} /></button>
   </section>
-
-  <FinalCountdown currentCount={mods.length} />
 
   <section class="shop-section" id="featured" aria-labelledby="showing-title">
     <header class="sign-head"><h2 id="showing-title" class="painted-head">เข้าฉายแล้ว</h2><p class="hand">เรื่องใหม่ล่าสุดของร้าน แปลไทยมาสด ๆ</p><a href={url('mods/?sort=latest')} class="shop-link">ดูโปรแกรมทั้งหมด <Icon size={16} /></a></header>
