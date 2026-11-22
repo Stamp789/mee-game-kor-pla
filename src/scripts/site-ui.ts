@@ -117,3 +117,52 @@ if (!requestedMod && legacyAnchors[location.hash]) {
 document.querySelectorAll<HTMLElement>('[data-expires-at]').forEach(el => {
   if (Date.now() >= Date.parse(el.dataset.expiresAt!)) el.remove();
 });
+
+// Scheduled unlock at a specific timestamp (e.g., Ys VIII at 2026-11-23T12:00:00+07:00)
+function updateScheduledUnlocks() {
+  const now = Date.now();
+  document.querySelectorAll<HTMLAnchorElement>('[data-unlock-at]').forEach(link => {
+    const unlockMs = Date.parse(link.dataset.unlockAt!);
+    if (now >= unlockMs) {
+      if (link.dataset.lockedHref) {
+        link.href = link.dataset.lockedHref;
+        delete link.dataset.lockedHref;
+      }
+      link.hidden = false;
+    } else {
+      if (!link.dataset.lockedHref && link.getAttribute('href')) {
+        link.dataset.lockedHref = link.getAttribute('href')!;
+        link.removeAttribute('href');
+      }
+      link.hidden = true;
+    }
+  });
+  document.querySelectorAll<HTMLElement>('[data-unlock-placeholder]').forEach(el => {
+    const unlockMs = Date.parse(el.dataset.unlockPlaceholder!);
+    const diff = unlockMs - now;
+    if (diff <= 0) {
+      el.remove();
+    } else {
+      const totalSec = Math.ceil(diff / 1000);
+      const hrs = Math.floor(totalSec / 3600);
+      const mins = Math.floor((totalSec % 3600) / 60);
+      const secs = totalSec % 60;
+      el.textContent = `⏳ เปิดให้โหลด 23/11/69 เวลา 12:00 น. (อีก ${hrs} ชม. ${mins} นาที ${secs} วินาที)`;
+    }
+  });
+  document.querySelectorAll<HTMLElement>('[data-unlock-version]').forEach(el => {
+    if (now >= Date.parse(el.dataset.unlockVersion!)) el.textContent = 'v1.0';
+  });
+  document.querySelectorAll<HTMLElement>('[data-unlock-footnote]').forEach(el => {
+    if (now >= Date.parse(el.dataset.unlockFootnote!)) el.textContent = 'เปิดหน้าดาวน์โหลดต้นทาง เช็กไฟล์ล่าสุดก่อนลง';
+  });
+  document.querySelectorAll<HTMLElement>('[data-unlock-badge]').forEach(el => {
+    if (now >= Date.parse(el.dataset.unlockBadge!)) {
+      el.textContent = el.dataset.unlockedText || 'v1.0';
+    }
+  });
+}
+updateScheduledUnlocks();
+if (document.querySelector('[data-unlock-at], [data-unlock-placeholder], [data-unlock-badge]')) {
+  window.setInterval(updateScheduledUnlocks, 1000);
+}

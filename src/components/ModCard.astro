@@ -5,23 +5,24 @@ import { modGenres } from '../lib/catalog';
 import { searchTerms } from '../lib/search';
 interface Props { mod: Mod; index?: number; editorial?: boolean; archive?: boolean; }
 const { mod, index = 0, archive = false } = Astro.props;
+const isScheduledYs8 = mod.id === 'ys-viii-lacrimosa-of-dana';
 const isComingSoon = mod.statusText === 'เร็ว ๆ นี้';
 const isNew = !isComingSoon && Date.now() - new Date(`${mod.date}T00:00:00+07:00`).getTime() < 30 * 864e5;
 ---
 <article class:list={['game-card', 'case', { 'archive-card': archive }]} style={`--c0:${mod.colors[0]};--c1:${mod.colors[1] || mod.colors[0]}`} data-id={mod.id} data-order={index} data-search={searchTerms(mod)} data-source={mod.source} data-genres={modGenres(mod).join(' ')} data-category={mod.category} data-date={mod.date} data-title={mod.title}>
   <div class="case-3d">
     <a class="case-front" href={modUrl(mod)} tabindex="-1" aria-hidden="true">
-      <span class="case-band"><span>มีเกมก็แปล</span><span>{isComingSoon ? 'COMING SOON' : 'แปลไทย'}</span></span>
+      <span class="case-band"><span>มีเกมก็แปล</span><span data-unlock-badge={isScheduledYs8 ? '2026-11-23T12:00:00+07:00' : undefined} data-unlocked-text="แปลไทย">{isScheduledYs8 ? '23/11 · 12:00' : isComingSoon ? 'COMING SOON' : 'แปลไทย'}</span></span>
       <img src={cover(mod)} alt="" loading="lazy" width="960" height="540" />
       <span class="case-name">{mod.thaiTitle}</span>
     </a>
     <span class="case-spine" aria-hidden="true"><span>{mod.title}</span></span>
   </div>
-  <span class:list={['case-sticker', { 'is-new': isNew || isComingSoon }]} aria-hidden="true">{isComingSoon ? 'เร็ว ๆ นี้' : isNew ? 'ใหม่!' : version(mod.version)}</span>
+  <span class:list={['case-sticker', { 'is-new': isNew || isComingSoon || isScheduledYs8 }]} aria-hidden="true" data-unlock-badge={isScheduledYs8 ? '2026-11-23T12:00:00+07:00' : undefined} data-unlocked-text="ใหม่!">{isScheduledYs8 ? '12:00 น. 23/11' : isComingSoon ? 'เร็ว ๆ นี้' : isNew ? 'ใหม่!' : version(mod.version)}</span>
   <div class="case-label">
     <h3><a href={modUrl(mod)}>{mod.title}</a></h3>
     <p class="game-thai">{mod.thaiTitle}</p>
-    <p class="case-meta"><span>{isComingSoon ? 'Coming Soon · เร็ว ๆ นี้' : version(mod.version)}</span><span>{mod.gameBuild}</span>{archive && <span class="archive-card-date">{isComingSoon ? 'เร็ว ๆ นี้ (ยังไม่มีให้โหลด)' : <>{provider(mod.source)} · <time datetime={mod.date}>{date(mod.date)}</time></>}</span>}</p>
+    <p class="case-meta"><span data-unlock-badge={isScheduledYs8 ? '2026-11-23T12:00:00+07:00' : undefined} data-unlocked-text={version(mod.version)}>{isScheduledYs8 ? 'v1.0 · เปิดโหลด 23/11 12:00 น.' : isComingSoon ? 'Coming Soon · เร็ว ๆ นี้' : version(mod.version)}</span><span>{mod.gameBuild}</span>{archive && <span class="archive-card-date">{isComingSoon ? 'เร็ว ๆ นี้ (ยังไม่มีให้โหลด)' : <>{provider(mod.source)} · <time datetime={mod.date}>{date(mod.date)}</time></>}</span>}</p>
   </div>
   <button class="round-button favorite-button" data-favorite={mod.id} aria-label={`จองแผ่น ${mod.title}`} aria-pressed="false" type="button"><Icon name="heart" size={15} /></button>
 </article>
