@@ -9,12 +9,12 @@ interface Props { title?: string; description?: string; image?: string; page?: s
 const { title = 'ร้านเกมมีเกมก็แปล — ม็อดแปลไทย', description = 'ค้นพบม็อดแปลเกมภาษาไทยจากมีเกมก็แปล พร้อมรายละเอียดเวอร์ชัน วิธีติดตั้ง และลิงก์ดาวน์โหลดจากผู้แปล', image, page } = Astro.props;
 ---
 <!DOCTYPE html>
-<html lang="th" data-theme="light">
+<html lang="th" data-theme="dark">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content={description} />
-    <meta name="theme-color" content="#7fd3ff" />
+    <meta name="theme-color" content="#0d0914" />
     {page === 'not-found' && <meta name="robots" content="noindex" />}
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
@@ -23,7 +23,7 @@ const { title = 'ร้านเกมมีเกมก็แปล — ม็�
     {image && <meta property="og:image" content={new URL(image, Astro.site || Astro.url).href} />}
     {Astro.site && <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site)} />}
     <link rel="icon" href={url('assets/favicon.svg')} type="image/svg+xml" />
-    <script is:inline>try{var t=localStorage.getItem('shop-theme');if(t==='dark'||t==='light')document.documentElement.dataset.theme=t}catch(e){}</script>
+    <script is:inline>try{var t=localStorage.getItem('shop-theme-v2');if(t==='dark'||t==='light')document.documentElement.dataset.theme=t;else document.documentElement.dataset.theme='dark'}catch(e){}</script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Chonburi&family=IBM+Plex+Sans+Thai:wght@400;500;600&family=Kanit:wght@300;400;600;800&family=Sriracha&display=swap" rel="stylesheet" />
@@ -32,7 +32,8 @@ const { title = 'ร้านเกมมีเกมก็แปล — ม็�
   <body data-base={url()} data-page={page || 'home'}>
     <a href="#main" class="skip-link">ข้ามไปเนื้อหา</a>
     <svg class="sr-only" aria-hidden="true" focusable="false"><filter id="paint" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".035" numOctaves="2" seed="4" result="n" /><feDisplacementMap in="SourceGraphic" in2="n" scale="5" xChannelSelector="R" yChannelSelector="G" result="d" /><feComponentTransfer in="d"><feFuncR type="discrete" tableValues="0 .2 .4 .6 .8 1" /><feFuncG type="discrete" tableValues="0 .2 .4 .6 .8 1" /><feFuncB type="discrete" tableValues="0 .2 .4 .6 .8 1" /></feComponentTransfer></filter></svg>
-    <div class="scenery" aria-hidden="true"><span class="sky-orb"></span><span class="stars"></span><i class="cloud c1"></i><i class="cloud c2"></i><i class="cloud c3"></i><i class="cloud c4"></i></div>
+    <div class="scenery" aria-hidden="true"><span class="sky-orb"></span><span class="stars"></span><span class="rain-veil"></span><i class="cloud c1"></i><i class="cloud c2"></i><i class="cloud c3"></i><i class="cloud c4"></i></div>
+    <canvas class="motes" aria-hidden="true"></canvas>
     <Header page={page} />
     <main id="main"><slot /></main>
     <Footer />

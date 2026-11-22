@@ -16,7 +16,7 @@ const { page = 'home' } = Astro.props;
   </nav>
   <div class="header-actions">
     <button class="donate-btn" type="button" data-support-open><span class="donate-coin" aria-hidden="true">฿</span><span>ช่วยค่าไฟ</span></button>
-    <button class="lights-toggle round-button" type="button" aria-pressed="false" aria-label="เปลี่ยนเป็นโหมดกลางคืน"><span class="bulb" aria-hidden="true"></span></button>
+    <button class="lights-toggle theme-mode-btn" type="button" aria-pressed="true" aria-label="สลับธีมวันวาน (สดใส) / ธีมเตรียมจากลา"><span class="bulb" aria-hidden="true"></span><span class="theme-mode-label" data-theme-label>ธีมจากลา</span></button>
     <button class="round-button search-open" aria-label="ค้นหาม็อด" type="button"><Icon name="search" size={18} /></button>
     <button class="menu-open round-button" aria-label="เปิดเมนู" aria-controls="mobile-menu" type="button"><span class="menu-lines"></span></button>
   </div>
