@@ -15,7 +15,7 @@ const downloads = [
 ].filter(item => item.href).map(item => ({ ...item, href: downloadUrl(item.source, item.href!) })).sort((a, b) => Number(b.source === mod.source) - Number(a.source === mod.source));
 const hasChecksum = /^[a-f0-9]{64}$/i.test(mod.sha);
 const seatNo = (all.findIndex(item => item.id === mod.id) + 1);
-const unlockAt = mod.id === 'ys-viii-lacrimosa-of-dana' ? '2026-11-23T12:00:00+07:00' : undefined;
+const unlockAt = undefined;
 ---
 <BaseLayout title={`${mod.title} — ม็อดภาษาไทย | ร้านเกมมีเกมก็แปล`} description={mod.description.slice(0, 160)} image={cover(mod)} page="detail">
   <nav class="breadcrumb shop-crumb" aria-label="เส้นทางหน้า"><a href={url()}>หน้าร้าน</a><span>/</span><a href={url('mods/')}>ชั้นวางแผ่น</a><span>/</span><span aria-current="page">{mod.title}</span></nav>
