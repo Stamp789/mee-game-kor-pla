@@ -41,13 +41,13 @@ const mods = [
   },
   {
     id: "9-kings", title: "9 Kings", thaiTitle: "ไนน์คิงส์: ตำนานราชันย์พิกเซล", code: "NK-042",
-    version: "1.2", gameBuild: "Steam / Game Pass · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/2784470/9_Kings/",
+    version: "1.3", gameBuild: "Steam / Game Pass · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/2784470/9_Kings/",
     purchaseLinks: [
       { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/2784470/9_Kings/" },
       { label: "ค้นหาบน Xbox / Game Pass", href: "https://www.xbox.com/en-us/search/results?q=9%20Kings" },
       { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/search/?q=9%20Kings" }
     ],
-    statusText: "พร้อมโหลด", date: "2026-11-21", popularity: 100, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    statusText: "พร้อมโหลด", date: "2026-11-28", popularity: 100, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
     category: "card", tags: ["Roguelike", "Strategy", "Kingdom Builder", "แปลครบ"], colors: ["#2b1810", "#f59e0b"], cover: "assets/cover-9-kings.png",
     gallery: [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2784470/8a33a3ab2c3226768c4653009354ee8af6da0ff8/ss_8a33a3ab2c3226768c4653009354ee8af6da0ff8.600x338.jpg?t=1794598226",
@@ -55,7 +55,7 @@ const mods = [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2784470/930e1484af2a1eb7a9744aac9e720d93a4084233/ss_930e1484af2a1eb7a9744aac9e720d93a4084233.600x338.jpg?t=1794598226"
     ], trailerTitle: "9 Kings — Official Steam Trailer",
     description: "ม็อดภาษาไทยสำหรับ 9 Kings เกมแนว Roguelike Kingdom Builder วางแผนสร้างอาณาจักรและจัดทัพประจัญบานสุดมันส์ ขยายอาณาเขตอาณาจักรของคุณ ผสมผสานการ์ดสิ่งปลูกสร้าง กองทัพทหาร เวทมนตร์ และพระราชกฤษฎีกานับพันรูปแบบเพื่อสร้างคอมโบสุดโกง รับมือศึกสงครามขนาดมหึมาและโค่นล้มราชันย์คู่แข่งทั้ง 9 เพื่อก้าวขึ้นเป็นราชาเหนือราชันย์ (King of Kings) แปลไทยจัดเต็มทั้งชื่อและคำอธิบายการ์ดทุกใบ ความสามารถราชันย์ สิ่งปลูกสร้าง ยูนิตทหาร คาถา พระราชกฤษฎีกา (Decrees) เหตุการณ์สุ่ม เมนู และ UI ทั้งหมด 100% พร้อมฟอนต์ไทยคมชัดอ่านง่าย",
-    changelog: ["อัปเดตม็อดภาษาไทยเวอร์ชัน 1.2 รองรับทั้ง Steam และ Game Pass บน Nexus Mods", "อัปเดตม็อดภาษาไทยเวอร์ชัน 1.1 บน Nexus Mods", "เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 สำหรับ Steam บน Nexus Mods", "แปลชื่อและคำอธิบายการ์ด สิ่งปลูกสร้าง ยูนิต กองทัพ และพระราชกฤษฎีกาทั้งหมด", "แปลความสามารถของราชันย์ทั้ง 9 เหตุการณ์ในเกม เมนู และ UI ครบ 100%"],
+    changelog: ["อัปเดตม็อดภาษาไทยเวอร์ชัน 1.3 รองรับทั้ง Steam และ Game Pass บน Nexus Mods", "อัปเดตม็อดภาษาไทยเวอร์ชัน 1.2 รองรับทั้ง Steam และ Game Pass บน Nexus Mods", "อัปเดตม็อดภาษาไทยเวอร์ชัน 1.1 บน Nexus Mods", "เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 สำหรับ Steam บน Nexus Mods", "แปลชื่อและคำอธิบายการ์ด สิ่งปลูกสร้าง ยูนิต กองทัพ และพระราชกฤษฎีกาทั้งหมด", "แปลความสามารถของราชันย์ทั้ง 9 เหตุการณ์ในเกม เมนู และ UI ครบ 100%"],
     install: ["ดาวน์โหลดม็อดจากแท็บ Files บน Nexus Mods และแตกไฟล์ .zip", "นำไฟล์หรือโฟลเดอร์ภาษาไทยไปวางทับในโฟลเดอร์ตัวเกมหลัก (รองรับทั้ง Steam และ PC Game Pass)", "เปิดเกม 9 Kings ผ่าน Steam หรือแอป Xbox (Game Pass) แล้วเริ่มสร้างอาณาจักรพิกเซลเป็นภาษาไทยได้ทันที"],
     sha: "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods", nexus: "https://www.nexusmods.com/9kings/mods/8?tab=files", drive: "", mediafire: "",
     post: "https://www.nexusmods.com/9kings/mods/8?tab=files"
@@ -82,12 +82,12 @@ const mods = [
   },
   {
     id: "annihilated", title: "Annihilated", thaiTitle: "แอนไนอิเลเต็ด", code: "AN-040",
-    version: "1.2", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/2638080/Annihilated/",
+    version: "1.3", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/2638080/Annihilated/",
     purchaseLinks: [
       { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/2638080/Annihilated/" },
       { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/search/?q=Annihilated" }
     ],
-    statusText: "พร้อมโหลด", date: "2026-11-20", popularity: 100, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    statusText: "พร้อมโหลด", date: "2026-11-28", popularity: 100, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
     category: "action", tags: ["Roguelite", "RPG", "Dark Fantasy", "แปลครบ"], colors: ["#1a1118", "#dc2626"], cover: "assets/cover-annihilated.png",
     gallery: [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2638080/fc1d9f9aa3e0a762bcae28ef969fdff1bd8f02cc/ss_fc1d9f9aa3e0a762bcae28ef969fdff1bd8f02cc.600x338.jpg?t=1794308502",
@@ -95,7 +95,7 @@ const mods = [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2638080/c193280f6c07ed8f751e46eeb2523194f43f3ea8/ss_c193280f6c07ed8f751e46eeb2523194f43f3ea8.600x338.jpg?t=1794308502"
     ], trailerTitle: "Annihilated — Official Steam Trailer",
     description: "ม็อดภาษาไทยสำหรับ Annihilated เกมแนว Story-Driven Roguelite RPG สุดเข้มข้น เมื่อปาร์ตี้ของผู้กล้าถูกบดขยี้จนย่อยยับในดันเจี้ยนต้องสาป คุณต้องแบกรับหนึ่งในผู้กล้าที่แตกสลายหนีตายออกจากห้วงลึก เรียนรู้บาดแผลในอดีตที่ทำให้พวกเขาพังทลาย และสะสางบัญชีแค้นไปด้วยกันผ่าน 4 เส้นทาง 4 ผู้กล้า และ 4 บทสรุปแห่งชะตากรรม แปลไทยจัดเต็มทั้งเนื้อเรื่องหลักครบทั้ง 4 รูท บทสนทนา คัตซีน เหตุการณ์ในดันเจี้ยน ระบบต่อสู้ สกิล อาวุธ ไอเทม เมนู และ UI ทั้งหมด 100% พร้อมฟอนต์ไทยคมชัดเข้ากับบรรยากาศดาร์กแฟนตาซี",
-    changelog: ["อัปเดตม็อดภาษาไทยเวอร์ชัน 1.2 บน Nexus Mods", "อัปเดตม็อดภาษาไทยเวอร์ชัน 1.1 บน Nexus Mods และ Google Drive", "เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 สำหรับ Steam บน Nexus Mods และ Google Drive", "แปลเนื้อเรื่องหลักครบทั้ง 4 เส้นทางของผู้กล้า บทสนทนา และคัตซีนทั้งหมด", "แปลระบบต่อสู้ สกิล อุปกรณ์ ไอเทม เมนู และ UI ครบ 100%"],
+    changelog: ["อัปเดตม็อดภาษาไทยเวอร์ชัน 1.3 บน Nexus Mods", "อัปเดตม็อดภาษาไทยเวอร์ชัน 1.2 บน Nexus Mods", "อัปเดตม็อดภาษาไทยเวอร์ชัน 1.1 บน Nexus Mods และ Google Drive", "เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 สำหรับ Steam บน Nexus Mods และ Google Drive", "แปลเนื้อเรื่องหลักครบทั้ง 4 เส้นทางของผู้กล้า บทสนทนา และคัตซีนทั้งหมด", "แปลระบบต่อสู้ สกิล อุปกรณ์ ไอเทม เมนู และ UI ครบ 100%"],
     install: ["ดาวน์โหลดม็อดจากแท็บ Files บน Nexus Mods และแตกไฟล์ .zip", "นำไฟล์หรือโฟลเดอร์ภาษาไทยไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)", "เปิดเกม Annihilated ผ่าน Steam แล้วออกเดินทางฝ่าดันเจี้ยนต้องสาปเป็นภาษาไทยได้ทันที"],
     sha: "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods", nexus: "https://www.nexusmods.com/mods/2?game_id=11099&tab=files", drive: "", mediafire: "",
     post: "https://www.nexusmods.com/mods/2?game_id=11099&tab=files"
@@ -622,12 +622,12 @@ const mods = [
   },
   {
     id: "songs-of-glimmerwick", title: "Songs of Glimmerwick", thaiTitle: "ซองส์ ออฟ กลิมเมอร์วิก", code: "SG-015",
-    version: "1.7", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/1706510/Songs_of_Glimmerwick/",
+    version: "1.8", gameBuild: "Steam · PC", platform: "pc", source: "nexus", store: "https://store.steampowered.com/app/1706510/Songs_of_Glimmerwick/",
     purchaseLinks: [
       { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/1706510/Songs_of_Glimmerwick/" },
       { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/search/?q=Songs%20of%20Glimmerwick" }
     ],
-    statusText: "พร้อมโหลด", date: "2026-11-20", popularity: 100, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    statusText: "พร้อมโหลด", date: "2026-11-28", popularity: 100, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
     category: "visual", tags: ["Cozy", "RPG", "Life Sim", "แปลครบ"], colors: ["#111d33", "#4382c4"], cover: "assets/cover-songs-of-glimmerwick.jpg",
     gallery: [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1706510/8f81aa9749570b1101434d289e65923e8d0ad3ed/ss_8f81aa9749570b1101434d289e65923e8d0ad3ed.600x338.jpg?t=1790786083",
@@ -635,7 +635,7 @@ const mods = [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1706510/d1679309c946e407de8e9a7f0caef1cf9710f3d9/ss_d1679309c946e407de8e9a7f0caef1cf9710f3d9.600x338.jpg?t=1790786083"
     ], trailerTitle: "Songs of Glimmerwick — Official Trailer",
     description: "ม็อดภาษาไทยสำหรับ Songs of Glimmerwick เกมแนว Cozy RPG x Witch Life Sim ภาพลายเส้นนิทาน 2D สุดละมุน ดำดิ่งสู่ชีวิตนักเรียนในสถาบันเวทมนตร์กลิมเมอร์วิค ฝึกเป่าขลุ่ยร่ายคาถา ดูแลสวนพฤกษาเวท ผูกมิตรกับเพื่อนร่วมชั้น ทำเควสต์ และไขปริศนาสุดอบอุ่นหัวใจ แปลไทยให้อินกับทุกตัวโน้ต เรื่องราว และระบบการเล่นแบบเพลินตา",
-    changelog: ["อัปเดตม็อดภาษาไทยเวอร์ชัน 1.7 เผยแพร่บน Nexus Mods", "อัปเดตม็อดภาษาไทยเวอร์ชัน 1.5 เผยแพร่บน Nexus Mods", "อัปเดตม็อดภาษาไทยเวอร์ชัน 1.3 ปรับปรุงบทแปลและเนื้อหาในเกมให้สมบูรณ์ยิ่งขึ้น", "อัปเดตม็อดภาษาไทยเวอร์ชัน 1.2 ปรับปรุงบทแปลและเนื้อหาในเกม", "เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 สำหรับ Steam", "แปลเนื้อเรื่องหลัก บทสนทนาเพื่อนร่วมชั้น และเควสต์ชาวเมืองทั้งหมด", "แปลบทเพลงเวทมนตร์ โน้ตเพลง พืชพรรณเวท ไอเทม วัตถุดิบปรุงยา สมุดบันทึก เมนู และ UI ครบ 100%"],
+    changelog: ["อัปเดตม็อดภาษาไทยเวอร์ชัน 1.8 เผยแพร่บน Nexus Mods", "อัปเดตม็อดภาษาไทยเวอร์ชัน 1.7 เผยแพร่บน Nexus Mods", "อัปเดตม็อดภาษาไทยเวอร์ชัน 1.5 เผยแพร่บน Nexus Mods", "อัปเดตม็อดภาษาไทยเวอร์ชัน 1.3 ปรับปรุงบทแปลและเนื้อหาในเกมให้สมบูรณ์ยิ่งขึ้น", "อัปเดตม็อดภาษาไทยเวอร์ชัน 1.2 ปรับปรุงบทแปลและเนื้อหาในเกม", "เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 สำหรับ Steam", "แปลเนื้อเรื่องหลัก บทสนทนาเพื่อนร่วมชั้น และเควสต์ชาวเมืองทั้งหมด", "แปลบทเพลงเวทมนตร์ โน้ตเพลง พืชพรรณเวท ไอเทม วัตถุดิบปรุงยา สมุดบันทึก เมนู และ UI ครบ 100%"],
     install: ["ดาวน์โหลดม็อดจากแท็บ Files บน Nexus Mods", "แตกไฟล์ .zip ที่ดาวน์โหลดมา", "นำไฟล์ไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)", "เข้าเกมแล้วไปเริ่มเทอมใหม่ในโรงเรียนเวทมนตร์ได้ทันที"],
     sha: "ตรวจสอบรายละเอียดไฟล์บน Nexus Mods", nexus: "https://www.nexusmods.com/songsofglimmerwick/mods/4?tab=files", drive: "",
     post: "https://www.nexusmods.com/songsofglimmerwick/mods/4?tab=files"
@@ -662,12 +662,12 @@ const mods = [
   },
   {
     id: "dressmaker", title: "Dressmaker", thaiTitle: "เดรสเมกเกอร์", code: "DM-011",
-    version: "2.2 (PC) / 2.6 (macOS)", gameBuild: "Steam · PC & macOS", platform: ["pc", "mac"], source: "nexus", store: "https://store.steampowered.com/app/4019220/Dressmaker/",
+    version: "2.5 (PC) / 2.7 (macOS)", gameBuild: "Steam · PC & macOS", platform: ["pc", "mac"], source: "nexus", store: "https://store.steampowered.com/app/4019220/Dressmaker/",
     purchaseLinks: [
       { label: "ซื้อบน Steam", href: "https://store.steampowered.com/app/4019220/Dressmaker/" },
       { label: "เปรียบเทียบราคาจากร้านทางการ", href: "https://isthereanydeal.com/search/?q=Dressmaker" }
     ],
-    statusText: "พร้อมโหลด", date: "2026-10-22", popularity: 100, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
+    statusText: "พร้อมโหลด", date: "2026-11-28", popularity: 100, size: "ดูที่ Nexus Mods", translator: "มีเกมก็แปล By.Stamp Nattakit",
     category: "visual", tags: ["Cozy", "Simulation", "งานฝีมือ", "แปลครบ"], colors: ["#541432", "#e84393"], cover: "assets/cover-dressmaker.jpg",
     gallery: [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4019220/6b964f0ee4ad9041718877ec563b0079c3353ce1/ss_6b964f0ee4ad9041718877ec563b0079c3353ce1.600x338.jpg?t=1790484978",
@@ -675,7 +675,7 @@ const mods = [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4019220/fa62a65abc68c79812fd1daa771deb4ef2bc0312/ss_fa62a65abc68c79812fd1daa771deb4ef2bc0312.600x338.jpg?t=1790484978"
     ], trailerTitle: "Dressmaker — Official Trailer",
     description: "ม็อดภาษาไทยสำหรับ Dressmaker เกมแนว Cozy Simulation จำลองชีวิตช่างตัดเสื้อสุดผ่อนคลาย สวมบทดีไซเนอร์เปิดร้าน ออกแบบชุดในสมุดสเก็ตช์ เลือกเนื้อผ้า วางแพทเทิร์น เข้าจักรเย็บผ้า ติดโบว์ประดับลูกไม้ ตัดชุดส่งให้ชาวเมืองตามออร์เดอร์ แปลไทยให้อ่านเพลิน เข้าใจทุกขั้นตอนและชนิดผ้า รองรับทั้ง Windows (PC) และ macOS (คำแปลภาษาไทยขับเคลื่อน/แปลโดย Gemini 3.8 Flash)",
-    changelog: ["อัปเดตม็อดภาษาไทยเวอร์ชัน 2.2 สำหรับ PC และเวอร์ชัน 2.6 สำหรับ macOS บน Nexus Mods", "อัปเดตม็อดภาษาไทยเวอร์ชัน 2.1 สำหรับ PC และเวอร์ชัน 2.5 สำหรับ macOS บน Nexus Mods", "อัปเดตม็อดภาษาไทยเวอร์ชัน 2.0 สำหรับ PC และเวอร์ชัน 2.4 สำหรับ macOS บน Nexus Mods", "อัปเดตม็อดภาษาไทยเวอร์ชัน 1.8 สำหรับ PC และเวอร์ชัน 2.2 สำหรับ macOS บน Nexus Mods พร้อมสคริปต์ติดตั้งสำหรับ Mac", "อัปเดตม็อดภาษาไทยเวอร์ชัน 1.7 ปรับปรุงบทแปลและความเข้ากันได้กับตัวเกม", "เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 (แปลร่วมกับ Gemini 3.8 Flash)", "แปลเนื้อเรื่อง บทสนทนา และความต้องการสั่งตัดชุดของชาวเมือง", "แปลชื่อชนิดเนื้อผ้า เครื่องมือ แพทเทิร์น ของตกแต่ง เมนู และ Tutorial ครบ 100%"],
+    changelog: ["อัปเดตม็อดภาษาไทยเวอร์ชัน 2.5 สำหรับ PC และเวอร์ชัน 2.7 สำหรับ macOS บน Nexus Mods", "อัปเดตม็อดภาษาไทยเวอร์ชัน 2.2 สำหรับ PC และเวอร์ชัน 2.6 สำหรับ macOS บน Nexus Mods", "อัปเดตม็อดภาษาไทยเวอร์ชัน 2.1 สำหรับ PC และเวอร์ชัน 2.5 สำหรับ macOS บน Nexus Mods", "อัปเดตม็อดภาษาไทยเวอร์ชัน 2.0 สำหรับ PC และเวอร์ชัน 2.4 สำหรับ macOS บน Nexus Mods", "อัปเดตม็อดภาษาไทยเวอร์ชัน 1.8 สำหรับ PC และเวอร์ชัน 2.2 สำหรับ macOS บน Nexus Mods พร้อมสคริปต์ติดตั้งสำหรับ Mac", "อัปเดตม็อดภาษาไทยเวอร์ชัน 1.7 ปรับปรุงบทแปลและความเข้ากันได้กับตัวเกม", "เผยแพร่ม็อดภาษาไทยเวอร์ชัน 1.0 (แปลร่วมกับ Gemini 3.8 Flash)", "แปลเนื้อเรื่อง บทสนทนา และความต้องการสั่งตัดชุดของชาวเมือง", "แปลชื่อชนิดเนื้อผ้า เครื่องมือ แพทเทิร์น ของตกแต่ง เมนู และ Tutorial ครบ 100%"],
     install: [
       "ดาวน์โหลดม็อดตามระบบปฏิบัติการที่ใช้งานจากแท็บ Files บน Nexus Mods (PC หรือ macOS) และแตกไฟล์ .zip",
       "สำหรับ PC (Windows): นำไฟล์ไปวางทับในโฟลเดอร์ตัวเกมหลัก (Steam: คลิกขวาที่ชื่อเกม > จัดการ > เปิดดูไฟล์ในเครื่อง)",
